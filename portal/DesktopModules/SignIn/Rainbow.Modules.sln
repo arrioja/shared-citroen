@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.Signin", "Rainbow.Modules.Signin.csproj", "{B6A5FEF9-ED36-42AA-9040-39B274764349}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{B6A5FEF9-ED36-42AA-9040-39B274764349}.Debug.ActiveCfg = Debug|.NET
+		{B6A5FEF9-ED36-42AA-9040-39B274764349}.Debug.Build.0 = Debug|.NET
+		{B6A5FEF9-ED36-42AA-9040-39B274764349}.Release.ActiveCfg = Release|.NET
+		{B6A5FEF9-ED36-42AA-9040-39B274764349}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

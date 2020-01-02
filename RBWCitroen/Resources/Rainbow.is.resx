@@ -1,0 +1,816 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3102.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3102.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="ABI">
+		<value>ABI</value>
+	</data>
+	<data name="ACCEPT">
+		<value>Ég samþykki skilmálana og skilyrðin</value>
+	</data>
+	<data name="ACCESSDENIED">
+		<value>Aðgangi hafnað</value>
+	</data>
+	<data name="ACCESS_DENIED_MESSAGE">
+		<value>Annað hvort ertu ekki innskráður, eða þá þú hefur ekki heimild til að skoða þennan flipa innan portals. Vinsamlegast hafði samband við umsjónarmenn portals  til að fá tilskilin réttindi.</value>
+	</data>
+	<data name="ACCOUNT_INFO">
+		<value>Upplýsingar um reikning</value>
+	</data>
+	<data name="ACCOUNT_LOGIN">
+		<value>Skrá inn</value>
+	</data>
+	<data name="ADD">
+		<value>Bæta við</value>
+	</data>
+	<data name="ADD_DOCUMENT">
+		<value>Bæta við nýju skjali</value>
+	</data>
+	<data name="ADD_NEW">
+		<value>Bæta við nýju</value>
+	</data>
+	<data name="ADD_NEW_USER">
+		<value>Bæta við nýjum notanda</value>
+	</data>
+	<data name="ADD_PORTAL">
+		<value>Bæta við nýjum portal</value>
+	</data>
+	<data name="ADDRESS">
+		<value>Heimilsfang</value>
+	</data>
+	<data name="ADDTAB">
+		<value>Bæta við nýjum flipa</value>
+	</data>
+	<data name="ADDUSER">
+		<value>Bæta notanda í þetta réttindastig</value>
+	</data>
+	<data name="ADMIN_MODULE">
+		<value>Ofur-notenda kubbur?</value>
+	</data>
+	<data name="ADVPAYM">
+		<value>Viðbótar greiðsla</value>
+	</data>
+	<data name="ALREADY_REGISTERED">
+		<value>er nú þegar skráður inn.</value>
+	</data>
+	<data name="ALREADY_REGISTERED1">
+		<value>Þú ert þegar skráður</value>
+	</data>
+	<data name="AM_ADDMODULE">
+		<value>Bæta við kubb:</value>
+	</data>
+	<data name="AM_ADDMODULEBELOW">
+		<value>Bæta við "Skipuleggja kubb" neðar</value>
+	</data>
+	<data name="AM_ADDROLE">
+		<value>Bæta við nýju réttindastigi</value>
+	</data>
+	<data name="AM_BASESOLUTION">
+		<value>Grunn lausn</value>
+	</data>
+	<data name="AM_CENTERPANEL">
+		<value>Miðju ramminn</value>
+	</data>
+	<data name="AM_LEFTPANEL">
+		<value>Vinstri ramminn</value>
+	</data>
+	<data name="AM_MOBILETAB">
+		<value>Nafn á þráðlausum flipa</value>
+	</data>
+	<data name="AM_MODULENAME">
+		<value>Kubba nafn</value>
+	</data>
+	<data name="AM_MODULETYPE">
+		<value>Kubba tegund</value>
+	</data>
+	<data name="AM_ORGANIZEMODULE">
+		<value>Skipuleggja kubba</value>
+	</data>
+	<data name="AM_PORTALALIAS">
+		<value>Portal stytting</value>
+	</data>
+	<data name="AM_RIGHTPANEL">
+		<value>Hægri rammi</value>
+	</data>
+	<data name="AM_ROLESAUTH">
+		<value>Stýra réttindastigum</value>
+	</data>
+	<data name="AM_SHOWEDIT">
+		<value>Alltaf sýna breyta takkann?</value>
+	</data>
+	<data name="AM_SHOWMOBILE">
+		<value>Sýna þráðlausum notendum:</value>
+	</data>
+	<data name="AM_SITEPATH">
+		<value>Slóð síðunnar</value>
+	</data>
+	<data name="AM_SITETITLE">
+		<value>Titill síðunnar</value>
+	</data>
+	<data name="AM_TABNAME">
+		<value>Flipa nafn og útlit</value>
+	</data>
+	<data name="AM_TABNAME1">
+		<value>Nafn á flipa</value>
+	</data>
+	<data name="AM_TABS">
+		<value>Flipar</value>
+	</data>
+	<data name="AM_THEME">
+		<value>Útlit</value>
+	</data>
+	<data name="ANNOUNCES_ADD">
+		<value>Bæta við nýrri tilkynningu</value>
+	</data>
+	<data name="ANNOUNCES_DESCRIPTION">
+		<value>Tegund</value>
+	</data>
+	<data name="ANNOUNCES_DETAILS">
+		<value>Lýsing á tilkynningu</value>
+	</data>
+	<data name="ANNOUNCES_EXPIRES">
+		<value>Lokadagsetning</value>
+	</data>
+	<data name="ANNOUNCES_READ_MORE_LINK">
+		<value>Lesa meira hlekkur</value>
+	</data>
+	<data name="ANNOUNCES_READ_MORE_MOBILE">
+		<value>Lesa meira (þráðlaust)</value>
+	</data>
+	<data name="ANNOUNCES_TITLE">
+		<value>Titill</value>
+	</data>
+	<data name="ANNOUNCES_VALID_DESCRIPTION">
+		<value>Verður að slá inn tegund</value>
+	</data>
+	<data name="ANNOUNCES_VALID_EXPIRE">
+		<value>Verður að slá inn lokadagsetningu</value>
+	</data>
+	<data name="ANNOUNCES_VALID_TITLE">
+		<value>Verður að slá inn titil</value>
+	</data>
+	<data name="APPLY">
+		<value>Uppfæra breytingar</value>
+	</data>
+	<data name="APPLYNAME">
+		<value>Uppfæra nafna og lykilorða breytingar</value>
+	</data>
+	<data name="APPLYTHEME">
+		<value>Uppfæra útlit</value>
+	</data>
+	<data name="AREA">
+		<value>Svæði</value>
+	</data>
+	<data name="AUTHOR">
+		<value>Höfundur</value>
+	</data>
+	<data name="BANK">
+		<value>Banki</value>
+	</data>
+	<data name="BOTTOM">
+		<value>Neðst</value>
+	</data>
+	<data name="BUYNOW">
+		<value>Keyptu núna</value>
+	</data>
+	<data name="CAB">
+		<value>CAB</value>
+	</data>
+	<data name="CACHETIMEOUT">
+		<value>Hlaða í minni (í sekúndum)</value>
+	</data>
+	<data name="CANCEL">
+		<value>Hætta við</value>
+	</data>
+	<data name="CATEGORY">
+		<value>Flokkur</value>
+	</data>
+	<data name="CFISCALE">
+		<value>Fiscal Code</value>
+	</data>
+	<data name="CITY">
+		<value>Borg</value>
+	</data>
+	<data name="COLLECTION_PROPERTIES">
+		<value>Eiginleikar</value>
+	</data>
+	<data name="COMPANY">
+		<value>Fyrirtæki</value>
+	</data>
+	<data name="CONDITIONS">
+		<value>Skilmálar</value>
+	</data>
+	<data name="CONFIRM">
+		<value>Staðfesta lykilorð</value>
+	</data>
+	<data name="CONFIRM_DELETE">
+		<value>Eyða þessari færslu?</value>
+	</data>
+	<data name="CONTACTS_ADD">
+		<value>Bæta við nýjum tengli</value>
+	</data>
+	<data name="CONTACTS_CONTACT1">
+		<value>Sími</value>
+	</data>
+	<data name="CONTACTS_CONTACT2">
+		<value>gsm sími</value>
+	</data>
+	<data name="CONTACTS_DETAILS">
+		<value>Ítarupplýsingar um tengil</value>
+	</data>
+	<data name="CONTACTS_EMAIL">
+		<value>Tölvupóstfang</value>
+	</data>
+	<data name="CONTACTS_NAME">
+		<value>Nafn</value>
+	</data>
+	<data name="CONTACTS_ROLE">
+		<value>Staða</value>
+	</data>
+	<data name="CONTACTS_VALID_NAME">
+		<value>Verður að skrá inn gilt nafn</value>
+	</data>
+	<data name="COUNTRY">
+		<value>Land</value>
+	</data>
+	<data name="CREATED_BY">
+		<value>Skráð af</value>
+	</data>
+	<data name="CREATEDBY">
+		<value>Skráð af</value>
+	</data>
+	<data name="DATE">
+		<value>Dagsetning</value>
+	</data>
+	<data name="DECLINE">
+		<value>Nei takk!</value>
+	</data>
+	<data name="DelayExpire">
+		<value>Sjálfgefin töf á útrúnnum færslum</value>
+	</data>
+	<data name="DELETE">
+		<value>Eyða</value>
+	</data>
+	<data name="DELETE_THIS_ITEM">
+		<value>Eyða þessu atriði</value>
+	</data>
+	<data name="DELETE_USER">
+		<value>Eyða þessum notenda</value>
+	</data>
+	<data name="DELETEBTN">
+		<value>Eyða valdri færslu</value>
+	</data>
+	<data name="DELUSER">
+		<value>Fjarlægja notanda úr þessari stýringu</value>
+	</data>
+	<data name="DESCRIPTION">
+		<value>Lýsing</value>
+	</data>
+	<data name="DESKTOP_SOURCE">
+		<value>Desktop Source</value>
+	</data>
+	<data name="DOCUMENT_DETAILS">
+		<value>Skráarlýsing</value>
+	</data>
+	<data name="DOCUMENTS_FOLDER">
+		<value>Skrárar mappa</value>
+	</data>
+	<data name="DOCUMENTS_SOURCE">
+		<value>Uppruni skráar</value>
+	</data>
+	<data name="DS_BODY">
+		<value>Texti</value>
+	</data>
+	<data name="DS_MSGDETAILS">
+		<value>Skilaboð</value>
+	</data>
+	<data name="DS_NEWTHREAD">
+		<value>Bæta við nýjum þræði</value>
+	</data>
+	<data name="DS_ORIGINALMSG">
+		<value>Upprunaleg skilaboð</value>
+	</data>
+	<data name="DS_REPLYTHISMSG">
+		<value>Svar þessum þræði</value>
+	</data>
+	<data name="EDIT">
+		<value>Breyta</value>
+	</data>
+	<data name="EDIT_ACCESS_DENIED">
+		<value>Breytingu hafnað</value>
+	</data>
+	<data name="EDIT_ACCESS_DENIED_MESSAGE">
+		<value>Annað hvort ertu ekki innskráður, eða þá þú hefur ekki heimild til að breyta flipa innan portals. Vinsamlegast hafði samband við umsjónarmenn portals  til að fá tilskilin réttindi.</value>
+	</data>
+	<data name="EDIT_PORTAL">
+		<value>Breyta portal</value>
+	</data>
+	<data name="EDIT_USER">
+		<value>Breyta þessum notenda</value>
+	</data>
+	<data name="EDITBTN">
+		<value>Breyta eignleikum valinnar færslu</value>
+	</data>
+	<data name="EMAIL">
+		<value>Tölvupóstfang</value>
+	</data>
+	<data name="EMAILORWINDOW">
+		<value>Tölvupóstfang(eða Windows lén nafn)</value>
+	</data>
+	<data name="EVENTS_ADD">
+		<value>Bæta við nýjum atburði</value>
+	</data>
+	<data name="EVENTS_DESCRIPTION">
+		<value>Tegund</value>
+	</data>
+	<data name="EVENTS_DETAILS">
+		<value>Lýsing á atburð</value>
+	</data>
+	<data name="EVENTS_EXPIRES">
+		<value>Lokadagsetning atburðar</value>
+	</data>
+	<data name="EVENTS_TITLE">
+		<value>Titill</value>
+	</data>
+	<data name="EVENTS_VALID_DESCRIPTION">
+		<value>Verður að skrá inn tegund</value>
+	</data>
+	<data name="EVENTS_VALID_EXPIRE">
+		<value>Verður að slá inn löglega dagsetningu</value>
+	</data>
+	<data name="EVENTS_VALID_TITLE">
+		<value>Verður að slá inn titil</value>
+	</data>
+	<data name="EVENTS_VALID_WHEN-WHERE">
+		<value>Verður að slá inn tíma og staðsetningu</value>
+	</data>
+	<data name="EVENTS_WHEN-WHERE">
+		<value>Hvar/Hvenær</value>
+	</data>
+	<data name="FAX">
+		<value>Myndsími</value>
+	</data>
+	<data name="FILE_NAME">
+		<value>Skráarnafn</value>
+	</data>
+	<data name="FILE_NOT_FOUND">
+		<value>Skrá %1% fannst ekki</value>
+	</data>
+	<data name="FILE_UPLOAD_ERROR">
+		<value>Skráin sem þú sendir er ekki í lagi.</value>
+	</data>
+	<data name="FRIENDLY_NAME">
+		<value>Annað nafn</value>
+	</data>
+	<data name="GUID">
+		<value>Guid</value>
+	</data>
+	<data name="HERE">
+		<value>Hér</value>
+	</data>
+	<data name="IMAGE">
+		<value>Mynd</value>
+	</data>
+	<data name="IMAGE_UPLOAD_ERROR">
+		<value>Myndin sem þú sendir er ekki í lagi. Vinsamlegast yfirfarðu skrárar tegund og endingu (til dæmis:  .jpg)</value>
+	</data>
+	<data name="IN">
+		<value>í</value>
+	</data>
+	<data name="INSERT_CONFIRM">
+		<value>'Staðfesta' má ekki vera autt.</value>
+	</data>
+	<data name="INSERT_EMAIL">
+		<value>'Tölvupóstfang' má ekki vera autt.</value>
+	</data>
+	<data name="INSERT_NAME">
+		<value>'Nafn' má ekki vera autt.</value>
+	</data>
+	<data name="INSERT_PASSWORD">
+		<value>'Lykilorð' má ekki vera autt.</value>
+	</data>
+	<data name="LAST_UPDATED">
+		<value>Síðast uppfært</value>
+	</data>
+	<data name="LASTNAME">
+		<value>Kenninafn</value>
+	</data>
+	<data name="LEFT">
+		<value>Vinstri</value>
+	</data>
+	<data name="LINKDETAILS">
+		<value>Upplýsingar um hlekk</value>
+	</data>
+	<data name="LinkedModule">
+		<value>Tengla kubbur</value>
+	</data>
+	<data name="LOAD_THEME_ERROR">
+		<value>Tókst ekki að sækja þema %1%. Sjálfgefið þema fannst ekki.</value>
+	</data>
+	<data name="LOGIN_FAILED">
+		<value>Innskráning mistókst!</value>
+	</data>
+	<data name="LOGOFF">
+		<value>Skrá sig út</value>
+	</data>
+	<data name="MERCHANT">
+		<value>Merchant ID</value>
+	</data>
+	<data name="MIDDLE">
+		<value>Miðjunni</value>
+	</data>
+	<data name="MOBILE_SOURCE">
+		<value>Þráðlaus</value>
+	</data>
+	<data name="MOBILEURL">
+		<value>Þráðlaus hlekkur</value>
+	</data>
+	<data name="MODIFIED_BY">
+		<value>Breytt af</value>
+	</data>
+	<data name="MODULE_TITLE">
+		<value>Nýtt kubba nafn</value>
+	</data>
+	<data name="MODULE_TYPE_DEFINITION">
+		<value>Skilgreining á tegund kubba</value>
+	</data>
+	<data name="MODULENAME">
+		<value>Nafn á kubb</value>
+	</data>
+	<data name="MODULESETTINGS">
+		<value>Kubba stillingar</value>
+	</data>
+	<data name="MOVEDOWN">
+		<value>Flytja valda færslu niður í listanum</value>
+	</data>
+	<data name="MOVELEFT">
+		<value>Flytja valda færslu til vinstri</value>
+	</data>
+	<data name="MOVERIGHT">
+		<value>Flytja valda færslu til hægri</value>
+	</data>
+	<data name="MOVEUP">
+		<value>Flytja valda færslu upp í listanum</value>
+	</data>
+	<data name="NAME">
+		<value>Nafn</value>
+	</data>
+	<data name="NEW_PORTAL_ERROR">
+		<value>Það kom upp villa við að búa til nýjan vef (Portal). Ef til vill er portallinn þegar til. Prófaðu að breyta styttingunni fyrir vefinn.</value>
+	</data>
+	<data name="NO_ACCOUNT">
+		<value>Ef þú hefur ekki aðgang</value>
+	</data>
+	<data name="NO_MODULE">
+		<value>Enginn kubbur</value>
+	</data>
+	<data name="NOTE">
+		<value>Athugasemdir</value>
+	</data>
+	<data name="ON">
+		<value>á</value>
+	</data>
+	<data name="OR">
+		<value>eða</value>
+	</data>
+	<data name="OWNER">
+		<value>Skráð af</value>
+	</data>
+	<data name="PASSWORD">
+		<value>Lykilorð</value>
+	</data>
+	<data name="PASSWORD_NOT_MATCH">
+		<value>Lykilorða svæðin stemma ekki.</value>
+	</data>
+	<data name="PHONE">
+		<value>Sími</value>
+	</data>
+	<data name="PIVA">
+		<value>Vinnusími</value>
+	</data>
+	<data name="HOME">
+		<value>Upphafssíða vefs</value>
+	</data>
+	<data name="PORTALS">
+		<value>Portals</value>
+	</data>
+	<data name="POSTED_BY">
+		<value>frá</value>
+	</data>
+	<data name="POSTED_DATE">
+		<value>Póstað</value>
+	</data>
+	<data name="PROFILE_INFO">
+		<value>Profile information</value>
+	</data>
+	<data name="PROPERTIES">
+		<value>Breyta öllum eiginleikum</value>
+	</data>
+	<data name="PROV_STATE">
+		<value>Ríki / Fylki</value>
+	</data>
+	<data name="READ_FULL_ANNOUNCE">
+		<value>Lesa alla frásögn</value>
+	</data>
+	<data name="REGISTER">
+		<value>Skráning notenda</value>
+	</data>
+	<data name="REGISTER_DIFFERENT">
+		<value>Vinsamlegast skráðu þig inn undir öðru tölvupóstfangi</value>
+	</data>
+	<data name="REGISTER_NOW">
+		<value>Skráning og ská sig inn núna</value>
+	</data>
+	<data name="REGISTER_REQUIRED">
+		<value>Til að nota þennan kubb verður þú að skrá þig.</value>
+	</data>
+	<data name="REGISTERED_USERS">
+		<value>Skráðir notendur</value>
+	</data>
+	<data name="REGISTRATION_FAILED">
+		<value>Skráning mistókst!</value>
+	</data>
+	<data name="REMEMBER_LOGIN">
+		<value>Muna innskráningu</value>
+	</data>
+	<data name="RETURNHOME">
+		<value>Aftur á portal upphafssíðu</value>
+	</data>
+	<data name="RIGHT">
+		<value>Hægri</value>
+	</data>
+	<data name="ROLESADD">
+		<value>Réttindastig til að geta bætt við efni</value>
+	</data>
+	<data name="ROLESCOLLECTION">
+		<value>Réttindastig til að geta breytt öllu efni</value>
+	</data>
+	<data name="ROLESDELETE">
+		<value>Réttindastig til að geta eytt efni</value>
+	</data>
+	<data name="ROLESEDIT">
+		<value>Réttindastig til að  geta breytt efni</value>
+	</data>
+	<data name="ROLESVIEW">
+		<value>Réttindastig til að geta skoðað efni</value>
+	</data>
+	<data name="ROOM_NUMBER">
+		<value>Fjöldi herbergja</value>
+	</data>
+	<data name="ROOT_LEVEL">
+		<value>Rótin</value>
+	</data>
+	<data name="SAVEUSER">
+		<value>Vista notenda breytingar</value>
+	</data>
+	<data name="SELECT_ALL">
+		<value>Velja allt</value>
+	</data>
+	<data name="SELECT_NONE">
+		<value>Velja ekkert</value>
+	</data>
+	<data name="SEND_NEWSLETTER">
+		<value>Senda fréttbréf</value>
+	</data>
+	<data name="SENDNEWSLETTER">
+		<value>Senda fréttabréf</value>
+	</data>
+	<data name="SHOWMOBILE">
+		<value>Sýna þráðlausum notendum</value>
+	</data>
+	<data name="SIGNIN">
+		<value>Skrá sig inn</value>
+	</data>
+	<data name="SUBJECT">
+		<value>Fyrirsögn</value>
+	</data>
+	<data name="SUBMIT">
+		<value>Skrá</value>
+	</data>
+	<data name="SUBTITLE">
+		<value>Undirtitill</value>
+	</data>
+	<data name="TAB_DELETE_FAILED">
+		<value>Tókst ekki að eyða. Vinsamlegast eyddu öllum kubbum á vefsíðu og öllum tengdum flipum áður en flipa er eytt.</value>
+	</data>
+	<data name="TAB_NAME">
+		<value>Nýr flipi (setja inn nafn)</value>
+	</data>
+	<data name="TAB_PARENT">
+		<value>Yfir-flipi</value>
+	</data>
+	<data name="TABLAYOUT">
+		<value>Sjálfgefið útlit</value>
+	</data>
+	<data name="TermsOfService">
+		<value>Skilmálar</value>
+	</data>
+	<data name="Theme">
+		<value>Þema</value>
+	</data>
+	<data name="ThemeAlt">
+		<value>Víxl þema</value>
+	</data>
+	<data name="TITLE">
+		<value>Titill</value>
+	</data>
+	<data name="TOP">
+		<value>Toppur</value>
+	</data>
+	<data name="TRANSLATOR">
+		<value>Hakon</value>
+	</data>
+	<data name="TRANSLATOR_EMAIL">
+		<value>hakon_agustsson@hotmail.com</value>
+	</data>
+	<data name="UNCHECKED_USERS">
+		<value>Óskoðaðir notendur</value>
+	</data>
+	<data name="UPDATE">
+		<value>Uppfæra</value>
+	</data>
+	<data name="UPLOAD_FILE">
+		<value>Senda skrá</value>
+	</data>
+	<data name="UPLOAD_TO_WEB">
+		<value>Senda á vefþjón</value>
+	</data>
+	<data name="URL">
+		<value>Hlekkur</value>
+	</data>
+	<data name="URL_TO_BROWSE">
+		<value>Hlekkur til að elta</value>
+	</data>
+	<data name="USER_MESSAGE_DOMAIN1">
+		<value>Skráðir notendur á léni þurfa ekki að skrá sig inn til að hafa aðgang að efni sem er sýnilegt 'öllum notendum'</value>
+	</data>
+	<data name="USER_MESSAGE_DOMAIN2">
+		<value>Ofur notandinn getur bætt skráðum notendum á léni inn í réttindahópa með aðgerðinni að ofan.</value>
+	</data>
+	<data name="USER_MESSAGE_DOMAIN3">
+		<value>Þessi kerfishluti er fyrir ofur notendur til að sjá um stillingar fyrir notendur og til að sjá um réttindamál notenda.</value>
+	</data>
+	<data name="USER_MESSAGE1">
+		<value>Notendur verða að vera innskráðir til að sjá varið efni.</value>
+	</data>
+	<data name="USER_MESSAGE2">
+		<value>Notendur geta skráð sig í gegnum skráningar mynd og ofur notendur geta gefið notendum réttindi með því að nota stillinguna fyrir réttindastigin hér að ofan.</value>
+	</data>
+	<data name="USER_MESSAGE3">
+		<value>Þessi kerfishluti gefur ofur-notanda réttindi til að stýra og stilla réttindastigin.</value>
+	</data>
+	<data name="VALID_ADDRESS">
+		<value>Verður að skrá inn löglegt heimilsfang</value>
+	</data>
+	<data name="VALID_CITY">
+		<value>Verður að skrá inn löglega borg</value>
+	</data>
+	<data name="VALID_CODE">
+		<value>Verður að skrá inn löglegt gildi</value>
+	</data>
+	<data name="VALID_DATE">
+		<value>Verður að skrá inn löglega dagsetningu</value>
+	</data>
+	<data name="VALID_EMAIL">
+		<value>Verður að skrá inn gildt tölvupóstfang</value>
+	</data>
+	<data name="VALID_FIELD">
+		<value>Vinsamlegast skráðu inn löglegt gildi</value>
+	</data>
+	<data name="VALID_FILE_NAME">
+		<value>Verður að skrá inn gilt skráarnafn</value>
+	</data>
+	<data name="VALID_NAME">
+		<value>Verður að skrá inn gilt nafn</value>
+	</data>
+	<data name="VALID_NUMBER">
+		<value>Verður að skrá inn löglega tölu</value>
+	</data>
+	<data name="VALID_PHONE">
+		<value>Verður að skrá inn gilt símanúmer</value>
+	</data>
+	<data name="VALID_TITLE">
+		<value>Verður að skrá inn titil</value>
+	</data>
+	<data name="VALID_VIEWORDER">
+		<value>Verður að skrá inn löglega  birtingarröð</value>
+	</data>
+	<data name="VALID_ZIP">
+		<value>Verður að skrá inn gilt póstnúmer</value>
+	</data>
+	<data name="VALIDORDER">
+		<value>Verður að skrá gilda birtingarröð</value>
+	</data>
+	<data name="VALIDTITLE">
+		<value>Verður að skrá titil</value>
+	</data>
+	<data name="VALIDURL">
+		<value>Verður að skrá löglegan hlekk</value>
+	</data>
+	<data name="VIEWORDER">
+		<value>Birtingarröð</value>
+	</data>
+	<data name="WEB_FARM_SUPPORT">
+		<value>Geyma í gagnagrunni (web farm stuðningur)</value>
+	</data>
+	<data name="WEBSITE">
+		<value>Vefsíða</value>
+	</data>
+	<data name="WELCOME">
+		<value>Velkomin</value>
+	</data>
+	<data name="XMLsrc">
+		<value>XML gagnaskrá</value>
+	</data>
+	<data name="XSLsrc">
+		<value>XSL umbreyting</value>
+	</data>
+	<data name="ZIP">
+		<value>Póstnúmer</value>
+	</data>
+	<data name="LOGON">
+		<value></value>
+	</data>
+	<data name="LAYOUT">
+		<value></value>
+	</data>
+	<data name="TOTAL">
+		<value></value>
+	</data>
+	<data name="TO">
+		<value></value>
+	</data>
+	<data name="SETTINGS">
+		<value></value>
+	</data>
+	<data name="SAVE">
+		<value></value>
+	</data>
+	<data name="PREVIOUS">
+		<value></value>
+	</data>
+	<data name="PREVIEW">
+		<value></value>
+	</data>
+	<data name="PAGE">
+		<value></value>
+	</data>
+	<data name="NEXT">
+		<value></value>
+	</data>
+	<data name="BACK">
+		<value></value>
+	</data>
+	<data name="CAPTION">
+		<value></value>
+	</data>
+	<data name="CONTACT">
+		<value></value>
+	</data>
+	<data name="CONTINUE">
+		<value></value>
+	</data>
+	<data name="CULTURE">
+		<value></value>
+	</data>
+	<data name="FROM">
+		<value></value>
+	</data>
+</root>

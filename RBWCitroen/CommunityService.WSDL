@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:s0="http://tempuri.org/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="http://tempuri.org/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GetCommunityContent">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="requestInfo" type="s0:ServiceRequestInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ServiceRequestInfo">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Type" type="s0:ServiceType" />
+          <s:element minOccurs="0" maxOccurs="1" name="Url" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="PortalAlias" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="LocalMode" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="UserName" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UserPassword" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="ListType" type="s0:ServiceListType" />
+          <s:element minOccurs="0" maxOccurs="1" name="ModuleType" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="MaxHits" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="ShowID" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="SearchString" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SearchField" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SortField" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="SortDirection" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="RootLevelOnly" type="s:boolean" />
+          <s:element minOccurs="1" maxOccurs="1" name="MobileOnly" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="IDList" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="IDListType" type="s0:ServiceListType" />
+          <s:element minOccurs="1" maxOccurs="1" name="Tag" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:simpleType name="ServiceType">
+        <s:restriction base="s:string">
+          <s:enumeration value="Unknown" />
+          <s:enumeration value="CommunityWebService" />
+          <s:enumeration value="CommunityRSSService" />
+        </s:restriction>
+      </s:simpleType>
+      <s:simpleType name="ServiceListType">
+        <s:restriction base="s:string">
+          <s:enumeration value="Item" />
+          <s:enumeration value="Module" />
+          <s:enumeration value="Tab" />
+        </s:restriction>
+      </s:simpleType>
+      <s:element name="GetCommunityContentResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCommunityContentResult" type="s0:ServiceResponseInfo" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ServiceResponseInfo">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ServiceStatus" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ServiceTitle" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ServiceLink" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ServiceDescription" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ServiceCopyright" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ServiceImageTitle" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ServiceImageUrl" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ServiceImageLink" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Items" type="s0:ArrayOfAnyType" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfAnyType">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="anyType" nillable="true" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ServiceResponseInfoItem">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Link" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Title" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Description" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </types>
+  <message name="GetCommunityContentSoapIn">
+    <part name="parameters" element="s0:GetCommunityContent" />
+  </message>
+  <message name="GetCommunityContentSoapOut">
+    <part name="parameters" element="s0:GetCommunityContentResponse" />
+  </message>
+  <portType name="CommunityServiceSoap">
+    <operation name="GetCommunityContent">
+      <input message="s0:GetCommunityContentSoapIn" />
+      <output message="s0:GetCommunityContentSoapOut" />
+    </operation>
+  </portType>
+  <portType name="CommunityServiceHttpGet" />
+  <portType name="CommunityServiceHttpPost" />
+  <binding name="CommunityServiceSoap" type="s0:CommunityServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+    <operation name="GetCommunityContent">
+      <soap:operation soapAction="http://tempuri.org/GetCommunityContent" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <binding name="CommunityServiceHttpGet" type="s0:CommunityServiceHttpGet">
+    <http:binding verb="GET" />
+  </binding>
+  <binding name="CommunityServiceHttpPost" type="s0:CommunityServiceHttpPost">
+    <http:binding verb="POST" />
+  </binding>
+  <service name="CommunityService">
+    <port name="CommunityServiceSoap" binding="s0:CommunityServiceSoap">
+      <soap:address location="http://localhost/rainbow/CommunityService.asmx" />
+    </port>
+    <port name="CommunityServiceHttpGet" binding="s0:CommunityServiceHttpGet">
+      <http:address location="http://localhost/rainbow/CommunityService.asmx" />
+    </port>
+    <port name="CommunityServiceHttpPost" binding="s0:CommunityServiceHttpPost">
+      <http:address location="http://localhost/rainbow/CommunityService.asmx" />
+    </port>
+  </service>
+</definitions>

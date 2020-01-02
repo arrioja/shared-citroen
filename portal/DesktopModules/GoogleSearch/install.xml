@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Modules>
+	<Module>
+		<FriendlyName>GoogleSearch</FriendlyName>
+		<DesktopSource>DesktopModules/GoogleSearch/GoogleSearch.ascx</DesktopSource>
+		<MobileSource></MobileSource>
+	</Module>
+</Modules>

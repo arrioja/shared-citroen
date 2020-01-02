@@ -1,0 +1,1779 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3102.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3102.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="ABI">
+		<value>ABI</value>
+	</data>
+	<data name="ACCEPT">
+		<value>Tüm anlaşma koşullarını kabul ediyorum</value>
+	</data>
+	<data name="ACCESSDENIED">
+		<value>Erişim Engellendi</value>
+	</data>
+	<data name="ACCESS_DENIED_MESSAGE">
+		<value>Ya henüz sisteme giriş yapmadınız ya da bu sayfaya bu site içinde erişim izniniz yok. Lütfen Site yöneticisi ile kontak kurun.</value>
+	</data>
+	<data name="ACCOUNT_INFO">
+		<value>Kullanıcı Bilgileri</value>
+	</data>
+	<data name="ACCOUNT_LOGIN">
+		<value>Kullanıcı Girişi</value>
+	</data>
+	<data name="ADD">
+		<value>Ekle</value>
+	</data>
+	<data name="ADD_DOCUMENT">
+		<value>Döküman Ekle</value>
+	</data>
+	<data name="ADD_NEW">
+		<value>Yeni Ekle</value>
+	</data>
+	<data name="ADD_NEW_USER">
+		<value>Kullanıcı Ekle</value>
+	</data>
+	<data name="ADD_PORTAL">
+		<value>Site Ekle</value>
+	</data>
+	<data name="ADDRESS">
+		<value>Adres</value>
+	</data>
+	<data name="ADDTAB">
+		<value>Sayfa Ekle</value>
+	</data>
+	<data name="ADDUSER">
+		<value>Kullanıcıyı bu kullanıcı grubuna Ekle</value>
+	</data>
+	<data name="ADMIN_MODULE">
+		<value>Yönetim Modülü</value>
+	</data>
+	<data name="ADVPAYM">
+		<value>Para Transferi ile (EFT, Havale) Ödeme</value>
+	</data>
+	<data name="ALREADY_REGISTERED">
+		<value>daha önceden kayıt edilmiş.</value>
+	</data>
+	<data name="ALREADY_REGISTERED1">
+		<value>Daha önceden kullanıcı hesabınız varsa</value>
+	</data>
+	<data name="AM_ADDMODULE">
+		<value>Modül Ekle</value>
+	</data>
+	<data name="AM_ADDMODULEBELOW">
+		<value>Modülü "Sayfa Düzeni" ne ekle</value>
+	</data>
+	<data name="AM_ADDROLE">
+		<value>Kullanıcı grubu Ekle</value>
+	</data>
+	<data name="AM_BASESOLUTION">
+		<value>Temel Çözüm</value>
+	</data>
+	<data name="AM_CENTERPANEL">
+		<value>Orta Kısım</value>
+	</data>
+	<data name="AM_LEFTPANEL">
+		<value>Sol Küçük Kısım</value>
+	</data>
+	<data name="AM_MOBILETAB">
+		<value>Mobil Sayfa Adı:</value>
+	</data>
+	<data name="AM_MODULENAME">
+		<value>Modül Adı:</value>
+	</data>
+	<data name="AM_MODULETYPE">
+		<value>Modül Tipi</value>
+	</data>
+	<data name="AM_ORGANIZEMODULE">
+		<value>Sayfa Düzeni</value>
+	</data>
+	<data name="AM_PORTALALIAS">
+		<value>Site Alias</value>
+	</data>
+	<data name="AM_RIGHTPANEL">
+		<value>Sağ Küçük Kısım</value>
+	</data>
+	<data name="AM_ROLESAUTH">
+		<value>Yetkili Kullanıcı Grupları</value>
+	</data>
+	<data name="AM_SHOWEDIT">
+		<value>Her zaman Düzenle linki gösterilsin mi?</value>
+	</data>
+	<data name="AM_SHOWMOBILE">
+		<value>Mobil Kullanıcılara göster</value>
+	</data>
+	<data name="AM_SITEPATH">
+		<value>Site Yolu</value>
+	</data>
+	<data name="AM_SITETITLE">
+		<value>Site Başlığı</value>
+	</data>
+	<data name="AM_TABNAME">
+		<value>Sayfa Adı ve Şablonu</value>
+	</data>
+	<data name="AM_TABNAME1">
+		<value>Sayfa Adı</value>
+	</data>
+	<data name="AM_TABS">
+		<value>Sayfalar</value>
+	</data>
+	<data name="AM_THEME">
+		<value>Stil</value>
+	</data>
+	<data name="ANNOUNCES_ADD">
+		<value>Duyuru Ekle</value>
+	</data>
+	<data name="ANNOUNCES_DESCRIPTION">
+		<value>Açıklama</value>
+	</data>
+	<data name="ANNOUNCES_DETAILS">
+		<value>Duyuru Bilgileri</value>
+	</data>
+	<data name="ANNOUNCES_EXPIRES">
+		<value>Sona Erme Tarihi</value>
+	</data>
+	<data name="ANNOUNCES_READ_MORE_LINK">
+		<value>Tamamını oku Linki</value>
+	</data>
+	<data name="ANNOUNCES_READ_MORE_MOBILE">
+		<value>Tamamını oku Linki (Mobil)</value>
+	</data>
+	<data name="ANNOUNCES_TITLE">
+		<value>Başlık</value>
+	</data>
+	<data name="ANNOUNCES_VALID_DESCRIPTION">
+		<value>Lütfen geçerli bir Açıklama girin</value>
+	</data>
+	<data name="ANNOUNCES_VALID_EXPIRE">
+		<value>Lütfen geçerli bir Sona erme tarihi girin</value>
+	</data>
+	<data name="ANNOUNCES_VALID_TITLE">
+		<value>Lütfen geçerli bir Başlık girin</value>
+	</data>
+	<data name="APPLY">
+		<value>Değişiklikleri Uygula</value>
+	</data>
+	<data name="APPLYNAME">
+		<value>Ad ve Şifre Değişikliklerini Uygula</value>
+	</data>
+	<data name="APPLYTHEME">
+		<value>Stili Uygula</value>
+	</data>
+	<data name="AREA">
+		<value>Alanı</value>
+	</data>
+	<data name="AUTHOR">
+		<value>Yazar</value>
+	</data>
+	<data name="BANK">
+		<value>Banka</value>
+	</data>
+	<data name="BOTTOM">
+		<value>Alt taraf</value>
+	</data>
+	<data name="BUYNOW">
+		<value>Şimdi Satın Al</value>
+	</data>
+	<data name="CAB">
+		<value>CAB</value>
+	</data>
+	<data name="CACHETIMEOUT">
+		<value>Önbellek Süresi (saniye)</value>
+	</data>
+	<data name="CANCEL">
+		<value>İptal</value>
+	</data>
+	<data name="CATEGORY">
+		<value>Kategori</value>
+	</data>
+	<data name="CFISCALE">
+		<value>Vergi Numarası</value>
+	</data>
+	<data name="CITY">
+		<value>Şehir</value>
+	</data>
+	<data name="COLLECTION_PROPERTIES">
+		<value>Özellikler</value>
+	</data>
+	<data name="COMPANY">
+		<value>Şirket</value>
+	</data>
+	<data name="CONDITIONS">
+		<value>Hizmet Şartları</value>
+	</data>
+	<data name="CONFIRM">
+		<value>Şifre Tekrar</value>
+	</data>
+	<data name="CONFIRM_DELETE">
+		<value>Bu öğeyi silmek mi istiyorsunuz?</value>
+	</data>
+	<data name="CONTACTS_ADD">
+		<value>Kontak Ekle</value>
+	</data>
+	<data name="CONTACTS_CONTACT1">
+		<value>Telefon 1</value>
+	</data>
+	<data name="CONTACTS_CONTACT2">
+		<value>Telefon 2</value>
+	</data>
+	<data name="CONTACTS_DETAILS">
+		<value>Kontak Bilgileri</value>
+	</data>
+	<data name="CONTACTS_EMAIL">
+		<value>E-posta</value>
+	</data>
+	<data name="CONTACTS_NAME">
+		<value>Ad</value>
+	</data>
+	<data name="CONTACTS_ROLE">
+		<value>Rol</value>
+	</data>
+	<data name="CONTACTS_VALID_NAME">
+		<value>Lütfen geçerli bir Ad girin</value>
+	</data>
+	<data name="COUNTRY">
+		<value>Ülke / Bölge</value>
+	</data>
+	<data name="CREATED_BY">
+		<value>Oluşturan</value>
+	</data>
+	<data name="CREATEDBY">
+		<value>Oluşturan</value>
+	</data>
+	<data name="DATE">
+		<value>Tarih</value>
+	</data>
+	<data name="DECLINE">
+		<value>Hayır, teşekkürler!</value>
+	</data>
+	<data name="DELETE">
+		<value>Sil</value>
+	</data>
+	<data name="DELETE_THIS_ITEM">
+		<value>Öğeyi Sil</value>
+	</data>
+	<data name="DELETE_USER">
+		<value>Kullanıcıyı sil</value>
+	</data>
+	<data name="DELETEBTN">
+		<value>Seçili Öğeyi Sil</value>
+	</data>
+	<data name="DELUSER">
+		<value>Kullanıcıyı bu kullanıcı grubundan çıkar</value>
+	</data>
+	<data name="DESCRIPTION">
+		<value>Açıklama</value>
+	</data>
+	<data name="DESKTOP_SOURCE">
+		<value>Masaüstü Kaynağı</value>
+	</data>
+	<data name="DOCUMENT_DETAILS">
+		<value>Döküman Bilgileri</value>
+	</data>
+	<data name="DOCUMENTS_FOLDER">
+		<value>Doküman Dizini</value>
+	</data>
+	<data name="DOCUMENTS_SOURCE">
+		<value>Döküman Kaynağı</value>
+	</data>
+	<data name="DS_BODY">
+		<value>Mesaj</value>
+	</data>
+	<data name="DS_MSGDETAILS">
+		<value>Mesaj İçeriği</value>
+	</data>
+	<data name="DS_NEWTHREAD">
+		<value>Tartışma Ekle</value>
+	</data>
+	<data name="DS_ORIGINALMSG">
+		<value>Orjinal Mesaj</value>
+	</data>
+	<data name="DS_REPLYTHISMSG">
+		<value>Mesajı Yanıtla</value>
+	</data>
+	<data name="EDIT">
+		<value>Düzenle</value>
+	</data>
+	<data name="EDIT_ACCESS_DENIED">
+		<value>Düzenleme'ye hakkınız yok</value>
+	</data>
+	<data name="EDIT_ACCESS_DENIED_MESSAGE">
+		<value>Ya henüz sisteme giriş yapmadınız ya da site içeriğini güncelleme izniniz yok. Lütfen Site yöneticisi ile kontak kurun.</value>
+	</data>
+	<data name="EDIT_PORTAL">
+		<value>Siteyi Düzenle</value>
+	</data>
+	<data name="EDIT_USER">
+		<value>Kullanıcı Bilgilerini Düzenle</value>
+	</data>
+	<data name="EDITBTN">
+		<value>Seçili öğeninin özelliklerini Düzenle</value>
+	</data>
+	<data name="EDITOR">
+		<value>Editor</value>
+	</data>
+	<data name="EMAIL">
+		<value>E-posta</value>
+	</data>
+	<data name="EMAILORWINDOW">
+		<value>E-posta (yada Windows Kullanıcı adı)</value>
+	</data>
+	<data name="EVENTS_ADD">
+		<value>Etkinlik Ekle</value>
+	</data>
+	<data name="EVENTS_DESCRIPTION">
+		<value>Açıklama</value>
+	</data>
+	<data name="EVENTS_DETAILS">
+		<value>Etkinlik Bilgileri</value>
+	</data>
+	<data name="EVENTS_EXPIRES">
+		<value>Sona Erme Tarihi</value>
+	</data>
+	<data name="EVENTS_TITLE">
+		<value>Başlık</value>
+	</data>
+	<data name="EVENTS_VALID_DESCRIPTION">
+		<value>Lütfen geçerli bir Açıklama girin</value>
+	</data>
+	<data name="EVENTS_VALID_EXPIRE">
+		<value>Lütfen geçerli bir Sona Erme tarihi girin</value>
+	</data>
+	<data name="EVENTS_VALID_TITLE">
+		<value>Lütfen geçerli bir Başlık girin</value>
+	</data>
+	<data name="EVENTS_VALID_WHEN-WHERE">
+		<value>Lütfen geçerli bir Saat / Yer girin </value>
+	</data>
+	<data name="EVENTS_WHEN-WHERE">
+		<value>Nerede / Ne Zaman</value>
+	</data>
+	<data name="FAX">
+		<value>Faks</value>
+	</data>
+	<data name="FILE_NAME">
+		<value>Dosya Adı</value>
+	</data>
+	<data name="FILE_NOT_FOUND">
+		<value>%1% adlı dosya bulunamadı</value>
+	</data>
+	<data name="FILE_UPLOAD_ERROR">
+		<value>Yüklemeye çalıştığınız dosya geçerli değil.</value>
+	</data>
+	<data name="FRIENDLY_NAME">
+		<value>Görünecek Ad</value>
+	</data>
+	<data name="GUID">
+		<value>Guid</value>
+	</data>
+	<data name="HERE">
+		<value>Burada</value>
+	</data>
+	<data name="IMAGE">
+		<value>Resim</value>
+	</data>
+	<data name="IMAGE_UPLOAD_ERROR">
+		<value>Yüklemeye çalıştığınız resim geçerli değil. Lütfen dosyanın tipini yada uzantısını kontrol edin. (örnek: .jpg, .gif)</value>
+	</data>
+	<data name="IN">
+		<value>Ülke: </value>
+	</data>
+	<data name="INSERT_CONFIRM">
+		<value>Şifre Tekrar Bölümü boş bırakılmamalı.</value>
+	</data>
+	<data name="INSERT_EMAIL">
+		<value>Lütfen geçerli bir E-posta girin</value>
+	</data>
+	<data name="INSERT_NAME">
+		<value>Lütfen geçerli bir Ad girin</value>
+	</data>
+	<data name="INSERT_PASSWORD">
+		<value>Lütfen geçerli bir Şifre girin</value>
+	</data>
+	<data name="LAST_UPDATED">
+		<value>Son Güncelleme</value>
+	</data>
+	<data name="LASTNAME">
+		<value>Soyadı</value>
+	</data>
+	<data name="LEFT">
+		<value>Sol</value>
+	</data>
+	<data name="LINKDETAILS">
+		<value>Link Bilgileri</value>
+	</data>
+	<data name="LOAD_THEME_ERROR">
+		<value>%1% adlı stil yüklenemedi ve varsayılan stil de bulunamadı.</value>
+	</data>
+	<data name="LOGIN_FAILED">
+		<value>E-postanızı ya da şifrenizi yanlış girdiniz.</value>
+	</data>
+	<data name="LOGOFF">
+		<value>Çıkış</value>
+	</data>
+	<data name="LOGON">
+		<value>Giriş</value>
+	</data>
+	<data name="MERCHANT">
+		<value>Satıcı No</value>
+	</data>
+	<data name="MIDDLE">
+		<value>Orta</value>
+	</data>
+	<data name="MOBILE_SOURCE">
+		<value>Mobil Kaynak</value>
+	</data>
+	<data name="MOBILEURL">
+		<value>Mobil Internet Adresi</value>
+	</data>
+	<data name="MODIFIED_BY">
+		<value>Güncelleyen:</value>
+	</data>
+	<data name="MODULE_TITLE">
+		<value>Yeni Modül Adı</value>
+	</data>
+	<data name="MODULE_TYPE_DEFINITION">
+		<value>Modül Tipi Tanımı</value>
+	</data>
+	<data name="MODULENAME">
+		<value>Modül Adı</value>
+	</data>
+	<data name="MODULESETTINGS">
+		<value>Modül Ayarları</value>
+	</data>
+	<data name="MOVEDOWN">
+		<value>Seçili öğeyi aşağı taşı</value>
+	</data>
+	<data name="MOVELEFT">
+		<value>Seçili öğeyi sola taşı</value>
+	</data>
+	<data name="MOVERIGHT">
+		<value>Seçili öğeyi sağa taşı</value>
+	</data>
+	<data name="MOVEUP">
+		<value>Seçili öğeyi yukarı taşı</value>
+	</data>
+	<data name="NAME">
+		<value>Ad</value>
+	</data>
+	<data name="NEW_PORTAL_ERROR">
+		<value>Yeni site oluşturulurken hata oluştu. Aynı isimde bir site daha önceden yaratılmış olabilir.  Site takma adını değiştirmeyi deneyin.</value>
+	</data>
+	<data name="NO_ACCOUNT">
+		<value>Eğer kullanıcı hesabınız yoksa</value>
+	</data>
+	<data name="NO_MODULE">
+		<value>Modül kullanma</value>
+	</data>
+	<data name="NOTE">
+		<value>Not</value>
+	</data>
+	<data name="ON">
+		<value>Tarih:</value>
+	</data>
+	<data name="OR">
+		<value>veya</value>
+	</data>
+	<data name="OWNER">
+		<value>Oluşturan:</value>
+	</data>
+	<data name="PASSWORD">
+		<value>Şifre</value>
+	</data>
+	<data name="PASSWORD_NOT_MATCH">
+		<value>Şifre ve Şifre Tekrar alanları aynı değil</value>
+	</data>
+	<data name="PHONE">
+		<value>Telefon</value>
+	</data>
+	<data name="PIVA">
+		<value>Şirket Telefonu</value>
+	</data>
+	<data name="HOME">
+		<value>Ana Sayfa</value>
+	</data>
+	<data name="PORTALS">
+		<value>Siteler</value>
+	</data>
+	<data name="POSTED_BY">
+		<value>Gönderen:</value>
+	</data>
+	<data name="POSTED_DATE">
+		<value>Gönderilme Tarihi:</value>
+	</data>
+	<data name="PROFILE_INFO">
+		<value>Kullanıcı Bilgisi</value>
+	</data>
+	<data name="PROPERTIES">
+		<value>Özellikler</value>
+	</data>
+	<data name="PROV_STATE">
+		<value>Eyalet / İl</value>
+	</data>
+	<data name="READ_FULL_ANNOUNCE">
+		<value>Tamamını Oku</value>
+	</data>
+	<data name="REGISTER">
+		<value>Üye Ol</value>
+	</data>
+	<data name="REGISTER_DIFFERENT">
+		<value>Lütfen kayıt olmak için başka bir e-posta adresi kullanın.</value>
+	</data>
+	<data name="REGISTER_NOW">
+		<value>Üye Ol ve Şimdi sisteme giriş yap</value>
+	</data>
+	<data name="REGISTER_REQUIRED">
+		<value>Bu modülü kullanabilmek için kayıt olmalısınız</value>
+	</data>
+	<data name="REGISTERED_USERS">
+		<value>Üye Kullanıcılar</value>
+	</data>
+	<data name="REGISTRATION_FAILED">
+		<value>Kayıt süreci başarısız Oldu!</value>
+	</data>
+	<data name="REMEMBER_LOGIN">
+		<value>Beni Hatırla</value>
+	</data>
+	<data name="RETURNHOME">
+		<value>Ana Sayfaya Geri Dön</value>
+	</data>
+	<data name="RIGHT">
+		<value>Sağ</value>
+	</data>
+	<data name="ROLESADD">
+		<value>İçerik ekleyebilen kullanıcı grupları</value>
+	</data>
+	<data name="ROLESCOLLECTION">
+		<value>İçerik ayarı yapabilen kullanıcı grupları</value>
+	</data>
+	<data name="ROLESDELETE">
+		<value>İçerik silebilen kullanıcı grupları</value>
+	</data>
+	<data name="ROLESEDIT">
+		<value>İçerik düzenleyebilen kullanıcı grupları</value>
+	</data>
+	<data name="ROLESVIEW">
+		<value>İçerik görebilen kullanıcı grupları</value>
+	</data>
+	<data name="ROOM_NUMBER">
+		<value>Oda Sayısı</value>
+	</data>
+	<data name="ROOT_LEVEL">
+		<value>Üst Seviye</value>
+	</data>
+	<data name="SAVEUSER">
+		<value>Kullanıcı Değişikliklerini Kaydet</value>
+	</data>
+	<data name="SELECT_ALL">
+		<value>Hepsini Seç</value>
+	</data>
+	<data name="SELECT_NONE">
+		<value>Hiçbirini seçme</value>
+	</data>
+	<data name="SEND_NEWSLETTER">
+		<value>Bülten Gönder</value>
+	</data>
+	<data name="SENDNEWSLETTER">
+		<value>Bülten Gönder</value>
+	</data>
+	<data name="SHOWMOBILE">
+		<value>Mobil kullanıcılara göster</value>
+	</data>
+	<data name="SIGNIN">
+		<value>Giriş</value>
+	</data>
+	<data name="SIGNIN_ENTER_EMAIL_ADDR">
+		<value>Lütfen geçerli bir E-posta girin</value>
+	</data>
+	<data name="SIGNIN_PWD_MISSING_IN_DB">
+		<value>Kullanıcı kaydınız veritabanımızda bulunamadı</value>
+	</data>
+	<data name="SIGNIN_PWD_REQUESTED">
+		<value>Talep ettiğiniz şifreniz:</value>
+	</data>
+	<data name="SIGNIN_PWD_TO">
+		<value>Şifre (Kime):</value>
+	</data>
+	<data name="SIGNIN_PWD_WAS_SENT">
+		<value>Şifreniz e-posta adresinize gönderildi. </value>
+	</data>
+	<data name="SIGNIN_SEND_PWD">
+		<value>Şifreyi Gönder</value>
+	</data>
+	<data name="SIGNIN_THANK_YOU">
+		<value>Teşekkürler, umarız sayfamızı ziyaretinizden memnun kalmışsınızdır. Saygılar </value>
+	</data>
+	<data name="SIGNIN_YOU_CAN_LOGIN_FROM">
+		<value>Sisteme giriş için </value>
+	</data>
+	<data name="SUBJECT">
+		<value>Konu</value>
+	</data>
+	<data name="SUBMIT">
+		<value>Gönder</value>
+	</data>
+	<data name="SUBTITLE">
+		<value>Alt Başlık</value>
+	</data>
+	<data name="SWI_PUBLISH">
+		<value>Yayınla</value>
+	</data>
+	<data name="SWI_ROLESPUBLISHING">
+		<value>Yayınlama Hakkına Sahip Kullanıcı Grupları</value>
+	</data>
+	<data name="SWI_SUPPORTWORKFLOW">
+		<value>İş Akışı Desteğini Aç</value>
+	</data>
+	<data name="SWI_SWAPTOPRODUCTION">
+		<value>Yayınlanan Sürüme geç</value>
+	</data>
+	<data name="SWI_SWAPTOSTAGING">
+		<value>Yayınlanmak için bekleyen sürüme geç</value>
+	</data>
+	<data name="TAB_DELETE_FAILED">
+		<value>Silme başarısız oldu. Lütfen bu sayfaya bağlı tüm modülleri silip tekrar deneyin.</value>
+	</data>
+	<data name="TAB_NAME">
+		<value>Yeni Sayfa (Adı)</value>
+	</data>
+	<data name="TAB_PARENT">
+		<value>Bağlı Olduğu Sayfa</value>
+	</data>
+	<data name="TABLAYOUT">
+		<value>Tasarım Şablonu</value>
+	</data>
+	<data name="TITLE">
+		<value>Başlık</value>
+	</data>
+	<data name="TOP">
+		<value>Üst</value>
+	</data>
+	<data name="TRANSLATOR">
+		<value>Ozan / Rainbow Turkey Information Technologies</value>
+	</data>
+	<data name="TRANSLATOR_EMAIL">
+		<value>ozan@rainbow.web.tr</value>
+	</data>
+	<data name="UNCHECKED_USERS">
+		<value>Kullanıcıların seçimini kaldır</value>
+	</data>
+	<data name="UPDATE">
+		<value>Güncelle</value>
+	</data>
+	<data name="UPLOAD_FILE">
+		<value>Dosyayı Yükle</value>
+	</data>
+	<data name="UPLOAD_TO_WEB">
+		<value>Dosyayı web sunucusuna yükle</value>
+	</data>
+	<data name="URL">
+		<value>Internet Adresi</value>
+	</data>
+	<data name="URL_TO_BROWSE">
+		<value>Taranacak Internet Adresi</value>
+	</data>
+	<data name="USER_MESSAGE_DOMAIN1">
+		<value>Windows kullanıcılarının Site içeriğine erişmek için üye kullanıcı olmasına gerek yoktur.</value>
+	</data>
+	<data name="USER_MESSAGE_DOMAIN2">
+		<value>Site yöneticileri yukarıdaki "Kullanıcı Grupları" nı kullanarak windows kullanıcılarını istedikleri Kullanıcı Gruplarına ekleyebilirler. </value>
+	</data>
+	<data name="USER_MESSAGE_DOMAIN3">
+		<value>Bu bölüm Site yöneticilerinin kullanıcıları ve kullanıcı gruplarını yönetebilmesini sağlar. Site yöneticileri kullanıcıları yukarıdaki site için oluşturulmuş Kullanıcı Gruplarına ekleyebilirler.</value>
+	</data>
+	<data name="USER_MESSAGE1">
+		<value>Kullanıcılar bu içeriği görebilmek için üye olmalıdır.</value>
+	</data>
+	<data name="USER_MESSAGE2">
+		<value>Kullanıcılar kayıt formunu doldurarak üye olabilirler, ve site yöneticileri  yukarıdaki kullanıcı gruplarını kullanarak kullanıcıları ilgili kullanıcı gruplarına ekleyebilirler.</value>
+	</data>
+	<data name="USER_MESSAGE3">
+		<value>Bu bölüm Site yöneticilerinin kullanıcıları ve kullanıcı gruplarını yönetebilmesini sağlar. Site yöneticileri kullanıcıları yukarıdaki site için oluşturulmuş Kullanıcı Gruplarına ekleyebilirler.</value>
+	</data>
+	<data name="VALID_ADDRESS">
+		<value>Lütfen geçerli bir Adres girin</value>
+	</data>
+	<data name="VALID_CITY">
+		<value>Lütfen geçerli bir Şehir girin</value>
+	</data>
+	<data name="VALID_CODE">
+		<value>Lütfen geçerli bir Kod girin</value>
+	</data>
+	<data name="VALID_DATE">
+		<value>Lütfen geçerli bir Tarih girin</value>
+	</data>
+	<data name="VALID_EMAIL">
+		<value>Lütfen geçerli bir E-posta Adresi girin</value>
+	</data>
+	<data name="VALID_FIELD">
+		<value>Lütfen geçerli bir Değer girin</value>
+	</data>
+	<data name="VALID_FILE_NAME">
+		<value>Lütfen geçerli bir Dosya Adı girin</value>
+	</data>
+	<data name="VALID_NAME">
+		<value>Lütfen geçerli bir Ad girin</value>
+	</data>
+	<data name="VALID_NUMBER">
+		<value>Lütfen geçerli bir Numara girin</value>
+	</data>
+	<data name="VALID_PHONE">
+		<value>Lütfen geçerli bir Telefon Numarası girin</value>
+	</data>
+	<data name="VALID_TITLE">
+		<value>Lütfen geçerli bir Başlık girin</value>
+	</data>
+	<data name="VALID_VIEWORDER">
+		<value>Lütfen geçerli bir Görünüş Sırası girin</value>
+	</data>
+	<data name="VALID_ZIP">
+		<value>Lütfen geçerli bir Posta Kodu girin</value>
+	</data>
+	<data name="VALIDORDER">
+		<value>Lütfen geçerli bir Görünüş Sırası girin</value>
+	</data>
+	<data name="VALIDTITLE">
+		<value>Lütfen geçerli bir Başlık girin</value>
+	</data>
+	<data name="VALIDURL">
+		<value>Lütfen geçerli bir Internet Adresi girin</value>
+	</data>
+	<data name="VIEWORDER">
+		<value>Görünüş Sırası</value>
+	</data>
+	<data name="WEB_FARM_SUPPORT">
+		<value>Veritabanında depo edilir (web farm desteği)</value>
+	</data>
+	<data name="WEBSITE">
+		<value>Web Sitesi</value>
+	</data>
+	<data name="WELCOME">
+		<value>Merhaba</value>
+	</data>
+	<data name="ZIP">
+		<value>Posta Kodu</value>
+	</data>
+	<data name="SITESETTINGS_TERMS_OF_SERVICE_DESCRIPTION">
+		<value>Buraya üyelik sırasında kullanıcılara gösterilmek üzere kullanılacak hizmet şartlarını içeren bir dosya adı yazın. Hizmet şartları kişinin o an kullandığı kültür dilini göre gösterilir. Bu yüzden dökümanı diğer dillerdeki sürümlerini  dosyaAdi_&lt;dil&gt; şeklinde kaydedin.  Örneğin Terms.txt, dosyasının  Amerika için sürümü Terms_en-US.txt şeklinde kaydedilmelidir.</value>
+	</data>
+	<data name="TABMETAOTHER_DESCRIPTION">
+		<value>Bu alana sayfadaki head tagleri arasına fazladan meta tagi yazmanız için koyulmuştur.  Örneğin şu an kullanılmakta olan sitenin kullandığı rainbow sürümü burada yazılabilir, but bunun dışındaki meta taglerini  ör. meta refresh tag veya onun yerine CSS(Cascading Style Sheet) referansı kullanılabilir..</value>
+	</data>
+	<data name="PRODUCT_CONTINUE_SHOPPING">
+		<value>Alışverişe Devam Et</value>
+	</data>
+	<data name="PRODUCTS_DISPLAYING_ORDER">
+		<value>Görünüş Sırası:</value>
+	</data>
+	<data name="ABSTRACT">
+		<value>Özet</value>
+	</data>
+	<data name="PRODUCT_NAME">
+		<value>Ürün Adı</value>
+	</data>
+	<data name="IT_DESCRIPTION">
+		<value>İtalyanca Başlık</value>
+	</data>
+	<data name="PICTURES_LONG_DESCRIPTION">
+		<value>Uzun Açıklama</value>
+	</data>
+	<data name="SETTING_REQUIRED">
+		<value>%1% gerekli!</value>
+	</data>
+	<data name="PICTURES_FILE">
+		<value>Dosya</value>
+	</data>
+	<data name="PICTURES_FLIP">
+		<value>Eksene göre Döndür</value>
+	</data>
+	<data name="CULTUREIMGPORTAL_DESCRIPTION">
+		<value>Eğer özel bayraklar kullanmak istiyorsanız burayı işaretleyin.</value>
+	</data>
+	<data name="ERROR_VALID_WHERE_WHEN">
+		<value>Lütfen geçerli bir Nerede / Ne zaman bilgisi girin</value>
+	</data>
+	<data name="HTMLTEMPLATEURL">
+		<value>HTML Şablon (URL)</value>
+	</data>
+	<data name="ORDER_RECEIPT_NUMBER">
+		<value>Sipariş Numarası</value>
+	</data>
+	<data name="SHOWTITLE_DESCRIPTION">
+		<value>Başlığı Göster'in durumunun açık yada kapalı yapılmasını sağlar</value>
+	</data>
+	<data name="TABMETAKEYWORDS_DESCRIPTION">
+		<value>Bu ayar arama motorları ile optimizasyona yardım için kullanılır. Buraya sayfa ile ilgili 1-15 arası anahtar kelime kullanın.</value>
+	</data>
+	<data name="EVENTS_ENABLED">
+		<value>Etkinlik Açık</value>
+	</data>
+	<data name="EVENTS_PRICES">
+		<value>Ücreti</value>
+	</data>
+	<data name="SITESETTINGS_PAGE_TITLE">
+		<value>Varsayılan Sayfa Başlığı</value>
+	</data>
+	<data name="LANGSWITCHTYPE_DISABLED">
+		<value>Kapalı</value>
+	</data>
+	<data name="CHECKOUT_COPY_TO_SHIPPING_INFO">
+		<value>Benim taşıma bilgilerimi kişisel bilgilerimden al.</value>
+	</data>
+	<data name="SHOWMODIFIEDBY_DESCRIPTION">
+		<value>Güncelleyeni Göster'in durumunun açık yada kapalı yapılmasını sağlar.</value>
+	</data>
+	<data name="TASK_STARTDATE_ERROR">
+		<value>Lütfen geçerli bir Başlangıç Tarihi girin</value>
+	</data>
+	<data name="PICTURES_MAINTAIN_ASPECT_FIXED_WIDTH">
+		<value>Genişlik Uzunluğunu Koru</value>
+	</data>
+	<data name="TASK_PRIORITY">
+		<value>Öncelik</value>
+	</data>
+	<data name="TABMETADESCRIPTION">
+		<value>Varsayılan Sayfa / Sayfa Açıklaması</value>
+	</data>
+	<data name="SITESETTINGS_ALLOW_NEW_REGISTRATION_DESCRIPTION">
+		<value>Kullanıcılar kendi başlarına kayıt olabilsinler mi?</value>
+	</data>
+	<data name="PICTURES_SHORT_DESCRIPTION">
+		<value>Kısa Açıklama</value>
+	</data>
+	<data name="VIEW_ORDER">
+		<value>Görünüş Sırası</value>
+	</data>
+	<data name="SITESETTINGS_COUNTRY_FILTER">
+		<value>Yeni Kullanıcı Kayıtlarına İzin Verilecek Kullanıcıların Ülkeleri</value>
+	</data>
+	<data name="SITESETTINGS_PAGE_META_OTHERS">
+		<value>Varsayılan Sayfaya Ek Meta Tagları</value>
+	</data>
+	<data name="DOCUMENT_LAST_UPDATED">
+		<value>Son Güncelleme Tarihi</value>
+	</data>
+	<data name="APPLY_CHANGES">
+		<value>Değişiklikleri Uygula</value>
+	</data>
+	<data name="PRODUCT_ADD_TO_CART">
+		<value>Sepete Ekle</value>
+	</data>
+	<data name="LOGINHOMEPAGE_DESCRIPTION">
+		<value>Bu sayfaya ulaşabilmek siteye giriş yapılması gerekiyorsa buraya o adresi (URL) yazın. Eğer bu sayfada siteye giriş yapılabiliyorsa boş bırakın.</value>
+	</data>
+	<data name="PRODUCT_PRICE_NOT_AVAILABLE">
+		<value>Lütfen bu ürünü satın almak için bizimle kontak kurun</value>
+	</data>
+	<data name="LET_USER_CHOOSE">
+		<value>Kullanıcının seçmesine izin ver</value>
+	</data>
+	<data name="NEWSLETTER_SENDER_OPTIONAL_NAME">
+		<value>Adınız (İsteğe bağlı)</value>
+	</data>
+	<data name="CHECKOUT">
+		<value>Ödeme</value>
+	</data>
+	<data name="SITESETTINGS_COUNTRY_FILTER_DESCRIPTION">
+		<value>İzin Verilen Ülkeler Tam Üyelik tipi seçildiğinde ülkeler listesinde gözükecek ülkeler için kullanılır. Listede bütün ülkeleri görmek için  'World'ü seçin.</value>
+	</data>
+	<data name="LOGINHOMEPAGE">
+		<value>Site Internet Adresi (Giriş yapılacak sayfa)</value>
+	</data>
+	<data name="PRODUCT_VIEW_CART">
+		<value>Sepete bak</value>
+	</data>
+	<data name="TASK_COMPLETION_ERROR">
+		<value>Bu alan 0-100 arasında bir tamsayı olmalı</value>
+	</data>
+	<data name="PRODUCT_ORDER_DATE_MODIFIED">
+		<value>Son Güncelleme Tarihi</value>
+	</data>
+	<data name="DONOTRESENDWITHIN">
+		<value>Tekrar gönderme (gün olarak)</value>
+	</data>
+	<data name="CHECKOUT_AUTHORIZE">
+		<value>Siparişi onaylamanız gerekli</value>
+	</data>
+	<data name="PICTURES_MAINTAIN_ASPECT_FIXED_HEIGHT">
+		<value>Yükseklik Uzunluğunu koru</value>
+	</data>
+	<data name="APPLY_MODULE_CHANGES">
+		<value>Modül Değişikliklerini Uygula</value>
+	</data>
+	<data name="SITESETTINGS_PAGE_KEY_PHRASE_DESCRIPTION">
+		<value>Bu ayar ya bir modül ya da bir kontrol tarafından kullanılabilir, Bütün site için genel bir mesaj tanımlanmasını sağlar. ör. X Sitesine Hoşgeldiniz. Burası arama motorları ile optimizasyon için kullanılabilir. Bunun dışında bu alan size anahtar kelime ve veya ifade tanımlamanıza izin verir.</value>
+	</data>
+	<data name="LANGSWITCHTNAMES_DISPLAYNAME">
+		<value>Görünüş Adı</value>
+	</data>
+	<data name="USERBLOCK_DESCRIPTION">
+		<value>Gruplanacak maksimum kullanıcı sayısını seçin. Bu sayı e-postalar gönderilirken kullanılacaktır. Sunucu ile zaman aşımı problemi yaşamamak için küçük değerler kullanılması tavsiye edilir.</value>
+	</data>
+	<data name="SITESETTINGS_SITE_TITLE">
+		<value>Site Başlığı</value>
+	</data>
+	<data name="ERROR_VALID_DATE">
+		<value>Lütfen geçerli bir Modül adı girin</value>
+	</data>
+	<data name="DEFAULTEMAIL">
+		<value>Gönderenin E-posta Adresi</value>
+	</data>
+	<data name="REGISTER_DESCRIPTION">
+		<value>Kayıt olma sayfasının nasıl görüneceğini seçin</value>
+	</data>
+	<data name="EVENTS_CATEGORY">
+		<value>Kategori</value>
+	</data>
+	<data name="SITESETTINGS_SITE_PATH">
+		<value>Site Dizin Yolu</value>
+	</data>
+	<data name="SENDTHTS_RECIPIENT">
+		<value>Alıcının e-posta adresi girilmemiş.</value>
+	</data>
+	<data name="SITESETTINGS_PAGE_META_OTHERS_DESCRIPTION">
+		<value>Bu ayar varsayılan sayfada head tagları arasına fazladan tag koymanızı sağlar. Örneğin şu an kullanılmakta olan sitenin kullandığı rainbow sürümü burada yazılabilir, ya da diğer meta tagları  ör. meta refresh tagı veya onun yerine CSS(Cascading Style Sheet) referansı kullanılabilir.</value>
+	</data>
+	<data name="TASK_DESCRIPTION">
+		<value>Açıklama</value>
+	</data>
+	<data name="TOURISTIC_THISMONTH">
+		<value>Sadece bu ay</value>
+	</data>
+	<data name="EVENTS_TIMETABLE">
+		<value>Zaman Bilgisi</value>
+	</data>
+	<data name="SENDTHTS_YREMAIL">
+		<value>E-posta Adresiniz:</value>
+	</data>
+	<data name="PRODUCT_ORDER_TOTAL">
+		<value>Toplam</value>
+	</data>
+	<data name="SITESETTINGS_THEME_DESCRIPTION">
+		<value>Tüm sitede etkin olacak stili burada seçin. </value>
+	</data>
+	<data name="SITESETTINGS_PAGE_META_ENCODING_DESCRIPTION">
+		<value>Internet tarayıcınız sayfayı yüklerken, içerik tipine göre yükler. Bu ayar sayfanızda hangi içerik tipinin kullanılacağını belirler. </value>
+	</data>
+	<data name="CHANGE_DATE">
+		<value>Değiştirilme Tarihi</value>
+	</data>
+	<data name="BUTTON_DISPLAY_SETTINGS">
+		<value>Linkler ve görünüş ayarları</value>
+	</data>
+	<data name="ARTICLE_DETAIL">
+		<value>Makale Bilgisi</value>
+	</data>
+	<data name="SITESETTINGS_LOGO">
+		<value>Logo</value>
+	</data>
+	<data name="EVENTS_WHEREWHEN">
+		<value>Nerede / Ne Zaman</value>
+	</data>
+	<data name="PRODUCT_INCLUDING_TAXES">
+		<value>(Vergiler Dahil)</value>
+	</data>
+	<data name="PRODUCT_EMPTY_CART">
+		<value>Şu an sepetinizde ürün yok</value>
+	</data>
+	<data name="TASK_STARTDATE">
+		<value>Başlangıç Tarihi</value>
+	</data>
+	<data name="PRODUCT_CATEGORY_NOT_FOUND">
+		<value>Kategori bulunamadı</value>
+	</data>
+	<data name="PORTAL_HOME">
+		<value>Ana Sayfa</value>
+	</data>
+	<data name="TASK_ASSIGNEDTO">
+		<value>Yapacak Kişi</value>
+	</data>
+	<data name="SENDTHTS_BODY_ERR">
+		<value>Lütfen mesajınızı yazın.</value>
+	</data>
+	<data name="MISC_SETTINGS">
+		<value>Diğer Ayarlar</value>
+	</data>
+	<data name="XSLSRC">
+		<value>XSL Dosyası</value>
+	</data>
+	<data name="USEREMAIL">
+		<value>Kullanıcı E-posta Adresi</value>
+	</data>
+	<data name="USERBLOCK">
+		<value>Kullanıcıları grupla (sayı)</value>
+	</data>
+	<data name="CHANGE_LANGUAGE">
+		<value>Değiştir</value>
+	</data>
+	<data name="NEWSLETTER_SENDER_EMAIL_ADDRESS">
+		<value>Gönderenin E-posta Adresi</value>
+	</data>
+	<data name="SITESETTINGS_PAGE_LAYOUT">
+		<value>Sayfa Tasarım Şablonu</value>
+	</data>
+	<data name="TOURISTIC_AUTO">
+		<value>Otomatik</value>
+	</data>
+	<data name="TABURLKEYWORD_DESCRIPTION">
+		<value>Bu ayar arama motorları ile optimizasyona yardım için kullanılır. Size Internet (URL) adresinde gözükecek bir anahtar kelime kullanmanızı sağlar. Henüz tam olarak yapılmadı bu bölüm.</value>
+	</data>
+	<data name="EVENTS_PAYMENT">
+		<value>Ödeme</value>
+	</data>
+	<data name="PICTURES_DISPLAY_ORDER">
+		<value>Görünüş Sırası</value>
+	</data>
+	<data name="LANGSWITCHTYPE_FORM">
+		<value>Form</value>
+	</data>
+	<data name="LANGSWITCHTDISPLAY_UICULTURELIST">
+		<value>Arayüz kültürel adını kullan</value>
+	</data>
+	<data name="PRODUCT_ID">
+		<value>Ürün No</value>
+	</data>
+	<data name="SITESETTINGS_THEME">
+		<value>Stil</value>
+	</data>
+	<data name="BTN_PRINT">
+		<value>Yazdır</value>
+	</data>
+	<data name="CULTURE_DESCRIPTION">
+		<value>Kültür Dilini seçin. Invariant(World) kültürel dili seçilirse her durumda modül görünür.</value>
+	</data>
+	<data name="PICTURES_DONT_RESIZE">
+		<value>Yeniden Boyutlama</value>
+	</data>
+	<data name="EXPIRE_DATE">
+		<value>Sona Erme Tarihi</value>
+	</data>
+	<data name="LANGSWITCHTYPE_FLAGS">
+		<value>Sadece Bayraklar</value>
+	</data>
+	<data name="LANGSWITCHTYPE_LINKS">
+		<value>Linkler</value>
+	</data>
+	<data name="TABMETADESCRIPTION_DESCRIPTION">
+		<value>Bu ayar arama motorları ile optimizasyona yardım için kullanılır. Siteniz için varsayılan bir tanım girin ama çok uzun olmasın. 1 paragraf tavsiye edilir.</value>
+	</data>
+	<data name="EVENTS_EMAIL">
+		<value>E-posta adresi (Bilgi için)</value>
+	</data>
+	<data name="EVENTS_GROUP">
+		<value>Grup</value>
+	</data>
+	<data name="PRODUCT_PRICE">
+		<value>Fiyat</value>
+	</data>
+	<data name="PRODUCT_TOTAL">
+		<value>Toplam</value>
+	</data>
+	<data name="EVENTS_PLACE">
+		<value>Etkinlik Yeri</value>
+	</data>
+	<data name="START_DATE">
+		<value>Başlangıç Tarihi</value>
+	</data>
+	<data name="SITESETTINGS_LANGLIST">
+		<value>Dil Listesi:</value>
+	</data>
+	<data name="SENDTHTS_SUBJECT">
+		<value>Konu: (İsteğe bağlı) </value>
+	</data>
+	<data name="DEFAULTNAME">
+		<value>Gönderenin Adı</value>
+	</data>
+	<data name="PRODUCT_SHOP_HOME">
+		<value>Mağaza Ana Sayfa</value>
+	</data>
+	<data name="SITESETTINGS_PAGE_META_DESCRIPTION">
+		<value>Varsayılan Sayfa Açıklaması</value>
+	</data>
+	<data name="TABMETAENCODING_DESCRIPTION">
+		<value>Internet tarayıcınız sayfayı yüklerken, içerik tipine göre yükler. Bu ayar sayfanızda hangi içerik tipinin kullanılacağını belirler.</value>
+	</data>
+	<data name="TASK_TITLE">
+		<value>Başlık</value>
+	</data>
+	<data name="THEME_LAYOUT_SETTINGS">
+		<value>Stil ve Görünüş ayarları</value>
+	</data>
+	<data name="PRODUCT_VIEW_ACCOUNT">
+		<value>Kullanıcı bilgilerine bak</value>
+	</data>
+	<data name="TABTITLE">
+		<value>Sayfa Başlığı</value>
+	</data>
+	<data name="SITESETTINGS_SHOW_MODIFIED_BY_DESCRIPTION">
+		<value>Bu bölümü en son güncelleyeni görmek için işaretleyin.</value>
+	</data>
+	<data name="UPDATE_YOUR_PROFILE">
+		<value>Kişisel Bilgileri Güncelle</value>
+	</data>
+	<data name="SITESETTINGS_ALT_THEME_DESCRIPTION">
+		<value>Tüm sitede etkin olacak alternatif stili burada seçin. </value>
+	</data>
+	<data name="PRODUCT_DISPLAY_FEATURED_ITEMS">
+		<value>Ürünün Özelliklerinin Gösterilmesi</value>
+	</data>
+	<data name="TABTITLE_DESCRIPTION">
+		<value>Buraya sayfanın başlığını yazın, bu başlık Internet tarayıcınızın (Netscape, Mozilla, Internet Explorer) üstünde gözükür.</value>
+	</data>
+	<data name="CHECKOUT_VERIFY_INFORMATION">
+		<value>Lütfen aşağıdaki bilginin doğruluğundan emin olun ve kontrol edin. </value>
+	</data>
+	<data name="COUNTRIESFILTER_DESCRIPTION">
+		<value>Kayıt olma sayfasında siteye kayıt olabilecek ülkelerin listesi için burayı kullanın. Bütün ülkeler için boş bırakın.</value>
+	</data>
+	<data name="EN">
+		<value>Başlık (en)</value>
+	</data>
+	<data name="IT">
+		<value>Başlık (it)</value>
+	</data>
+	<data name="OF">
+		<value>için</value>
+	</data>
+	<data name="SENDTHTS_DES_TXT">
+		<value>Burada mesajınızı açıklayın...</value>
+	</data>
+	<data name="CULTUREIMGPORTAL">
+		<value>Özel Bayrak Kullanılacak mı?</value>
+	</data>
+	<data name="PICTURES_ROTATE">
+		<value>Döndür</value>
+	</data>
+	<data name="TASK_PRIORITY_2">
+		<value>Düşük</value>
+	</data>
+	<data name="TASK_PRIORITY_0">
+		<value>Yüksek</value>
+	</data>
+	<data name="TASK_PRIORITY_1">
+		<value>Normal</value>
+	</data>
+	<data name="SITESETTINGS_PAGE_META_DESCRIPTION_DESCRIPTION">
+		<value>Bu ayar arama motorları ile optimizasyona yardım için kullanılır. Siteniz için varsayılan bir açıklama girin ama çok uzun olmasın. 1 paragraf tavsiye edilir.</value>
+	</data>
+	<data name="HTMLTEMPLATE_DESCRIPTION">
+		<value>Newsletter göndermek için temel olacak bir HTML dosyası seçin.</value>
+	</data>
+	<data name="PRODUCT_REFERENCE">
+		<value>Referans</value>
+	</data>
+	<data name="PRODUCT_MUST_LOG_IN_FOR_CHECKOUT">
+		<value>Ödeme yapmak için siteye giriş yapmanız ya da üye olmanız gerek!</value>
+	</data>
+	<data name="THEME_DESCRIPTION">
+		<value>Bu modül için bir stil seçin.</value>
+	</data>
+	<data name="TASK_STATUS">
+		<value>Durum</value>
+	</data>
+	<data name="TABKEYPHRASE">
+		<value>Varsayılan Sayfa / Sayfa Anahtar Kelime İfadesi</value>
+	</data>
+	<data name="ERROR_VALID_MESSAGE_TEXT">
+		<value>Lütfen geçerli bir Mesaj girin</value>
+	</data>
+	<data name="CHECKOUT_STEP1">
+		<value>Aşama 1/4: Kişisel Bilgiler</value>
+	</data>
+	<data name="CHECKOUT_STEP2">
+		<value>Aşama 2/4: Taşıma Bilgileri</value>
+	</data>
+	<data name="CHECKOUT_STEP3">
+		<value>Aşama 3/4: Son Fiyatın Hesaplanması</value>
+	</data>
+	<data name="CHECKOUT_STEP4">
+		<value>Aşama 4/4: Ödeme Süreci</value>
+	</data>
+	<data name="CHECKOUT_MAKE_SURE_ADDRESS_IS_CORRECT">
+		<value>Lütfen yukarıdaki e-posta adresinin doğruluğundan emin olun. Bu e-posta adresi siparişinizin bir kopyasının gönderilmesi için kullanılacaktır.</value>
+	</data>
+	<data name="DE-DE">
+		<value>Başlık (de-DE)</value>
+	</data>
+	<data name="DE-CH">
+		<value>Başlık (de-CH)</value>
+	</data>
+	<data name="LINKEDMODULE">
+		<value>Link Verilmiş Modül</value>
+	</data>
+	<data name="EDIT_THIS_ITEM">
+		<value>Bu öğeyi Düzenle</value>
+	</data>
+	<data name="IT-IT">
+		<value>Başlık (it-IT)</value>
+	</data>
+	<data name="UP_TO">
+		<value>kadar</value>
+	</data>
+	<data name="THEME">
+		<value>Stil</value>
+	</data>
+	<data name="TESTMODE">
+		<value>Test Durumu</value>
+	</data>
+	<data name="TOURISTIC_THISYEAR">
+		<value>Sadece bu sene</value>
+	</data>
+	<data name="PRODUCT_INPUT_PROBLEM">
+		<value>Ürün girişlerinde problem var.</value>
+	</data>
+	<data name="SENDTHTS_SEND">
+		<value>Gönder</value>
+	</data>
+	<data name="SENDTHTS_SENT">
+		<value>Mesajınız gönderildi, teşekkür ederiz!</value>
+	</data>
+	<data name="SENDTHTS_NAME">
+		<value>Adı</value>
+	</data>
+	<data name="SENDTHTS_BODY">
+		<value>Mesaj İçeriği:</value>
+	</data>
+	<data name="LANGUAGESWITCHTYPE_DESCRIPTION">
+		<value>Dil Değiştiricinin nasıl görünceğini seçin.</value>
+	</data>
+	<data name="CHECKOUT_CC_NUMBER">
+		<value>Kart Numarası:</value>
+	</data>
+	<data name="LANGSWITCHTDISPLAY_NONE">
+		<value>Hiçbiri</value>
+	</data>
+	<data name="CHECKOUT_SELECT_PAYMENT">
+		<value>Ödeme şeklini seç</value>
+	</data>
+	<data name="ORDER_OK">
+		<value>Siparişiniz başarıyla gönderildi</value>
+	</data>
+	<data name="COUNTRIESFILTER">
+		<value>Siteye üye olabilecek Ülkeler</value>
+	</data>
+	<data name="SHOWTITLE">
+		<value>Başlığı Göster</value>
+	</data>
+	<data name="SAVE_AND_CLOSE">
+		<value>Kaydet ve Kapat</value>
+	</data>
+	<data name="SITESETTINGS_PAGE_META_KEYWORDS_DESCRIPTION">
+		<value>Bu ayar arama motorları ile optimizasyona yardım için kullanılır. Buraya sayfa ile ilgili 1-15 arası anahtar kelime girin.</value>
+	</data>
+	<data name="IT-IT_DESCRIPTION">
+		<value>İtalyanca(İtalya) Başlık</value>
+	</data>
+	<data name="ERROR_VALID_DESCRIPTION">
+		<value>Lütfen geçerli bir Açıklama girin</value>
+	</data>
+	<data name="LANGSWITCHTDISPLAY_CULTURELIST">
+		<value>Kültürel Adını Kullan</value>
+	</data>
+	<data name="LANGSWITCHTYPE_LINKSHORIZONTAL">
+		<value>Yatay Linkler</value>
+	</data>
+	<data name="EN_DESCRIPTION">
+		<value>İngilizce Başlık</value>
+	</data>
+	<data name="SITESETTINGS_LOGO_DESCRIPTION">
+		<value>Logo Resminin dosya adı ve yolu.</value>
+	</data>
+	<data name="CHECKOUT_CC_EXPIRY">
+		<value>Sona  Erme Tarihi:</value>
+	</data>
+	<data name="ADD_ARTICLE">
+		<value>Makale Ekle</value>
+	</data>
+	<data name="DOCUMENT_AREA">
+		<value>Alanı</value>
+	</data>
+	<data name="TESTMODE_DESCRIPTION">
+		<value>Test modunu kullanın test etmek için. Bu mod sadece Gönderen E-posta adresine test amaçlı olarak bir e-posta gönderir.</value>
+	</data>
+	<data name="SITESETTINGS_PAGE_META_KEYWORDS">
+		<value>Varsayılan Sayfa Anahtar Kelimeleri</value>
+	</data>
+	<data name="DE-CH_DESCRIPTION">
+		<value>Almanca (İsviçre) Başlık</value>
+	</data>
+	<data name="TASK_DETAIL">
+		<value>Görev Bilgisi</value>
+	</data>
+	<data name="PRODUCT_ORDER_DATE_CREATED">
+		<value>Oluşturulma Tarihi</value>
+	</data>
+	<data name="SITESETTINGS_PAGE_META_ENCODING">
+		<value>Varsayılan Sayfada kullanılan encoding</value>
+	</data>
+	<data name="GOTO_PAGE">
+		<value>Yandaki sayfaya git:</value>
+	</data>
+	<data name="EVENTS_START_DATE">
+		<value>Başlangıç Tarihi</value>
+	</data>
+	<data name="SITESETTINGS_PAGE_URL_KEYWORD">
+		<value>Tüm sayfaları ifade eden varsayılan anahtar kelime.</value>
+	</data>
+	<data name="TERMSOFSERVICE_DESCRIPTION">
+		<value>Buraya üyelik sırasında kullanıcılara gösterilmek üzere kullanılacak hizmet şartlarını içeren bir dosya adı yazın. Hizmet şartları kişinin o an kullandığı kültür dilini göre gösterilir. Bu yüzden dökümanı diğer dillerdeki sürümlerini  dosyaAdi_&lt;dil&gt; şeklinde kaydedin.  Örneğin Terms.txt, dosyasının  Amerika için sürümü Terms_en-US.txt şeklinde kaydedilmelidir.</value>
+	</data>
+	<data name="NEWSLETTER_MESSAGE_BODY">
+		<value>Mesaj</value>
+	</data>
+	<data name="AM_PORTALID">
+		<value>Site No</value>
+	</data>
+	<data name="PICTURES_CAPTION">
+		<value>Başlık</value>
+	</data>
+	<data name="IMAGELOGO">
+		<value>Logo Resmi</value>
+	</data>
+	<data name="APPLYTHEME_DESCRIPTION">
+		<value>Stil bu modüle uygulansın mı?</value>
+	</data>
+	<data name="TABURLKEYWORD">
+		<value>Tüm sayfaları ifade eden varsayılan anahtar kelime / Sayfalar</value>
+	</data>
+	<data name="NEWSLETTER_SUBJECT">
+		<value>Konu</value>
+	</data>
+	<data name="USERNAME">
+		<value>Kullanıcı Adı</value>
+	</data>
+	<data name="TABMETAENCODING">
+		<value>Varsayılan Sayfa / Sayfada kullanılan encoding</value>
+	</data>
+	<data name="DOCUMENT_OWNER">
+		<value>Sahibi</value>
+	</data>
+	<data name="SITESETTINGS_REGISTER_FULL">
+		<value>Tam Üyelik</value>
+	</data>
+	<data name="LANGSWITCHTNAMES_NATIVENAME">
+		<value>Yerel Adı</value>
+	</data>
+	<data name="SITESETTINGS_REGISTER_SIMPLE">
+		<value>Standart Üyelik</value>
+	</data>
+	<data name="MODULE_SPECIAL_SETTINGS">
+		<value>Modüle özgü ayarlar</value>
+	</data>
+	<data name="SECURITY_USER_SETTINGS">
+		<value>Kullanıcılar ve Güvenlik Ayarları</value>
+	</data>
+	<data name="SITESETTINGS_PAGE_KEY_PHRASE">
+		<value>Varsayılan Sayfa Anahtar Kelime İfadesi</value>
+	</data>
+	<data name="CHECKOUT_TOTAL_PRODUCT">
+		<value>Toplam Ürün Ücreti:</value>
+	</data>
+	<data name="CHANGE_PASSWORD">
+		<value>Sadece şifrenizi değiştirmek istediğinizde bu alanları doldurun</value>
+	</data>
+	<data name="SHOWPRINTBUTTON">
+		<value>Yazdır linkini göster</value>
+	</data>
+	<data name="SWI_ROLESAPPROVING">
+		<value>Onaylama Hakkına Sahip Kullanıcı Grupları</value>
+	</data>
+	<data name="PICTURES_KEYWORDS">
+		<value>Anahtar kelimeler</value>
+	</data>
+	<data name="SHOWCOLLAPSABLE">
+		<value>Pencere simge durumundan açılabilsin mi?</value>
+	</data>
+	<data name="CHECKOUT_TOTAL_SHIPPING">
+		<value>Toplam Taşıma Ücreti:</value>
+	</data>
+	<data name="CHECKOUT_VERIFY_INFORMATION_CLICK_BACK">
+		<value>Bir önceki aşamaya dönmek için Geri linkine tıklayın, Bir sonraki aşamaya geçmek için ise Devam linkine tıklayın.</value>
+	</data>
+	<data name="RAINBOW_RUNNING_VERSION">
+		<value>Çalışmakta olan Rainbow sürümü:</value>
+	</data>
+	<data name="SITESETTINGS_SHOW_MODIFIED_BY">
+		<value>Güncelleyeni göster</value>
+	</data>
+	<data name="EVENTS_SITEURL">
+		<value>Site Adresi</value>
+	</data>
+	<data name="TASK_STATE_2">
+		<value>Tamamlandı</value>
+	</data>
+	<data name="TASK_STATE_1">
+		<value>Yapılıyor</value>
+	</data>
+	<data name="TASK_STATE_0">
+		<value>Henüz başlanmadı</value>
+	</data>
+	<data name="CHECKOUT_CC_NAME">
+		<value>Kredi Kartıının Üzerindeki Ad:</value>
+	</data>
+	<data name="CHECKOUT_CC_TYPE">
+		<value>Kart Tipi:</value>
+	</data>
+	<data name="ALLOWNEWREGISTRATIONS">
+		<value>Yeni Kullanıcı Üyeliklerine İzin Verilsin mi?</value>
+	</data>
+	<data name="SITE_TITLE">
+		<value>Site Başlığı</value>
+	</data>
+	<data name="SITESETTINGS_ALT_THEME">
+		<value>Alternatif Stil</value>
+	</data>
+	<data name="SITESETTINGS_ALLOW_NEW_REGISTRATION">
+		<value>Yeni Kullanıcı Üyeliklerine İzin Verilsin mi?</value>
+	</data>
+	<data name="SITESETTINGS_LANGLIST_DESCRIPTION">
+		<value>Sitenin desteklediği dillerin listesi, formatı &lt;UI-Culture&gt;-&lt;Formatting-Culture&gt;. Örnek. tr-TR;en-US;</value>
+	</data>
+	<data name="PRODUCT_CHECKOUT">
+		<value>Ödeme</value>
+	</data>
+	<data name="PRODUCTS_NO_ORDERS_TO_DISPLAY">
+		<value>Gösterilecek siparişiniz yok.</value>
+	</data>
+	<data name="CHECKOUT_MAKE_SURE_ADDRESS_IS_CORRECT_2">
+		<value>Eğer emin değilseniz Lütfen bizimle kontak kurun.</value>
+	</data>
+	<data name="HTMLTEMPLATE">
+		<value>HTML Şablon</value>
+	</data>
+	<data name="MOVE_TO_TAB">
+		<value>Taşınacak Sayfa</value>
+	</data>
+	<data name="SENDTHTS_CLEAR">
+		<value>Mesajı Temizle</value>
+	</data>
+	<data name="TOURISTIC_NOFILTER">
+		<value>Filtreleme Yok</value>
+	</data>
+	<data name="ERROR_VALID_EMAIL">
+		<value>Lütfen geçerli bir E-posta girin</value>
+	</data>
+	<data name="SITESETTINGS_TERMS_OF_SERVICE">
+		<value>Hizmet Şartları Dosyası</value>
+	</data>
+	<data name="SENDTHTS_EMAILVALID">
+		<value>Lütfen geçerli bir E-posta girin</value>
+	</data>
+	<data name="ERROR_VALID_TITLE">
+		<value>Lütfen geçerli bir Başlık girin</value>
+	</data>
+	<data name="EVENTS_BOOKING_REQUIRED">
+		<value>Rezervasyon gerekli</value>
+	</data>
+	<data name="SENDTHTS_EMAILBLANK">
+		<value>Lütfen E-posta alanını doldurun</value>
+	</data>
+	<data name="UPLOAD_IMAGE">
+		<value>Resmi Yükle</value>
+	</data>
+	<data name="SENDTHTS_YRNAME">
+		<value>Adınız: (İsteğe bağlı)</value>
+	</data>
+	<data name="LANGUAGESWITCHTYPE">
+		<value>Dil Değiştirici Tipi</value>
+	</data>
+	<data name="CHECKOUT_CART_IS_EMPTY">
+		<value>Şu an sepetinizde ürün yok</value>
+	</data>
+	<data name="SITESETTINGS_PAGE_TITLE_DESCRIPTION">
+		<value>Bu ayar varsayılan sayfanın başlığını yazılmasını sağlar, bu başlık Internet tarayıcınızın üstünde gözükür.</value>
+	</data>
+	<data name="SITE_PATH">
+		<value>Site Yolu</value>
+	</data>
+	<data name="EDIT_PROFILE">
+		<value>Bilgilerimi Güncelle</value>
+	</data>
+	<data name="TABKEYPHRASE_DESCRIPTION">
+		<value>Bu ayar ya bir modül ya da bir kontrol tarafından kullanılabilir, Bütün site için genel bir mesaj tanımlanmasını sağlar. ör. X Sitesine Hoşgeldiniz. Burası arama motorları ile optimizasyon için kullanaılabilir. Bunu dışında bu alan size anahtar kelime ve veya ifade tanımlamanıza izin verir. </value>
+	</data>
+	<data name="DE-DE_DESCRIPTION">
+		<value>Almanca (Almanya) Başlık</value>
+	</data>
+	<data name="DONOTRESENDWITHIN_DESCRIPTION">
+		<value>Bu alan belirtilen gün sayısı kadar bir kişiye spam yada aynı e-postadan birden fazla gönderilmesini engeller. </value>
+	</data>
+	<data name="SHOWMODIFIEDBY">
+		<value>Güncelleyeni Göster</value>
+	</data>
+	<data name="LANGSWITCHTNAMES_ENGLISHNAME">
+		<value>İngilizce Adı</value>
+	</data>
+	<data name="ORDER_WAIT_CONFIRM">
+		<value>Lütfen onay e-postamızı bekleyin.</value>
+	</data>
+	<data name="TERMSOFSERVICE">
+		<value>Hizmet Şartları Dosyası</value>
+	</data>
+	<data name="SHOWEVERYWHERE">
+		<value>Bütün sayfalarda göster</value>
+	</data>
+	<data name="META_SETTINGS">
+		<value>Meta Ayarları</value>
+	</data>
+	<data name="TASK_DUEDATE">
+		<value>Son Tamamlanma Tarihi</value>
+	</data>
+	<data name="DIRECTURL">
+		<value>Sisteme giriş için direk link olarak kullanılabilir. </value>
+	</data>
+	<data name="TASK_DUEDATE_ERROR">
+		<value>Lütfen geçerli bir Son Tamamlanma Tarihi girin</value>
+	</data>
+	<data name="PICTURES_VERTICAL">
+		<value>Dikey</value>
+	</data>
+	<data name="TABMETAKEYWORDS">
+		<value>Sayfa Meta Tagi Anahtar Kelimeleri</value>
+	</data>
+	<data name="LANGSWITCHTYPE_FLAGSHORIZONTAL">
+		<value>Sadece Bayraklar - yatay</value>
+	</data>
+	<data name="PICTURES_FIXED_WIDTH_AND_HEIGHT">
+		<value>Sabit genişlik ve yükseklik</value>
+	</data>
+	<data name="TASK_TITLE_ERROR">
+		<value>Lütfen geçerli bir Başlık girin</value>
+	</data>
+	<data name="CULTURE_SETTINGS">
+		<value>Kültürel Dil Ayarları</value>
+	</data>
+	<data name="SITESETTINGS_PAGE_LAYOUT_DESCRIPTION">
+		<value>Tüm sitede etkin olacak tasarım şablonunu seçin.</value>
+	</data>
+	<data name="TABMETAOTHER">
+		<value>Varsayılana ek olarak kullanılabillecek meta tagler bu alana yazılabilir.</value>
+	</data>
+	<data name="PICTURES_HORIZONTAL">
+		<value>Yatay</value>
+	</data>
+	<data name="TASK_COMPLETION">
+		<value>Tamamlanma Yüzdesi (%)</value>
+	</data>
+	<data name="DELAYEXPIRE">
+		<value>Varsayılan Son Gecikme Tarihi</value>
+	</data>
+	<data name="PRODUCT_ORDER_REFERENCE">
+		<value>Sipariş Referensı</value>
+	</data>
+	<data name="IMAGELOGO_DESCRIPTION">
+		<value>Logo Resmi (URL)</value>
+	</data>
+	<data name="SENDTHTS_REMAIL">
+		<value>Gerçek e-posta adresi</value>
+	</data>
+	<data name="SITESETTINGS_PAGE_URL_KEYWORD_DESCRIPTION">
+		<value>Henüz tam olarak yapılmadı bu bölüm. Bu ayar arama motorları ile optimizasyona yardım için kullanılır. Size Internet (URL) adresinde gözükecek bir anahtar kelime kullanmanızı sağlar.</value>
+	</data>
+	<data name="PASSWORD_DO_NOT_MATCH">
+		<value>Şifre ve Şifre Tekrar alanları aynı değil</value>
+	</data>
+	<data name="IMAGE_DETAIL">
+		<value>Resim Bilgisi</value>
+	</data>
+	<data name="PRODUCT_REMOVE">
+		<value>Çıkar</value>
+	</data>
+	<data name="GATEWAY_WIRE_TRANSFER">
+		<value>Wire Transfer</value>
+	</data>
+	<data name="PRODUCTS_ORDER_HISTORY_DISPLAY">
+		<value>Siparişlerinizin tarihçesini gösterir. Sipariş numarasına tıklayarak ilgili siparişin içeriğini görebilirsiniz.</value>
+	</data>
+	<data name="ALLOWNEWREGISTRATIONS_DESCRIPTION">
+		<value>Kullanıcılar kendi başlarına kayıt olabilsinler mi?</value>
+	</data>
+	<data name="PRODUCT_SUBTOTAL">
+		<value>Ara Toplam</value>
+	</data>
+	<data name="CATS">
+		<value>Kediler</value>
+	</data>
+	<data name="NONE">
+		<value>Hiçbiri</value>
+	</data>
+	<data name="PRODUCT_UPDATE">
+		<value>Güncelle</value>
+	</data>
+	<data name="EVENTS_END_DATE">
+		<value>Bitiş Tarihi</value>
+	</data>
+	<data name="LANGSWITCHTYPE_DROPDOWNLIST">
+		<value>Seçim Listesi</value>
+	</data>
+	<data name="SHOWPRINTBUTTON_DESCRIPTION">
+		<value>Yazdır linkinin gösterilip gösterilmeyeceği belirlenir?</value>
+	</data>
+	<data name="PICTURES_INCLUDE_EXIF">
+		<value>EXIF Stili İçersin mi?</value>
+	</data>
+	<data name="CUSTOMTHEMEALT">
+		<value>Sayfaya Özel Alternatif Stil</value>
+	</data>
+	<data name="CUSTOMTHEME_DESCRIPTION">
+		<value>Sadece bu sayfadaki modüllerde uygulanacak özel stili seçin</value>
+	</data>
+	<data name="THEMEALT">
+		<value>Alternatif Stil</value>
+	</data>
+	<data name="CUSTOMLAYOUT_DESCRIPTION">
+		<value>Sadece bu sayfaya özel tasarım şablonunu seçin</value>
+	</data>
+	<data name="XMLSRC">
+		<value>XML Dosyası</value>
+	</data>
+	<data name="ZH-CN_DESCRIPTION">
+		<value>Çince (Çin Halk Cumhuriyeti) Başlık</value>
+	</data>
+	<data name="CUSTOMLAYOUT">
+		<value>Sayfaya Özel Şablon</value>
+	</data>
+	<data name="CUSTOMTHEMEALT_DESCRIPTION">
+		<value>Sadece bu sayfadaki modüllerde uygulanacak özel alternatif stili seçin</value>
+	</data>
+	<data name="CUSTOMTHEME">
+		<value>Sayfaya Özel Stil</value>
+	</data>
+	<data name="WHOSLOGGEDONCACHETIMEOUT">
+		<value>0-60000 arasında bir zaman girerek sitede kimlerin var olduğunun kontrol edilme Aralığını belirleyin</value>
+	</data>
+	<data name="ZH-CN">
+		<value>Başlık (zh-CN)</value>
+	</data>
+	<data name="SITESETTINGS_REGISTER_TYPE_DESCRIPTION">
+		<value>Üyelik sayfasındaki formun nasıl görüneceğini belirleyin.</value>
+	</data>
+	<data name="END_DATE">
+		<value>Bitiş Tarihi</value>
+	</data>
+	<data name="WHOS_LOGGED_ON_2">
+		<value>online siteye giriş yapmamış kullanıcı</value>
+	</data>
+	<data name="WHOS_LOGGED_ON_3">
+		<value> online üye kullanıcılar: </value>
+	</data>
+	<data name="WHOS_LOGGED_ON_1">
+		<value>Şu an</value>
+	</data>
+	<data name="PRODUCT_QUANTITY">
+		<value>Miktar</value>
+	</data>
+	<data name="EN-US">
+		<value>Başlık (en-US)</value>
+	</data>
+	<data name="EN-US_DESCRIPTION">
+		<value>İngilizce(ABD) Başlık</value>
+	</data>
+	<data name="PRODUCT_TOTAL_WITH_TAXES">
+		<value>Vergiyle birlikte Toplam</value>
+	</data>
+	<data name="PREVIEW">
+		<value>Önizleme</value>
+	</data>
+	<data name="LAYOUT">
+		<value>Tasarım Şablonu</value>
+	</data>
+	<data name="SETTINGS">
+		<value>Ayarlar</value>
+	</data>
+	<data name="PREVIOUS">
+		<value>Önceki</value>
+	</data>
+	<data name="TO">
+		<value>Kime</value>
+	</data>
+	<data name="TOTAL">
+		<value>Toplam</value>
+	</data>
+	<data name="CAPTION">
+		<value>Başlık</value>
+	</data>
+	<data name="CONTACT">
+		<value>Kontak</value>
+	</data>
+	<data name="SITESETTINGS_REGISTER_TYPE">
+		<value>Üyelik Tipi</value>
+	</data>
+	<data name="CONTINUE">
+		<value>Devam</value>
+	</data>
+	<data name="CULTURE">
+		<value>Kültürel Dil</value>
+	</data>
+	<data name="PRODUCT_TOTAL_TAXES">
+		<value>Toplam (Vergiler dahil)</value>
+	</data>
+	<data name="FROM">
+		<value>Kimden</value>
+	</data>
+	<data name="BACK">
+		<value>Geri</value>
+	</data>
+	<data name="NEXT">
+		<value>Sonraki</value>
+	</data>
+	<data name="PAGE">
+		<value>Sayfa</value>
+	</data>
+	<data name="SAVE">
+		<value>Kaydet</value>
+	</data>
+	<data name="HEADER_WELCOME">
+		<value>Merhaba</value>
+	</data>
+	<data name="HEADER_LOGOFF">
+		<value>Çıkış</value>
+	</data>
+	<data name="TR">
+		<value>Başlık (tr)</value>
+	</data>
+	<data name="TR-TR">
+		<value>Başlık (tr-TR)</value>
+	</data>
+	<data name="TR_DESCRIPTION">
+		<value>Türkçe Başlık</value>
+	</data>
+	<data name="TR-TR_DESCRIPTION">
+		<value>Türkçe(Türkiye) Başlık</value>
+	</data>
+</root>

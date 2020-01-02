@@ -1,0 +1,557 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.AddModule", "AddModule\Rainbow.Modules.AddModule.csproj", "{1F18AA51-4883-48AD-9A61-F8817534B39F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.AddTab", "AddTab\Rainbow.Modules.AddTab.csproj", "{60A8FFA2-6730-4959-85B3-47D4BE75FBFD}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.AmazonFull", "AmazonFull\Rainbow.Modules.AmazonFull.csproj", "{4485F475-60FF-4695-B143-6AC95559A1FF}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.Announcements", "Announcements\Rainbow.Modules.Announcements.csproj", "{A315638B-37E4-4194-8602-67CA076723B3}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.Articles", "Articles\Rainbow.Modules.Articles.csproj", "{8F227991-A7D8-4AB3-9FB7-96AFC77720CB}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.Blog", "Blog\Rainbow.Modules.Blog.csproj", "{57E2AFF9-3CBB-4048-BB27-FD7DE4EE2642}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.BreadCrumbs", "BreadCrumbs\Rainbow.Modules.BreadCrumbs.csproj", "{3702EB2D-36D3-446B-91B3-B53927D26138}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.CacheViewer", "CacheViewer\Rainbow.Modules.CacheViewer.csproj", "{08CD3012-2A94-45CD-8D77-087F18D30D09}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.ComponentModule", "ComponentModule\Rainbow.Modules.ComponentModule.csproj", "{4D6EAE18-303E-4953-ABB1-563F60B3C5F8}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.Contacts", "Contacts\Rainbow.Modules.Contacts.csproj", "{51507DBB-1198-462F-B7EF-D35B97BFEB19}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.ContentManager", "ContentManager\Rainbow.Modules.ContentManager.csproj", "{5A040925-0F24-4D59-BFBF-EF1C5E13BB8A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.DailyDilbert", "DailyDilbert\Rainbow.Modules.DailyDilbert.csproj", "{5E63FBCD-D1D0-4853-9F72-6911772DC01B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.DatabaseTableEdit", "DatabaseTableEdit\Rainbow.Modules.DatabaseTableEdit.csproj", "{95CFD860-F79B-42AE-BE46-6D703A723AB1}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.DatabaseTool", "DatabaseTool\Rainbow.Modules.DatabaseTool.csproj", "{54A40BAE-8860-4A9F-9B76-805EE6F3171A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.Discussion", "Discussion\Rainbow.Modules.Discussion.csproj", "{814ABF72-D59A-4048-AAA2-47702A4CD62C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.Documents", "Documents\Rainbow.Modules.Documents.csproj", "{5BBC66B6-874B-4AE7-8581-F5050FA0C830}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.EnhancedHtml", "EnhancedHTML\Rainbow.Modules.EnhancedHtml.csproj", "{0D22BDB2-E07D-4CF7-94A9-3F0AB01FD136}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.EnhancedLinks", "EnhancedLinks\Rainbow.Modules.EnhancedLinks.csproj", "{3B792013-F7CB-472D-BD34-4CEF2236FBC6}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.EventLogs", "EventLogs\Rainbow.Modules.EventLogs.csproj", "{19EDEDE3-14C4-43CC-A970-0366BEE5FE0A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.Events", "Events\Rainbow.Modules.Events.csproj", "{47E146F6-7F27-467C-802A-A0DEE5C792AC}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.Faq", "FAQs\Rainbow.Modules.Faq.csproj", "{57BDCB19-B248-4686-9E16-12CE74D3EE0E}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.FileDirectoryTree", "FileDirectoryTree\Rainbow.Modules.FileDirectoryTree.csproj", "{DC9EEA28-28D9-42D0-AA49-8F9673AED7B6}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.FlashModule", "FlashModule\Rainbow.Modules.FlashModule.csproj", "{D08E6E5A-4458-4E70-A180-268ED96F3668}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.GoogleSearch", "GoogleSearch\Rainbow.Modules.GoogleSearch.csproj", "{2CD6E5A7-0F9D-418C-BF69-466772E8F44C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.HtmlDocument", "HTMLDocument\Rainbow.Modules.HtmlDocument.csproj", "{A7FAB350-CA8E-4429-8E58-FDF2E6C528AE}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.IFrame", "IframeModule\Rainbow.Modules.IFrame.csproj", "{5C1434A1-CF14-48F5-AC2D-46DAFEC15C18}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.Image", "Image\Rainbow.Modules.Image.csproj", "{AACF5BC8-457E-4314-92EF-F390D3663D52}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.LdapUserProfile", "LDAPUserProfile\Rainbow.Modules.LdapUserProfile.csproj", "{AAD8EE7F-AA18-4810-B3FF-3A00F2128574}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.Links", "Links\Rainbow.Modules.Links.csproj", "{083BF2BE-A0E7-4925-B535-FA06E73CF982}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.MapQuest", "MapQuest\Rainbow.Modules.MapQuest.csproj", "{D6D897C0-E736-43C5-B1F5-0BD2A9726AC3}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.MileStones", "MileStones\Rainbow.Modules.MileStones.csproj", "{138EF9CA-3364-47DD-B88A-DC09FDF36A42}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.ModuleDefinitions", "ModuleDefinitions\Rainbow.Modules.ModuleDefinitions.csproj", "{370016E5-CA3F-4ADB-82A1-EC917BE441D8}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.ModuleDefinitionsAll", "ModuleDefinitionsAll\Rainbow.Modules.ModuleDefinitionsAll.csproj", "{D996D72D-95C7-40B8-BF14-4BC8865165AA}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.Newsletter", "Newsletter\Rainbow.Modules.Newsletter.csproj", "{A4B48415-7898-4A38-AD24-BEC88559BE1A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.OneFileModule", "OneFileModule\Rainbow.Modules.OneFileModule.csproj", "{4BD7632C-99DC-4E5F-8B9E-C4A9148361F3}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.PageKeyPhrase", "PageKeyPhrase\Rainbow.Modules.PageKeyPhrase.csproj", "{E3C8536D-9813-4406-8C65-22F46BCE3A0D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.Pictures", "Pictures\Rainbow.Modules.Pictures.csproj", "{B1C45161-B84F-48DE-8983-B9B985609CCB}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.PortalsAdministration", "PortalsAdministration\Rainbow.Modules.PortalsAdministration.csproj", "{D7A49B67-DA76-4430-95ED-C64B18151B59}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.PortalSearch", "PortalSearch\Rainbow.Modules.PortalSearch.csproj", "{6208D3E5-73D3-4074-B3B5-8844E9FE1BE3}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.Quiz", "Quiz\Rainbow.Modules.Quiz.csproj", "{D23C91D1-8732-43C6-A9C0-33EFB9F4B3B6}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.Quote", "Quote\Rainbow.Modules.Quote.csproj", "{2D2FA684-A431-4B19-8489-9E1C68D573F0}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.Register", "Register\Rainbow.Modules.Register.csproj", "{56B38455-81F7-4CDE-B87D-F1A64C8553DB}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.RoleAssignment", "RoleAssignment\Rainbow.Modules.RoleAssignment.csproj", "{8F98AF1E-6B26-4CA4-99BC-24865EDE0D6F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.Roles", "Roles\Rainbow.Modules.Roles.csproj", "{BF8586E7-BB42-41C9-BF63-E67AEAC2D051}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.SecurityCheck", "SecurityCheck\Rainbow.Modules.SecurityCheck.csproj", "{BF8586E7-BB42-41C9-BF63-E67AEAC2D052}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.SendThoughts", "SendThoughts\Rainbow.Modules.SendThoughts.csproj", "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBD}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.ServiceItemList", "ServiceItemList\Rainbow.Modules.ServiceItemList.csproj", "{D4A4A318-7696-4147-B348-ADEB0AB088F9}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.Shortcut", "Shortcut\Rainbow.Modules.Shortcut.csproj", "{C2036B2F-173C-4A48-9E61-D320C5DC79A7}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.Signin", "SignIn\Rainbow.Modules.Signin.csproj", "{B6A5FEF9-ED36-42AA-9040-39B274764349}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.SignInLdap", "SignInLdap\Rainbow.Modules.SignInLdap.csproj", "{1A7FFEFD-DED5-41A7-A57E-263CAE44C57B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.SimpleMenu", "SimpleMenu\Rainbow.Modules.SimpleMenu.csproj", "{FBA92489-5636-4D44-8BF2-17F0795BAB5D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.SiteSettings", "SiteSettings\Rainbow.Modules.SiteSettings.csproj", "{F790CC17-DF6D-49DD-946E-645EBFA70063}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.Survey", "Survey\Rainbow.Modules.Survey.csproj", "{347F79E4-AB0A-4FC7-8D93-D131E96D9F08}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.Tabs", "Tabs\Rainbow.Modules.Tabs.csproj", "{0C07E861-90C4-4A53-B212-C365DB013D09}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.Tasks", "Tasks\Rainbow.Modules.Tasks.csproj", "{624D384E-0BC7-43F1-9AD1-11A79A38C797}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.ThemeCacheManager", "ThemeCacheManager\Rainbow.Modules.ThemeCacheManager.csproj", "{1FF3319A-139C-409B-B1FE-C77DD92332EF}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.UserDefinedTable", "UserDefinedTable\Rainbow.Modules.UserDefinedTable.csproj", "{32FE4017-234E-41CE-ADDA-43BCDCBE00F1}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.Users", "Users\Rainbow.Modules.Users.csproj", "{3CACD6DC-E65D-4C4E-8999-32409F517DAA}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.Version", "Version\Rainbow.Modules.Version.csproj", "{3BFFD305-AD7D-463D-8121-B8362298CAF2}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.WeatherDe", "WeatherDE\Rainbow.Modules.WeatherDe.csproj", "{9C754769-5DCC-43AC-A7D7-35C6A88B53C5}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.WeatherUs", "WeatherUS\Rainbow.Modules.WeatherUs.csproj", "{55DC4EE5-B817-4F57-B255-ABE98E04C035}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.WebPartModule", "WebPartModule\Rainbow.Modules.WebPartModule.csproj", "{4D21B465-4F09-4DB4-A4F2-D07D86B1A02E}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.WhosLoggedOn", "WhosLoggedOn\Rainbow.Modules.WhosLoggedOn.csproj", "{8C745658-4A4B-4CC3-B6F2-0A8F6B864871}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.XmlFeed", "XmlFeed\Rainbow.Modules.XmlFeed.csproj", "{868D149C-527D-4248-B863-B592FE279691}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.XmlLang", "XmlLang\Rainbow.Modules.XmlLang.csproj", "{49AF6EF8-A6D9-48C5-B885-55208CD3492F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.XmlModule", "XmlModule\Rainbow.Modules.XmlModule.csproj", "{C2DADA4B-8B63-4835-BF0F-E3A5E767F9A9}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.Monitoring", "Monitoring\Rainbow.Modules.Monitoring.csproj", "{A44567E0-757A-4F10-BC55-B142FC226945}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.SiteMap", "SiteMap\Rainbow.Modules.SiteMap.csproj", "{BF607E54-BB4C-40F6-B8AE-67618D2267F6}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{1F18AA51-4883-48AD-9A61-F8817534B39F}.Debug.ActiveCfg = Debug|.NET
+		{1F18AA51-4883-48AD-9A61-F8817534B39F}.Debug.Build.0 = Debug|.NET
+		{1F18AA51-4883-48AD-9A61-F8817534B39F}.Release.ActiveCfg = Release|.NET
+		{1F18AA51-4883-48AD-9A61-F8817534B39F}.Release.Build.0 = Release|.NET
+		{60A8FFA2-6730-4959-85B3-47D4BE75FBFD}.Debug.ActiveCfg = Debug|.NET
+		{60A8FFA2-6730-4959-85B3-47D4BE75FBFD}.Debug.Build.0 = Debug|.NET
+		{60A8FFA2-6730-4959-85B3-47D4BE75FBFD}.Release.ActiveCfg = Release|.NET
+		{60A8FFA2-6730-4959-85B3-47D4BE75FBFD}.Release.Build.0 = Release|.NET
+		{4485F475-60FF-4695-B143-6AC95559A1FF}.Debug.ActiveCfg = Debug|.NET
+		{4485F475-60FF-4695-B143-6AC95559A1FF}.Debug.Build.0 = Debug|.NET
+		{4485F475-60FF-4695-B143-6AC95559A1FF}.Release.ActiveCfg = Release|.NET
+		{4485F475-60FF-4695-B143-6AC95559A1FF}.Release.Build.0 = Release|.NET
+		{A315638B-37E4-4194-8602-67CA076723B3}.Debug.ActiveCfg = Debug|.NET
+		{A315638B-37E4-4194-8602-67CA076723B3}.Debug.Build.0 = Debug|.NET
+		{A315638B-37E4-4194-8602-67CA076723B3}.Release.ActiveCfg = Release|.NET
+		{A315638B-37E4-4194-8602-67CA076723B3}.Release.Build.0 = Release|.NET
+		{8F227991-A7D8-4AB3-9FB7-96AFC77720CB}.Debug.ActiveCfg = Debug|.NET
+		{8F227991-A7D8-4AB3-9FB7-96AFC77720CB}.Debug.Build.0 = Debug|.NET
+		{8F227991-A7D8-4AB3-9FB7-96AFC77720CB}.Release.ActiveCfg = Release|.NET
+		{8F227991-A7D8-4AB3-9FB7-96AFC77720CB}.Release.Build.0 = Release|.NET
+		{57E2AFF9-3CBB-4048-BB27-FD7DE4EE2642}.Debug.ActiveCfg = Debug|.NET
+		{57E2AFF9-3CBB-4048-BB27-FD7DE4EE2642}.Debug.Build.0 = Debug|.NET
+		{57E2AFF9-3CBB-4048-BB27-FD7DE4EE2642}.Release.ActiveCfg = Release|.NET
+		{57E2AFF9-3CBB-4048-BB27-FD7DE4EE2642}.Release.Build.0 = Release|.NET
+		{3702EB2D-36D3-446B-91B3-B53927D26138}.Debug.ActiveCfg = Debug|.NET
+		{3702EB2D-36D3-446B-91B3-B53927D26138}.Debug.Build.0 = Debug|.NET
+		{3702EB2D-36D3-446B-91B3-B53927D26138}.Release.ActiveCfg = Release|.NET
+		{3702EB2D-36D3-446B-91B3-B53927D26138}.Release.Build.0 = Release|.NET
+		{08CD3012-2A94-45CD-8D77-087F18D30D09}.Debug.ActiveCfg = Debug|.NET
+		{08CD3012-2A94-45CD-8D77-087F18D30D09}.Debug.Build.0 = Debug|.NET
+		{08CD3012-2A94-45CD-8D77-087F18D30D09}.Release.ActiveCfg = Release|.NET
+		{08CD3012-2A94-45CD-8D77-087F18D30D09}.Release.Build.0 = Release|.NET
+		{4D6EAE18-303E-4953-ABB1-563F60B3C5F8}.Debug.ActiveCfg = Debug|.NET
+		{4D6EAE18-303E-4953-ABB1-563F60B3C5F8}.Debug.Build.0 = Debug|.NET
+		{4D6EAE18-303E-4953-ABB1-563F60B3C5F8}.Release.ActiveCfg = Release|.NET
+		{4D6EAE18-303E-4953-ABB1-563F60B3C5F8}.Release.Build.0 = Release|.NET
+		{51507DBB-1198-462F-B7EF-D35B97BFEB19}.Debug.ActiveCfg = Debug|.NET
+		{51507DBB-1198-462F-B7EF-D35B97BFEB19}.Debug.Build.0 = Debug|.NET
+		{51507DBB-1198-462F-B7EF-D35B97BFEB19}.Release.ActiveCfg = Release|.NET
+		{51507DBB-1198-462F-B7EF-D35B97BFEB19}.Release.Build.0 = Release|.NET
+		{5A040925-0F24-4D59-BFBF-EF1C5E13BB8A}.Debug.ActiveCfg = Debug|.NET
+		{5A040925-0F24-4D59-BFBF-EF1C5E13BB8A}.Debug.Build.0 = Debug|.NET
+		{5A040925-0F24-4D59-BFBF-EF1C5E13BB8A}.Release.ActiveCfg = Release|.NET
+		{5A040925-0F24-4D59-BFBF-EF1C5E13BB8A}.Release.Build.0 = Release|.NET
+		{5E63FBCD-D1D0-4853-9F72-6911772DC01B}.Debug.ActiveCfg = Debug|.NET
+		{5E63FBCD-D1D0-4853-9F72-6911772DC01B}.Debug.Build.0 = Debug|.NET
+		{5E63FBCD-D1D0-4853-9F72-6911772DC01B}.Release.ActiveCfg = Release|.NET
+		{5E63FBCD-D1D0-4853-9F72-6911772DC01B}.Release.Build.0 = Release|.NET
+		{95CFD860-F79B-42AE-BE46-6D703A723AB1}.Debug.ActiveCfg = Debug|.NET
+		{95CFD860-F79B-42AE-BE46-6D703A723AB1}.Debug.Build.0 = Debug|.NET
+		{95CFD860-F79B-42AE-BE46-6D703A723AB1}.Release.ActiveCfg = Release|.NET
+		{95CFD860-F79B-42AE-BE46-6D703A723AB1}.Release.Build.0 = Release|.NET
+		{54A40BAE-8860-4A9F-9B76-805EE6F3171A}.Debug.ActiveCfg = Debug|.NET
+		{54A40BAE-8860-4A9F-9B76-805EE6F3171A}.Debug.Build.0 = Debug|.NET
+		{54A40BAE-8860-4A9F-9B76-805EE6F3171A}.Release.ActiveCfg = Release|.NET
+		{54A40BAE-8860-4A9F-9B76-805EE6F3171A}.Release.Build.0 = Release|.NET
+		{814ABF72-D59A-4048-AAA2-47702A4CD62C}.Debug.ActiveCfg = Debug|.NET
+		{814ABF72-D59A-4048-AAA2-47702A4CD62C}.Debug.Build.0 = Debug|.NET
+		{814ABF72-D59A-4048-AAA2-47702A4CD62C}.Release.ActiveCfg = Release|.NET
+		{814ABF72-D59A-4048-AAA2-47702A4CD62C}.Release.Build.0 = Release|.NET
+		{5BBC66B6-874B-4AE7-8581-F5050FA0C830}.Debug.ActiveCfg = Debug|.NET
+		{5BBC66B6-874B-4AE7-8581-F5050FA0C830}.Debug.Build.0 = Debug|.NET
+		{5BBC66B6-874B-4AE7-8581-F5050FA0C830}.Release.ActiveCfg = Release|.NET
+		{5BBC66B6-874B-4AE7-8581-F5050FA0C830}.Release.Build.0 = Release|.NET
+		{0D22BDB2-E07D-4CF7-94A9-3F0AB01FD136}.Debug.ActiveCfg = Debug|.NET
+		{0D22BDB2-E07D-4CF7-94A9-3F0AB01FD136}.Debug.Build.0 = Debug|.NET
+		{0D22BDB2-E07D-4CF7-94A9-3F0AB01FD136}.Release.ActiveCfg = Release|.NET
+		{0D22BDB2-E07D-4CF7-94A9-3F0AB01FD136}.Release.Build.0 = Release|.NET
+		{3B792013-F7CB-472D-BD34-4CEF2236FBC6}.Debug.ActiveCfg = Debug|.NET
+		{3B792013-F7CB-472D-BD34-4CEF2236FBC6}.Debug.Build.0 = Debug|.NET
+		{3B792013-F7CB-472D-BD34-4CEF2236FBC6}.Release.ActiveCfg = Release|.NET
+		{3B792013-F7CB-472D-BD34-4CEF2236FBC6}.Release.Build.0 = Release|.NET
+		{19EDEDE3-14C4-43CC-A970-0366BEE5FE0A}.Debug.ActiveCfg = Debug|.NET
+		{19EDEDE3-14C4-43CC-A970-0366BEE5FE0A}.Debug.Build.0 = Debug|.NET
+		{19EDEDE3-14C4-43CC-A970-0366BEE5FE0A}.Release.ActiveCfg = Release|.NET
+		{19EDEDE3-14C4-43CC-A970-0366BEE5FE0A}.Release.Build.0 = Release|.NET
+		{47E146F6-7F27-467C-802A-A0DEE5C792AC}.Debug.ActiveCfg = Debug|.NET
+		{47E146F6-7F27-467C-802A-A0DEE5C792AC}.Debug.Build.0 = Debug|.NET
+		{47E146F6-7F27-467C-802A-A0DEE5C792AC}.Release.ActiveCfg = Release|.NET
+		{47E146F6-7F27-467C-802A-A0DEE5C792AC}.Release.Build.0 = Release|.NET
+		{57BDCB19-B248-4686-9E16-12CE74D3EE0E}.Debug.ActiveCfg = Debug|.NET
+		{57BDCB19-B248-4686-9E16-12CE74D3EE0E}.Debug.Build.0 = Debug|.NET
+		{57BDCB19-B248-4686-9E16-12CE74D3EE0E}.Release.ActiveCfg = Release|.NET
+		{57BDCB19-B248-4686-9E16-12CE74D3EE0E}.Release.Build.0 = Release|.NET
+		{DC9EEA28-28D9-42D0-AA49-8F9673AED7B6}.Debug.ActiveCfg = Debug|.NET
+		{DC9EEA28-28D9-42D0-AA49-8F9673AED7B6}.Debug.Build.0 = Debug|.NET
+		{DC9EEA28-28D9-42D0-AA49-8F9673AED7B6}.Release.ActiveCfg = Release|.NET
+		{DC9EEA28-28D9-42D0-AA49-8F9673AED7B6}.Release.Build.0 = Release|.NET
+		{D08E6E5A-4458-4E70-A180-268ED96F3668}.Debug.ActiveCfg = Debug|.NET
+		{D08E6E5A-4458-4E70-A180-268ED96F3668}.Debug.Build.0 = Debug|.NET
+		{D08E6E5A-4458-4E70-A180-268ED96F3668}.Release.ActiveCfg = Release|.NET
+		{D08E6E5A-4458-4E70-A180-268ED96F3668}.Release.Build.0 = Release|.NET
+		{2CD6E5A7-0F9D-418C-BF69-466772E8F44C}.Debug.ActiveCfg = Debug|.NET
+		{2CD6E5A7-0F9D-418C-BF69-466772E8F44C}.Debug.Build.0 = Debug|.NET
+		{2CD6E5A7-0F9D-418C-BF69-466772E8F44C}.Release.ActiveCfg = Release|.NET
+		{2CD6E5A7-0F9D-418C-BF69-466772E8F44C}.Release.Build.0 = Release|.NET
+		{A7FAB350-CA8E-4429-8E58-FDF2E6C528AE}.Debug.ActiveCfg = Debug|.NET
+		{A7FAB350-CA8E-4429-8E58-FDF2E6C528AE}.Debug.Build.0 = Debug|.NET
+		{A7FAB350-CA8E-4429-8E58-FDF2E6C528AE}.Release.ActiveCfg = Release|.NET
+		{A7FAB350-CA8E-4429-8E58-FDF2E6C528AE}.Release.Build.0 = Release|.NET
+		{5C1434A1-CF14-48F5-AC2D-46DAFEC15C18}.Debug.ActiveCfg = Debug|.NET
+		{5C1434A1-CF14-48F5-AC2D-46DAFEC15C18}.Debug.Build.0 = Debug|.NET
+		{5C1434A1-CF14-48F5-AC2D-46DAFEC15C18}.Release.ActiveCfg = Release|.NET
+		{5C1434A1-CF14-48F5-AC2D-46DAFEC15C18}.Release.Build.0 = Release|.NET
+		{AACF5BC8-457E-4314-92EF-F390D3663D52}.Debug.ActiveCfg = Debug|.NET
+		{AACF5BC8-457E-4314-92EF-F390D3663D52}.Debug.Build.0 = Debug|.NET
+		{AACF5BC8-457E-4314-92EF-F390D3663D52}.Release.ActiveCfg = Release|.NET
+		{AACF5BC8-457E-4314-92EF-F390D3663D52}.Release.Build.0 = Release|.NET
+		{AAD8EE7F-AA18-4810-B3FF-3A00F2128574}.Debug.ActiveCfg = Debug|.NET
+		{AAD8EE7F-AA18-4810-B3FF-3A00F2128574}.Debug.Build.0 = Debug|.NET
+		{AAD8EE7F-AA18-4810-B3FF-3A00F2128574}.Release.ActiveCfg = Release|.NET
+		{AAD8EE7F-AA18-4810-B3FF-3A00F2128574}.Release.Build.0 = Release|.NET
+		{083BF2BE-A0E7-4925-B535-FA06E73CF982}.Debug.ActiveCfg = Debug|.NET
+		{083BF2BE-A0E7-4925-B535-FA06E73CF982}.Debug.Build.0 = Debug|.NET
+		{083BF2BE-A0E7-4925-B535-FA06E73CF982}.Release.ActiveCfg = Release|.NET
+		{083BF2BE-A0E7-4925-B535-FA06E73CF982}.Release.Build.0 = Release|.NET
+		{D6D897C0-E736-43C5-B1F5-0BD2A9726AC3}.Debug.ActiveCfg = Debug|.NET
+		{D6D897C0-E736-43C5-B1F5-0BD2A9726AC3}.Debug.Build.0 = Debug|.NET
+		{D6D897C0-E736-43C5-B1F5-0BD2A9726AC3}.Release.ActiveCfg = Release|.NET
+		{D6D897C0-E736-43C5-B1F5-0BD2A9726AC3}.Release.Build.0 = Release|.NET
+		{138EF9CA-3364-47DD-B88A-DC09FDF36A42}.Debug.ActiveCfg = Debug|.NET
+		{138EF9CA-3364-47DD-B88A-DC09FDF36A42}.Debug.Build.0 = Debug|.NET
+		{138EF9CA-3364-47DD-B88A-DC09FDF36A42}.Release.ActiveCfg = Release|.NET
+		{138EF9CA-3364-47DD-B88A-DC09FDF36A42}.Release.Build.0 = Release|.NET
+		{370016E5-CA3F-4ADB-82A1-EC917BE441D8}.Debug.ActiveCfg = Debug|.NET
+		{370016E5-CA3F-4ADB-82A1-EC917BE441D8}.Debug.Build.0 = Debug|.NET
+		{370016E5-CA3F-4ADB-82A1-EC917BE441D8}.Release.ActiveCfg = Release|.NET
+		{370016E5-CA3F-4ADB-82A1-EC917BE441D8}.Release.Build.0 = Release|.NET
+		{D996D72D-95C7-40B8-BF14-4BC8865165AA}.Debug.ActiveCfg = Debug|.NET
+		{D996D72D-95C7-40B8-BF14-4BC8865165AA}.Debug.Build.0 = Debug|.NET
+		{D996D72D-95C7-40B8-BF14-4BC8865165AA}.Release.ActiveCfg = Release|.NET
+		{D996D72D-95C7-40B8-BF14-4BC8865165AA}.Release.Build.0 = Release|.NET
+		{A4B48415-7898-4A38-AD24-BEC88559BE1A}.Debug.ActiveCfg = Debug|.NET
+		{A4B48415-7898-4A38-AD24-BEC88559BE1A}.Debug.Build.0 = Debug|.NET
+		{A4B48415-7898-4A38-AD24-BEC88559BE1A}.Release.ActiveCfg = Release|.NET
+		{A4B48415-7898-4A38-AD24-BEC88559BE1A}.Release.Build.0 = Release|.NET
+		{4BD7632C-99DC-4E5F-8B9E-C4A9148361F3}.Debug.ActiveCfg = Debug|.NET
+		{4BD7632C-99DC-4E5F-8B9E-C4A9148361F3}.Debug.Build.0 = Debug|.NET
+		{4BD7632C-99DC-4E5F-8B9E-C4A9148361F3}.Release.ActiveCfg = Release|.NET
+		{4BD7632C-99DC-4E5F-8B9E-C4A9148361F3}.Release.Build.0 = Release|.NET
+		{E3C8536D-9813-4406-8C65-22F46BCE3A0D}.Debug.ActiveCfg = Debug|.NET
+		{E3C8536D-9813-4406-8C65-22F46BCE3A0D}.Debug.Build.0 = Debug|.NET
+		{E3C8536D-9813-4406-8C65-22F46BCE3A0D}.Release.ActiveCfg = Release|.NET
+		{E3C8536D-9813-4406-8C65-22F46BCE3A0D}.Release.Build.0 = Release|.NET
+		{B1C45161-B84F-48DE-8983-B9B985609CCB}.Debug.ActiveCfg = Debug|.NET
+		{B1C45161-B84F-48DE-8983-B9B985609CCB}.Debug.Build.0 = Debug|.NET
+		{B1C45161-B84F-48DE-8983-B9B985609CCB}.Release.ActiveCfg = Release|.NET
+		{B1C45161-B84F-48DE-8983-B9B985609CCB}.Release.Build.0 = Release|.NET
+		{D7A49B67-DA76-4430-95ED-C64B18151B59}.Debug.ActiveCfg = Debug|.NET
+		{D7A49B67-DA76-4430-95ED-C64B18151B59}.Debug.Build.0 = Debug|.NET
+		{D7A49B67-DA76-4430-95ED-C64B18151B59}.Release.ActiveCfg = Release|.NET
+		{D7A49B67-DA76-4430-95ED-C64B18151B59}.Release.Build.0 = Release|.NET
+		{6208D3E5-73D3-4074-B3B5-8844E9FE1BE3}.Debug.ActiveCfg = Debug|.NET
+		{6208D3E5-73D3-4074-B3B5-8844E9FE1BE3}.Debug.Build.0 = Debug|.NET
+		{6208D3E5-73D3-4074-B3B5-8844E9FE1BE3}.Release.ActiveCfg = Release|.NET
+		{6208D3E5-73D3-4074-B3B5-8844E9FE1BE3}.Release.Build.0 = Release|.NET
+		{D23C91D1-8732-43C6-A9C0-33EFB9F4B3B6}.Debug.ActiveCfg = Debug|.NET
+		{D23C91D1-8732-43C6-A9C0-33EFB9F4B3B6}.Debug.Build.0 = Debug|.NET
+		{D23C91D1-8732-43C6-A9C0-33EFB9F4B3B6}.Release.ActiveCfg = Release|.NET
+		{D23C91D1-8732-43C6-A9C0-33EFB9F4B3B6}.Release.Build.0 = Release|.NET
+		{2D2FA684-A431-4B19-8489-9E1C68D573F0}.Debug.ActiveCfg = Debug|.NET
+		{2D2FA684-A431-4B19-8489-9E1C68D573F0}.Debug.Build.0 = Debug|.NET
+		{2D2FA684-A431-4B19-8489-9E1C68D573F0}.Release.ActiveCfg = Release|.NET
+		{2D2FA684-A431-4B19-8489-9E1C68D573F0}.Release.Build.0 = Release|.NET
+		{56B38455-81F7-4CDE-B87D-F1A64C8553DB}.Debug.ActiveCfg = Debug|.NET
+		{56B38455-81F7-4CDE-B87D-F1A64C8553DB}.Debug.Build.0 = Debug|.NET
+		{56B38455-81F7-4CDE-B87D-F1A64C8553DB}.Release.ActiveCfg = Release|.NET
+		{56B38455-81F7-4CDE-B87D-F1A64C8553DB}.Release.Build.0 = Release|.NET
+		{8F98AF1E-6B26-4CA4-99BC-24865EDE0D6F}.Debug.ActiveCfg = Debug|.NET
+		{8F98AF1E-6B26-4CA4-99BC-24865EDE0D6F}.Debug.Build.0 = Debug|.NET
+		{8F98AF1E-6B26-4CA4-99BC-24865EDE0D6F}.Release.ActiveCfg = Release|.NET
+		{8F98AF1E-6B26-4CA4-99BC-24865EDE0D6F}.Release.Build.0 = Release|.NET
+		{BF8586E7-BB42-41C9-BF63-E67AEAC2D051}.Debug.ActiveCfg = Debug|.NET
+		{BF8586E7-BB42-41C9-BF63-E67AEAC2D051}.Debug.Build.0 = Debug|.NET
+		{BF8586E7-BB42-41C9-BF63-E67AEAC2D051}.Release.ActiveCfg = Release|.NET
+		{BF8586E7-BB42-41C9-BF63-E67AEAC2D051}.Release.Build.0 = Release|.NET
+		{BF8586E7-BB42-41C9-BF63-E67AEAC2D052}.Debug.ActiveCfg = Debug|.NET
+		{BF8586E7-BB42-41C9-BF63-E67AEAC2D052}.Debug.Build.0 = Debug|.NET
+		{BF8586E7-BB42-41C9-BF63-E67AEAC2D052}.Release.ActiveCfg = Release|.NET
+		{BF8586E7-BB42-41C9-BF63-E67AEAC2D052}.Release.Build.0 = Release|.NET
+		{FAE04EC0-301F-11D3-BF4B-00C04F79EFBD}.Debug.ActiveCfg = Debug|.NET
+		{FAE04EC0-301F-11D3-BF4B-00C04F79EFBD}.Debug.Build.0 = Debug|.NET
+		{FAE04EC0-301F-11D3-BF4B-00C04F79EFBD}.Release.ActiveCfg = Release|.NET
+		{FAE04EC0-301F-11D3-BF4B-00C04F79EFBD}.Release.Build.0 = Release|.NET
+		{D4A4A318-7696-4147-B348-ADEB0AB088F9}.Debug.ActiveCfg = Debug|.NET
+		{D4A4A318-7696-4147-B348-ADEB0AB088F9}.Debug.Build.0 = Debug|.NET
+		{D4A4A318-7696-4147-B348-ADEB0AB088F9}.Release.ActiveCfg = Release|.NET
+		{D4A4A318-7696-4147-B348-ADEB0AB088F9}.Release.Build.0 = Release|.NET
+		{C2036B2F-173C-4A48-9E61-D320C5DC79A7}.Debug.ActiveCfg = Debug|.NET
+		{C2036B2F-173C-4A48-9E61-D320C5DC79A7}.Debug.Build.0 = Debug|.NET
+		{C2036B2F-173C-4A48-9E61-D320C5DC79A7}.Release.ActiveCfg = Release|.NET
+		{C2036B2F-173C-4A48-9E61-D320C5DC79A7}.Release.Build.0 = Release|.NET
+		{B6A5FEF9-ED36-42AA-9040-39B274764349}.Debug.ActiveCfg = Debug|.NET
+		{B6A5FEF9-ED36-42AA-9040-39B274764349}.Debug.Build.0 = Debug|.NET
+		{B6A5FEF9-ED36-42AA-9040-39B274764349}.Release.ActiveCfg = Release|.NET
+		{B6A5FEF9-ED36-42AA-9040-39B274764349}.Release.Build.0 = Release|.NET
+		{1A7FFEFD-DED5-41A7-A57E-263CAE44C57B}.Debug.ActiveCfg = Debug|.NET
+		{1A7FFEFD-DED5-41A7-A57E-263CAE44C57B}.Debug.Build.0 = Debug|.NET
+		{1A7FFEFD-DED5-41A7-A57E-263CAE44C57B}.Release.ActiveCfg = Release|.NET
+		{1A7FFEFD-DED5-41A7-A57E-263CAE44C57B}.Release.Build.0 = Release|.NET
+		{FBA92489-5636-4D44-8BF2-17F0795BAB5D}.Debug.ActiveCfg = Debug|.NET
+		{FBA92489-5636-4D44-8BF2-17F0795BAB5D}.Debug.Build.0 = Debug|.NET
+		{FBA92489-5636-4D44-8BF2-17F0795BAB5D}.Release.ActiveCfg = Release|.NET
+		{FBA92489-5636-4D44-8BF2-17F0795BAB5D}.Release.Build.0 = Release|.NET
+		{F790CC17-DF6D-49DD-946E-645EBFA70063}.Debug.ActiveCfg = Debug|.NET
+		{F790CC17-DF6D-49DD-946E-645EBFA70063}.Debug.Build.0 = Debug|.NET
+		{F790CC17-DF6D-49DD-946E-645EBFA70063}.Release.ActiveCfg = Release|.NET
+		{F790CC17-DF6D-49DD-946E-645EBFA70063}.Release.Build.0 = Release|.NET
+		{347F79E4-AB0A-4FC7-8D93-D131E96D9F08}.Debug.ActiveCfg = Debug|.NET
+		{347F79E4-AB0A-4FC7-8D93-D131E96D9F08}.Debug.Build.0 = Debug|.NET
+		{347F79E4-AB0A-4FC7-8D93-D131E96D9F08}.Release.ActiveCfg = Release|.NET
+		{347F79E4-AB0A-4FC7-8D93-D131E96D9F08}.Release.Build.0 = Release|.NET
+		{0C07E861-90C4-4A53-B212-C365DB013D09}.Debug.ActiveCfg = Debug|.NET
+		{0C07E861-90C4-4A53-B212-C365DB013D09}.Debug.Build.0 = Debug|.NET
+		{0C07E861-90C4-4A53-B212-C365DB013D09}.Release.ActiveCfg = Release|.NET
+		{0C07E861-90C4-4A53-B212-C365DB013D09}.Release.Build.0 = Release|.NET
+		{624D384E-0BC7-43F1-9AD1-11A79A38C797}.Debug.ActiveCfg = Debug|.NET
+		{624D384E-0BC7-43F1-9AD1-11A79A38C797}.Debug.Build.0 = Debug|.NET
+		{624D384E-0BC7-43F1-9AD1-11A79A38C797}.Release.ActiveCfg = Release|.NET
+		{624D384E-0BC7-43F1-9AD1-11A79A38C797}.Release.Build.0 = Release|.NET
+		{1FF3319A-139C-409B-B1FE-C77DD92332EF}.Debug.ActiveCfg = Debug|.NET
+		{1FF3319A-139C-409B-B1FE-C77DD92332EF}.Debug.Build.0 = Debug|.NET
+		{1FF3319A-139C-409B-B1FE-C77DD92332EF}.Release.ActiveCfg = Release|.NET
+		{1FF3319A-139C-409B-B1FE-C77DD92332EF}.Release.Build.0 = Release|.NET
+		{32FE4017-234E-41CE-ADDA-43BCDCBE00F1}.Debug.ActiveCfg = Debug|.NET
+		{32FE4017-234E-41CE-ADDA-43BCDCBE00F1}.Debug.Build.0 = Debug|.NET
+		{32FE4017-234E-41CE-ADDA-43BCDCBE00F1}.Release.ActiveCfg = Release|.NET
+		{32FE4017-234E-41CE-ADDA-43BCDCBE00F1}.Release.Build.0 = Release|.NET
+		{3CACD6DC-E65D-4C4E-8999-32409F517DAA}.Debug.ActiveCfg = Debug|.NET
+		{3CACD6DC-E65D-4C4E-8999-32409F517DAA}.Debug.Build.0 = Debug|.NET
+		{3CACD6DC-E65D-4C4E-8999-32409F517DAA}.Release.ActiveCfg = Release|.NET
+		{3CACD6DC-E65D-4C4E-8999-32409F517DAA}.Release.Build.0 = Release|.NET
+		{3BFFD305-AD7D-463D-8121-B8362298CAF2}.Debug.ActiveCfg = Debug|.NET
+		{3BFFD305-AD7D-463D-8121-B8362298CAF2}.Debug.Build.0 = Debug|.NET
+		{3BFFD305-AD7D-463D-8121-B8362298CAF2}.Release.ActiveCfg = Release|.NET
+		{3BFFD305-AD7D-463D-8121-B8362298CAF2}.Release.Build.0 = Release|.NET
+		{9C754769-5DCC-43AC-A7D7-35C6A88B53C5}.Debug.ActiveCfg = Debug|.NET
+		{9C754769-5DCC-43AC-A7D7-35C6A88B53C5}.Debug.Build.0 = Debug|.NET
+		{9C754769-5DCC-43AC-A7D7-35C6A88B53C5}.Release.ActiveCfg = Release|.NET
+		{9C754769-5DCC-43AC-A7D7-35C6A88B53C5}.Release.Build.0 = Release|.NET
+		{55DC4EE5-B817-4F57-B255-ABE98E04C035}.Debug.ActiveCfg = Debug|.NET
+		{55DC4EE5-B817-4F57-B255-ABE98E04C035}.Debug.Build.0 = Debug|.NET
+		{55DC4EE5-B817-4F57-B255-ABE98E04C035}.Release.ActiveCfg = Release|.NET
+		{55DC4EE5-B817-4F57-B255-ABE98E04C035}.Release.Build.0 = Release|.NET
+		{4D21B465-4F09-4DB4-A4F2-D07D86B1A02E}.Debug.ActiveCfg = Debug|.NET
+		{4D21B465-4F09-4DB4-A4F2-D07D86B1A02E}.Debug.Build.0 = Debug|.NET
+		{4D21B465-4F09-4DB4-A4F2-D07D86B1A02E}.Release.ActiveCfg = Release|.NET
+		{4D21B465-4F09-4DB4-A4F2-D07D86B1A02E}.Release.Build.0 = Release|.NET
+		{8C745658-4A4B-4CC3-B6F2-0A8F6B864871}.Debug.ActiveCfg = Debug|.NET
+		{8C745658-4A4B-4CC3-B6F2-0A8F6B864871}.Debug.Build.0 = Debug|.NET
+		{8C745658-4A4B-4CC3-B6F2-0A8F6B864871}.Release.ActiveCfg = Release|.NET
+		{8C745658-4A4B-4CC3-B6F2-0A8F6B864871}.Release.Build.0 = Release|.NET
+		{868D149C-527D-4248-B863-B592FE279691}.Debug.ActiveCfg = Debug|.NET
+		{868D149C-527D-4248-B863-B592FE279691}.Debug.Build.0 = Debug|.NET
+		{868D149C-527D-4248-B863-B592FE279691}.Release.ActiveCfg = Release|.NET
+		{868D149C-527D-4248-B863-B592FE279691}.Release.Build.0 = Release|.NET
+		{49AF6EF8-A6D9-48C5-B885-55208CD3492F}.Debug.ActiveCfg = Debug|.NET
+		{49AF6EF8-A6D9-48C5-B885-55208CD3492F}.Debug.Build.0 = Debug|.NET
+		{49AF6EF8-A6D9-48C5-B885-55208CD3492F}.Release.ActiveCfg = Release|.NET
+		{49AF6EF8-A6D9-48C5-B885-55208CD3492F}.Release.Build.0 = Release|.NET
+		{C2DADA4B-8B63-4835-BF0F-E3A5E767F9A9}.Debug.ActiveCfg = Debug|.NET
+		{C2DADA4B-8B63-4835-BF0F-E3A5E767F9A9}.Debug.Build.0 = Debug|.NET
+		{C2DADA4B-8B63-4835-BF0F-E3A5E767F9A9}.Release.ActiveCfg = Release|.NET
+		{C2DADA4B-8B63-4835-BF0F-E3A5E767F9A9}.Release.Build.0 = Release|.NET
+		{A44567E0-757A-4F10-BC55-B142FC226945}.Debug.ActiveCfg = Debug|.NET
+		{A44567E0-757A-4F10-BC55-B142FC226945}.Debug.Build.0 = Debug|.NET
+		{A44567E0-757A-4F10-BC55-B142FC226945}.Release.ActiveCfg = Release|.NET
+		{A44567E0-757A-4F10-BC55-B142FC226945}.Release.Build.0 = Release|.NET
+		{BF607E54-BB4C-40F6-B8AE-67618D2267F6}.Debug.ActiveCfg = Debug|.NET
+		{BF607E54-BB4C-40F6-B8AE-67618D2267F6}.Debug.Build.0 = Debug|.NET
+		{BF607E54-BB4C-40F6-B8AE-67618D2267F6}.Release.ActiveCfg = Release|.NET
+		{BF607E54-BB4C-40F6-B8AE-67618D2267F6}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

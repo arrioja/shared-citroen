@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.Announcements", "Rainbow.Modules.Announcements.csproj", "{A315638B-37E4-4194-8602-67CA076723B3}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{A315638B-37E4-4194-8602-67CA076723B3}.Debug.ActiveCfg = Debug|.NET
+		{A315638B-37E4-4194-8602-67CA076723B3}.Debug.Build.0 = Debug|.NET
+		{A315638B-37E4-4194-8602-67CA076723B3}.Release.ActiveCfg = Release|.NET
+		{A315638B-37E4-4194-8602-67CA076723B3}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

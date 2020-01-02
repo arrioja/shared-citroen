@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Modules>
+	<Module>
+		<FriendlyName>Admin - Newsletter</FriendlyName>
+		<DesktopSource>DesktopModules/Newsletter/Newsletter.ascx</DesktopSource>
+		<MobileSource></MobileSource>
+	</Module>
+	<Module>
+		<FriendlyName>Admin - BlackList</FriendlyName>
+		<DesktopSource>DesktopModules/Newsletter/BlackList.ascx</DesktopSource>
+		<MobileSource></MobileSource>
+	</Module>
+</Modules>

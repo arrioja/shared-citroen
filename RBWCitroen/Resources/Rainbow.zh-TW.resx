@@ -1,0 +1,957 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3102.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3102.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="ABI">
+		<value>ABI</value>
+	</data>
+	<data name="ACCEPT">
+		<value>接受</value>
+	</data>
+	<data name="ACCESSDENIED">
+		<value>存取拒絕</value>
+	</data>
+	<data name="ACCESS_DENIED_MESSAGE">
+		<value>你沒有存取此頁面的權利或者是你尚未登入.如果有疑問請向管理者連絡</value>
+	</data>
+	<data name="ACCOUNT_INFO">
+		<value>帳號資訊</value>
+	</data>
+	<data name="ACCOUNT_LOGIN">
+		<value>帳號登入</value>
+	</data>
+	<data name="ADD">
+		<value>新增</value>
+	</data>
+	<data name="ADD_DOCUMENT">
+		<value>新增文件</value>
+	</data>
+	<data name="ADD_NEW">
+		<value>新增</value>
+	</data>
+	<data name="ADD_NEW_USER">
+		<value>新增使用者</value>
+	</data>
+	<data name="ADD_PORTAL">
+		<value>新增portal</value>
+	</data>
+	<data name="ADDRESS">
+		<value>住址</value>
+	</data>
+	<data name="ADDTAB">
+		<value>新增頁面</value>
+	</data>
+	<data name="ADDUSER">
+		<value>將此使用者加入此群組</value>
+	</data>
+	<data name="ADMIN_MODULE">
+		<value>是/否 管理者?</value>
+	</data>
+	<data name="ADVPAYM">
+		<value>預先付款</value>
+	</data>
+	<data name="ALREADY_REGISTERED">
+		<value>已經註冊</value>
+	</data>
+	<data name="ALREADY_REGISTERED1">
+		<value>如果你已經有帳號</value>
+	</data>
+	<data name="AM_ADDMODULE">
+		<value>新增模組</value>
+	</data>
+	<data name="AM_ADDMODULEBELOW">
+		<value>新增到下方</value>
+	</data>
+	<data name="AM_ADDROLE">
+		<value>新增群組</value>
+	</data>
+	<data name="AM_BASESOLUTION">
+		<value>基本的解決方法</value>
+	</data>
+	<data name="AM_CENTERPANEL">
+		<value>頁面中間區塊</value>
+	</data>
+	<data name="AM_LEFTPANEL">
+		<value>頁面左邊區塊</value>
+	</data>
+	<data name="AM_MOBILETAB">
+		<value>行動裝置之頁面名稱</value>
+	</data>
+	<data name="AM_MODULENAME">
+		<value>模組名稱</value>
+	</data>
+	<data name="AM_MODULETYPE">
+		<value>模組種類</value>
+	</data>
+	<data name="AM_ORGANIZEMODULE">
+		<value>編排模組位置</value>
+	</data>
+	<data name="AM_PORTALALIAS">
+		<value>portal化名</value>
+	</data>
+	<data name="AM_RIGHTPANEL">
+		<value>頁面右邊區塊</value>
+	</data>
+	<data name="AM_ROLESAUTH">
+		<value>可使用此頁面之群組</value>
+	</data>
+	<data name="AM_SHOWEDIT">
+		<value>永遠顯示編輯按鈕?</value>
+	</data>
+	<data name="AM_SHOWMOBILE">
+		<value>顯示於行動裝置上</value>
+	</data>
+	<data name="AM_SITEPATH">
+		<value>網站路徑</value>
+	</data>
+	<data name="AM_SITETITLE">
+		<value>網站名稱</value>
+	</data>
+	<data name="AM_TABNAME">
+		<value>頁面名稱和外觀</value>
+	</data>
+	<data name="AM_TABNAME1">
+		<value>頁面名稱</value>
+	</data>
+	<data name="AM_TABS">
+		<value>頁面</value>
+	</data>
+	<data name="AM_THEME">
+		<value>外觀</value>
+	</data>
+	<data name="ANNOUNCES_ADD">
+		<value>新增公佈事項</value>
+	</data>
+	<data name="ANNOUNCES_DESCRIPTION">
+		<value>描述</value>
+	</data>
+	<data name="ANNOUNCES_DETAILS">
+		<value>公佈事項明細</value>
+	</data>
+	<data name="ANNOUNCES_EXPIRES">
+		<value>到期日</value>
+	</data>
+	<data name="ANNOUNCES_READ_MORE_LINK">
+		<value>完整路徑</value>
+	</data>
+	<data name="ANNOUNCES_READ_MORE_MOBILE">
+		<value>完整路徑(行動裝置)</value>
+	</data>
+	<data name="ANNOUNCES_TITLE">
+		<value>標題</value>
+	</data>
+	<data name="ANNOUNCES_VALID_DESCRIPTION">
+		<value>你必須輸入一個正確的資訊</value>
+	</data>
+	<data name="ANNOUNCES_VALID_EXPIRE">
+		<value>你必須輸入一個正確的截止日期</value>
+	</data>
+	<data name="ANNOUNCES_VALID_TITLE">
+		<value>你必須輸入一個正確的標題</value>
+	</data>
+	<data name="APPLY">
+		<value>儲存變更</value>
+	</data>
+	<data name="APPLYNAME">
+		<value>儲存變更</value>
+	</data>
+	<data name="APPLYTHEME">
+		<value>儲存變更</value>
+	</data>
+	<data name="AREA">
+		<value>區域</value>
+	</data>
+	<data name="AUTHOR">
+		<value>作者</value>
+	</data>
+	<data name="BANK">
+		<value>銀行</value>
+	</data>
+	<data name="BOTTOM">
+		<value>按鈕</value>
+	</data>
+	<data name="BUYNOW">
+		<value>現在購買</value>
+	</data>
+	<data name="CAB">
+		<value>CAB</value>
+	</data>
+	<data name="CACHETIMEOUT">
+		<value>快取時間限制</value>
+	</data>
+	<data name="CANCEL">
+		<value>取消</value>
+	</data>
+	<data name="CATEGORY">
+		<value>種類</value>
+	</data>
+	<data name="CFISCALE">
+		<value>身分證字號</value>
+	</data>
+	<data name="CITY">
+		<value>城市</value>
+	</data>
+	<data name="COLLECTION_PROPERTIES">
+		<value>種類</value>
+	</data>
+	<data name="COMPANY">
+		<value>公司</value>
+	</data>
+	<data name="CONDITIONS">
+		<value>工作內容</value>
+	</data>
+	<data name="CONFIRM">
+		<value>確認密碼</value>
+	</data>
+	<data name="CONFIRM_DELETE">
+		<value>刪除此項目?</value>
+	</data>
+	<data name="CONTACTS_ADD">
+		<value>新增聯絡</value>
+	</data>
+	<data name="CONTACTS_CONTACT1">
+		<value>聯絡1</value>
+	</data>
+	<data name="CONTACTS_CONTACT2">
+		<value>聯絡2</value>
+	</data>
+	<data name="CONTACTS_DETAILS">
+		<value>詳細聯絡內容</value>
+	</data>
+	<data name="CONTACTS_EMAIL">
+		<value>電子信箱</value>
+	</data>
+	<data name="CONTACTS_NAME">
+		<value>名稱</value>
+	</data>
+	<data name="CONTACTS_ROLE">
+		<value>角色</value>
+	</data>
+	<data name="CONTACTS_VALID_NAME">
+		<value>你必須輸入一個正確的姓名</value>
+	</data>
+	<data name="COUNTRY">
+		<value>國家/行政區域</value>
+	</data>
+	<data name="CREATED_BY">
+		<value>作者</value>
+	</data>
+	<data name="CREATEDBY">
+		<value>作者</value>
+	</data>
+	<data name="DATE">
+		<value>日期</value>
+	</data>
+	<data name="DECLINE">
+		<value>不需要,謝謝!</value>
+	</data>
+	<data name="DelayExpire">
+		<value>預設的到期日期</value>
+	</data>
+	<data name="DELETE">
+		<value>刪除</value>
+	</data>
+	<data name="DELETE_THIS_ITEM">
+		<value>刪除此項目</value>
+	</data>
+	<data name="DELETE_USER">
+		<value>刪除使用者</value>
+	</data>
+	<data name="DELETEBTN">
+		<value>刪除選取的項目</value>
+	</data>
+	<data name="DELUSER">
+		<value>將此使用者從此群組中移除</value>
+	</data>
+	<data name="DESCRIPTION">
+		<value>描述</value>
+	</data>
+	<data name="DESKTOP_SOURCE">
+		<value>檔案路徑</value>
+	</data>
+	<data name="DOCUMENT_DETAILS">
+		<value>文件的詳細內容</value>
+	</data>
+	<data name="DOCUMENTS_FOLDER">
+		<value>文件名稱</value>
+	</data>
+	<data name="DOCUMENTS_SOURCE">
+		<value>文件的資料來源</value>
+	</data>
+	<data name="DS_BODY">
+		<value>內容</value>
+	</data>
+	<data name="DS_MSGDETAILS">
+		<value>討論區的詳細資料</value>
+	</data>
+	<data name="DS_NEWTHREAD">
+		<value>新增新的留言</value>
+	</data>
+	<data name="DS_ORIGINALMSG">
+		<value>原始訊息</value>
+	</data>
+	<data name="DS_REPLYTHISMSG">
+		<value>回覆此訊息</value>
+	</data>
+	<data name="EDIT">
+		<value>編輯</value>
+	</data>
+	<data name="EDIT_ACCESS_DENIED">
+		<value>拒絕編輯</value>
+	</data>
+	<data name="EDIT_ACCESS_DENIED_MESSAGE">
+		<value>你沒有存取此頁面的權利或者是你尚未登入.如果有疑問請向管理者連絡</value>
+	</data>
+	<data name="EDIT_PORTAL">
+		<value>編輯此Portal</value>
+	</data>
+	<data name="EDIT_USER">
+		<value>編輯使用者</value>
+	</data>
+	<data name="EDITBTN">
+		<value>編輯所選取項目的屬性</value>
+	</data>
+	<data name="EMAIL">
+		<value>帳號</value>
+	</data>
+	<data name="EMAILORWINDOW">
+		<value>帳號</value>
+	</data>
+	<data name="EVENTS_ADD">
+		<value>新增事項</value>
+	</data>
+	<data name="EVENTS_DESCRIPTION">
+		<value>詳細的描述</value>
+	</data>
+	<data name="EVENTS_DETAILS">
+		<value>詳細事項</value>
+	</data>
+	<data name="EVENTS_EXPIRES">
+		<value>截止日期</value>
+	</data>
+	<data name="EVENTS_TITLE">
+		<value>標題</value>
+	</data>
+	<data name="EVENTS_VALID_DESCRIPTION">
+		<value>你必須輸入一個正確的描述</value>
+	</data>
+	<data name="EVENTS_VALID_EXPIRE">
+		<value>你必須輸入一個正確的到期日</value>
+	</data>
+	<data name="EVENTS_VALID_TITLE">
+		<value>你必須輸入一個正確的標題</value>
+	</data>
+	<data name="EVENTS_VALID_WHEN-WHERE">
+		<value>你必須輸入一個正確的時間/位置</value>
+	</data>
+	<data name="EVENTS_WHEN-WHERE">
+		<value>哪裡/何時</value>
+	</data>
+	<data name="FAX">
+		<value>傳真</value>
+	</data>
+	<data name="FILE_NAME">
+		<value>檔案名稱</value>
+	</data>
+	<data name="FILE_NOT_FOUND">
+		<value>檔案 %1% 不存在</value>
+	</data>
+	<data name="FILE_UPLOAD_ERROR">
+		<value>你上傳的檔案是不合法的</value>
+	</data>
+	<data name="FRIENDLY_NAME">
+		<value>模組名稱</value>
+	</data>
+	<data name="GUID">
+		<value>Guid</value>
+	</data>
+	<data name="HERE">
+		<value>這裡</value>
+	</data>
+	<data name="IMAGE">
+		<value>影像</value>
+	</data>
+	<data name="IMAGE_UPLOAD_ERROR">
+		<value>你所上傳的檔案是不合法的.請確定檔案型別是否正確</value>
+	</data>
+	<data name="IN">
+		<value>在</value>
+	</data>
+	<data name="INSERT_CONFIRM">
+		<value>驗證密碼不能留下空白字串</value>
+	</data>
+	<data name="INSERT_EMAIL">
+		<value>電子信箱不能留下空白字串</value>
+	</data>
+	<data name="INSERT_NAME">
+		<value>姓名不能留下空白字串</value>
+	</data>
+	<data name="INSERT_PASSWORD">
+		<value>密碼不能留下空白字串</value>
+	</data>
+	<data name="LAST_UPDATED">
+		<value>最後更新日</value>
+	</data>
+	<data name="LASTNAME">
+		<value>姓</value>
+	</data>
+	<data name="LEFT">
+		<value>左</value>
+	</data>
+	<data name="LINKDETAILS">
+		<value>詳細資料連結</value>
+	</data>
+	<data name="LinkedModule">
+		<value>模組連結</value>
+	</data>
+	<data name="LOAD_THEME_ERROR">
+		<value>無法載入外觀 %1% .預設外觀無法存取</value>
+	</data>
+	<data name="LOGIN_FAILED">
+		<value>登入失敗!</value>
+	</data>
+	<data name="LOGOFF">
+		<value>登出</value>
+	</data>
+	<data name="MERCHANT">
+		<value>商人ID</value>
+	</data>
+	<data name="MIDDLE">
+		<value>中間</value>
+	</data>
+	<data name="MOBILE_SOURCE">
+		<value>行動裝置路徑</value>
+	</data>
+	<data name="MOBILEURL">
+		<value>行動裝置網址</value>
+	</data>
+	<data name="MODIFIED_BY">
+		<value>作者</value>
+	</data>
+	<data name="MODULE_TITLE">
+		<value>新增模組名稱</value>
+	</data>
+	<data name="MODULE_TYPE_DEFINITION">
+		<value>定義模組種類</value>
+	</data>
+	<data name="MODULENAME">
+		<value>模組名稱</value>
+	</data>
+	<data name="MODULESETTINGS">
+		<value>模組設定</value>
+	</data>
+	<data name="MOVEDOWN">
+		<value>往下移</value>
+	</data>
+	<data name="MOVELEFT">
+		<value>往左移</value>
+	</data>
+	<data name="MOVERIGHT">
+		<value>往右移</value>
+	</data>
+	<data name="MOVEUP">
+		<value>往上移</value>
+	</data>
+	<data name="NAME">
+		<value>名稱</value>
+	</data>
+	<data name="NEW_PORTAL_ERROR">
+		<value>你所新增之portal名稱已存在,請重新輸入</value>
+	</data>
+	<data name="NO_ACCOUNT">
+		<value>如果沒有帳號</value>
+	</data>
+	<data name="NO_MODULE">
+		<value>沒有此模組</value>
+	</data>
+	<data name="NOTE">
+		<value>備註</value>
+	</data>
+	<data name="ON">
+		<value>在</value>
+	</data>
+	<data name="OR">
+		<value>或</value>
+	</data>
+	<data name="OWNER">
+		<value>作者</value>
+	</data>
+	<data name="PASSWORD">
+		<value>密碼</value>
+	</data>
+	<data name="PASSWORD_NOT_MATCH">
+		<value>密碼確認錯誤</value>
+	</data>
+	<data name="PHONE">
+		<value>電話</value>
+	</data>
+	<data name="PIVA">
+		<value>公司行號</value>
+	</data>
+	<data name="HOME">
+		<value>首頁</value>
+	</data>
+	<data name="PORTALS">
+		<value>Portals</value>
+	</data>
+	<data name="POSTED_BY">
+		<value>從</value>
+	</data>
+	<data name="POSTED_DATE">
+		<value>公佈</value>
+	</data>
+	<data name="PROFILE_INFO">
+		<value>Profile informations</value>
+	</data>
+	<data name="PROPERTIES">
+		<value>編輯collection屬性</value>
+	</data>
+	<data name="PROV_STATE">
+		<value>狀態/範圍</value>
+	</data>
+	<data name="READ_FULL_ANNOUNCE">
+		<value>讀取全部內容</value>
+	</data>
+	<data name="REGISTER">
+		<value>註冊</value>
+	</data>
+	<data name="REGISTER_DIFFERENT">
+		<value>請填寫不同的電子信箱名稱</value>
+	</data>
+	<data name="REGISTER_NOW">
+		<value>註冊並登入</value>
+	</data>
+	<data name="REGISTER_REQUIRED">
+		<value>欲使用此模組請先登入</value>
+	</data>
+	<data name="REGISTERED_USERS">
+		<value>已註冊之使用者</value>
+	</data>
+	<data name="REGISTRATION_FAILED">
+		<value>註冊失敗!</value>
+	</data>
+	<data name="REMEMBER_LOGIN">
+		<value>記住帳號</value>
+	</data>
+	<data name="RETURNHOME">
+		<value>返回首頁</value>
+	</data>
+	<data name="RIGHT">
+		<value>右</value>
+	</data>
+	<data name="ROLESADD">
+		<value>可以擁有新增權限的群組</value>
+	</data>
+	<data name="ROLESCOLLECTION">
+		<value>可以擁有編輯所有權限的群組</value>
+	</data>
+	<data name="ROLESDELETE">
+		<value>可以擁有刪除權限的群組</value>
+	</data>
+	<data name="ROLESEDIT">
+		<value>可以擁有編輯權限的群組</value>
+	</data>
+	<data name="ROLESVIEW">
+		<value>可以擁有觀看權限的群組</value>
+	</data>
+	<data name="ROOM_NUMBER">
+		<value>Number of rooms</value>
+	</data>
+	<data name="ROOT_LEVEL">
+		<value>跟目錄層級</value>
+	</data>
+	<data name="SAVEUSER">
+		<value>儲存</value>
+	</data>
+	<data name="SELECT_ALL">
+		<value>全選</value>
+	</data>
+	<data name="SELECT_NONE">
+		<value>全不選</value>
+	</data>
+	<data name="SEND_NEWSLETTER">
+		<value>發送電子郵件</value>
+	</data>
+	<data name="SENDNEWSLETTER">
+		<value>發送電子郵件</value>
+	</data>
+	<data name="SHOWMOBILE">
+		<value>顯示於行動裝置?</value>
+	</data>
+	<data name="SIGNIN">
+		<value>登入</value>
+	</data>
+	<data name="SUBJECT">
+		<value>主題</value>
+	</data>
+	<data name="SUBMIT">
+		<value>傳送</value>
+	</data>
+	<data name="SUBTITLE">
+		<value>次標題</value>
+	</data>
+	<data name="TAB_DELETE_FAILED">
+		<value>刪除失敗.刪除此頁面之前請先將相關頁面刪除</value>
+	</data>
+	<data name="TAB_NAME">
+		<value>新增頁面</value>
+	</data>
+	<data name="TAB_PARENT">
+		<value>父類別</value>
+	</data>
+	<data name="TABLAYOUT">
+		<value>預設的外觀</value>
+	</data>
+	<data name="TermsOfService">
+		<value>Terms of Service</value>
+	</data>
+	<data name="Theme">
+		<value>外觀</value>
+	</data>
+	<data name="ThemeAlt">
+		<value>次外觀</value>
+	</data>
+	<data name="TITLE">
+		<value>標題</value>
+	</data>
+	<data name="TOP">
+		<value>上</value>
+	</data>
+	<data name="TRANSLATOR">
+		<value>Ann.chiu</value>
+	</data>
+	<data name="TRANSLATOR_EMAIL">
+		<value>Ann.chiu@mail.pouchen.com.tw</value>
+	</data>
+	<data name="UNCHECKED_USERS">
+		<value>尚未確認之使用者</value>
+	</data>
+	<data name="UPDATE">
+		<value>更新</value>
+	</data>
+	<data name="UPLOAD_FILE">
+		<value>上傳檔案</value>
+	</data>
+	<data name="UPLOAD_TO_WEB">
+		<value>上傳至Web Server</value>
+	</data>
+	<data name="URL">
+		<value>網址</value>
+	</data>
+	<data name="URL_TO_BROWSE">
+		<value>瀏覽網址</value>
+	</data>
+	<data name="USER_MESSAGE_DOMAIN1">
+		<value>新增</value>
+	</data>
+	<data name="USER_MESSAGE_DOMAIN2">
+		<value>使用</value>
+	</data>
+	<data name="USER_MESSAGE_DOMAIN3">
+		<value>者</value>
+	</data>
+	<data name="USER_MESSAGE1">
+		<value>Users must be registered to view secure content.</value>
+	</data>
+	<data name="USER_MESSAGE2">
+		<value>Users may add themselves using the Register form, and Administrators may add users to specific roles using the Security Roles function above.</value>
+	</data>
+	<data name="USER_MESSAGE3">
+		<value>This section permits Administrators to manage users and their security roles directly.</value>
+	</data>
+	<data name="VALID_ADDRESS">
+		<value>你必須輸入一個正確的住址</value>
+	</data>
+	<data name="VALID_CITY">
+		<value>你必須輸入一個正確的城市</value>
+	</data>
+	<data name="VALID_CODE">
+		<value>你必須輸入一個正確的郵遞區號</value>
+	</data>
+	<data name="VALID_DATE">
+		<value>你必須輸入一個正確的日期</value>
+	</data>
+	<data name="VALID_EMAIL">
+		<value>請輸入正確的電子郵件名稱</value>
+	</data>
+	<data name="VALID_FIELD">
+		<value>請輸入一個正確的值</value>
+	</data>
+	<data name="VALID_FILE_NAME">
+		<value>請輸入一個正確的檔案名稱</value>
+	</data>
+	<data name="VALID_NAME">
+		<value>請輸入一個正確的名稱</value>
+	</data>
+	<data name="VALID_NUMBER">
+		<value>請輸入一個正確的號碼</value>
+	</data>
+	<data name="VALID_PHONE">
+		<value>請輸入一個正確的電話號碼</value>
+	</data>
+	<data name="VALID_TITLE">
+		<value>請輸入一個正確的標題</value>
+	</data>
+	<data name="VALID_VIEWORDER">
+		<value>請輸入一個正確的觀看次序</value>
+	</data>
+	<data name="VALID_ZIP">
+		<value>請輸入一個正確的郵遞區號</value>
+	</data>
+	<data name="VALIDORDER">
+		<value>請輸入一個正確的觀看次序</value>
+	</data>
+	<data name="VALIDTITLE">
+		<value>請輸入一個正確的標題</value>
+	</data>
+	<data name="VALIDURL">
+		<value>請輸入一個正確的標題</value>
+	</data>
+	<data name="VIEWORDER">
+		<value>觀看次序</value>
+	</data>
+	<data name="WEB_FARM_SUPPORT">
+		<value>儲存</value>
+	</data>
+	<data name="WEBSITE">
+		<value>網頁</value>
+	</data>
+	<data name="WELCOME">
+		<value>歡迎</value>
+	</data>
+	<data name="XMLsrc">
+		<value>XML 來源檔案</value>
+	</data>
+	<data name="XSLsrc">
+		<value>XSL 轉換</value>
+	</data>
+	<data name="ZIP">
+		<value>郵遞區號</value>
+	</data>
+	<data name="EDITOR">
+		<value></value>
+	</data>
+	<data name="LOGON">
+		<value></value>
+	</data>
+	<data name="SIGNIN_ENTER_EMAIL_ADDR">
+		<value></value>
+	</data>
+	<data name="SIGNIN_PWD_MISSING_IN_DB">
+		<value></value>
+	</data>
+	<data name="SIGNIN_PWD_REQUESTED">
+		<value></value>
+	</data>
+	<data name="SIGNIN_PWD_TO">
+		<value></value>
+	</data>
+	<data name="SIGNIN_PWD_WAS_SENT">
+		<value></value>
+	</data>
+	<data name="SIGNIN_SEND_PWD">
+		<value></value>
+	</data>
+	<data name="SIGNIN_THANK_YOU">
+		<value></value>
+	</data>
+	<data name="SIGNIN_YOU_CAN_LOGIN_FROM">
+		<value></value>
+	</data>
+	<data name="SWI_PUBLISH">
+		<value></value>
+	</data>
+	<data name="SWI_ROLESPUBLISHING">
+		<value></value>
+	</data>
+	<data name="SWI_SUPPORTWORKFLOW">
+		<value></value>
+	</data>
+	<data name="SWI_SWAPTOPRODUCTION">
+		<value></value>
+	</data>
+	<data name="SWI_SWAPTOSTAGING">
+		<value></value>
+	</data>
+	<data name="CountriesFilter">
+		<value></value>
+	</data>
+	<data name="EDIT_THIS_ITEM">
+		<value></value>
+	</data>
+	<data name="ERROR_ENTER_A_MODULE_NAME">
+		<value></value>
+	</data>
+	<data name="ERROR_ENTER_A_SOURCE_PATH">
+		<value></value>
+	</data>
+	<data name="RegisterApplyTheme">
+		<value></value>
+	</data>
+	<data name="RegisterShowTitle">
+		<value></value>
+	</data>
+	<data name="RegisterTheme">
+		<value></value>
+	</data>
+	<data name="ShowModifiedBy">
+		<value></value>
+	</data>
+	<data name="ShowTitle">
+		<value></value>
+	</data>
+	<data name="SignInApplyTheme">
+		<value></value>
+	</data>
+	<data name="SignInLocation">
+		<value></value>
+	</data>
+	<data name="SIGNINLOCATION_EVERYPAGE">
+		<value></value>
+	</data>
+	<data name="SIGNINLOCATION_HOMEONLY">
+		<value></value>
+	</data>
+	<data name="SignInPosition">
+		<value></value>
+	</data>
+	<data name="SIGNINPOSITION_CONTENT">
+		<value></value>
+	</data>
+	<data name="SIGNINPOSITION_LEFT">
+		<value></value>
+	</data>
+	<data name="SIGNINPOSITION_RIGHT">
+		<value></value>
+	</data>
+	<data name="SignInShowTitle">
+		<value></value>
+	</data>
+	<data name="SignInTheme">
+		<value></value>
+	</data>
+	<data name="SignInType">
+		<value></value>
+	</data>
+	<data name="SIGNINTYPE_DISABLED">
+		<value></value>
+	</data>
+	<data name="SIGNINTYPE_FORM">
+		<value></value>
+	</data>
+	<data name="SIGNINTYPE_LINK">
+		<value></value>
+	</data>
+	<data name="SITE_PATH">
+		<value></value>
+	</data>
+	<data name="SITE_TITLE">
+		<value></value>
+	</data>
+	<data name="TabKeyPhrase">
+		<value></value>
+	</data>
+	<data name="TabMetaDescription">
+		<value></value>
+	</data>
+	<data name="TabMetaEncoding">
+		<value></value>
+	</data>
+	<data name="TabMetaKeyWords">
+		<value></value>
+	</data>
+	<data name="TabMetaOther">
+		<value></value>
+	</data>
+	<data name="TabTitle">
+		<value></value>
+	</data>
+	<data name="TabUrlKeyword">
+		<value></value>
+	</data>
+	<data name="LAYOUT">
+		<value></value>
+	</data>
+	<data name="PREVIEW">
+		<value></value>
+	</data>
+	<data name="TOTAL">
+		<value></value>
+	</data>
+	<data name="TO">
+		<value></value>
+	</data>
+	<data name="SETTINGS">
+		<value></value>
+	</data>
+	<data name="SAVE">
+		<value></value>
+	</data>
+	<data name="PREVIOUS">
+		<value></value>
+	</data>
+	<data name="PREVIEW">
+		<value></value>
+	</data>
+	<data name="PAGE">
+		<value></value>
+	</data>
+	<data name="NEXT">
+		<value></value>
+	</data>
+	<data name="BACK">
+		<value></value>
+	</data>
+	<data name="CAPTION">
+		<value></value>
+	</data>
+	<data name="CONTACT">
+		<value></value>
+	</data>
+	<data name="CONTINUE">
+		<value></value>
+	</data>
+	<data name="CULTURE">
+		<value></value>
+	</data>
+	<data name="FROM">
+		<value></value>
+	</data>
+</root>

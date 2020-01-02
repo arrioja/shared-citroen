@@ -1,0 +1,207 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Local"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{814ABF72-D59A-4048-AAA2-47702A4CD62C}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "Rainbow.Modules.Discussion"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Flow"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                PreBuildEvent = ""
+                PostBuildEvent = ""
+                RootNamespace = "Rainbow.DesktopModules.Discussion"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "..\..\bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "..\..\bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "..\..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "..\..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "..\..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.XML.dll"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                    HintPath = "..\..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Web.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "..\..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "Esperantus"
+                    AssemblyName = "Esperantus"
+                    HintPath = "..\..\bin\Esperantus.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "Rainbow"
+                    AssemblyName = "Rainbow"
+                    HintPath = "..\..\bin\Rainbow.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "Rainbow.Settings"
+                    AssemblyName = "Rainbow.Settings"
+                    HintPath = "..\..\bin\Rainbow.Settings.dll"
+                    Private = "False"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Discussion.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "Discussion.ascx.cs"
+                    DependentUpon = "Discussion.ascx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DiscussionDB.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DiscussionEdit.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "DiscussionEdit.aspx.cs"
+                    DependentUpon = "DiscussionEdit.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DiscussionPermissions.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "DiscussionViewThread.aspx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "DiscussionViewThread.aspx.cs"
+                    DependentUpon = "DiscussionViewThread.aspx"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "install.sql"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "install.xml"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "readme.txt"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "uninstall.sql"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\1x1.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\delete.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\edit.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\minus.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\new_window.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\plus.gif"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "images\reply.gif"
+                    BuildAction = "Content"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+

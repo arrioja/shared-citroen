@@ -1,0 +1,855 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3102.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3102.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ACCESS_DENIED_MESSAGE">
+    <value>Либо Вы ещё не выполнили вход в систему, либо Вы не имеете прав доступа к этой закладке. Обратитесь к Администратору для получения прав.</value>
+  </data>
+  <data name="ACCOUNT_INFO">
+    <value>Сведения о бюджете</value>
+  </data>
+  <data name="ACCOUNT_LOGIN">
+    <value>Бюджет пользователя</value>
+  </data>
+  <data name="ADD">
+    <value>Добавить</value>
+  </data>
+  <data name="ADD_DOCUMENT">
+    <value>Добавить новый документ</value>
+  </data>
+  <data name="ADD_NEW">
+    <value>Добавить новый</value>
+  </data>
+  <data name="ADD_NEW_USER">
+    <value>Добавить нового пользователя</value>
+  </data>
+  <data name="ADD_PORTAL">
+    <value>Добавить Портал</value>
+  </data>
+  <data name="ADDRESS">
+    <value>Адрес</value>
+  </data>
+  <data name="ADDTAB">
+    <value>Добавить Новую Закладку</value>
+  </data>
+  <data name="ADDUSER">
+    <value>Добавить пользователя к этой роли</value>
+  </data>
+  <data name="ADMIN_MODULE">
+    <value>Административный модуль?</value>
+  </data>
+  <data name="ADVPAYM">
+    <value>Авансовый платеж</value>
+  </data>
+  <data name="ALREADY_REGISTERED">
+    <value>уже зарегистрирован.</value>
+  </data>
+  <data name="ALREADY_REGISTERED1">
+    <value>Если Вы уже имеете бюджет пользователя</value>
+  </data>
+  <data name="AM_ADDMODULE">
+    <value>Добавить Модуль</value>
+  </data>
+  <data name="AM_ADDMODULEBELOW">
+    <value>Добавить в "Упорядочить Модули"</value>
+  </data>
+  <data name="AM_ADDROLE">
+    <value>Добавить Новую Роль</value>
+  </data>
+  <data name="AM_BASESOLUTION">
+    <value>Базовое решение</value>
+  </data>
+  <data name="AM_CENTERPANEL">
+    <value>Центральная Панель</value>
+  </data>
+  <data name="AM_LEFTPANEL">
+    <value>Левая Мини-панель</value>
+  </data>
+  <data name="AM_MOBILETAB">
+    <value>Название Закладки (Мобильные):</value>
+  </data>
+  <data name="AM_MODULENAME">
+    <value>Название Модуля:</value>
+  </data>
+  <data name="AM_MODULETYPE">
+    <value>Тип Модуля</value>
+  </data>
+  <data name="AM_ORGANIZEMODULE">
+    <value>Упорядочить Модули</value>
+  </data>
+  <data name="AM_PORTALALIAS">
+    <value>Псевдоним Портала</value>
+  </data>
+  <data name="AM_RIGHTPANEL">
+    <value>Правая Мини-панель</value>
+  </data>
+  <data name="AM_ROLESAUTH">
+    <value>Зарегистрированные Роли</value>
+  </data>
+  <data name="AM_SHOWEDIT">
+    <value>Всегда показывать кнопку Редактировать?</value>
+  </data>
+  <data name="AM_SHOWMOBILE">
+    <value>Показывать мобильным пользователям</value>
+  </data>
+  <data name="AM_SITEPATH">
+    <value>Путь к Сайту</value>
+  </data>
+  <data name="AM_SITETITLE">
+    <value>Заголовок Сайта</value>
+  </data>
+  <data name="AM_TABNAME">
+    <value>Название и размещение Закладки</value>
+  </data>
+  <data name="AM_TABNAME1">
+    <value>Название Закладки</value>
+  </data>
+  <data name="AM_TABS">
+    <value>Закладки</value>
+  </data>
+  <data name="AM_THEME">
+    <value>Тема оформления</value>
+  </data>
+  <data name="ANNOUNCES_ADD">
+    <value>Добавить новое Объявление</value>
+  </data>
+  <data name="ANNOUNCES_DESCRIPTION">
+    <value>Описание</value>
+  </data>
+  <data name="ANNOUNCES_DETAILS">
+    <value>Тело Объявления</value>
+  </data>
+  <data name="ANNOUNCES_EXPIRES">
+    <value>Истекает</value>
+  </data>
+  <data name="ANNOUNCES_READ_MORE_LINK">
+    <value>Ссылка Подробности</value>
+  </data>
+  <data name="ANNOUNCES_READ_MORE_MOBILE">
+    <value>Подробности (Мобильные)</value>
+  </data>
+  <data name="ANNOUNCES_TITLE">
+    <value>Заголовок</value>
+  </data>
+  <data name="ANNOUNCES_VALID_DESCRIPTION">
+    <value>Вы должны ввести допустимое описание</value>
+  </data>
+  <data name="ANNOUNCES_VALID_EXPIRE">
+    <value>Вы должны ввести допустимую дату истечения срока</value>
+  </data>
+  <data name="ANNOUNCES_VALID_TITLE">
+    <value>Вы должны ввести допустимый Заголовок</value>
+  </data>
+  <data name="APPLY">
+    <value>Применить Изменения</value>
+  </data>
+  <data name="APPLYNAME">
+    <value>Применить изменение Имени и Пароля</value>
+  </data>
+  <data name="APPLYTHEME">
+    <value>Применить Тему Оформления</value>
+  </data>
+  <data name="AREA">
+    <value>Сфера</value>
+  </data>
+  <data name="AUTHOR">
+    <value>Автор</value>
+  </data>
+  <data name="BANK">
+    <value>Банк</value>
+  </data>
+  <data name="BOTTOM">
+    <value>Низ</value>
+  </data>
+  <data name="BUYNOW">
+    <value>Купить Сейчас</value>
+  </data>
+  <data name="CAB">
+    <value>CAB</value>
+  </data>
+  <data name="CACHETIMEOUT">
+    <value>Время Кэширования (сек.)</value>
+  </data>
+  <data name="CANCEL">
+    <value>Отмена</value>
+  </data>
+  <data name="CATEGORY">
+    <value>Категория</value>
+  </data>
+  <data name="CFISCALE">
+    <value>Налоговый код</value>
+  </data>
+  <data name="CITY">
+    <value>Город</value>
+  </data>
+  <data name="COLLECTION_PROPERTIES">
+    <value>Свойства Коллекции</value>
+  </data>
+  <data name="COMPANY">
+    <value>Предприятие</value>
+  </data>
+  <data name="CONDITIONS">
+    <value>Срок службы</value>
+  </data>
+  <data name="CONFIRM">
+    <value>Подтвердить Пароль</value>
+  </data>
+  <data name="CONFIRM_DELETE">
+    <value>Удалить этот пункт?</value>
+  </data>
+  <data name="CONTACTS_ADD">
+    <value>Добавить новый контакт</value>
+  </data>
+  <data name="CONTACTS_CONTACT1">
+    <value>Тел 1</value>
+  </data>
+  <data name="CONTACTS_CONTACT2">
+    <value>Тел 2</value>
+  </data>
+  <data name="CONTACTS_DETAILS">
+    <value>Подробности о контакте</value>
+  </data>
+  <data name="CONTACTS_EMAIL">
+    <value>Эл-почта</value>
+  </data>
+  <data name="CONTACTS_NAME">
+    <value>Имя</value>
+  </data>
+  <data name="CONTACTS_ROLE">
+    <value>Роль</value>
+  </data>
+  <data name="CONTACTS_VALID_NAME">
+    <value>Вы должны ввести допустимое Имя</value>
+  </data>
+  <data name="COUNTRY">
+    <value>Страна/Регион</value>
+  </data>
+  <data name="CREATED_BY">
+    <value>Создано</value>
+  </data>
+  <data name="CREATEDBY">
+    <value>Создано:</value>
+  </data>
+  <data name="DATE">
+    <value>Дата</value>
+  </data>
+  <data name="DECLINE">
+    <value>Нет, спасибо!</value>
+  </data>
+  <data name="DelayExpire">
+    <value>Время Истечения по умолчанию</value>
+  </data>
+  <data name="DELETE">
+    <value>Удалить</value>
+  </data>
+  <data name="DELETE_THIS_ITEM">
+    <value>Удалить этот пункт</value>
+  </data>
+  <data name="DELETE_USER">
+    <value>Удалить пользователя</value>
+  </data>
+  <data name="DELETEBTN">
+    <value>Удалить выбранный пункт</value>
+  </data>
+  <data name="DELUSER">
+    <value>Лишить пользователя этой роли</value>
+  </data>
+  <data name="DESCRIPTION">
+    <value>Описание</value>
+  </data>
+  <data name="DESKTOP_SOURCE">
+    <value>Исходник для настольных (.ascx)</value>
+  </data>
+  <data name="DOCUMENT_DETAILS">
+    <value>Подробности документа</value>
+  </data>
+  <data name="DOCUMENTS_FOLDER">
+    <value>Папка с документами</value>
+  </data>
+  <data name="DOCUMENTS_SOURCE">
+    <value>Исходный Документ</value>
+  </data>
+  <data name="DS_BODY">
+    <value>Тело</value>
+  </data>
+  <data name="DS_MSGDETAILS">
+    <value>Подробности сообщения</value>
+  </data>
+  <data name="DS_NEWTHREAD">
+    <value>Добавить новую нить</value>
+  </data>
+  <data name="DS_ORIGINALMSG">
+    <value>Оригинал Сообщения</value>
+  </data>
+  <data name="DS_REPLYTHISMSG">
+    <value>Ответить на это сообщение</value>
+  </data>
+  <data name="EDIT">
+    <value>Редактировать</value>
+  </data>
+  <data name="EDIT_ACCESS_DENIED">
+    <value>Редактирование запрещено</value>
+  </data>
+  <data name="EDIT_ACCESS_DENIED_MESSAGE">
+    <value>Либо Вы ещё не выполнили вход, либо Вы не имеете прав на редактирование содержимого модуля портала. Обратитесь к администратору, для получения прав.</value>
+  </data>
+  <data name="EDIT_PORTAL">
+    <value>Редактировать Портал</value>
+  </data>
+  <data name="EDIT_USER">
+    <value>Редактировать пользователя</value>
+  </data>
+  <data name="EDITBTN">
+    <value>Редактировать свойства выбранных пунктов</value>
+  </data>
+  <data name="EMAIL">
+    <value>Эл-почта</value>
+  </data>
+  <data name="EMAILORWINDOW">
+    <value>Эл-почта (или имя пользователя домена Windows)</value>
+  </data>
+  <data name="EVENTS_ADD">
+    <value>Добавить новое событие</value>
+  </data>
+  <data name="EVENTS_DESCRIPTION">
+    <value>Описание</value>
+  </data>
+  <data name="EVENTS_DETAILS">
+    <value>Подробности события</value>
+  </data>
+  <data name="EVENTS_EXPIRES">
+    <value>Истекает</value>
+  </data>
+  <data name="EVENTS_TITLE">
+    <value>Заголовок</value>
+  </data>
+  <data name="EVENTS_VALID_DESCRIPTION">
+    <value>Вы должны ввести допустимое описание</value>
+  </data>
+  <data name="EVENTS_VALID_EXPIRE">
+    <value>Вы должны ввести допустимую дату окончания</value>
+  </data>
+  <data name="EVENTS_VALID_TITLE">
+    <value>Вы должны ввести допустимый заголовок</value>
+  </data>
+  <data name="EVENTS_VALID_WHEN-WHERE">
+    <value>Вы должны ввести допустимые Время/Место</value>
+  </data>
+  <data name="EVENTS_WHEN-WHERE">
+    <value>Где/Когда</value>
+  </data>
+  <data name="FAX">
+    <value>Факс</value>
+  </data>
+  <data name="FILE_NAME">
+    <value>Имя Файла</value>
+  </data>
+  <data name="FILE_NOT_FOUND">
+    <value>Файл %1% не найден</value>
+  </data>
+  <data name="FILE_UPLOAD_ERROR">
+    <value>Файл, загружаемый Вами, недопустим.</value>
+  </data>
+  <data name="FRIENDLY_NAME">
+    <value>Удобное название</value>
+  </data>
+  <data name="GUID">
+    <value>Guid</value>
+  </data>
+  <data name="HERE">
+    <value>Здесь</value>
+  </data>
+  <data name="IMAGE">
+    <value>Картинка</value>
+  </data>
+  <data name="IMAGE_UPLOAD_ERROR">
+    <value>Картинка, загружаемая Вами, недопустима. Пожалуйста, проверьте расширение файла (например: *.jpg).</value>
+  </data>
+  <data name="IN">
+    <value>В</value>
+  </data>
+  <data name="INSERT_CONFIRM">
+    <value>Поле 'Подтвердить Пароль' не может оставаться пустым.</value>
+  </data>
+  <data name="INSERT_EMAIL">
+    <value>Поле 'Эл-почта' не может оставаться пустым.</value>
+  </data>
+  <data name="INSERT_NAME">
+    <value>Поле 'Имя' не может оставаться пустым.</value>
+  </data>
+  <data name="INSERT_PASSWORD">
+    <value>Поле Пароль' не может оставаться пустым.</value>
+  </data>
+  <data name="LAST_UPDATED">
+    <value>Последнее обновление</value>
+  </data>
+  <data name="LASTNAME">
+    <value>Фамилия</value>
+  </data>
+  <data name="LEFT">
+    <value>Лево</value>
+  </data>
+  <data name="LINKDETAILS">
+    <value>Подробности ссылки</value>
+  </data>
+  <data name="LinkedModule">
+    <value>Связанный Модуль</value>
+  </data>
+  <data name="LOAD_THEME_ERROR">
+    <value>Невозможно загрузить тему %1%. Умолчание недоступно</value>
+  </data>
+  <data name="LOGIN_FAILED">
+    <value>Неудача при входе!</value>
+  </data>
+  <data name="LOGOFF">
+    <value>Выход</value>
+  </data>
+  <data name="LOGON">
+    <value>Вход</value>
+  </data>
+  <data name="MERCHANT">
+    <value>Идентификационный код</value>
+  </data>
+  <data name="MIDDLE">
+    <value>Середина</value>
+  </data>
+  <data name="MOBILE_SOURCE">
+    <value>Исходник для мобильных (.ascx)</value>
+  </data>
+  <data name="MOBILEURL">
+    <value>URL (Мобильные)</value>
+  </data>
+  <data name="MODIFIED_BY">
+    <value>Изменено</value>
+  </data>
+  <data name="MODULE_TITLE">
+    <value>Название Нового Модуля</value>
+  </data>
+  <data name="MODULE_TYPE_DEFINITION">
+    <value>Описание Типа Модуля</value>
+  </data>
+  <data name="MODULENAME">
+    <value>Название Модуля</value>
+  </data>
+  <data name="MODULESETTINGS">
+    <value>Параметры Модуля</value>
+  </data>
+  <data name="MOVEDOWN">
+    <value>Переместить выбранный пункт вниз</value>
+  </data>
+  <data name="MOVELEFT">
+    <value>Переместить выбранный пункт влево</value>
+  </data>
+  <data name="MOVERIGHT">
+    <value>Переместить выбранный пункт вправо</value>
+  </data>
+  <data name="MOVEUP">
+    <value>Переместить выбранный пункт вверх</value>
+  </data>
+  <data name="NAME">
+    <value>Имя</value>
+  </data>
+  <data name="NEW_PORTAL_ERROR">
+    <value>Произошла ошибка при создании нового портала. Возможно такой портал уже существует. Попробуйте изменить псевдоним портала.</value>
+  </data>
+  <data name="NO_ACCOUNT">
+    <value>Если Вы не имеете бюджета</value>
+  </data>
+  <data name="NO_MODULE">
+    <value>Без Модуля</value>
+  </data>
+  <data name="NOTE">
+    <value>Заметки</value>
+  </data>
+  <data name="ON">
+    <value>на</value>
+  </data>
+  <data name="OR">
+    <value>или</value>
+  </data>
+  <data name="OWNER">
+    <value>Создал:</value>
+  </data>
+  <data name="PASSWORD">
+    <value>Пароль</value>
+  </data>
+  <data name="PASSWORD_NOT_MATCH">
+    <value>Введённый пароль не выдержал проверки.</value>
+  </data>
+  <data name="PHONE">
+    <value>Телефон</value>
+  </data>
+  <data name="PIVA">
+    <value>ОКПО</value>
+  </data>
+  <data name="HOME">
+    <value>Главная Портала</value>
+  </data>
+  <data name="PORTALS">
+    <value>Порталы</value>
+  </data>
+  <data name="POSTED_BY">
+    <value>от:</value>
+  </data>
+  <data name="POSTED_DATE">
+    <value>Отправлено</value>
+  </data>
+  <data name="PROFILE_INFO">
+    <value>Информация о профиле</value>
+  </data>
+  <data name="PROPERTIES">
+    <value>Редактировать свойства коллекции</value>
+  </data>
+  <data name="PROV_STATE">
+    <value>Область/район</value>
+  </data>
+  <data name="READ_FULL_ANNOUNCE">
+    <value>Прочитать полностью</value>
+  </data>
+  <data name="REGISTER">
+    <value>Регистрация</value>
+  </data>
+  <data name="REGISTER_DIFFERENT">
+    <value>Пожалуйста, зарегистрируйтесь с использованием иного адреса Эл-почты.</value>
+  </data>
+  <data name="REGISTER_NOW">
+    <value>Регистрация и вход</value>
+  </data>
+  <data name="REGISTER_REQUIRED">
+    <value>Для использования этого модуля необходима регистрация</value>
+  </data>
+  <data name="REGISTERED_USERS">
+    <value>Зарегистрированные пользователи</value>
+  </data>
+  <data name="REGISTRATION_FAILED">
+    <value>Регистрация неудачна!</value>
+  </data>
+  <data name="ABI">
+    <value>ABI</value>
+  </data>
+  <data name="ACCEPT">
+    <value>Я принимаю постановления и условия</value>
+  </data>
+  <data name="ACCESSDENIED">
+    <value>Доступ Запрещён</value>
+  </data>
+  <data name="REMEMBER_LOGIN">
+    <value>Запомнить</value>
+  </data>
+  <data name="RETURNHOME">
+    <value>Вернуться на главную страницу</value>
+  </data>
+  <data name="RIGHT">
+    <value>Право</value>
+  </data>
+  <data name="ROLESADD">
+    <value>Роли, которые могут добавлять информацию</value>
+  </data>
+  <data name="ROLESCOLLECTION">
+    <value>Роли, которые могут редактировать информационные ленты</value>
+  </data>
+  <data name="ROLESDELETE">
+    <value>Роли, которые могут удалять информацию</value>
+  </data>
+  <data name="ROLESEDIT">
+    <value>Роли, которые могут редактировать информацию</value>
+  </data>
+  <data name="ROLESVIEW">
+    <value>Роли, которые могут просматривать информацию</value>
+  </data>
+  <data name="ROOM_NUMBER">
+    <value>Кол-во мест</value>
+  </data>
+  <data name="ROOT_LEVEL">
+    <value>Верхний Уровень</value>
+  </data>
+  <data name="SAVEUSER">
+    <value>Сохранить изменения</value>
+  </data>
+  <data name="SELECT_ALL">
+    <value>Выбрать всё</value>
+  </data>
+  <data name="SELECT_NONE">
+    <value>Снять выделение</value>
+  </data>
+  <data name="SEND_NEWSLETTER">
+    <value>Посылать информационные бюллетени</value>
+  </data>
+  <data name="SENDNEWSLETTER">
+    <value>Послать информационный бюллетень</value>
+  </data>
+  <data name="SHOWMOBILE">
+    <value>Показывать мобильным пользователям?</value>
+  </data>
+  <data name="SIGNIN">
+    <value>Вход</value>
+  </data>
+  <data name="SIGNIN_ENTER_EMAIL_ADDR">
+    <value>Пожалуйста, введите адрес Эл-почты</value>
+  </data>
+  <data name="SIGNIN_PWD_MISSING_IN_DB">
+    <value>Ваш пароль не был найден в базе данных</value>
+  </data>
+  <data name="SIGNIN_PWD_REQUESTED">
+    <value>Пароль, который Вы запросили:</value>
+  </data>
+  <data name="SIGNIN_PWD_TO">
+    <value>Пароль к:</value>
+  </data>
+  <data name="SIGNIN_PWD_WAS_SENT">
+    <value>Ваш пароль был отослан по указанному адресу Эл-почты.</value>
+  </data>
+  <data name="SIGNIN_SEND_PWD">
+    <value>Отослать пароль</value>
+  </data>
+  <data name="SIGNIN_THANK_YOU">
+    <value>Спасибо Вам, и мы надеемся на приятные впечатления от визита</value>
+  </data>
+  <data name="SIGNIN_YOU_CAN_LOGIN_FROM">
+    <value>Вы можете выполнить вход с</value>
+  </data>
+  <data name="SUBJECT">
+    <value>Тема</value>
+  </data>
+  <data name="SUBMIT">
+    <value>Подтвердить</value>
+  </data>
+  <data name="SUBTITLE">
+    <value>Подзаголовок</value>
+  </data>
+  <data name="SWI_PUBLISH">
+    <value>Публикация</value>
+  </data>
+  <data name="SWI_ROLESPUBLISHING">
+    <value>Авторизированные роли к публикации</value>
+  </data>
+  <data name="SWI_SUPPORTWORKFLOW">
+    <value>Включить поддержку документооборота</value>
+  </data>
+  <data name="SWI_SWAPTOPRODUCTION">
+    <value>Переход к рабочей версии</value>
+  </data>
+  <data name="SWI_SWAPTOSTAGING">
+    <value>Переход к демо. Версии</value>
+  </data>
+  <data name="TAB_DELETE_FAILED">
+    <value>Ошибка Удаления. Пожалуйста, перед удалением закладки удалите связанные с ней модули.</value>
+  </data>
+  <data name="TAB_NAME">
+    <value>Новая закладка (вставьте Название)</value>
+  </data>
+  <data name="TAB_PARENT">
+    <value>Вышестоящая Закладка</value>
+  </data>
+  <data name="TABLAYOUT">
+    <value>Расположение по умолчанию</value>
+  </data>
+  <data name="TermsOfService">
+    <value>Срок Службы</value>
+  </data>
+  <data name="Theme">
+    <value>Тема Оформления</value>
+  </data>
+  <data name="ThemeAlt">
+    <value>Альтернативная Тема Оформления</value>
+  </data>
+  <data name="TITLE">
+    <value>Заголовок</value>
+  </data>
+  <data name="TOP">
+    <value>Верх</value>
+  </data>
+  <data name="TRANSLATOR">
+    <value>dr-Wicked / Укрзализныця ИСЦ ЮЗЖД</value>
+  </data>
+  <data name="TRANSLATOR_EMAIL">
+    <value>serg_michkovsky@hotmail.com</value>
+  </data>
+  <data name="UNCHECKED_USERS">
+    <value>Не проверенные пользователи</value>
+  </data>
+  <data name="UPDATE">
+    <value>Обновить</value>
+  </data>
+  <data name="UPLOAD_FILE">
+    <value>Загрузить файл</value>
+  </data>
+  <data name="UPLOAD_TO_WEB">
+    <value>Загрузить на Сервер</value>
+  </data>
+  <data name="URL">
+    <value>URL</value>
+  </data>
+  <data name="URL_TO_BROWSE">
+    <value>URL для просмотра</value>
+  </data>
+  <data name="USER_MESSAGE_DOMAIN1">
+    <value>Пользователей Домена не требуется регистрация для доступа к содержимому доступному группе 'All Users'['Все']</value>
+  </data>
+  <data name="USER_MESSAGE_DOMAIN2">
+    <value>Администраторы могут добавлять пользователей домена к указанным ролям с использованием Специальных функций Ролевого управления безопасностью указанных выше</value>
+  </data>
+  <data name="USER_MESSAGE_DOMAIN3">
+    <value>Этот раздел позволяет Администраторам управлять пользователями и их членством к классах безопасности напрямую.</value>
+  </data>
+  <data name="USER_MESSAGE1">
+    <value>Пользователи должны быть зарегистрированы для просмотра защищённого содержимого</value>
+  </data>
+  <data name="USER_MESSAGE2">
+    <value>Пользователи могут добавлять себя сами, используя Специальные функции Ролевого управления безопасностью указанные выше.</value>
+  </data>
+  <data name="USER_MESSAGE3">
+    <value>Этот раздел позволяет Администраторам управлять пользователями и их членством к классах безопасности напрямую.</value>
+  </data>
+  <data name="VALID_ADDRESS">
+    <value>Вы должны ввести допустимый адрес</value>
+  </data>
+  <data name="VALID_CITY">
+    <value>Вы должны ввести допустимый город</value>
+  </data>
+  <data name="VALID_CODE">
+    <value>Вы должны ввести допустимый код</value>
+  </data>
+  <data name="VALID_DATE">
+    <value>Вы должны ввести допустимую дату</value>
+  </data>
+  <data name="VALID_EMAIL">
+    <value>Вы должны ввести допустимый адрес Эл-почты</value>
+  </data>
+  <data name="VALID_FIELD">
+    <value>Вы должны ввести допустимое значение</value>
+  </data>
+  <data name="VALID_FILE_NAME">
+    <value>Вы должны ввести допустимое имя файла</value>
+  </data>
+  <data name="VALID_NAME">
+    <value>Вы должны ввести допустимое имя</value>
+  </data>
+  <data name="VALID_NUMBER">
+    <value>Вы должны ввести допустимый номер</value>
+  </data>
+  <data name="VALID_PHONE">
+    <value>Вы должны ввести допустимый тел. Номер</value>
+  </data>
+  <data name="VALID_TITLE">
+    <value>Вы должны ввести допустимый Заголовок</value>
+  </data>
+  <data name="VALID_VIEWORDER">
+    <value>Вы должны ввести допустимый порядок просмотра</value>
+  </data>
+  <data name="VALID_ZIP">
+    <value>Вы должны ввести допустимый почтовый индекс</value>
+  </data>
+  <data name="VALIDORDER">
+    <value>Вы должны ввести допустимый порядок просмотра</value>
+  </data>
+  <data name="VALIDTITLE">
+    <value>Вы должны ввести допустимый заголовок</value>
+  </data>
+  <data name="VALIDURL">
+    <value>Вы должны ввести допустимый заголовок</value>
+  </data>
+  <data name="VIEWORDER">
+    <value>Порядок просмотра</value>
+  </data>
+  <data name="WEB_FARM_SUPPORT">
+    <value>Сохранить в базе данных (для Web Farm)</value>
+  </data>
+  <data name="WEBSITE">
+    <value>WWW адрес</value>
+  </data>
+  <data name="WELCOME">
+    <value>Добро пожаловать</value>
+  </data>
+  <data name="XMLsrc">
+    <value>XML файл данных</value>
+  </data>
+  <data name="XSLsrc">
+    <value>XSL трансформация</value>
+  </data>
+  <data name="ZIP">
+    <value>Почтовый индекс</value>
+  </data>
+	<data name="LAYOUT">
+		<value></value>
+	</data>
+	<data name="TOTAL">
+		<value></value>
+	</data>
+	<data name="TO">
+		<value></value>
+	</data>
+	<data name="SETTINGS">
+		<value></value>
+	</data>
+	<data name="SAVE">
+		<value></value>
+	</data>
+	<data name="PREVIOUS">
+		<value></value>
+	</data>
+	<data name="PREVIEW">
+		<value></value>
+	</data>
+	<data name="PAGE">
+		<value></value>
+	</data>
+	<data name="NEXT">
+		<value></value>
+	</data>
+	<data name="BACK">
+		<value></value>
+	</data>
+	<data name="CAPTION">
+		<value></value>
+	</data>
+	<data name="CONTACT">
+		<value></value>
+	</data>
+	<data name="CONTINUE">
+		<value></value>
+	</data>
+	<data name="CULTURE">
+		<value></value>
+	</data>
+	<data name="FROM">
+		<value></value>
+	</data>
+</root>

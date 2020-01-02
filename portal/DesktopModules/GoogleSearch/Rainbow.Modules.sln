@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.GoogleSearch", "Rainbow.Modules.GoogleSearch.csproj", "{2CD6E5A7-0F9D-418C-BF69-466772E8F44C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{2CD6E5A7-0F9D-418C-BF69-466772E8F44C}.Debug.ActiveCfg = Debug|.NET
+		{2CD6E5A7-0F9D-418C-BF69-466772E8F44C}.Debug.Build.0 = Debug|.NET
+		{2CD6E5A7-0F9D-418C-BF69-466772E8F44C}.Release.ActiveCfg = Release|.NET
+		{2CD6E5A7-0F9D-418C-BF69-466772E8F44C}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.UserDefinedTable", "Rainbow.Modules.UserDefinedTable.csproj", "{32FE4017-234E-41CE-ADDA-43BCDCBE00F1}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{32FE4017-234E-41CE-ADDA-43BCDCBE00F1}.Debug.ActiveCfg = Debug|.NET
+		{32FE4017-234E-41CE-ADDA-43BCDCBE00F1}.Debug.Build.0 = Debug|.NET
+		{32FE4017-234E-41CE-ADDA-43BCDCBE00F1}.Release.ActiveCfg = Release|.NET
+		{32FE4017-234E-41CE-ADDA-43BCDCBE00F1}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

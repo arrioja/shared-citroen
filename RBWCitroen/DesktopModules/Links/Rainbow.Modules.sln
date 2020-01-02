@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.Links", "Rainbow.Modules.Links.csproj", "{083BF2BE-A0E7-4925-B535-FA06E73CF982}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{083BF2BE-A0E7-4925-B535-FA06E73CF982}.Debug.ActiveCfg = Debug|.NET
+		{083BF2BE-A0E7-4925-B535-FA06E73CF982}.Debug.Build.0 = Debug|.NET
+		{083BF2BE-A0E7-4925-B535-FA06E73CF982}.Release.ActiveCfg = Release|.NET
+		{083BF2BE-A0E7-4925-B535-FA06E73CF982}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

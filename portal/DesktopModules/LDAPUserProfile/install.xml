@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Modules>
+	<Module>
+		<FriendlyName>LDAP User Profile</FriendlyName>
+		<DesktopSource>DesktopModules/LDAPUserProfile/LDAPUserProfile.ascx</DesktopSource>
+		<MobileSource></MobileSource>
+	</Module>
+</Modules>

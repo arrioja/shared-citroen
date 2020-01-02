@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.CacheViewer", "Rainbow.Modules.CacheViewer.csproj", "{08CD3012-2A94-45CD-8D77-087F18D30D09}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{08CD3012-2A94-45CD-8D77-087F18D30D09}.Debug.ActiveCfg = Debug|.NET
+		{08CD3012-2A94-45CD-8D77-087F18D30D09}.Debug.Build.0 = Debug|.NET
+		{08CD3012-2A94-45CD-8D77-087F18D30D09}.Release.ActiveCfg = Release|.NET
+		{08CD3012-2A94-45CD-8D77-087F18D30D09}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

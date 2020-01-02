@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.Contacts", "Rainbow.Modules.Contacts.csproj", "{51507DBB-1198-462F-B7EF-D35B97BFEB19}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{51507DBB-1198-462F-B7EF-D35B97BFEB19}.Debug.ActiveCfg = Debug|.NET
+		{51507DBB-1198-462F-B7EF-D35B97BFEB19}.Debug.Build.0 = Debug|.NET
+		{51507DBB-1198-462F-B7EF-D35B97BFEB19}.Release.ActiveCfg = Release|.NET
+		{51507DBB-1198-462F-B7EF-D35B97BFEB19}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,823 @@
+2005-03-29 10:13:51,921 0    [420] ERROR Rainbow  - Time of Error: 3/29/2005 10:13 AM
+The ErrorHandler.FormatExceptionDescription method has thrown an error (May happen if full logging is enabled and it cannot retrieve the User's Information)
+This is a reduced log entry to reduce the chance of another error being thrown
+The FormatExceptionDescription Method failed to write the error. It received the following error: 
+
+Error Message: Object reference not set to an instance of an object.
+Source: Rainbow
+Target Site: System.String FormatExceptionDescription(System.Exception)
+Stack Trace:    at Rainbow.Configuration.ErrorHandler.FormatExceptionDescription(Exception e)
+
+The original error was:
+
+Error Message: Error in DBHelper:ExeSQL()-> System.Data.SqlClient.SqlException: SQL Server does not exist or access denied.
+   at System.Data.SqlClient.ConnectionPool.GetConnection(Boolean& isInTransaction)
+   at System.Data.SqlClient.SqlConnectionPoolManager.GetPooledConnection(SqlConnectionString options, Boolean& isInTransaction)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Rainbow.Helpers.DBHelper.ExeSQL(String sql)
+Source: Rainbow
+Target Site: Int32 ExeSQL(System.String)
+Stack Trace:    at Rainbow.Helpers.DBHelper.ExeSQL(String sql)
+   at Rainbow.Configuration.PortalSettings.get_DatabaseVersion()
+   at Rainbow.Global.Application_BeginRequest(Object sender, EventArgs e)
+   at System.Web.SyncEventExecutionStep.System.Web.HttpApplication+IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+End of Entry.
+
+
+
+
+Exception: System.Exception
+Message: Error in DBHelper:ExeSQL()-> System.Data.SqlClient.SqlException: SQL Server does not exist or access denied.
+   at System.Data.SqlClient.ConnectionPool.GetConnection(Boolean& isInTransaction)
+   at System.Data.SqlClient.SqlConnectionPoolManager.GetPooledConnection(SqlConnectionString options, Boolean& isInTransaction)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Rainbow.Helpers.DBHelper.ExeSQL(String sql)
+Source: Rainbow
+   at Rainbow.Helpers.DBHelper.ExeSQL(String sql)
+   at Rainbow.Configuration.PortalSettings.get_DatabaseVersion()
+   at Rainbow.Global.Application_BeginRequest(Object sender, EventArgs e)
+   at System.Web.SyncEventExecutionStep.System.Web.HttpApplication+IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2005-03-29 10:14:58,015 66093 [420] ERROR Rainbow  - Time of Error: 3/29/2005 10:14 AM
+The ErrorHandler.FormatExceptionDescription method has thrown an error (May happen if full logging is enabled and it cannot retrieve the User's Information)
+This is a reduced log entry to reduce the chance of another error being thrown
+The FormatExceptionDescription Method failed to write the error. It received the following error: 
+
+Error Message: Object reference not set to an instance of an object.
+Source: Rainbow
+Target Site: System.String FormatExceptionDescription(System.Exception)
+Stack Trace:    at Rainbow.Configuration.ErrorHandler.FormatExceptionDescription(Exception e)
+
+The original error was:
+
+Error Message: Error in DBHelper:ExeSQL()-> System.Data.SqlClient.SqlException: SQL Server does not exist or access denied.
+   at System.Data.SqlClient.ConnectionPool.GetConnection(Boolean& isInTransaction)
+   at System.Data.SqlClient.SqlConnectionPoolManager.GetPooledConnection(SqlConnectionString options, Boolean& isInTransaction)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Rainbow.Helpers.DBHelper.ExeSQL(String sql)
+Source: Rainbow
+Target Site: Int32 ExeSQL(System.String)
+Stack Trace:    at Rainbow.Helpers.DBHelper.ExeSQL(String sql)
+   at Rainbow.Configuration.PortalSettings.get_DatabaseVersion()
+   at Rainbow.Global.Application_BeginRequest(Object sender, EventArgs e)
+   at System.Web.SyncEventExecutionStep.System.Web.HttpApplication+IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+End of Entry.
+
+
+
+
+Exception: System.Exception
+Message: Error in DBHelper:ExeSQL()-> System.Data.SqlClient.SqlException: SQL Server does not exist or access denied.
+   at System.Data.SqlClient.ConnectionPool.GetConnection(Boolean& isInTransaction)
+   at System.Data.SqlClient.SqlConnectionPoolManager.GetPooledConnection(SqlConnectionString options, Boolean& isInTransaction)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Rainbow.Helpers.DBHelper.ExeSQL(String sql)
+Source: Rainbow
+   at Rainbow.Helpers.DBHelper.ExeSQL(String sql)
+   at Rainbow.Configuration.PortalSettings.get_DatabaseVersion()
+   at Rainbow.Global.Application_BeginRequest(Object sender, EventArgs e)
+   at System.Web.SyncEventExecutionStep.System.Web.HttpApplication+IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2005-03-29 10:19:11,984 320062 [420] ERROR Rainbow  - Time of Error: 3/29/2005 10:19 AM
+The ErrorHandler.FormatExceptionDescription method has thrown an error (May happen if full logging is enabled and it cannot retrieve the User's Information)
+This is a reduced log entry to reduce the chance of another error being thrown
+The FormatExceptionDescription Method failed to write the error. It received the following error: 
+
+Error Message: Object reference not set to an instance of an object.
+Source: Rainbow
+Target Site: System.String FormatExceptionDescription(System.Exception)
+Stack Trace:    at Rainbow.Configuration.ErrorHandler.FormatExceptionDescription(Exception e)
+
+The original error was:
+
+Error Message: Error in DBHelper:ExeSQL()-> System.Data.SqlClient.SqlException: SQL Server does not exist or access denied.
+   at System.Data.SqlClient.ConnectionPool.GetConnection(Boolean& isInTransaction)
+   at System.Data.SqlClient.SqlConnectionPoolManager.GetPooledConnection(SqlConnectionString options, Boolean& isInTransaction)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Rainbow.Helpers.DBHelper.ExeSQL(String sql)
+Source: Rainbow
+Target Site: Int32 ExeSQL(System.String)
+Stack Trace:    at Rainbow.Helpers.DBHelper.ExeSQL(String sql)
+   at Rainbow.Configuration.PortalSettings.get_DatabaseVersion()
+   at Rainbow.Global.Application_BeginRequest(Object sender, EventArgs e)
+   at System.Web.SyncEventExecutionStep.System.Web.HttpApplication+IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+End of Entry.
+
+
+
+
+Exception: System.Exception
+Message: Error in DBHelper:ExeSQL()-> System.Data.SqlClient.SqlException: SQL Server does not exist or access denied.
+   at System.Data.SqlClient.ConnectionPool.GetConnection(Boolean& isInTransaction)
+   at System.Data.SqlClient.SqlConnectionPoolManager.GetPooledConnection(SqlConnectionString options, Boolean& isInTransaction)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Rainbow.Helpers.DBHelper.ExeSQL(String sql)
+Source: Rainbow
+   at Rainbow.Helpers.DBHelper.ExeSQL(String sql)
+   at Rainbow.Configuration.PortalSettings.get_DatabaseVersion()
+   at Rainbow.Global.Application_BeginRequest(Object sender, EventArgs e)
+   at System.Web.SyncEventExecutionStep.System.Web.HttpApplication+IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2005-03-29 10:20:18,671 0    [420] DEBUG Rainbow  - db:1110 Code:1791
+2005-03-29 10:20:24,687 6015 [420] DEBUG Rainbow  - db:1110 Code:1791
+2005-03-29 10:20:24,765 6093 [420] INFO  Rainbow  - CODE: 1791 - DB: 1110 - CURR: 1111 - Applying: C:\Rainbow2K5\Setup\Scripts\1.1.7.1111_Localization.sql
+2005-03-29 10:20:24,796 6125 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\Setup\Scripts\1.1.7.1111_Localization.sql'
+2005-03-29 10:20:24,875 6203 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:20:25,171 6500 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:20:25,171 6500 [420] INFO  Rainbow  - Version number: 1.1.7.1111 applied successfully.
+2005-03-29 10:20:25,171 6500 [420] INFO  Rainbow  - Sucessfully applied version: 1.1.7.1111
+2005-03-29 10:20:25,187 6515 [420] INFO  Rainbow  - CODE: 1791 - DB: 1111 - CURR: 1112 - Applying: C:\Rainbow2K5\Setup\Scripts\1.1.7.1111.sql
+2005-03-29 10:20:25,250 6578 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\Setup\Scripts\1.1.7.1111.sql'
+2005-03-29 10:20:25,296 6625 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:20:29,000 10328 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:20:29,000 10328 [420] INFO  Rainbow  - Version number: 1.1.7.1112 applied successfully.
+2005-03-29 10:20:29,000 10328 [420] INFO  Rainbow  - Sucessfully applied version: 1.1.7.1112
+2005-03-29 10:20:29,250 10578 [420] INFO  Rainbow  - Installing DesktopModule 'Admin - Add Module Control' from 'DesktopModules/AddModule/Viewer.ascx'
+2005-03-29 10:20:30,437 11765 [420] DEBUG Rainbow  - Installing 'Admin - Add Module Control' as new module.
+2005-03-29 10:20:30,515 11843 [420] INFO  Rainbow  - Installing DesktopModule 'Admin - Add Tab' from 'DesktopModules/AddTab/AddTab.ascx'
+2005-03-29 10:20:31,218 12546 [420] DEBUG Rainbow  - Installing 'Admin - Add Tab' as new module.
+2005-03-29 10:20:31,234 12562 [420] INFO  Rainbow  - Installing DesktopModule 'Amazon from KonoTree.com v2.0' from 'DesktopModules/AmazonFull/Books.ascx'
+2005-03-29 10:20:32,953 14281 [420] DEBUG Rainbow  - Installing 'Amazon from KonoTree.com v2.0' as new module.
+2005-03-29 10:20:32,968 14296 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\AmazonFull\install.sql'
+2005-03-29 10:20:32,968 14296 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:20:32,984 14312 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:20:32,984 14312 [420] INFO  Rainbow  - Installing DesktopModule 'Announcements' from 'DesktopModules/Announcements/Announcements.ascx'
+2005-03-29 10:20:33,718 15046 [420] DEBUG Rainbow  - Installing 'Announcements' as new module.
+2005-03-29 10:20:33,734 15062 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\Announcements\install.sql'
+2005-03-29 10:20:33,734 15062 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:20:33,843 15171 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:20:33,843 15171 [420] INFO  Rainbow  - Installing DesktopModule 'Articles' from 'DesktopModules/Articles/Articles.ascx'
+2005-03-29 10:20:34,562 15890 [420] DEBUG Rainbow  - Installing 'Articles' as new module.
+2005-03-29 10:20:34,562 15890 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\Articles\install.sql'
+2005-03-29 10:20:34,562 15890 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:20:34,718 16046 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:20:34,718 16046 [420] INFO  Rainbow  - Installing DesktopModule 'Blog' from 'DesktopModules/Blog/Blog.ascx'
+2005-03-29 10:20:35,390 16718 [420] DEBUG Rainbow  - Installing 'Blog' as new module.
+2005-03-29 10:20:35,390 16718 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\Blog\install.sql'
+2005-03-29 10:20:35,406 16734 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:20:35,500 16828 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:20:35,531 16859 [420] INFO  Rainbow  - Installing DesktopModule 'BreadCrumbs' from 'DesktopModules/BreadCrumbs/BreadCrumbs.ascx'
+2005-03-29 10:20:36,109 17437 [420] DEBUG Rainbow  - Installing 'BreadCrumbs' as new module.
+2005-03-29 10:20:36,109 17437 [420] INFO  Rainbow  - Installing DesktopModule 'Admin - Cache Viewer' from 'DesktopModules/CacheViewer/CacheViewer.ascx'
+2005-03-29 10:20:36,578 17906 [420] DEBUG Rainbow  - Installing 'Admin - Cache Viewer' as new module.
+2005-03-29 10:20:36,593 17921 [420] INFO  Rainbow  - Installing DesktopModule 'ComponentModule' from 'DesktopModules/ComponentModule/ComponentModule.ascx'
+2005-03-29 10:20:37,203 18531 [420] DEBUG Rainbow  - Installing 'ComponentModule' as new module.
+2005-03-29 10:20:37,203 18531 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\ComponentModule\install.sql'
+2005-03-29 10:20:37,203 18531 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:20:37,218 18546 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:20:37,234 18562 [420] INFO  Rainbow  - Installing DesktopModule 'Contacts' from 'DesktopModules/Contacts/Contacts.ascx'
+2005-03-29 10:20:37,859 19187 [420] DEBUG Rainbow  - Installing 'Contacts' as new module.
+2005-03-29 10:20:37,859 19187 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\Contacts\install.sql'
+2005-03-29 10:20:37,875 19203 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:20:37,937 19265 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:20:37,937 19265 [420] INFO  Rainbow  - Installing DesktopModule 'Daily Dilbert' from 'DesktopModules/DailyDilbert/DailyDilbert.ascx'
+2005-03-29 10:20:38,406 19734 [420] DEBUG Rainbow  - Installing 'Daily Dilbert' as new module.
+2005-03-29 10:20:38,406 19734 [420] INFO  Rainbow  - Installing DesktopModule 'Admin - Database Table Edit' from 'DesktopModules/DatabaseTableEdit/DatabaseTableEdit.ascx'
+2005-03-29 10:20:39,578 20906 [420] DEBUG Rainbow  - Installing 'Admin - Database Table Edit' as new module.
+2005-03-29 10:20:39,609 20937 [420] INFO  Rainbow  - Installing DesktopModule 'Admin - Database Tool' from 'DesktopModules/DatabaseTool/DatabaseTool.ascx'
+2005-03-29 10:20:40,203 21531 [420] DEBUG Rainbow  - Installing 'Admin - Database Tool' as new module.
+2005-03-29 10:20:40,218 21546 [420] INFO  Rainbow  - Installing DesktopModule 'Discussion' from 'DesktopModules/Discussion/Discussion.ascx'
+2005-03-29 10:20:41,140 22468 [420] DEBUG Rainbow  - Installing 'Discussion' as new module.
+2005-03-29 10:20:41,171 22500 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\Discussion\install.sql'
+2005-03-29 10:20:41,171 22500 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:20:41,250 22578 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:20:41,250 22578 [420] INFO  Rainbow  - Installing DesktopModule 'Documents' from 'DesktopModules/Documents/Documents.ascx'
+2005-03-29 10:20:41,843 23171 [420] DEBUG Rainbow  - Installing 'Documents' as new module.
+2005-03-29 10:20:41,875 23203 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\Documents\install.sql'
+2005-03-29 10:20:41,875 23203 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:20:41,921 23250 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:20:41,937 23265 [420] INFO  Rainbow  - Installing DesktopModule 'Enhanced Html' from 'DesktopModules/EnhancedHtml/EnhancedHtml.ascx'
+2005-03-29 10:20:42,468 23796 [420] DEBUG Rainbow  - Installing 'Enhanced Html' as new module.
+2005-03-29 10:20:42,468 23796 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\EnhancedHtml\install.sql'
+2005-03-29 10:20:42,484 23812 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:20:42,500 23828 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:20:42,531 23859 [420] INFO  Rainbow  - Installing DesktopModule 'Enhanced Links' from 'DesktopModules/EnhancedLinks/EnhancedLinks.ascx'
+2005-03-29 10:20:43,109 24437 [420] DEBUG Rainbow  - Installing 'Enhanced Links' as new module.
+2005-03-29 10:20:43,109 24437 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\EnhancedLinks\Install.sql'
+2005-03-29 10:20:43,109 24437 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:20:43,140 24468 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:20:43,140 24468 [420] INFO  Rainbow  - Installing DesktopModule 'Admin - EventLogs' from 'DesktopModules/EventLogs/EventLogs.ascx'
+2005-03-29 10:20:43,734 25062 [420] DEBUG Rainbow  - Installing 'Admin - EventLogs' as new module.
+2005-03-29 10:20:43,734 25062 [420] INFO  Rainbow  - Installing DesktopModule 'Events' from 'DesktopModules/Events/Events.ascx'
+2005-03-29 10:20:44,343 25671 [420] DEBUG Rainbow  - Installing 'Events' as new module.
+2005-03-29 10:20:44,359 25687 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\Events\install.sql'
+2005-03-29 10:20:44,359 25687 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:20:44,390 25718 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:20:44,390 25718 [420] INFO  Rainbow  - Installing DesktopModule 'FAQs' from 'DesktopModules/FAQs/FAQs.ascx'
+2005-03-29 10:20:44,953 26281 [420] DEBUG Rainbow  - Installing 'FAQs' as new module.
+2005-03-29 10:20:44,968 26296 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\FAQs\install.sql'
+2005-03-29 10:20:44,968 26296 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:20:44,984 26312 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:20:45,000 26328 [420] INFO  Rainbow  - Installing DesktopModule 'File Directory Tree' from 'DesktopModules/FileDirectoryTree/FileDirectoryTree.ascx'
+2005-03-29 10:20:45,453 26781 [420] DEBUG Rainbow  - Installing 'File Directory Tree' as new module.
+2005-03-29 10:20:45,468 26796 [420] INFO  Rainbow  - Installing DesktopModule 'Flash Module' from 'DesktopModules/FlashModule/FlashModule.ascx'
+2005-03-29 10:20:46,015 27343 [420] DEBUG Rainbow  - Installing 'Flash Module' as new module.
+2005-03-29 10:20:46,015 27343 [420] INFO  Rainbow  - Installing DesktopModule 'GoogleSearch' from 'DesktopModules/GoogleSearch/GoogleSearch.ascx'
+2005-03-29 10:20:46,546 27875 [420] DEBUG Rainbow  - Installing 'GoogleSearch' as new module.
+2005-03-29 10:20:46,546 27875 [420] INFO  Rainbow  - Installing DesktopModule 'HTML Document' from 'DesktopModules/HTMLDocument/HTMLModule.ascx'
+2005-03-29 10:20:47,062 28390 [420] DEBUG Rainbow  - Installing 'HTML Document' as new module.
+2005-03-29 10:20:47,062 28390 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\HTMLDocument\install.sql'
+2005-03-29 10:20:47,062 28390 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:20:47,234 28562 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:20:47,250 28578 [420] INFO  Rainbow  - Installing DesktopModule 'IframeModule' from 'DesktopModules/IframeModule/IframeModule.ascx'
+2005-03-29 10:20:47,734 29062 [420] DEBUG Rainbow  - Installing 'IframeModule' as new module.
+2005-03-29 10:20:47,750 29078 [420] INFO  Rainbow  - Installing DesktopModule 'Image' from 'DesktopModules/Image/ImageModule.ascx'
+2005-03-29 10:20:48,250 29578 [420] DEBUG Rainbow  - Installing 'Image' as new module.
+2005-03-29 10:20:48,250 29578 [420] INFO  Rainbow  - Installing DesktopModule 'LDAP User Profile' from 'DesktopModules/LDAPUserProfile/LDAPUserProfile.ascx'
+2005-03-29 10:20:48,796 30125 [420] DEBUG Rainbow  - Installing 'LDAP User Profile' as new module.
+2005-03-29 10:20:48,796 30125 [420] INFO  Rainbow  - Installing DesktopModule 'LanguageSwitcher' from 'DesktopModules/LanguageSwitcher/LanguageSwitcher.ascx'
+2005-03-29 10:20:49,250 30578 [420] DEBUG Rainbow  - Installing 'LanguageSwitcher' as new module.
+2005-03-29 10:20:49,250 30578 [420] INFO  Rainbow  - Installing DesktopModule 'Links' from 'DesktopModules/Links/Links.ascx'
+2005-03-29 10:20:49,781 31109 [420] DEBUG Rainbow  - Installing 'Links' as new module.
+2005-03-29 10:20:49,812 31140 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\Links\install.sql'
+2005-03-29 10:20:49,812 31140 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:20:49,890 31218 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:20:49,890 31218 [420] INFO  Rainbow  - Installing DesktopModule 'MapQuest' from 'DesktopModules/MapQuest/MapQuest.ascx'
+2005-03-29 10:20:50,406 31734 [420] DEBUG Rainbow  - Installing 'MapQuest' as new module.
+2005-03-29 10:20:50,406 31734 [420] INFO  Rainbow  - Installing DesktopModule 'MileStones' from 'DesktopModules/MileStones/MileStones.ascx'
+2005-03-29 10:20:50,953 32281 [420] DEBUG Rainbow  - Installing 'MileStones' as new module.
+2005-03-29 10:20:50,953 32281 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\MileStones\install.sql'
+2005-03-29 10:20:50,953 32281 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:20:51,046 32375 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:20:51,062 32390 [420] INFO  Rainbow  - Installing DesktopModule 'Admin - Module Definitions' from 'DesktopModules/ModuleDefinitions/ModuleDefs.ascx'
+2005-03-29 10:20:51,687 33015 [420] DEBUG Rainbow  - Installing 'Admin - Module Definitions' as new module.
+2005-03-29 10:20:51,687 33015 [420] INFO  Rainbow  - Installing DesktopModule 'Admin - Module Types (AdminAll)' from 'DesktopModules/ModuleDefinitionsAll/ModuleDefsAll.ascx'
+2005-03-29 10:20:52,281 33609 [420] DEBUG Rainbow  - Installing 'Admin - Module Types (AdminAll)' as new module.
+2005-03-29 10:20:52,281 33609 [420] INFO  Rainbow  - Installing DesktopModule 'Admin - Monitoring' from 'DesktopModules/Monitoring/Monitoring.ascx'
+2005-03-29 10:20:52,906 34234 [420] DEBUG Rainbow  - Installing 'Admin - Monitoring' as new module.
+2005-03-29 10:20:52,906 34234 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\Monitoring\install.sql'
+2005-03-29 10:20:52,921 34250 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:20:52,937 34265 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:20:52,937 34265 [420] INFO  Rainbow  - Installing DesktopModule 'Admin - Newsletter' from 'DesktopModules/Newsletter/Newsletter.ascx'
+2005-03-29 10:20:53,687 35015 [420] DEBUG Rainbow  - Installing 'Admin - Newsletter' as new module.
+2005-03-29 10:20:53,718 35046 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\Newsletter\Newsletter_Install.sql'
+2005-03-29 10:20:53,718 35046 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:20:53,718 35046 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:20:53,734 35062 [420] INFO  Rainbow  - Installing DesktopModule 'Admin - BlackList' from 'DesktopModules/Newsletter/BlackList.ascx'
+2005-03-29 10:20:54,265 35593 [420] DEBUG Rainbow  - Installing 'Admin - BlackList' as new module.
+2005-03-29 10:20:54,265 35593 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\Newsletter\Blacklist_Install.sql'
+2005-03-29 10:20:54,265 35593 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:20:54,281 35609 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:20:54,281 35609 [420] INFO  Rainbow  - Installing DesktopModule 'PageKeyPhrase' from 'DesktopModules/PageKeyPhrase/PageKeyPhrase.ascx'
+2005-03-29 10:20:54,750 36078 [420] DEBUG Rainbow  - Installing 'PageKeyPhrase' as new module.
+2005-03-29 10:20:54,750 36078 [420] INFO  Rainbow  - Installing DesktopModule 'Pictures' from 'DesktopModules/Pictures/Pictures.ascx'
+2005-03-29 10:20:55,375 36703 [420] DEBUG Rainbow  - Installing 'Pictures' as new module.
+2005-03-29 10:20:55,375 36703 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\Pictures\install.sql'
+2005-03-29 10:20:55,390 36718 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:20:55,437 36765 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:20:55,437 36765 [420] INFO  Rainbow  - Installing DesktopModule 'Admin - Manage Portals (AdminAll)' from 'DesktopModules/PortalsAdministration/Portals.ascx'
+2005-03-29 10:20:56,015 37343 [420] DEBUG Rainbow  - Installing 'Admin - Manage Portals (AdminAll)' as new module.
+2005-03-29 10:20:56,015 37343 [420] INFO  Rainbow  - Installing DesktopModule 'Portal Search' from 'DesktopModules/PortalSearch/PortalSearch.ascx'
+2005-03-29 10:20:56,578 37906 [420] DEBUG Rainbow  - Installing 'Portal Search' as new module.
+2005-03-29 10:20:56,578 37906 [420] INFO  Rainbow  - Installing DesktopModule 'Quiz' from 'DesktopModules/Quiz/Quiz.ascx'
+2005-03-29 10:20:57,125 38453 [420] DEBUG Rainbow  - Installing 'Quiz' as new module.
+2005-03-29 10:20:57,125 38453 [420] INFO  Rainbow  - Installing DesktopModule 'Quote' from 'DesktopModules/Quote/Quote.ascx'
+2005-03-29 10:20:57,609 38937 [420] DEBUG Rainbow  - Installing 'Quote' as new module.
+2005-03-29 10:20:57,609 38937 [420] INFO  Rainbow  - Installing DesktopModule 'Admin - Role Assignment' from 'DesktopModules/RoleAssignment/RoleAssignment.ascx'
+2005-03-29 10:20:58,156 39484 [420] DEBUG Rainbow  - Installing 'Admin - Role Assignment' as new module.
+2005-03-29 10:20:58,156 39484 [420] INFO  Rainbow  - Installing DesktopModule 'Admin - Roles' from 'DesktopModules/Roles/Roles.ascx'
+2005-03-29 10:20:58,734 40062 [420] DEBUG Rainbow  - Installing 'Admin - Roles' as new module.
+2005-03-29 10:20:58,734 40062 [420] INFO  Rainbow  - Installing DesktopModule 'Admin - Security Check' from 'DesktopModules/SecurityCheck/SecurityCheck.ascx'
+2005-03-29 10:20:59,296 40625 [420] DEBUG Rainbow  - Installing 'Admin - Security Check' as new module.
+2005-03-29 10:20:59,296 40625 [420] INFO  Rainbow  - Installing DesktopModule 'Send Thoughts' from 'DesktopModules/SendThoughts/SendThoughts.ascx'
+2005-03-29 10:20:59,890 41218 [420] DEBUG Rainbow  - Installing 'Send Thoughts' as new module.
+2005-03-29 10:20:59,906 41234 [420] INFO  Rainbow  - Installing DesktopModule 'ServiceItemList' from 'DesktopModules/ServiceItemList/ServiceItemList.ascx'
+2005-03-29 10:21:00,437 41765 [420] DEBUG Rainbow  - Installing 'ServiceItemList' as new module.
+2005-03-29 10:21:00,437 41765 [420] INFO  Rainbow  - Installing DesktopModule 'Shortcut' from 'DesktopModules/Shortcut/Shortcut.ascx'
+2005-03-29 10:21:00,937 42265 [420] DEBUG Rainbow  - Installing 'Shortcut' as new module.
+2005-03-29 10:21:00,937 42265 [420] INFO  Rainbow  - Installing DesktopModule 'ShortcutAll' from 'DesktopModules/Shortcut/ShortcutAll.ascx'
+2005-03-29 10:21:01,453 42781 [420] DEBUG Rainbow  - Installing 'ShortcutAll' as new module.
+2005-03-29 10:21:01,453 42781 [420] INFO  Rainbow  - Installing DesktopModule 'SignIn' from 'DesktopModules/SignIn/SignIn.ascx'
+2005-03-29 10:21:02,000 43328 [420] DEBUG Rainbow  - Installing 'SignIn' as new module.
+2005-03-29 10:21:02,000 43328 [420] INFO  Rainbow  - Installing DesktopModule 'SignInCool' from 'DesktopModules/SignIn/SignInCool.ascx'
+2005-03-29 10:21:02,484 43812 [420] DEBUG Rainbow  - Installing 'SignInCool' as new module.
+2005-03-29 10:21:02,484 43812 [420] INFO  Rainbow  - Installing DesktopModule 'SignInLink' from 'DesktopModules/SignIn/SignInLink.ascx'
+2005-03-29 10:21:02,953 44281 [420] DEBUG Rainbow  - Installing 'SignInLink' as new module.
+2005-03-29 10:21:02,953 44281 [420] INFO  Rainbow  - Installing DesktopModule 'SignIn LDAP' from 'DesktopModules/SignInLdap/SigninLdap.ascx'
+2005-03-29 10:21:03,562 44890 [420] DEBUG Rainbow  - Installing 'SignIn LDAP' as new module.
+2005-03-29 10:21:03,578 44906 [420] INFO  Rainbow  - Installing DesktopModule 'Simple Menu' from 'DesktopModules/SimpleMenu/SimpleMenu.ascx'
+2005-03-29 10:21:04,046 45375 [420] DEBUG Rainbow  - Installing 'Simple Menu' as new module.
+2005-03-29 10:21:04,062 45390 [420] INFO  Rainbow  - Installing DesktopModule 'Sitemap' from 'DesktopModules/Sitemap/Sitemap.ascx'
+2005-03-29 10:21:04,515 45843 [420] DEBUG Rainbow  - Installing 'Sitemap' as new module.
+2005-03-29 10:21:04,515 45843 [420] INFO  Rainbow  - Installing DesktopModule 'Admin - Site Settings' from 'DesktopModules/SiteSettings/SiteSettings.ascx'
+2005-03-29 10:21:05,093 46421 [420] DEBUG Rainbow  - Installing 'Admin - Site Settings' as new module.
+2005-03-29 10:21:05,109 46437 [420] INFO  Rainbow  - Installing DesktopModule 'Survey' from 'DesktopModules/Survey/Survey.ascx'
+2005-03-29 10:21:05,640 46968 [420] DEBUG Rainbow  - Installing 'Survey' as new module.
+2005-03-29 10:21:05,640 46968 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\Survey\install.sql'
+2005-03-29 10:21:05,656 46984 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:21:05,781 47109 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:21:05,781 47109 [420] INFO  Rainbow  - Installing DesktopModule 'Admin - Tabs' from 'DesktopModules/Tabs/Tabs.ascx'
+2005-03-29 10:21:07,328 48656 [420] DEBUG Rainbow  - Installing 'Admin - Tabs' as new module.
+2005-03-29 10:21:07,328 48656 [420] INFO  Rainbow  - Installing DesktopModule 'Tasks' from 'DesktopModules/Tasks/Tasks.ascx'
+2005-03-29 10:21:08,062 49390 [420] DEBUG Rainbow  - Installing 'Tasks' as new module.
+2005-03-29 10:21:08,062 49390 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\Tasks\install.sql'
+2005-03-29 10:21:08,062 49390 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:21:08,093 49421 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:21:08,093 49421 [420] INFO  Rainbow  - Installing DesktopModule 'Admin - ThemeCacheManager' from 'DesktopModules/ThemeCacheManager/ThemeCacheManager.ascx'
+2005-03-29 10:21:08,609 49937 [420] DEBUG Rainbow  - Installing 'Admin - ThemeCacheManager' as new module.
+2005-03-29 10:21:08,625 49953 [420] INFO  Rainbow  - Installing DesktopModule 'UserDefinedTable' from 'DesktopModules/UserDefinedTable/UserDefinedTable.ascx'
+2005-03-29 10:21:09,171 50500 [420] DEBUG Rainbow  - Installing 'UserDefinedTable' as new module.
+2005-03-29 10:21:09,187 50515 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\UserDefinedTable\install.sql'
+2005-03-29 10:21:09,187 50515 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:21:09,265 50593 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:21:09,265 50593 [420] INFO  Rainbow  - Installing DesktopModule 'Admin - Manage Users' from 'DesktopModules/Users/Users.ascx'
+2005-03-29 10:21:09,796 51125 [420] DEBUG Rainbow  - Installing 'Admin - Manage Users' as new module.
+2005-03-29 10:21:09,796 51125 [420] INFO  Rainbow  - Installing DesktopModule 'Rainbow Version' from 'DesktopModules/Version/RainbowVersion.ascx'
+2005-03-29 10:21:10,312 51640 [420] DEBUG Rainbow  - Installing 'Rainbow Version' as new module.
+2005-03-29 10:21:10,312 51640 [420] INFO  Rainbow  - Installing DesktopModule 'Weather German' from 'DesktopModules/WeatherDE/WeatherDE.ascx'
+2005-03-29 10:21:10,796 52125 [420] DEBUG Rainbow  - Installing 'Weather German' as new module.
+2005-03-29 10:21:10,796 52125 [420] INFO  Rainbow  - Installing DesktopModule 'Weather US' from 'DesktopModules/WeatherUS/WeatherUS.ascx'
+2005-03-29 10:21:11,328 52656 [420] DEBUG Rainbow  - Installing 'Weather US' as new module.
+2005-03-29 10:21:11,328 52656 [420] INFO  Rainbow  - Installing DesktopModule 'WebPartModule' from 'DesktopModules/WebPartModule/WebPartModule.ascx'
+2005-03-29 10:21:11,812 53140 [420] DEBUG Rainbow  - Installing 'WebPartModule' as new module.
+2005-03-29 10:21:11,812 53140 [420] INFO  Rainbow  - Installing DesktopModule 'Who's Logged On?' from 'DesktopModules/WhosLoggedOn/WhosLoggedOn.ascx'
+2005-03-29 10:21:12,328 53656 [420] DEBUG Rainbow  - Installing 'Who's Logged On?' as new module.
+2005-03-29 10:21:12,328 53656 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\WhosLoggedOn\install.sql'
+2005-03-29 10:21:12,328 53656 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:21:12,343 53671 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:21:12,343 53671 [420] INFO  Rainbow  - Installing DesktopModule 'XmlFeed' from 'DesktopModules/XmlFeed/XmlFeed.ascx'
+2005-03-29 10:21:12,812 54140 [420] DEBUG Rainbow  - Installing 'XmlFeed' as new module.
+2005-03-29 10:21:12,812 54140 [420] INFO  Rainbow  - Installing DesktopModule 'XML/XSL (MultiLanguage)' from 'DesktopModules/XmlLang/XmlLangModule.ascx'
+2005-03-29 10:21:13,281 54609 [420] DEBUG Rainbow  - Installing 'XML/XSL (MultiLanguage)' as new module.
+2005-03-29 10:21:13,281 54609 [420] INFO  Rainbow  - Installing DesktopModule 'XML/XSL' from 'DesktopModules/XmlModule/XmlModule.ascx'
+2005-03-29 10:21:13,812 55140 [420] DEBUG Rainbow  - Installing 'XML/XSL' as new module.
+2005-03-29 10:21:13,828 55156 [420] INFO  Rainbow  - Installing DesktopModule 'Admin - Content Manager' from 'DesktopModules/ContentManager/ContentManager.ascx'
+2005-03-29 10:21:14,468 55796 [420] DEBUG Rainbow  - Installing 'Admin - Content Manager' as new module.
+2005-03-29 10:21:14,468 55796 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\ContentManager\install.sql'
+2005-03-29 10:21:14,484 55812 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:21:14,515 55843 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:21:14,515 55843 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\ContentManager\InstallScripts\CM_Announcements_Install.sql'
+2005-03-29 10:21:14,515 55843 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:21:14,562 55890 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:21:14,562 55890 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\ContentManager\InstallScripts\CM_Articles_Install.sql'
+2005-03-29 10:21:14,562 55890 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:21:14,609 55937 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:21:14,625 55953 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\ContentManager\InstallScripts\CM_Blogs_Install.sql'
+2005-03-29 10:21:14,625 55953 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:21:14,750 56078 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:21:14,750 56078 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\ContentManager\InstallScripts\CM_Contacts_Install.sql'
+2005-03-29 10:21:14,750 56078 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:21:14,781 56109 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:21:14,796 56125 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\ContentManager\InstallScripts\CM_Documents_Install.sql'
+2005-03-29 10:21:14,796 56125 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:21:14,843 56171 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:21:14,843 56171 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\ContentManager\InstallScripts\CM_Events_Install.sql'
+2005-03-29 10:21:14,843 56171 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:21:14,890 56218 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:21:14,890 56218 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\ContentManager\InstallScripts\CM_FAQs_Install.sql'
+2005-03-29 10:21:14,890 56218 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:21:14,953 56281 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:21:14,968 56296 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\ContentManager\InstallScripts\CM_Links_Install.sql'
+2005-03-29 10:21:14,968 56296 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:21:15,000 56328 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:21:15,000 56328 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\ContentManager\InstallScripts\CM_Tasks_install.sql'
+2005-03-29 10:21:15,015 56343 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:21:15,062 56390 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:21:15,125 56453 [420] INFO  Rainbow  - Version number: 1.1.7.1113 applied successfully.
+2005-03-29 10:21:15,125 56453 [420] INFO  Rainbow  - Sucessfully applied version: 1.1.7.1113
+2005-03-29 10:21:15,140 56468 [420] INFO  Rainbow  - CODE: 1791 - DB: 1113 - CURR: 1114 - Applying: C:\Rainbow2K5\Setup\Scripts\1.1.7.1111Z.sql
+2005-03-29 10:21:15,234 56562 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\Setup\Scripts\1.1.7.1111Z.sql'
+2005-03-29 10:21:15,250 56578 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:21:16,593 57921 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:21:16,593 57921 [420] INFO  Rainbow  - Version number: 1.1.7.1114 applied successfully.
+2005-03-29 10:21:16,593 57921 [420] INFO  Rainbow  - Sucessfully applied version: 1.1.7.1114
+2005-03-29 10:21:16,593 57921 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1115 - Skipping: 1.1.7.1115a
+2005-03-29 10:21:16,609 57937 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1115 - Skipping: 1.1.7.1115b
+2005-03-29 10:21:16,609 57937 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1505 - Skipping: 1.2.8.1505_00
+2005-03-29 10:21:16,625 57953 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1505 - Skipping: 1.2.8.1505_01
+2005-03-29 10:21:16,625 57953 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1505 - Skipping: 1.2.8.1505_02
+2005-03-29 10:21:16,625 57953 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1505 - Skipping: 1.2.8.1505_03
+2005-03-29 10:21:16,640 57968 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1509 - Skipping: 1.2.8.1509
+2005-03-29 10:21:16,640 57968 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1512 - Skipping: 1.2.8.1512
+2005-03-29 10:21:16,640 57968 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1516 - Skipping: 1.2.8.1516
+2005-03-29 10:21:16,640 57968 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1519 - Skipping: 1.2.8.1519
+2005-03-29 10:21:16,656 57984 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1521 - Skipping: 1.2.8.1521
+2005-03-29 10:21:16,656 57984 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1522 - Skipping: 1.2.8.1522
+2005-03-29 10:21:16,656 57984 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1523 - Skipping: 1.2.8.1523
+2005-03-29 10:21:16,671 58000 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1524 - Skipping: 1.2.8.1524
+2005-03-29 10:21:16,671 58000 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1601 - Skipping: 1.2.8.1601_00
+2005-03-29 10:21:16,671 58000 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1601 - Skipping: 1.2.8.1601_01
+2005-03-29 10:21:16,671 58000 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1601 - Skipping: 1.2.8.1601_02
+2005-03-29 10:21:16,687 58015 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1603 - Skipping: 1.2.8.1603
+2005-03-29 10:21:16,687 58015 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1604 - Skipping: 1.2.8.1604
+2005-03-29 10:21:16,687 58015 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1608 - Skipping: 1.2.8.1608
+2005-03-29 10:21:16,703 58031 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1609 - Skipping: 1.2.8.1610
+2005-03-29 10:21:16,703 58031 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1612 - Skipping: 1.2.8.1612
+2005-03-29 10:21:16,703 58031 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1613 - Skipping: 1.2.8.1613
+2005-03-29 10:21:16,703 58031 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1614 - Skipping: 1.2.8.1614
+2005-03-29 10:21:16,703 58031 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1615 - Skipping: 1.2.8.1615
+2005-03-29 10:21:16,703 58031 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1619 - Skipping: 1.2.8.1619
+2005-03-29 10:21:16,703 58031 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1621 - Skipping: 1.2.8.1621
+2005-03-29 10:21:16,718 58046 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1622 - Skipping: 1.2.8.1622
+2005-03-29 10:21:16,718 58046 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1623 - Skipping: 1.2.8.1623
+2005-03-29 10:21:16,718 58046 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1624 - Skipping: 1.2.8.1624
+2005-03-29 10:21:16,718 58046 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1625 - Skipping: 1.2.8.1625
+2005-03-29 10:21:16,718 58046 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1626 - Skipping: 1.2.8.1626
+2005-03-29 10:21:16,718 58046 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1627 - Skipping: 1.2.8.1627
+2005-03-29 10:21:16,718 58046 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1628 - Skipping: 1.2.8.1628
+2005-03-29 10:21:16,734 58062 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1629 - Skipping: 1.2.8.1629
+2005-03-29 10:21:16,734 58062 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1630 - Skipping: 1.2.8.1630
+2005-03-29 10:21:16,734 58062 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1631 - Skipping: 1.2.8.1631
+2005-03-29 10:21:16,734 58062 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1632 - Skipping: 1.2.8.1632
+2005-03-29 10:21:16,734 58062 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1633 - Skipping: 1.2.8.1633
+2005-03-29 10:21:16,734 58062 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1634 - Skipping: 1.2.8.1634
+2005-03-29 10:21:16,734 58062 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1635 - Skipping: 1.2.8.1635
+2005-03-29 10:21:16,750 58078 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1636 - Skipping: 1.2.8.1636
+2005-03-29 10:21:16,750 58078 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1705 - Skipping: 1.2.8.1705
+2005-03-29 10:21:16,750 58078 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1706 - Skipping: 1.2.8.1706
+2005-03-29 10:21:16,750 58078 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1707 - Skipping: 1.2.8.1707
+2005-03-29 10:21:16,750 58078 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1708 - Skipping: 1.2.8.1708
+2005-03-29 10:21:16,750 58078 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1709 - Skipping: 1.2.8.1709
+2005-03-29 10:21:16,750 58078 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1710 - Skipping: 1.2.8.1710
+2005-03-29 10:21:16,765 58093 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1711 - Skipping: 1.2.8.1711
+2005-03-29 10:21:16,765 58093 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1712 - Skipping: 1.2.8.1712
+2005-03-29 10:21:16,765 58093 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1713 - Skipping: 1.2.8.1713
+2005-03-29 10:21:16,765 58093 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1714 - Skipping: 1.2.8.1714
+2005-03-29 10:21:16,765 58093 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1715 - Skipping: 1.2.8.1715
+2005-03-29 10:21:16,765 58093 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1716 - Skipping: 1.2.8.1716
+2005-03-29 10:21:16,765 58093 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1717 - Skipping: 1.2.8.1717
+2005-03-29 10:21:16,781 58109 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1718 - Skipping: 1.2.8.1718
+2005-03-29 10:21:16,781 58109 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1719 - Skipping: 1.2.8.1719
+2005-03-29 10:21:16,781 58109 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1720 - Skipping: 1.2.8.1720
+2005-03-29 10:21:16,781 58109 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1721 - Skipping: 1.2.8.1721
+2005-03-29 10:21:16,781 58109 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1722 - Skipping: 1.2.8.1722
+2005-03-29 10:21:16,781 58109 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1727 - Skipping: 1.2.8.1727
+2005-03-29 10:21:16,781 58109 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1728 - Skipping: 1.2.8.1728
+2005-03-29 10:21:16,796 58125 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1729 - Skipping: 1.2.8.1729
+2005-03-29 10:21:16,796 58125 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1730 - Skipping: 1.2.8.1730
+2005-03-29 10:21:16,796 58125 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1731 - Skipping: 1.2.8.1731
+2005-03-29 10:21:16,796 58125 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1732 - Skipping: 1.2.8.1732
+2005-03-29 10:21:16,796 58125 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1733 - Skipping: 1.2.8.1733
+2005-03-29 10:21:16,796 58125 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1734 - Skipping: 1.2.8.1734
+2005-03-29 10:21:16,796 58125 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1735 - Skipping: 1.2.8.1735
+2005-03-29 10:21:16,812 58140 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1736 - Skipping: 1.2.8.1736
+2005-03-29 10:21:16,812 58140 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1737 - Skipping: 1.2.8.1737
+2005-03-29 10:21:16,812 58140 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1738 - Skipping: 1.2.8.1738
+2005-03-29 10:21:16,812 58140 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1739 - Skipping: 1.2.8.1739
+2005-03-29 10:21:16,812 58140 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1740 - Skipping: 1.2.8.1740
+2005-03-29 10:21:16,812 58140 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1741 - Skipping: 1.2.8.1741
+2005-03-29 10:21:16,812 58140 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1742 - Skipping: 1.2.8.1742
+2005-03-29 10:21:16,828 58156 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1743 - Skipping: 1.2.8.1743
+2005-03-29 10:21:16,828 58156 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1744 - Skipping: 1.2.8.1744
+2005-03-29 10:21:16,828 58156 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1745 - Skipping: 1.2.8.1745
+2005-03-29 10:21:16,828 58156 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1750 - Skipping: 1.3.0.1750
+2005-03-29 10:21:16,828 58156 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1751 - Skipping: 1.2.8.1751
+2005-03-29 10:21:16,843 58171 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1752 - Skipping: 1.2.8.1752
+2005-03-29 10:21:16,843 58171 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1753 - Skipping: 1.2.8.1753
+2005-03-29 10:21:16,843 58171 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1755 - Skipping: 1.3.0.1755
+2005-03-29 10:21:16,843 58171 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1756 - Skipping: 1.3.0.1756
+2005-03-29 10:21:16,843 58171 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1757 - Skipping: 1.3.0.1757
+2005-03-29 10:21:16,843 58171 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1758 - Skipping: 1.3.0.1758
+2005-03-29 10:21:16,843 58171 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1759 - Skipping: 1.3.0.1759
+2005-03-29 10:21:16,859 58187 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1760 - Skipping: 1.3.0.1760
+2005-03-29 10:21:16,859 58187 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1761 - Skipping: 1.3.0.1761
+2005-03-29 10:21:16,859 58187 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1762 - Skipping: 1.3.0.1762
+2005-03-29 10:21:16,859 58187 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1763 - Skipping: 1.4.0.1763
+2005-03-29 10:21:16,859 58187 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1764 - Skipping: 1.4.0.1764
+2005-03-29 10:21:16,859 58187 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1765 - Skipping: 1.4.0.1765
+2005-03-29 10:21:16,875 58203 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1766 - Skipping: 1.4.0.1766
+2005-03-29 10:21:16,875 58203 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1767 - Skipping: 1.4.0.1767
+2005-03-29 10:21:16,875 58203 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1768 - Skipping: 1.4.0.1768
+2005-03-29 10:21:16,875 58203 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1769 - Skipping: 1.4.0.1769
+2005-03-29 10:21:16,875 58203 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1770 - Skipping: 1.4.0.1770
+2005-03-29 10:21:16,875 58203 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1771 - Skipping: 1.4.0.1771
+2005-03-29 10:21:16,875 58203 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1772 - Skipping: 1.4.0.1772
+2005-03-29 10:21:16,890 58218 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1773 - Skipping: 1.4.0.1773
+2005-03-29 10:21:16,890 58218 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1774 - Skipping: 1.4.0.1774
+2005-03-29 10:21:16,890 58218 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1775 - Skipping: 1.4.0.1775
+2005-03-29 10:21:16,890 58218 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1776 - Skipping: 1.4.0.1776
+2005-03-29 10:21:16,890 58218 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1777 - Skipping: 1.4.0.1777
+2005-03-29 10:21:16,890 58218 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1778 - Skipping: 1.4.0.1778
+2005-03-29 10:21:16,906 58234 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1779 - Skipping: 1.4.0.1779
+2005-03-29 10:21:16,906 58234 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1780 - Skipping: 1.4.0.1780
+2005-03-29 10:21:16,906 58234 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1781 - Skipping: 1.4.0.1781
+2005-03-29 10:21:16,906 58234 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1782 - Skipping: 1.4.0.1782
+2005-03-29 10:21:16,906 58234 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1783 - Skipping: 1.4.0.1783
+2005-03-29 10:21:16,906 58234 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1784 - Skipping: 1.4.0.1784
+2005-03-29 10:21:16,906 58234 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1785 - Skipping: 1.4.0.1785
+2005-03-29 10:21:16,921 58250 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1787 - Skipping: 1.4.0.1787
+2005-03-29 10:21:16,921 58250 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1788 - Skipping: 1.5.0.1788
+2005-03-29 10:21:16,921 58250 [420] INFO  Rainbow  - CODE: 1791 - DB: 1789 - CURR: 1789 - Skipping: 1.5.0.1789
+2005-03-29 10:21:16,921 58250 [420] INFO  Rainbow  - Version number: 1.5.0.1790 applied successfully.
+2005-03-29 10:21:16,921 58250 [420] INFO  Rainbow  - Sucessfully applied version: 1.5.0.1790
+2005-03-29 10:21:16,921 58250 [420] INFO  Rainbow  - Installing DesktopModule 'Admin - Add Module Control' from 'DesktopModules/AddModule/Viewer.ascx'
+2005-03-29 10:21:16,921 58250 [420] DEBUG Rainbow  - Installing 'Admin - Add Module Control' as new module.
+2005-03-29 10:21:17,171 58500 [420] INFO  Rainbow  - Installing DesktopModule 'Admin - Add Tab' from 'DesktopModules/AddTab/AddTab.ascx'
+2005-03-29 10:21:17,171 58500 [420] DEBUG Rainbow  - Installing 'Admin - Add Tab' as new module.
+2005-03-29 10:21:17,171 58500 [420] INFO  Rainbow  - Installing DesktopModule 'Amazon from KonoTree.com v2.0' from 'DesktopModules/AmazonFull/Books.ascx'
+2005-03-29 10:21:17,171 58500 [420] DEBUG Rainbow  - Installing 'Amazon from KonoTree.com v2.0' as new module.
+2005-03-29 10:21:17,171 58500 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\AmazonFull\install.sql'
+2005-03-29 10:21:17,171 58500 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:21:17,187 58515 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:21:17,187 58515 [420] INFO  Rainbow  - Installing DesktopModule 'Announcements' from 'DesktopModules/Announcements/Announcements.ascx'
+2005-03-29 10:21:17,187 58515 [420] DEBUG Rainbow  - Installing 'Announcements' as new module.
+2005-03-29 10:21:17,187 58515 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\Announcements\install.sql'
+2005-03-29 10:21:17,187 58515 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:21:17,218 58546 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:21:17,218 58546 [420] INFO  Rainbow  - Installing DesktopModule 'Articles' from 'DesktopModules/Articles/Articles.ascx'
+2005-03-29 10:21:17,218 58546 [420] DEBUG Rainbow  - Installing 'Articles' as new module.
+2005-03-29 10:21:17,218 58546 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\Articles\install.sql'
+2005-03-29 10:21:17,218 58546 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:21:17,250 58578 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:21:17,250 58578 [420] INFO  Rainbow  - Installing DesktopModule 'Blog' from 'DesktopModules/Blog/Blog.ascx'
+2005-03-29 10:21:17,250 58578 [420] DEBUG Rainbow  - Installing 'Blog' as new module.
+2005-03-29 10:21:17,250 58578 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\Blog\install.sql'
+2005-03-29 10:21:17,265 58593 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:21:17,359 58687 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:21:17,359 58687 [420] INFO  Rainbow  - Installing DesktopModule 'BreadCrumbs' from 'DesktopModules/BreadCrumbs/BreadCrumbs.ascx'
+2005-03-29 10:21:17,359 58687 [420] DEBUG Rainbow  - Installing 'BreadCrumbs' as new module.
+2005-03-29 10:21:17,359 58687 [420] INFO  Rainbow  - Installing DesktopModule 'Admin - Cache Viewer' from 'DesktopModules/CacheViewer/CacheViewer.ascx'
+2005-03-29 10:21:17,359 58687 [420] DEBUG Rainbow  - Installing 'Admin - Cache Viewer' as new module.
+2005-03-29 10:21:17,359 58687 [420] INFO  Rainbow  - Installing DesktopModule 'ComponentModule' from 'DesktopModules/ComponentModule/ComponentModule.ascx'
+2005-03-29 10:21:17,359 58687 [420] DEBUG Rainbow  - Installing 'ComponentModule' as new module.
+2005-03-29 10:21:17,359 58687 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\ComponentModule\install.sql'
+2005-03-29 10:21:17,359 58687 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:21:17,390 58718 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:21:17,390 58718 [420] INFO  Rainbow  - Installing DesktopModule 'Contacts' from 'DesktopModules/Contacts/Contacts.ascx'
+2005-03-29 10:21:17,390 58718 [420] DEBUG Rainbow  - Installing 'Contacts' as new module.
+2005-03-29 10:21:17,390 58718 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\Contacts\install.sql'
+2005-03-29 10:21:17,390 58718 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:21:17,437 58765 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:21:17,437 58765 [420] INFO  Rainbow  - Installing DesktopModule 'Admin - Content Manager' from 'DesktopModules/ContentManager/ContentManager.ascx'
+2005-03-29 10:21:17,437 58765 [420] DEBUG Rainbow  - Installing 'Admin - Content Manager' as new module.
+2005-03-29 10:21:17,437 58765 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\ContentManager\install.sql'
+2005-03-29 10:21:17,453 58781 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:21:17,484 58812 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:21:17,484 58812 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\ContentManager\InstallScripts\CM_Announcements_Install.sql'
+2005-03-29 10:21:17,500 58828 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:21:17,531 58859 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:21:17,531 58859 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\ContentManager\InstallScripts\CM_Articles_Install.sql'
+2005-03-29 10:21:17,531 58859 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:21:17,578 58906 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:21:17,578 58906 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\ContentManager\InstallScripts\CM_Blogs_Install.sql'
+2005-03-29 10:21:17,578 58906 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:21:17,734 59062 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:21:17,734 59062 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\ContentManager\InstallScripts\CM_Contacts_Install.sql'
+2005-03-29 10:21:17,734 59062 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:21:17,765 59093 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:21:17,765 59093 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\ContentManager\InstallScripts\CM_Documents_Install.sql'
+2005-03-29 10:21:17,765 59093 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:21:17,812 59140 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:21:17,812 59140 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\ContentManager\InstallScripts\CM_Events_Install.sql'
+2005-03-29 10:21:17,812 59140 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:21:17,859 59187 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:21:17,859 59187 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\ContentManager\InstallScripts\CM_FAQs_Install.sql'
+2005-03-29 10:21:17,859 59187 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:21:17,937 59265 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:21:17,937 59265 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\ContentManager\InstallScripts\CM_Links_Install.sql'
+2005-03-29 10:21:17,937 59265 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:21:17,968 59296 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:21:17,968 59296 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\ContentManager\InstallScripts\CM_Tasks_install.sql'
+2005-03-29 10:21:17,968 59296 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:21:18,031 59359 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:21:18,031 59359 [420] INFO  Rainbow  - Installing DesktopModule 'Daily Dilbert' from 'DesktopModules/DailyDilbert/DailyDilbert.ascx'
+2005-03-29 10:21:18,031 59359 [420] DEBUG Rainbow  - Installing 'Daily Dilbert' as new module.
+2005-03-29 10:21:18,046 59375 [420] INFO  Rainbow  - Installing DesktopModule 'Admin - Database Table Edit' from 'DesktopModules/DatabaseTableEdit/DatabaseTableEdit.ascx'
+2005-03-29 10:21:18,046 59375 [420] DEBUG Rainbow  - Installing 'Admin - Database Table Edit' as new module.
+2005-03-29 10:21:18,046 59375 [420] INFO  Rainbow  - Installing DesktopModule 'Admin - Database Tool' from 'DesktopModules/DatabaseTool/DatabaseTool.ascx'
+2005-03-29 10:21:18,046 59375 [420] DEBUG Rainbow  - Installing 'Admin - Database Tool' as new module.
+2005-03-29 10:21:18,046 59375 [420] INFO  Rainbow  - Installing DesktopModule 'Discussion' from 'DesktopModules/Discussion/Discussion.ascx'
+2005-03-29 10:21:18,046 59375 [420] DEBUG Rainbow  - Installing 'Discussion' as new module.
+2005-03-29 10:21:18,046 59375 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\Discussion\install.sql'
+2005-03-29 10:21:18,046 59375 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:21:18,125 59453 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:21:18,125 59453 [420] INFO  Rainbow  - Installing DesktopModule 'Documents' from 'DesktopModules/Documents/Documents.ascx'
+2005-03-29 10:21:18,125 59453 [420] DEBUG Rainbow  - Installing 'Documents' as new module.
+2005-03-29 10:21:18,125 59453 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\Documents\install.sql'
+2005-03-29 10:21:18,140 59468 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:21:18,187 59515 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:21:18,187 59515 [420] INFO  Rainbow  - Installing DesktopModule 'Enhanced Html' from 'DesktopModules/EnhancedHtml/EnhancedHtml.ascx'
+2005-03-29 10:21:18,187 59515 [420] DEBUG Rainbow  - Installing 'Enhanced Html' as new module.
+2005-03-29 10:21:18,187 59515 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\EnhancedHtml\install.sql'
+2005-03-29 10:21:18,187 59515 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:21:18,218 59546 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:21:18,218 59546 [420] INFO  Rainbow  - Installing DesktopModule 'Enhanced Links' from 'DesktopModules/EnhancedLinks/EnhancedLinks.ascx'
+2005-03-29 10:21:18,218 59546 [420] DEBUG Rainbow  - Installing 'Enhanced Links' as new module.
+2005-03-29 10:21:18,218 59546 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\EnhancedLinks\Install.sql'
+2005-03-29 10:21:18,218 59546 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:21:18,250 59578 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:21:18,265 59593 [420] INFO  Rainbow  - Installing DesktopModule 'Admin - EventLogs' from 'DesktopModules/EventLogs/EventLogs.ascx'
+2005-03-29 10:21:18,265 59593 [420] DEBUG Rainbow  - Installing 'Admin - EventLogs' as new module.
+2005-03-29 10:21:18,265 59593 [420] INFO  Rainbow  - Installing DesktopModule 'Events' from 'DesktopModules/Events/Events.ascx'
+2005-03-29 10:21:18,265 59593 [420] DEBUG Rainbow  - Installing 'Events' as new module.
+2005-03-29 10:21:18,265 59593 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\Events\install.sql'
+2005-03-29 10:21:18,265 59593 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:21:18,296 59625 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:21:18,296 59625 [420] INFO  Rainbow  - Installing DesktopModule 'FAQs' from 'DesktopModules/FAQs/FAQs.ascx'
+2005-03-29 10:21:18,296 59625 [420] DEBUG Rainbow  - Installing 'FAQs' as new module.
+2005-03-29 10:21:18,296 59625 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\FAQs\install.sql'
+2005-03-29 10:21:18,296 59625 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:21:18,328 59656 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:21:18,328 59656 [420] INFO  Rainbow  - Installing DesktopModule 'File Directory Tree' from 'DesktopModules/FileDirectoryTree/FileDirectoryTree.ascx'
+2005-03-29 10:21:18,328 59656 [420] DEBUG Rainbow  - Installing 'File Directory Tree' as new module.
+2005-03-29 10:21:18,328 59656 [420] INFO  Rainbow  - Installing DesktopModule 'Flash Module' from 'DesktopModules/FlashModule/FlashModule.ascx'
+2005-03-29 10:21:18,328 59656 [420] DEBUG Rainbow  - Installing 'Flash Module' as new module.
+2005-03-29 10:21:18,328 59656 [420] INFO  Rainbow  - Installing DesktopModule 'GoogleSearch' from 'DesktopModules/GoogleSearch/GoogleSearch.ascx'
+2005-03-29 10:21:18,328 59656 [420] DEBUG Rainbow  - Installing 'GoogleSearch' as new module.
+2005-03-29 10:21:18,328 59656 [420] INFO  Rainbow  - Installing DesktopModule 'HTML Document' from 'DesktopModules/HTMLDocument/HTMLModule.ascx'
+2005-03-29 10:21:18,328 59656 [420] DEBUG Rainbow  - Installing 'HTML Document' as new module.
+2005-03-29 10:21:18,328 59656 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\HTMLDocument\install.sql'
+2005-03-29 10:21:18,343 59671 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:21:18,359 59687 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:21:18,359 59687 [420] INFO  Rainbow  - Installing DesktopModule 'IframeModule' from 'DesktopModules/IframeModule/IframeModule.ascx'
+2005-03-29 10:21:18,359 59687 [420] DEBUG Rainbow  - Installing 'IframeModule' as new module.
+2005-03-29 10:21:18,375 59703 [420] INFO  Rainbow  - Installing DesktopModule 'Image' from 'DesktopModules/Image/ImageModule.ascx'
+2005-03-29 10:21:18,375 59703 [420] DEBUG Rainbow  - Installing 'Image' as new module.
+2005-03-29 10:21:18,375 59703 [420] INFO  Rainbow  - Installing DesktopModule 'LDAP User Profile' from 'DesktopModules/LDAPUserProfile/LDAPUserProfile.ascx'
+2005-03-29 10:21:18,375 59703 [420] DEBUG Rainbow  - Installing 'LDAP User Profile' as new module.
+2005-03-29 10:21:18,375 59703 [420] INFO  Rainbow  - Installing DesktopModule 'Links' from 'DesktopModules/Links/Links.ascx'
+2005-03-29 10:21:18,375 59703 [420] DEBUG Rainbow  - Installing 'Links' as new module.
+2005-03-29 10:21:18,375 59703 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\Links\install.sql'
+2005-03-29 10:21:18,375 59703 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:21:18,406 59734 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:21:18,406 59734 [420] INFO  Rainbow  - Installing DesktopModule 'MapQuest' from 'DesktopModules/MapQuest/MapQuest.ascx'
+2005-03-29 10:21:18,406 59734 [420] DEBUG Rainbow  - Installing 'MapQuest' as new module.
+2005-03-29 10:21:18,406 59734 [420] INFO  Rainbow  - Installing DesktopModule 'MileStones' from 'DesktopModules/MileStones/MileStones.ascx'
+2005-03-29 10:21:18,406 59734 [420] DEBUG Rainbow  - Installing 'MileStones' as new module.
+2005-03-29 10:21:18,406 59734 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\MileStones\install.sql'
+2005-03-29 10:21:18,406 59734 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:21:18,437 59765 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:21:18,453 59781 [420] INFO  Rainbow  - Installing DesktopModule 'Admin - Module Definitions' from 'DesktopModules/ModuleDefinitions/ModuleDefs.ascx'
+2005-03-29 10:21:18,453 59781 [420] DEBUG Rainbow  - Installing 'Admin - Module Definitions' as new module.
+2005-03-29 10:21:18,453 59781 [420] INFO  Rainbow  - Installing DesktopModule 'Admin - Module Types (AdminAll)' from 'DesktopModules/ModuleDefinitionsAll/ModuleDefsAll.ascx'
+2005-03-29 10:21:18,453 59781 [420] DEBUG Rainbow  - Installing 'Admin - Module Types (AdminAll)' as new module.
+2005-03-29 10:21:18,453 59781 [420] INFO  Rainbow  - Installing DesktopModule 'Admin - Monitoring' from 'DesktopModules/Monitoring/Monitoring.ascx'
+2005-03-29 10:21:18,453 59781 [420] DEBUG Rainbow  - Installing 'Admin - Monitoring' as new module.
+2005-03-29 10:21:18,453 59781 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\Monitoring\install.sql'
+2005-03-29 10:21:18,453 59781 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:21:18,468 59796 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:21:18,468 59796 [420] INFO  Rainbow  - Installing DesktopModule 'Admin - Newsletter' from 'DesktopModules/Newsletter/Newsletter.ascx'
+2005-03-29 10:21:18,468 59796 [420] DEBUG Rainbow  - Installing 'Admin - Newsletter' as new module.
+2005-03-29 10:21:18,468 59796 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\Newsletter\Newsletter_Install.sql'
+2005-03-29 10:21:18,484 59812 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:21:18,484 59812 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:21:18,484 59812 [420] INFO  Rainbow  - Installing DesktopModule 'Admin - BlackList' from 'DesktopModules/Newsletter/BlackList.ascx'
+2005-03-29 10:21:18,484 59812 [420] DEBUG Rainbow  - Installing 'Admin - BlackList' as new module.
+2005-03-29 10:21:18,484 59812 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\Newsletter\Blacklist_Install.sql'
+2005-03-29 10:21:18,484 59812 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:21:18,500 59828 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:21:18,500 59828 [420] INFO  Rainbow  - Installing DesktopModule 'PageKeyPhrase' from 'DesktopModules/PageKeyPhrase/PageKeyPhrase.ascx'
+2005-03-29 10:21:18,500 59828 [420] DEBUG Rainbow  - Installing 'PageKeyPhrase' as new module.
+2005-03-29 10:21:18,500 59828 [420] INFO  Rainbow  - Installing DesktopModule 'Pictures' from 'DesktopModules/Pictures/Pictures.ascx'
+2005-03-29 10:21:18,500 59828 [420] DEBUG Rainbow  - Installing 'Pictures' as new module.
+2005-03-29 10:21:18,515 59843 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\Pictures\install.sql'
+2005-03-29 10:21:18,515 59843 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:21:18,562 59890 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:21:18,562 59890 [420] INFO  Rainbow  - Installing DesktopModule 'Admin - Manage Portals (AdminAll)' from 'DesktopModules/PortalsAdministration/Portals.ascx'
+2005-03-29 10:21:18,578 59906 [420] DEBUG Rainbow  - Installing 'Admin - Manage Portals (AdminAll)' as new module.
+2005-03-29 10:21:18,578 59906 [420] INFO  Rainbow  - Installing DesktopModule 'Portal Search' from 'DesktopModules/PortalSearch/PortalSearch.ascx'
+2005-03-29 10:21:18,578 59906 [420] DEBUG Rainbow  - Installing 'Portal Search' as new module.
+2005-03-29 10:21:18,578 59906 [420] INFO  Rainbow  - Installing DesktopModule 'Quiz' from 'DesktopModules/Quiz/Quiz.ascx'
+2005-03-29 10:21:18,578 59906 [420] DEBUG Rainbow  - Installing 'Quiz' as new module.
+2005-03-29 10:21:18,578 59906 [420] INFO  Rainbow  - Installing DesktopModule 'Quote' from 'DesktopModules/Quote/Quote.ascx'
+2005-03-29 10:21:18,578 59906 [420] DEBUG Rainbow  - Installing 'Quote' as new module.
+2005-03-29 10:21:18,578 59906 [420] INFO  Rainbow  - Installing DesktopModule 'Admin - Role Assignment' from 'DesktopModules/RoleAssignment/RoleAssignment.ascx'
+2005-03-29 10:21:18,578 59906 [420] DEBUG Rainbow  - Installing 'Admin - Role Assignment' as new module.
+2005-03-29 10:21:18,593 59921 [420] INFO  Rainbow  - Installing DesktopModule 'Admin - Roles' from 'DesktopModules/Roles/Roles.ascx'
+2005-03-29 10:21:18,593 59921 [420] DEBUG Rainbow  - Installing 'Admin - Roles' as new module.
+2005-03-29 10:21:18,593 59921 [420] INFO  Rainbow  - Installing DesktopModule 'Admin - Security Check' from 'DesktopModules/SecurityCheck/SecurityCheck.ascx'
+2005-03-29 10:21:18,593 59921 [420] DEBUG Rainbow  - Installing 'Admin - Security Check' as new module.
+2005-03-29 10:21:18,593 59921 [420] INFO  Rainbow  - Installing DesktopModule 'Send Thoughts' from 'DesktopModules/SendThoughts/SendThoughts.ascx'
+2005-03-29 10:21:18,593 59921 [420] DEBUG Rainbow  - Installing 'Send Thoughts' as new module.
+2005-03-29 10:21:18,593 59921 [420] INFO  Rainbow  - Installing DesktopModule 'ServiceItemList' from 'DesktopModules/ServiceItemList/ServiceItemList.ascx'
+2005-03-29 10:21:18,593 59921 [420] DEBUG Rainbow  - Installing 'ServiceItemList' as new module.
+2005-03-29 10:21:18,593 59921 [420] INFO  Rainbow  - Installing DesktopModule 'Shortcut' from 'DesktopModules/Shortcut/Shortcut.ascx'
+2005-03-29 10:21:18,593 59921 [420] DEBUG Rainbow  - Installing 'Shortcut' as new module.
+2005-03-29 10:21:18,593 59921 [420] INFO  Rainbow  - Installing DesktopModule 'ShortcutAll' from 'DesktopModules/Shortcut/ShortcutAll.ascx'
+2005-03-29 10:21:18,640 59968 [420] DEBUG Rainbow  - Installing 'ShortcutAll' as new module.
+2005-03-29 10:21:18,640 59968 [420] INFO  Rainbow  - Installing DesktopModule 'SignIn' from 'DesktopModules/SignIn/SignIn.ascx'
+2005-03-29 10:21:18,640 59968 [420] DEBUG Rainbow  - Installing 'SignIn' as new module.
+2005-03-29 10:21:18,640 59968 [420] INFO  Rainbow  - Installing DesktopModule 'SignInCool' from 'DesktopModules/SignIn/SignInCool.ascx'
+2005-03-29 10:21:18,640 59968 [420] DEBUG Rainbow  - Installing 'SignInCool' as new module.
+2005-03-29 10:21:18,640 59968 [420] INFO  Rainbow  - Installing DesktopModule 'SignInLink' from 'DesktopModules/SignIn/SignInLink.ascx'
+2005-03-29 10:21:18,640 59968 [420] DEBUG Rainbow  - Installing 'SignInLink' as new module.
+2005-03-29 10:21:18,640 59968 [420] INFO  Rainbow  - Installing DesktopModule 'SignIn LDAP' from 'DesktopModules/SignInLdap/SigninLdap.ascx'
+2005-03-29 10:21:18,640 59968 [420] DEBUG Rainbow  - Installing 'SignIn LDAP' as new module.
+2005-03-29 10:21:18,656 59984 [420] INFO  Rainbow  - Installing DesktopModule 'Simple Menu' from 'DesktopModules/SimpleMenu/SimpleMenu.ascx'
+2005-03-29 10:21:18,656 59984 [420] DEBUG Rainbow  - Installing 'Simple Menu' as new module.
+2005-03-29 10:21:18,656 59984 [420] INFO  Rainbow  - Installing DesktopModule 'Sitemap' from 'DesktopModules/Sitemap/Sitemap.ascx'
+2005-03-29 10:21:18,656 59984 [420] DEBUG Rainbow  - Installing 'Sitemap' as new module.
+2005-03-29 10:21:18,656 59984 [420] INFO  Rainbow  - Installing DesktopModule 'Admin - Site Settings' from 'DesktopModules/SiteSettings/SiteSettings.ascx'
+2005-03-29 10:21:18,656 59984 [420] DEBUG Rainbow  - Installing 'Admin - Site Settings' as new module.
+2005-03-29 10:21:18,656 59984 [420] INFO  Rainbow  - Installing DesktopModule 'Survey' from 'DesktopModules/Survey/Survey.ascx'
+2005-03-29 10:21:18,656 59984 [420] DEBUG Rainbow  - Installing 'Survey' as new module.
+2005-03-29 10:21:18,656 59984 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\Survey\install.sql'
+2005-03-29 10:21:18,671 60000 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:21:18,750 60078 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:21:18,750 60078 [420] INFO  Rainbow  - Installing DesktopModule 'Admin - Tabs' from 'DesktopModules/Tabs/Tabs.ascx'
+2005-03-29 10:21:18,750 60078 [420] DEBUG Rainbow  - Installing 'Admin - Tabs' as new module.
+2005-03-29 10:21:18,750 60078 [420] INFO  Rainbow  - Installing DesktopModule 'Tasks' from 'DesktopModules/Tasks/Tasks.ascx'
+2005-03-29 10:21:18,750 60078 [420] DEBUG Rainbow  - Installing 'Tasks' as new module.
+2005-03-29 10:21:18,750 60078 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\Tasks\install.sql'
+2005-03-29 10:21:18,750 60078 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:21:18,765 60093 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:21:18,781 60109 [420] INFO  Rainbow  - Installing DesktopModule 'Admin - ThemeCacheManager' from 'DesktopModules/ThemeCacheManager/ThemeCacheManager.ascx'
+2005-03-29 10:21:18,781 60109 [420] DEBUG Rainbow  - Installing 'Admin - ThemeCacheManager' as new module.
+2005-03-29 10:21:18,781 60109 [420] INFO  Rainbow  - Installing DesktopModule 'UserDefinedTable' from 'DesktopModules/UserDefinedTable/UserDefinedTable.ascx'
+2005-03-29 10:21:18,781 60109 [420] DEBUG Rainbow  - Installing 'UserDefinedTable' as new module.
+2005-03-29 10:21:18,781 60109 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\UserDefinedTable\install.sql'
+2005-03-29 10:21:18,781 60109 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:21:18,843 60171 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:21:18,859 60187 [420] INFO  Rainbow  - Installing DesktopModule 'Admin - Manage Users' from 'DesktopModules/Users/Users.ascx'
+2005-03-29 10:21:18,859 60187 [420] DEBUG Rainbow  - Installing 'Admin - Manage Users' as new module.
+2005-03-29 10:21:18,859 60187 [420] INFO  Rainbow  - Installing DesktopModule 'Rainbow Version' from 'DesktopModules/Version/RainbowVersion.ascx'
+2005-03-29 10:21:18,859 60187 [420] DEBUG Rainbow  - Installing 'Rainbow Version' as new module.
+2005-03-29 10:21:18,859 60187 [420] INFO  Rainbow  - Installing DesktopModule 'Weather German' from 'DesktopModules/WeatherDE/WeatherDE.ascx'
+2005-03-29 10:21:18,859 60187 [420] DEBUG Rainbow  - Installing 'Weather German' as new module.
+2005-03-29 10:21:18,859 60187 [420] INFO  Rainbow  - Installing DesktopModule 'Weather US' from 'DesktopModules/WeatherUS/WeatherUS.ascx'
+2005-03-29 10:21:18,859 60187 [420] DEBUG Rainbow  - Installing 'Weather US' as new module.
+2005-03-29 10:21:18,859 60187 [420] INFO  Rainbow  - Installing DesktopModule 'WebPartModule' from 'DesktopModules/WebPartModule/WebPartModule.ascx'
+2005-03-29 10:21:18,859 60187 [420] DEBUG Rainbow  - Installing 'WebPartModule' as new module.
+2005-03-29 10:21:18,875 60203 [420] INFO  Rainbow  - Installing DesktopModule 'Who's Logged On?' from 'DesktopModules/WhosLoggedOn/WhosLoggedOn.ascx'
+2005-03-29 10:21:18,875 60203 [420] DEBUG Rainbow  - Installing 'Who's Logged On?' as new module.
+2005-03-29 10:21:18,875 60203 [420] INFO  Rainbow  - Executing Script 'C:\Rainbow2K5\DesktopModules\WhosLoggedOn\install.sql'
+2005-03-29 10:21:18,875 60203 [420] DEBUG Rainbow  - Start Script Transaction 
+2005-03-29 10:21:18,875 60203 [420] DEBUG Rainbow  - Commit Script Transaction.
+2005-03-29 10:21:18,890 60218 [420] INFO  Rainbow  - Installing DesktopModule 'XmlFeed' from 'DesktopModules/XmlFeed/XmlFeed.ascx'
+2005-03-29 10:21:18,890 60218 [420] DEBUG Rainbow  - Installing 'XmlFeed' as new module.
+2005-03-29 10:21:18,890 60218 [420] INFO  Rainbow  - Installing DesktopModule 'XML/XSL (MultiLanguage)' from 'DesktopModules/XmlLang/XmlLangModule.ascx'
+2005-03-29 10:21:18,890 60218 [420] DEBUG Rainbow  - Installing 'XML/XSL (MultiLanguage)' as new module.
+2005-03-29 10:21:18,890 60218 [420] INFO  Rainbow  - Installing DesktopModule 'XML/XSL' from 'DesktopModules/XmlModule/XmlModule.ascx'
+2005-03-29 10:21:18,890 60218 [420] DEBUG Rainbow  - Installing 'XML/XSL' as new module.
+2005-03-29 10:21:18,890 60218 [420] INFO  Rainbow  - Version number: 1.5.0.1791 applied successfully.
+2005-03-29 10:21:18,890 60218 [420] INFO  Rainbow  - Sucessfully applied version: 1.5.0.1791
+2005-03-29 10:21:44,468 85796 [420] INFO  Rainbow  - Update complete
+2005-03-29 11:02:11,140 2512468 [420] ERROR Rainbow  - Failed to Load XML Theme : C:\Rainbow2K5\Design\Themes\Default\Theme.xml Message was: Ya se ha agregado el elemento. Clave en el diccionario: "ControlNoTitleStart"  Clave agregada: "ControlNoTitleStart"
+2005-03-29 11:02:11,140 2512468 [420] ERROR Rainbow  - Failed to Load XML Theme : C:\Rainbow2K5\Design\Themes\default\Theme.xml Message was: Ya se ha agregado el elemento. Clave en el diccionario: "Buttons_Edit"  Clave agregada: "Buttons_Edit"
+2005-03-29 11:02:11,140 2512468 [420] INFO  Rainbow  - An Error Occurred In Global.asax when trying to get portalsettings. If the error is thread abort it means portalalias:rainbow could not be found and the user was redirected.
+Exception: System.IO.FileNotFoundException
+Message: No se ha podido cargar el tema 'Default'. El módulo por defecto no está disponible.
+Source: Rainbow
+   at Rainbow.Design.ThemeManager.Load(String ThemeName)
+   at Rainbow.Configuration.PortalSettings..ctor(Int32 tabID, String portalAlias)
+   at Rainbow.Global.Application_BeginRequest(Object sender, EventArgs e)
+
+2005-03-29 11:02:24,203 2525531 [420] ERROR Rainbow  - Failed to Load XML Theme : C:\Rainbow2K5\Design\Themes\Default\Theme.xml Message was: Ya se ha agregado el elemento. Clave en el diccionario: "ControlNoTitleStart"  Clave agregada: "ControlNoTitleStart"
+2005-03-29 11:02:24,203 2525531 [420] ERROR Rainbow  - Failed to Load XML Theme : C:\Rainbow2K5\Design\Themes\default\Theme.xml Message was: Ya se ha agregado el elemento. Clave en el diccionario: "Buttons_Edit"  Clave agregada: "Buttons_Edit"
+2005-03-29 11:02:24,203 2525531 [420] INFO  Rainbow  - An Error Occurred In Global.asax when trying to get portalsettings. If the error is thread abort it means portalalias:rainbow could not be found and the user was redirected.
+Exception: System.IO.FileNotFoundException
+Message: No se ha podido cargar el tema 'Default'. El módulo por defecto no está disponible.
+Source: Rainbow
+   at Rainbow.Design.ThemeManager.Load(String ThemeName)
+   at Rainbow.Configuration.PortalSettings..ctor(Int32 tabID, String portalAlias)
+   at Rainbow.Global.Application_BeginRequest(Object sender, EventArgs e)
+
+2005-03-29 14:15:29,515 0    [3720] ERROR Rainbow  - Failed to Load XML Theme : C:\Rainbow2K5\Design\Themes\MsAlt\Theme.xml Message was: Item has already been added.  Key in dictionary: "ControlNoTitleStart"  Key being added: "ControlNoTitleStart"
+2005-03-29 14:15:29,531 15   [3720] ERROR Rainbow  - Failed to Load XML Theme : C:\Rainbow2K5\Design\Themes\Default\Theme.xml Message was: Item has already been added.  Key in dictionary: "Buttons_Add"  Key being added: "Buttons_Add"
+2005-03-29 14:15:29,546 31   [3720] INFO  Rainbow  - An Error Occurred In Global.asax when trying to get portalsettings. If the error is thread abort it means portalalias:rainbow could not be found and the user was redirected.
+Exception: System.IO.FileNotFoundException
+Message: Unable to load theme 'MsAlt'. Default not available
+Source: Rainbow
+   at Rainbow.Design.ThemeManager.Load(String ThemeName)
+   at Rainbow.Configuration.PortalSettings..ctor(Int32 tabID, String portalAlias)
+   at Rainbow.Global.Application_BeginRequest(Object sender, EventArgs e)
+
+2005-03-29 14:15:42,796 13281 [3720] ERROR Rainbow  - Failed to Load XML Theme : C:\Rainbow2K5\Design\Themes\MsAlt\Theme.xml Message was: Item has already been added.  Key in dictionary: "ControlNoTitleStart"  Key being added: "ControlNoTitleStart"
+2005-03-29 14:15:42,796 13281 [3720] ERROR Rainbow  - Failed to Load XML Theme : C:\Rainbow2K5\Design\Themes\Default\Theme.xml Message was: Item has already been added.  Key in dictionary: "Buttons_Add"  Key being added: "Buttons_Add"
+2005-03-29 14:15:42,796 13281 [3720] INFO  Rainbow  - An Error Occurred In Global.asax when trying to get portalsettings. If the error is thread abort it means portalalias:rainbow could not be found and the user was redirected.
+Exception: System.IO.FileNotFoundException
+Message: Unable to load theme 'MsAlt'. Default not available
+Source: Rainbow
+   at Rainbow.Design.ThemeManager.Load(String ThemeName)
+   at Rainbow.Configuration.PortalSettings..ctor(Int32 tabID, String portalAlias)
+   at Rainbow.Global.Application_BeginRequest(Object sender, EventArgs e)
+
+2005-03-29 14:15:55,453 25937 [3720] ERROR Rainbow  - Failed to Load XML Theme : C:\Rainbow2K5\Design\Themes\MsAlt\Theme.xml Message was: Item has already been added.  Key in dictionary: "ControlNoTitleStart"  Key being added: "ControlNoTitleStart"
+2005-03-29 14:15:55,453 25937 [3720] ERROR Rainbow  - Failed to Load XML Theme : C:\Rainbow2K5\Design\Themes\Default\Theme.xml Message was: Item has already been added.  Key in dictionary: "Buttons_Add"  Key being added: "Buttons_Add"
+2005-03-29 14:15:55,453 25937 [3720] INFO  Rainbow  - An Error Occurred In Global.asax when trying to get portalsettings. If the error is thread abort it means portalalias:rainbow could not be found and the user was redirected.
+Exception: System.IO.FileNotFoundException
+Message: Unable to load theme 'MsAlt'. Default not available
+Source: Rainbow
+   at Rainbow.Design.ThemeManager.Load(String ThemeName)
+   at Rainbow.Configuration.PortalSettings..ctor(Int32 tabID, String portalAlias)
+   at Rainbow.Global.Application_BeginRequest(Object sender, EventArgs e)
+
+2005-03-29 14:16:09,312 39796 [3720] ERROR Rainbow  - Failed to Load XML Theme : C:\Rainbow2K5\Design\Themes\MsAlt\Theme.xml Message was: Item has already been added.  Key in dictionary: "ControlNoTitleStart"  Key being added: "ControlNoTitleStart"
+2005-03-29 14:16:09,312 39796 [3720] ERROR Rainbow  - Failed to Load XML Theme : C:\Rainbow2K5\Design\Themes\Default\Theme.xml Message was: Item has already been added.  Key in dictionary: "Buttons_Add"  Key being added: "Buttons_Add"
+2005-03-29 14:16:09,312 39796 [3720] INFO  Rainbow  - An Error Occurred In Global.asax when trying to get portalsettings. If the error is thread abort it means portalalias:rainbow could not be found and the user was redirected.
+Exception: System.IO.FileNotFoundException
+Message: Unable to load theme 'MsAlt'. Default not available
+Source: Rainbow
+   at Rainbow.Design.ThemeManager.Load(String ThemeName)
+   at Rainbow.Configuration.PortalSettings..ctor(Int32 tabID, String portalAlias)
+   at Rainbow.Global.Application_BeginRequest(Object sender, EventArgs e)
+
+2005-03-29 14:16:22,671 53156 [3720] ERROR Rainbow  - Failed to Load XML Theme : C:\Rainbow2K5\Design\Themes\MsAlt\Theme.xml Message was: Item has already been added.  Key in dictionary: "ControlNoTitleStart"  Key being added: "ControlNoTitleStart"
+2005-03-29 14:16:22,671 53156 [3720] ERROR Rainbow  - Failed to Load XML Theme : C:\Rainbow2K5\Design\Themes\Default\Theme.xml Message was: Item has already been added.  Key in dictionary: "Buttons_Add"  Key being added: "Buttons_Add"
+2005-03-29 14:16:22,671 53156 [3720] INFO  Rainbow  - An Error Occurred In Global.asax when trying to get portalsettings. If the error is thread abort it means portalalias:rainbow could not be found and the user was redirected.
+Exception: System.IO.FileNotFoundException
+Message: Unable to load theme 'MsAlt'. Default not available
+Source: Rainbow
+   at Rainbow.Design.ThemeManager.Load(String ThemeName)
+   at Rainbow.Configuration.PortalSettings..ctor(Int32 tabID, String portalAlias)
+   at Rainbow.Global.Application_BeginRequest(Object sender, EventArgs e)
+

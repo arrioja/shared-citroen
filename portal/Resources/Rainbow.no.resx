@@ -1,0 +1,852 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="ResMimeType">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="Version">
+    <value>1.0.0.0</value>
+  </resheader>
+  <resheader name="Reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3102.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="Writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3102.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ACCEPT">
+    <value>Jeg har lest og aksepterer betingelsene</value>
+  </data>
+  <data name="ACCESSDENIED">
+    <value>Ingen aksess</value>
+  </data>
+  <data name="ACCESS_DENIED_MESSAGE">
+    <value>Enten er du ikke logget på, eller så har du ikke aksess til denne ressurs. Kontakt administrator for å få aksess.</value>
+  </data>
+  <data name="ACCOUNT_INFO">
+    <value>Konto infomrasjon</value>
+  </data>
+  <data name="ACCOUNT_LOGIN">
+    <value>Konto login</value>
+  </data>
+  <data name="ADD">
+    <value>Legg til</value>
+  </data>
+  <data name="ADD_DOCUMENT">
+    <value>Legg til nytt dokument</value>
+  </data>
+  <data name="ADD_NEW">
+    <value>Legg til ny</value>
+  </data>
+  <data name="ADD_PORTAL">
+    <value>Legg til Portal</value>
+  </data>
+  <data name="ADDRESS">
+    <value>Adresse</value>
+  </data>
+  <data name="ADDTAB">
+    <value>Legg til ny meny</value>
+  </data>
+  <data name="ADDUSER">
+    <value>Legg til bruker til denne rollen</value>
+  </data>
+  <data name="ADMIN_MODULE">
+    <value>Admin modul?</value>
+  </data>
+  <data name="ADVPAYM">
+    <value>Forhåndsbetaling</value>
+  </data>
+  <data name="ALREADY_REGISTERED">
+    <value>er allerede registrert</value>
+  </data>
+  <data name="ALREADY_REGISTERED1">
+    <value>Hvis du allerede har en konto</value>
+  </data>
+  <data name="AM_ADDMODULE">
+    <value>Legg til modul</value>
+  </data>
+  <data name="AM_ADDMODULEBELOW">
+    <value>Legg til "Organiser moduler" nedenfor</value>
+  </data>
+  <data name="AM_ADDROLE">
+    <value>Legg til ny rolle</value>
+  </data>
+  <data name="AM_BASESOLUTION">
+    <value>Base løsning</value>
+  </data>
+  <data name="AM_CENTERPANEL">
+    <value>Senter rute</value>
+  </data>
+  <data name="AM_LEFTPANEL">
+    <value>Venstre mini rute</value>
+  </data>
+  <data name="AM_MOBILETAB">
+    <value>Mobilt menynavn</value>
+  </data>
+  <data name="AM_MODULENAME">
+    <value>Module navn:</value>
+  </data>
+  <data name="AM_MODULETYPE">
+    <value>Modul type</value>
+  </data>
+  <data name="AM_ORGANIZEMODULE">
+    <value>Organiser moduler</value>
+  </data>
+  <data name="AM_PORTALALIAS">
+    <value>Portal alias</value>
+  </data>
+  <data name="AM_RIGHTPANEL">
+    <value>Høyre mini rute</value>
+  </data>
+  <data name="AM_ROLESAUTH">
+    <value>Autoriserte roller</value>
+  </data>
+  <data name="AM_SHOWEDIT">
+    <value>Alltid vise endre knapp?</value>
+  </data>
+  <data name="AM_SHOWMOBILE">
+    <value>Vise til mobile brukere?</value>
+  </data>
+  <data name="AM_SITEPATH">
+    <value>Web bane</value>
+  </data>
+  <data name="AM_SITETITLE">
+    <value>Web tittel</value>
+  </data>
+  <data name="AM_TABNAME">
+    <value>Menynavn og layout</value>
+  </data>
+  <data name="AM_TABNAME1">
+    <value>Menynavn</value>
+  </data>
+  <data name="AM_TABS">
+    <value>Menyer</value>
+  </data>
+  <data name="AM_THEME">
+    <value>Tema</value>
+  </data>
+  <data name="APPLY">
+    <value>Lagre endringer</value>
+  </data>
+  <data name="APPLYNAME">
+    <value>Lagre navn og passord endringer</value>
+  </data>
+  <data name="APPLYTHEME">
+    <value>Lagre tema</value>
+  </data>
+  <data name="AREA">
+    <value>Område</value>
+  </data>
+  <data name="AUTHOR">
+    <value>Forfatter</value>
+  </data>
+  <data name="BANK">
+    <value>Bank</value>
+  </data>
+  <data name="BOTTOM">
+    <value>Nederst</value>
+  </data>
+  <data name="BUYNOW">
+    <value>Kjøp nå</value>
+  </data>
+  <data name="CAB">
+    <value>CAB</value>
+  </data>
+  <data name="CACHETIMEOUT">
+    <value>Buffer timeout (i sekunder)</value>
+  </data>
+  <data name="CANCEL">
+    <value>Avbryt</value>
+  </data>
+  <data name="CATEGORY">
+    <value>Kategori</value>
+  </data>
+  <data name="CFISCALE">
+    <value>Skattenummer</value>
+  </data>
+  <data name="CITY">
+    <value>By</value>
+  </data>
+  <data name="COLLECTION_PROPERTIES">
+    <value>Liste egenskaper</value>
+  </data>
+  <data name="COMPANY">
+    <value>Firma</value>
+  </data>
+  <data name="CONDITIONS">
+    <value>Tjenesteavtale</value>
+  </data>
+  <data name="CONFIRM">
+    <value>Bekreft passord</value>
+  </data>
+  <data name="CONTACTS_VALID_NAME">
+    <value>Du må skrive inn et gyldig navn</value>
+  </data>
+  <data name="COUNTRY">
+    <value>Land/Region</value>
+  </data>
+  <data name="CREATED_BY">
+    <value>Opprettet av</value>
+  </data>
+  <data name="CREATEDBY">
+    <value>Opprettet av</value>
+  </data>
+  <data name="DATE">
+    <value>Dato</value>
+  </data>
+  <data name="DECLINE">
+    <value>Nei, takk!</value>
+  </data>
+  <data name="DELETE">
+    <value>Slett</value>
+  </data>
+  <data name="DELETE_THIS_ITEM">
+    <value>Slette dette punktet</value>
+  </data>
+  <data name="DELETE_USER">
+    <value>Slett denne brukeren</value>
+  </data>
+  <data name="DELETEBTN">
+    <value>Slette valgte punkter</value>
+  </data>
+  <data name="DELUSER">
+    <value>Ta bort bruker fra denne rollen</value>
+  </data>
+  <data name="DESCRIPTION">
+    <value>Beskrivelse</value>
+  </data>
+  <data name="DESKTOP_SOURCE">
+    <value>Desktop kilde</value>
+  </data>
+  <data name="DOCUMENT_DETAILS">
+    <value>Dokumentdetaljer</value>
+  </data>
+  <data name="DOCUMENTS_FOLDER">
+    <value>Dokumentmappe</value>
+  </data>
+  <data name="DOCUMENTS_SOURCE">
+    <value>Dokumentkilde</value>
+  </data>
+  <data name="DS_BODY">
+    <value>Innhold</value>
+  </data>
+  <data name="DS_MSGDETAILS">
+    <value>Melding</value>
+  </data>
+  <data name="DS_NEWTHREAD">
+    <value>Legg til ny diskusjon</value>
+  </data>
+  <data name="DS_ORIGINALMSG">
+    <value>Orginal melding</value>
+  </data>
+  <data name="DS_REPLYTHISMSG">
+    <value>Svar på denne meldingen</value>
+  </data>
+  <data name="EDIT">
+    <value>Endre</value>
+  </data>
+  <data name="EDIT_ACCESS_DENIED">
+    <value>Endring nektet</value>
+  </data>
+  <data name="EDIT_ACCESS_DENIED_MESSAGE">
+    <value>Enten er du ikke logget på eller så har du ikke rettigheter til å endre dette punktet, kontakt administrator for å få aksess.</value>
+  </data>
+  <data name="EDIT_PORTAL">
+    <value>Endre portal</value>
+  </data>
+  <data name="EDIT_USER">
+    <value>Endre denne brukeren</value>
+  </data>
+  <data name="EDITBTN">
+    <value>Endre valgte punkters egenskaper</value>
+  </data>
+  <data name="EMAIL">
+    <value>E-post</value>
+  </data>
+  <data name="EMAILORWINDOW">
+    <value>Epost (eller Windows domenenavn)</value>
+  </data>
+  <data name="FAX">
+    <value>Fax</value>
+  </data>
+  <data name="FILE_NAME">
+    <value>Filnavn</value>
+  </data>
+  <data name="FILE_UPLOAD_ERROR">
+    <value>Filen du lastet opp er ikke gyldig.</value>
+  </data>
+  <data name="FRIENDLY_NAME">
+    <value>Hurtignavn</value>
+  </data>
+  <data name="GUID">
+    <value>GUID</value>
+  </data>
+  <data name="HERE">
+    <value>Her</value>
+  </data>
+  <data name="IMAGE">
+    <value>Bilde</value>
+  </data>
+  <data name="IMAGE_UPLOAD_ERROR">
+    <value>Bildet du lastet opp er ikke gyldig format. Vennligst kontroller at filtypen og ending (eg. .jpg)</value>
+  </data>
+  <data name="IN">
+    <value>i</value>
+  </data>
+  <data name="INSERT_CONFIRM">
+    <value>'Bekreft' kan ikke være blank.</value>
+  </data>
+  <data name="INSERT_EMAIL">
+    <value>'E-post' kan ikke være blank.</value>
+  </data>
+  <data name="INSERT_NAME">
+    <value>'Navn' kan ikke være blank.</value>
+  </data>
+  <data name="INSERT_PASSWORD">
+    <value>'Passord' kan ikke være blank.</value>
+  </data>
+  <data name="LAST_UPDATED">
+    <value>Siste oppdatert</value>
+  </data>
+  <data name="LASTNAME">
+    <value>Etternavn</value>
+  </data>
+  <data name="LEFT">
+    <value>Venstre</value>
+  </data>
+  <data name="LINKDETAILS">
+    <value>Link detaljer</value>
+  </data>
+  <data name="LOGIN_FAILED">
+    <value>Login feilet!</value>
+  </data>
+  <data name="LOGOFF">
+    <value>Log av</value>
+  </data>
+  <data name="MERCHANT">
+    <value>Forhandler ID</value>
+  </data>
+  <data name="MIDDLE">
+    <value>Midten</value>
+  </data>
+  <data name="MOBILE_SOURCE">
+    <value>Mobil kilde</value>
+  </data>
+  <data name="MOBILEURL">
+    <value>Mobil URL</value>
+  </data>
+  <data name="MODIFIED_BY">
+    <value>Endret av</value>
+  </data>
+  <data name="MODULE_TITLE">
+    <value>Nytt modulnavn</value>
+  </data>
+  <data name="MODULE_TYPE_DEFINITION">
+    <value>Ny moduldefinisjon</value>
+  </data>
+  <data name="MODULENAME">
+    <value>Modulnavn</value>
+  </data>
+  <data name="MODULESETTINGS">
+    <value>Model instillinger</value>
+  </data>
+  <data name="MOVEDOWN">
+    <value>Flytt valgt punkt ned i listen</value>
+  </data>
+  <data name="MOVELEFT">
+    <value>Flytt valgt punkt til venstre</value>
+  </data>
+  <data name="MOVERIGHT">
+    <value>Flytt valgt punkt til høyre</value>
+  </data>
+  <data name="MOVEUP">
+    <value>Flytt valgt punkt opp i listen</value>
+  </data>
+  <data name="NAME">
+    <value>Navn</value>
+  </data>
+  <data name="NEW_PORTAL_ERROR">
+    <value>Det skjedde en feil ved oppretting av ny portal. Kan hende portalen allerede eksisterer. Prøv å endre portalaliaset.</value>
+  </data>
+  <data name="NO_ACCOUNT">
+    <value>Hvis du ikke har en konto</value>
+  </data>
+  <data name="NOTE">
+    <value>Notater</value>
+  </data>
+  <data name="ON">
+    <value>på</value>
+  </data>
+  <data name="OR">
+    <value>eller</value>
+  </data>
+  <data name="OWNER">
+    <value>Opprettet av</value>
+  </data>
+  <data name="PASSWORD">
+    <value>Passord</value>
+  </data>
+  <data name="PASSWORD_NOT_MATCH">
+    <value>Passordfeltene er ikke like.</value>
+  </data>
+  <data name="PHONE">
+    <value>Telefon</value>
+  </data>
+  <data name="PIVA">
+    <value>Firmanummer</value>
+  </data>
+  <data name="HOME">
+    <value>Portal startside</value>
+  </data>
+  <data name="PORTALS">
+    <value>Portaler</value>
+  </data>
+  <data name="POSTED_BY">
+    <value>fra</value>
+  </data>
+  <data name="POSTED_DATE">
+    <value>Postet</value>
+  </data>
+  <data name="PROFILE_INFO">
+    <value>Profil informasjon</value>
+  </data>
+  <data name="PROPERTIES">
+    <value>Endre listeegenskaper</value>
+  </data>
+  <data name="PROV_STATE">
+    <value>Kommune/Distrikt</value>
+  </data>
+  <data name="REGISTER">
+    <value>Registrer</value>
+  </data>
+  <data name="REGISTER_DIFFERENT">
+    <value>Vennligst registrer deg med en annen epost.</value>
+  </data>
+  <data name="REGISTER_NOW">
+    <value>Registrer og login nå</value>
+  </data>
+  <data name="REGISTER_REQUIRED">
+    <value>For å bruke denne modulen må du registrere deg.</value>
+  </data>
+  <data name="REGISTERED_USERS">
+    <value>Registrerte brukere</value>
+  </data>
+  <data name="REGISTRATION_FAILED">
+    <value>Registrering feilet!</value>
+  </data>
+  <data name="REMEMBER_LOGIN">
+    <value>Husk login</value>
+  </data>
+  <data name="RETURNHOME">
+    <value>Returner til Startsiden</value>
+  </data>
+  <data name="RIGHT">
+    <value>Høyre</value>
+  </data>
+  <data name="ROLESADD">
+    <value>Roller som kan legge til innhold</value>
+  </data>
+  <data name="ROLESCOLLECTION">
+    <value>Roller som kan endre listeinnhold</value>
+  </data>
+  <data name="ROLESDELETE">
+    <value>Roller som kan slette innhold</value>
+  </data>
+  <data name="ROLESEDIT">
+    <value>Roller som kan endre innhold</value>
+  </data>
+  <data name="ROLESVIEW">
+    <value>Roller som kan se innhold</value>
+  </data>
+  <data name="ROOM_NUMBER">
+    <value>Antall rom</value>
+  </data>
+  <data name="SAVEUSER">
+    <value>Lagre brukerendringer</value>
+  </data>
+  <data name="SELECT_ALL">
+    <value>Velg alle</value>
+  </data>
+  <data name="SELECT_NONE">
+    <value>Velg ingen</value>
+  </data>
+  <data name="SEND_NEWSLETTER">
+    <value>Send nyhetsbrev</value>
+  </data>
+  <data name="SENDNEWSLETTER">
+    <value>Send nyhetsbrev</value>
+  </data>
+  <data name="SHOWMOBILE">
+    <value>Vise til mobile brukere?</value>
+  </data>
+  <data name="SIGNIN">
+    <value>Log in</value>
+  </data>
+  <data name="SUBJECT">
+    <value>Emne</value>
+  </data>
+  <data name="SUBMIT">
+    <value>Send</value>
+  </data>
+  <data name="SUBTITLE">
+    <value>Undertittel</value>
+  </data>
+  <data name="TAB_DELETE_FAILED">
+    <value>Sletting feilet. Vennligst slett alle modulene på en side og alle linkede menyer før du en menyen.</value>
+  </data>
+  <data name="TAB_NAME">
+    <value>Ny Meny (skriv navn)</value>
+  </data>
+  <data name="TAB_PARENT">
+    <value>Parent meny</value>
+  </data>
+  <data name="TABLAYOUT">
+    <value>Standard layout</value>
+  </data>
+  <data name="TermsOfService">
+    <value>Brukeravtale</value>
+  </data>
+  <data name="Theme">
+    <value>Tema</value>
+  </data>
+  <data name="ThemeAlt">
+    <value>Alternativt tema</value>
+  </data>
+  <data name="TITLE">
+    <value>Tittel</value>
+  </data>
+  <data name="TOP">
+    <value>Topp</value>
+  </data>
+  <data name="TRANSLATOR">
+    <value>Glenn Flåten</value>
+  </data>
+  <data name="TRANSLATOR_EMAIL">
+    <value>glenn_flaten@hotmail.com</value>
+  </data>
+  <data name="UNCHECKED_USERS">
+    <value>Ikke avhukede brukere</value>
+  </data>
+  <data name="UPDATE">
+    <value>Oppdater</value>
+  </data>
+  <data name="UPLOAD_FILE">
+    <value>Last opp fil</value>
+  </data>
+  <data name="UPLOAD_TO_WEB">
+    <value>Last opp til webserver</value>
+  </data>
+  <data name="URL">
+    <value>URL</value>
+  </data>
+  <data name="URL_TO_BROWSE">
+    <value>Se igjennom (URL)</value>
+  </data>
+  <data name="USER_MESSAGE_DOMAIN1">
+    <value>Domenebrukere trenger ikke være registrert for å få tilgang til portal deler som er tilgjengelig for 'Alle brukere'</value>
+  </data>
+  <data name="USER_MESSAGE_DOMAIN2">
+    <value>Administratorer kan legge til brukere i spesifikke roller ved å bruke Sikkerhetsfunksjonen over.</value>
+  </data>
+  <data name="USER_MESSAGE_DOMAIN3">
+    <value>Denne seksjonen tillater administratorer å behandle brukerkontoer og endre sikkerhetsroller direkte.</value>
+  </data>
+  <data name="USER_MESSAGE1">
+    <value>Brukere må være registrert for å se sikkert innhold.</value>
+  </data>
+  <data name="USER_MESSAGE2">
+    <value>Brukere kan legge til seg selv ved å bruke registrer skjemaet, og administratorer kan legge til brukere i spesifikke roller ved å bruke Sikkerhetsfunksjonen over.</value>
+  </data>
+  <data name="USER_MESSAGE3">
+    <value>Denne seksjonen tillater administratorer å behandle brukerkontoer og endre sikkerhetsroller direkte.</value>
+  </data>
+  <data name="VALID_ADDRESS">
+    <value>Du må skrive inn gyldig adresse</value>
+  </data>
+  <data name="VALID_CITY">
+    <value>Du må skrive inn gyldig by</value>
+  </data>
+  <data name="VALID_CODE">
+    <value>Du må skrive inn gyldig kode</value>
+  </data>
+  <data name="VALID_DATE">
+    <value>Du må skrive inn gyldig Dato</value>
+  </data>
+  <data name="VALID_EMAIL">
+    <value>Du må skrive inn gyldig e-postadresse</value>
+  </data>
+  <data name="VALID_FIELD">
+    <value>Du må skrive inn gyldig verdi</value>
+  </data>
+  <data name="VALID_FILE_NAME">
+    <value>Du må skrive inn gyldig filnavn</value>
+  </data>
+  <data name="VALID_NAME">
+    <value>Du må skrive inn gyldig navn</value>
+  </data>
+  <data name="VALID_NUMBER">
+    <value>Du må skrive inn gyldig nummer</value>
+  </data>
+  <data name="VALID_PHONE">
+    <value>Du må skrive inn gyldig telefonnummer</value>
+  </data>
+  <data name="VALID_TITLE">
+    <value>Du må skrive inn gyldig tittel</value>
+  </data>
+  <data name="VALID_VIEWORDER">
+    <value>Du må skrive inn gyldig lese rekkefølge</value>
+  </data>
+  <data name="VALID_ZIP">
+    <value>Du må skrive inn gyldig postnummer</value>
+  </data>
+  <data name="VALIDORDER">
+    <value>Du må skrive inn gyldig lese rekkefølge</value>
+  </data>
+  <data name="VALIDTITLE">
+    <value>Du må skrive inn gyldig Tittel</value>
+  </data>
+  <data name="VALIDURL">
+    <value>Du må skrive inn gyldig URL</value>
+  </data>
+  <data name="VIEWORDER">
+    <value>Leserekkefølge</value>
+  </data>
+  <data name="WEB_FARM_SUPPORT">
+    <value>Lagre i database (web farm support)</value>
+  </data>
+  <data name="WEBSITE">
+    <value>Nettside</value>
+  </data>
+  <data name="WELCOME">
+    <value>Velkommen</value>
+  </data>
+  <data name="ZIP">
+    <value>Postkode</value>
+  </data>
+  <data name="ADD_NEW_USER">
+    <value>Legg til ny bruker</value>
+  </data>
+  <data name="ANNOUNCES_ADD">
+    <value>Legg til kunngjøring</value>
+  </data>
+  <data name="ANNOUNCES_DESCRIPTION">
+    <value>Beskrivelse</value>
+  </data>
+  <data name="ANNOUNCES_DETAILS">
+    <value>Kunngjøringsdetaljer</value>
+  </data>
+  <data name="ANNOUNCES_EXPIRES">
+    <value>Utløper</value>
+  </data>
+  <data name="ANNOUNCES_READ_MORE_LINK">
+    <value>Les Mer Kopling</value>
+  </data>
+  <data name="ANNOUNCES_READ_MORE_MOBILE">
+    <value>Les mer (Mobil)</value>
+  </data>
+  <data name="ANNOUNCES_TITLE">
+    <value>Tittel</value>
+  </data>
+  <data name="ANNOUNCES_VALID_DESCRIPTION">
+    <value>Du må skrive inn en gyldig beskrivelse</value>
+  </data>
+  <data name="ANNOUNCES_VALID_EXPIRE">
+    <value>Du må skrive inn en gyldig utløpsdato</value>
+  </data>
+  <data name="ANNOUNCES_VALID_TITLE">
+    <value>Du må skrive inn en gyldig tittel</value>
+  </data>
+  <data name="CONFIRM_DELETE">
+    <value>Slette dette punktet?</value>
+  </data>
+  <data name="CONTACTS_ADD">
+    <value>Legg til kontakt</value>
+  </data>
+  <data name="CONTACTS_CONTACT1">
+    <value>Kontakt 1</value>
+  </data>
+  <data name="CONTACTS_CONTACT2">
+    <value>Kontakt 2</value>
+  </data>
+  <data name="CONTACTS_DETAILS">
+    <value>Kontakt detaljer</value>
+  </data>
+  <data name="CONTACTS_EMAIL">
+    <value>E-post</value>
+  </data>
+  <data name="CONTACTS_NAME">
+    <value>Navn</value>
+  </data>
+  <data name="CONTACTS_ROLE">
+    <value>Rolle</value>
+  </data>
+  <data name="DelayExpire">
+    <value>Standard forsinkelses utløpsdato</value>
+  </data>
+  <data name="EVENTS_ADD">
+    <value>Legg til ny begivenhet</value>
+  </data>
+  <data name="EVENTS_DESCRIPTION">
+    <value>Beskrivelse</value>
+  </data>
+  <data name="EVENTS_DETAILS">
+    <value>Begivenhetsdetaljer</value>
+  </data>
+  <data name="EVENTS_EXPIRES">
+    <value>Utløper</value>
+  </data>
+  <data name="EVENTS_TITLE">
+    <value>Tittel</value>
+  </data>
+  <data name="EVENTS_VALID_DESCRIPTION">
+    <value>Du må skrive inn gyldig Beskrivelse</value>
+  </data>
+  <data name="EVENTS_VALID_EXPIRE">
+    <value>Du må skrive inn gyldig utløpsdato</value>
+  </data>
+  <data name="EVENTS_VALID_TITLE">
+    <value>Du må skrive inn gyldig tittel</value>
+  </data>
+  <data name="EVENTS_VALID_WHEN-WHERE">
+    <value>Du må skrive inn gyldig Tid/Lokasjon</value>
+  </data>
+  <data name="EVENTS_WHEN-WHERE">
+    <value>Hvor/Når</value>
+  </data>
+  <data name="FILE_NOT_FOUND">
+    <value>Fil %1% ikke funnet</value>
+  </data>
+  <data name="LinkedModule">
+    <value>Linket modul</value>
+  </data>
+  <data name="LOAD_THEME_ERROR">
+    <value>Kunne ikke laste tema %1%. Standard er ikke tilgjengelig.</value>
+  </data>
+  <data name="LOGON">
+    <value>Logon</value>
+  </data>
+  <data name="NO_MODULE">
+    <value>Ingen modul</value>
+  </data>
+  <data name="READ_FULL_ANNOUNCE">
+    <value>Les hele kunngjøringen</value>
+  </data>
+  <data name="ROOT_LEVEL">
+    <value>Rotnivå</value>
+  </data>
+  <data name="SIGNIN_ENTER_EMAIL_ADDR">
+    <value>Vennligst tast inn en e-postadresse</value>
+  </data>
+  <data name="SIGNIN_PWD_MISSING_IN_DB">
+    <value>Passordet ditt ble ikke funnet i databasen.</value>
+  </data>
+  <data name="SIGNIN_PWD_REQUESTED">
+    <value>Passordet du har etterspurt er:</value>
+  </data>
+  <data name="SIGNIN_PWD_TO">
+    <value>Passord til:</value>
+  </data>
+  <data name="SIGNIN_PWD_WAS_SENT">
+    <value>Passordet er sendt til e-postaddressen du oppga.</value>
+  </data>
+  <data name="SIGNIN_SEND_PWD">
+    <value>Send passord</value>
+  </data>
+  <data name="SIGNIN_THANK_YOU">
+    <value>Takk, og vi håper du liker ditt besøk til</value>
+  </data>
+  <data name="SIGNIN_YOU_CAN_LOGIN_FROM">
+    <value>Du kan logge in fra</value>
+  </data>
+  <data name="SWI_PUBLISH">
+    <value>Publisér</value>
+  </data>
+  <data name="SWI_ROLESPUBLISHING">
+    <value>Autoriserte publiseringsroller</value>
+  </data>
+  <data name="SWI_SUPPORTWORKFLOW">
+    <value>Skru på workflow support</value>
+  </data>
+  <data name="SWI_SWAPTOPRODUCTION">
+    <value>Endre til produksjonsversjon</value>
+  </data>
+  <data name="SWI_SWAPTOSTAGING">
+    <value>Endre til staging versjon</value>
+  </data>
+  <data name="XMLsrc">
+    <value>XML Kildefil</value>
+  </data>
+  <data name="XSLsrc">
+    <value>XSL Transformering</value>
+  </data>
+	<data name="LAYOUT">
+		<value></value>
+	</data>
+	<data name="TOTAL">
+		<value></value>
+	</data>
+	<data name="TO">
+		<value></value>
+	</data>
+	<data name="SETTINGS">
+		<value></value>
+	</data>
+	<data name="SAVE">
+		<value></value>
+	</data>
+	<data name="PREVIOUS">
+		<value></value>
+	</data>
+	<data name="PREVIEW">
+		<value></value>
+	</data>
+	<data name="PAGE">
+		<value></value>
+	</data>
+	<data name="NEXT">
+		<value></value>
+	</data>
+	<data name="BACK">
+		<value></value>
+	</data>
+	<data name="CAPTION">
+		<value></value>
+	</data>
+	<data name="CONTACT">
+		<value></value>
+	</data>
+	<data name="CONTINUE">
+		<value></value>
+	</data>
+	<data name="CULTURE">
+		<value></value>
+	</data>
+	<data name="FROM">
+		<value></value>
+	</data>
+</root>

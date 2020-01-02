@@ -1,0 +1,43 @@
+2005-04-21 08:23:54,640 0    [2908] ERROR Rainbow  - Time of Error: 4/21/2005 8:23 AM
+The ErrorHandler.FormatExceptionDescription method has thrown an error (May happen if full logging is enabled and it cannot retrieve the User's Information)
+This is a reduced log entry to reduce the chance of another error being thrown
+The FormatExceptionDescription Method failed to write the error. It received the following error: 
+
+Error Message: Object reference not set to an instance of an object.
+Source: Rainbow
+Target Site: System.String FormatExceptionDescription(System.Exception)
+Stack Trace:    at Rainbow.Configuration.ErrorHandler.FormatExceptionDescription(Exception e)
+
+The original error was:
+
+Error Message: Error in DBHelper:ExeSQL()-> System.Data.SqlClient.SqlException: Login failed for user 'arriojar5'.
+   at System.Data.SqlClient.ConnectionPool.GetConnection(Boolean& isInTransaction)
+   at System.Data.SqlClient.SqlConnectionPoolManager.GetPooledConnection(SqlConnectionString options, Boolean& isInTransaction)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Rainbow.Helpers.DBHelper.ExeSQL(String sql)
+Source: Rainbow
+Target Site: Int32 ExeSQL(System.String)
+Stack Trace:    at Rainbow.Helpers.DBHelper.ExeSQL(String sql)
+   at Rainbow.Configuration.PortalSettings.get_DatabaseVersion()
+   at Rainbow.Global.Application_BeginRequest(Object sender, EventArgs e)
+   at System.Web.SyncEventExecutionStep.System.Web.HttpApplication+IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+End of Entry.
+
+
+
+
+Exception: System.Exception
+Message: Error in DBHelper:ExeSQL()-> System.Data.SqlClient.SqlException: Login failed for user 'arriojar5'.
+   at System.Data.SqlClient.ConnectionPool.GetConnection(Boolean& isInTransaction)
+   at System.Data.SqlClient.SqlConnectionPoolManager.GetPooledConnection(SqlConnectionString options, Boolean& isInTransaction)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Rainbow.Helpers.DBHelper.ExeSQL(String sql)
+Source: Rainbow
+   at Rainbow.Helpers.DBHelper.ExeSQL(String sql)
+   at Rainbow.Configuration.PortalSettings.get_DatabaseVersion()
+   at Rainbow.Global.Application_BeginRequest(Object sender, EventArgs e)
+   at System.Web.SyncEventExecutionStep.System.Web.HttpApplication+IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+

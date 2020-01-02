@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.ThemeCacheManager", "Rainbow.Modules.ThemeCacheManager.csproj", "{1FF3319A-139C-409B-B1FE-C77DD92332EF}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{1FF3319A-139C-409B-B1FE-C77DD92332EF}.Debug.ActiveCfg = Debug|.NET
+		{1FF3319A-139C-409B-B1FE-C77DD92332EF}.Debug.Build.0 = Debug|.NET
+		{1FF3319A-139C-409B-B1FE-C77DD92332EF}.Release.ActiveCfg = Release|.NET
+		{1FF3319A-139C-409B-B1FE-C77DD92332EF}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

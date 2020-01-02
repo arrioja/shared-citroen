@@ -1,0 +1,858 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3102.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3102.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="ACCESSDENIED">
+		<value>Доступ заборонено</value>
+	</data>
+	<data name="ACCESS_DENIED_MESSAGE">
+		<value>Або Ви ще не зробили вхід в систему, або ви не маєте прав доступу до цієї закладинки в порталі. Будьласка зверніться до адміністратора порталу для одержання прав доступу.</value>
+	</data>
+	<data name="ADD">
+		<value>Додати</value>
+	</data>
+	<data name="ADD_DOCUMENT">
+		<value>Додати новий документ</value>
+	</data>
+	<data name="ADD_NEW">
+		<value>Додати Новий</value>
+	</data>
+	<data name="ADD_NEW_USER">
+		<value>Додати нового Користувача</value>
+	</data>
+	<data name="ADD_PORTAL">
+		<value>Додати Портал</value>
+	</data>
+	<data name="ADDTAB">
+		<value>Додати нову Закладку</value>
+	</data>
+	<data name="ADDUSER">
+		<value>Додати користувача до цієї ролі</value>
+	</data>
+	<data name="ADMIN_MODULE">
+		<value>Адмінистративний модуль?</value>
+	</data>
+	<data name="ALREADY_REGISTERED1">
+		<value>Якщо Ви вже маєте бюджет користувача</value>
+	</data>
+	<data name="AM_ADDMODULE">
+		<value>Додати Модуль</value>
+	</data>
+	<data name="AM_ADDMODULEBELOW">
+		<value>Додати до "Впорядкування Модулей" Нижче</value>
+	</data>
+	<data name="AM_ADDROLE">
+		<value>Додати нову Роль</value>
+	</data>
+	<data name="AM_BASESOLUTION">
+		<value>Базове вирішення</value>
+	</data>
+	<data name="AM_CENTERPANEL">
+		<value>Центральна Панель</value>
+	</data>
+	<data name="AM_LEFTPANEL">
+		<value>Ліва Міні-панель</value>
+	</data>
+	<data name="AM_MOBILETAB">
+		<value>Мобільна Назва закладки</value>
+	</data>
+	<data name="AM_MODULENAME">
+		<value>Назва Модуля</value>
+	</data>
+	<data name="AM_MODULETYPE">
+		<value>Тип Модуля</value>
+	</data>
+	<data name="AM_ORGANIZEMODULE">
+		<value>Впорядкувати Модулі</value>
+	</data>
+	<data name="AM_PORTALALIAS">
+		<value>Псевдонім Порталу</value>
+	</data>
+	<data name="AM_RIGHTPANEL">
+		<value>Права Міні-панель</value>
+	</data>
+	<data name="AM_ROLESAUTH">
+		<value>Надійні Ролі</value>
+	</data>
+	<data name="AM_SHOWEDIT">
+		<value>Завжди показувати кнопку редагування?</value>
+	</data>
+	<data name="AM_SHOWMOBILE">
+		<value>Показувати мобільним користувачам</value>
+	</data>
+	<data name="AM_SITEPATH">
+		<value>Шлях до сайту</value>
+	</data>
+	<data name="AM_SITETITLE">
+		<value>Заголовок сайту</value>
+	</data>
+	<data name="AM_TABNAME">
+		<value>Назва Закладки та Розташування</value>
+	</data>
+	<data name="AM_TABNAME1">
+		<value>Назва Закладки</value>
+	</data>
+	<data name="AM_TABS">
+		<value>Закладки</value>
+	</data>
+	<data name="AM_THEME">
+		<value>Тема оформлення</value>
+	</data>
+	<data name="ANNOUNCES_ADD">
+		<value>Додати нову Об'яву</value>
+	</data>
+	<data name="ANNOUNCES_DESCRIPTION">
+		<value>Опис</value>
+	</data>
+	<data name="ANNOUNCES_DETAILS">
+		<value>Подробиці Об'яви</value>
+	</data>
+	<data name="ANNOUNCES_EXPIRES">
+		<value>Втрачає актуальність</value>
+	</data>
+	<data name="ANNOUNCES_READ_MORE_LINK">
+		<value>Читати більш посилання</value>
+	</data>
+	<data name="ANNOUNCES_READ_MORE_MOBILE">
+		<value>Читати більш (мобільні)</value>
+	</data>
+	<data name="ANNOUNCES_TITLE">
+		<value>Заголовок</value>
+	</data>
+	<data name="ANNOUNCES_VALID_DESCRIPTION">
+		<value>Ви маєте ввести допустимий Опис</value>
+	</data>
+	<data name="ANNOUNCES_VALID_EXPIRE">
+		<value>Ви маєте ввести допустиму дату втрати актуальності</value>
+	</data>
+	<data name="ANNOUNCES_VALID_TITLE">
+		<value>Ви маєте ввести допустимий Заголовок</value>
+	</data>
+	<data name="APPLY">
+		<value>Прийняти Зміни</value>
+	</data>
+	<data name="APPLYNAME">
+		<value>Прийняти зміни імені та пароля</value>
+	</data>
+	<data name="APPLYTHEME">
+		<value>Прийняти тему оформлення</value>
+	</data>
+	<data name="AREA">
+		<value>Регіон</value>
+	</data>
+	<data name="AUTHOR">
+		<value>Автор</value>
+	</data>
+	<data name="BOTTOM">
+		<value>Низ</value>
+	</data>
+	<data name="BUYNOW">
+		<value>Придбати зараз</value>
+	</data>
+	<data name="CACHETIMEOUT">
+		<value>Час кешування (в секундах)</value>
+	</data>
+	<data name="CANCEL">
+		<value>Відміна</value>
+	</data>
+	<data name="CATEGORY">
+		<value>Категорія</value>
+	</data>
+	<data name="COLLECTION_PROPERTIES">
+		<value>Властивості колекції</value>
+	</data>
+	<data name="CONFIRM">
+		<value>Підтвердити пароль</value>
+	</data>
+	<data name="CONFIRM_DELETE">
+		<value>Видалити цей пункт?</value>
+	</data>
+	<data name="CONTACTS_ADD">
+		<value>Додати новий Контакт</value>
+	</data>
+	<data name="CONTACTS_CONTACT1">
+		<value>Тел 1</value>
+	</data>
+	<data name="CONTACTS_CONTACT2">
+		<value>Тел 2</value>
+	</data>
+	<data name="CONTACTS_DETAILS">
+		<value>Подробиці Контакту</value>
+	</data>
+	<data name="CONTACTS_EMAIL">
+		<value>Ел-Пошта</value>
+	</data>
+	<data name="CONTACTS_NAME">
+		<value>Ім'я</value>
+	</data>
+	<data name="CONTACTS_ROLE">
+		<value>Роль</value>
+	</data>
+	<data name="CONTACTS_VALID_NAME">
+		<value>Ви маєте ввести допустиме Ім'я</value>
+	</data>
+	<data name="CREATED_BY">
+		<value>Створено</value>
+	</data>
+	<data name="DATE">
+		<value>Дата</value>
+	</data>
+	<data name="DELAYEXPIRE">
+		<value>Стандартна затримка втрати актуальності</value>
+	</data>
+	<data name="DELETE">
+		<value>Видалити</value>
+	</data>
+	<data name="DELETE_THIS_ITEM">
+		<value>Видалити цей пункт</value>
+	</data>
+	<data name="DELETEBTN">
+		<value>Видалити вибраний пункт</value>
+	</data>
+	<data name="DELUSER">
+		<value>Позбавити коритувача цієї ролі</value>
+	</data>
+	<data name="DESCRIPTION">
+		<value>Опис</value>
+	</data>
+	<data name="DESKTOP_SOURCE">
+		<value>Джерело для настільних  (.ascx)</value>
+	</data>
+	<data name="DOCUMENT_DETAILS">
+		<value>Подробиці Документу</value>
+	</data>
+	<data name="DOCUMENTS_FOLDER">
+		<value>Папка Документу</value>
+	</data>
+	<data name="DOCUMENTS_SOURCE">
+		<value>Джерело Документу</value>
+	</data>
+	<data name="DS_BODY">
+		<value>Головна частина</value>
+	</data>
+	<data name="DS_MSGDETAILS">
+		<value>Подробиці Повідомлення</value>
+	</data>
+	<data name="DS_NEWTHREAD">
+		<value>Додати нову Нитку</value>
+	</data>
+	<data name="DS_ORIGINALMSG">
+		<value>Оригінал Повідомлення</value>
+	</data>
+	<data name="DS_REPLYTHISMSG">
+		<value>Відповісти на це Повідомлення</value>
+	</data>
+	<data name="EDIT">
+		<value>Редагування</value>
+	</data>
+	<data name="EDIT_ACCESS_DENIED">
+		<value>Редагування заборонене</value>
+	</data>
+	<data name="EDIT_ACCESS_DENIED_MESSAGE">
+		<value>Або Ви ще не зробили вхід в систему, або ви не маєте прав для модифікації поточного модуля порталу. Будьласка зверніться до адміністратора порталу для одержання прав доступу.</value>
+	</data>
+	<data name="EDIT_PORTAL">
+		<value>Редагувати Портал</value>
+	</data>
+	<data name="EDITBTN">
+		<value>Редагувати властивості вибраного пункту</value>
+	</data>
+	<data name="EMAIL">
+		<value>Ел-Пошта</value>
+	</data>
+	<data name="EMAILORWINDOW">
+		<value>Ел-Поштаl(або ім'я користувача домену Windows)</value>
+	</data>
+	<data name="EVENTS_ADD">
+		<value>Додати нову Подію</value>
+	</data>
+	<data name="EVENTS_DESCRIPTION">
+		<value>Опис</value>
+	</data>
+	<data name="EVENTS_DETAILS">
+		<value>Подробиці Події</value>
+	</data>
+	<data name="EVENTS_EXPIRES">
+		<value>Втрачає Актуальність</value>
+	</data>
+	<data name="EVENTS_TITLE">
+		<value>Заголовок</value>
+	</data>
+	<data name="EVENTS_VALID_DESCRIPTION">
+		<value>Ви маєте ввести допустимий Опис</value>
+	</data>
+	<data name="EVENTS_VALID_EXPIRE">
+		<value>Ви маєте ввести допустиму дату Втрати Актуальності</value>
+	</data>
+	<data name="EVENTS_VALID_TITLE">
+		<value>Ви маєте ввести допустимий Заголовок</value>
+	</data>
+	<data name="EVENTS_VALID_WHEN-WHERE">
+		<value>Ви маєте ввести допустимі Час/Місце</value>
+	</data>
+	<data name="EVENTS_WHEN-WHERE">
+		<value>Де/Коли</value>
+	</data>
+	<data name="FILE_NAME">
+		<value>Назва файла</value>
+	</data>
+	<data name="FILE_NOT_FOUND">
+		<value>Файл %1% не знайдено</value>
+	</data>
+	<data name="FILE_UPLOAD_ERROR">
+		<value>Файл, що Ви завантажували, недопустимий</value>
+	</data>
+	<data name="FRIENDLY_NAME">
+		<value>Зручна Назва</value>
+	</data>
+	<data name="GUID">
+		<value>Guid</value>
+	</data>
+	<data name="HERE">
+		<value>Тут</value>
+	</data>
+	<data name="IMAGE">
+		<value>Картинка</value>
+	</data>
+	<data name="IMAGE_UPLOAD_ERROR">
+		<value>Зображення, що Ви завантажували, недопустиме. Будь ласка перевірте тип файлу (наприклад .jpg)</value>
+	</data>
+	<data name="IN">
+		<value>в</value>
+	</data>
+	<data name="INSERT_CONFIRM">
+		<value>"Підтвердити Пароль" Має бути заповненим</value>
+	</data>
+	<data name="INSERT_EMAIL">
+		<value>"Ел-Пошта" Має бути заповненим</value>
+	</data>
+	<data name="INSERT_NAME">
+		<value>"Ім'я" Має бути заповненим</value>
+	</data>
+	<data name="INSERT_PASSWORD">
+		<value>"Пароль" Має бути заповненим</value>
+	</data>
+	<data name="LAST_UPDATED">
+		<value>Останнє Оновлення</value>
+	</data>
+	<data name="LEFT">
+		<value>Ліворуч</value>
+	</data>
+	<data name="LINKEDMODULE">
+		<value>Зв'язаний модуль</value>
+	</data>
+	<data name="LOAD_THEME_ERROR">
+		<value>Неможливо завантажити Оформлення %1%. На перед задане не доступне</value>
+	</data>
+	<data name="LOGOFF">
+		<value>Вихід</value>
+	</data>
+	<data name="LOGON">
+		<value>Вхід</value>
+	</data>
+	<data name="MIDDLE">
+		<value>Середина</value>
+	</data>
+	<data name="MOBILE_SOURCE">
+		<value>Джерело для мобільних  (.ascx)</value>
+	</data>
+	<data name="MODIFIED_BY">
+		<value>Модифіковано</value>
+	</data>
+	<data name="MODULE_TITLE">
+		<value>Нова Назва Модуля</value>
+	</data>
+	<data name="MODULE_TYPE_DEFINITION">
+		<value>Визначення Типу Модуля</value>
+	</data>
+	<data name="MODULENAME">
+		<value>Назва Модуля</value>
+	</data>
+	<data name="MODULESETTINGS">
+		<value>Настанови Модуля</value>
+	</data>
+	<data name="MOVEDOWN">
+		<value>Переміщення визначеного пункту вниз</value>
+	</data>
+	<data name="MOVELEFT">
+		<value>Переміщення визначеного пункту ліворуч</value>
+	</data>
+	<data name="MOVERIGHT">
+		<value>Переміщення визначеного пункту праворуч</value>
+	</data>
+	<data name="MOVEUP">
+		<value>Переміщення визначеного пункту вгору</value>
+	</data>
+	<data name="NAME">
+		<value>Ім'я</value>
+	</data>
+	<data name="NEW_PORTAL_ERROR">
+		<value>Відбулась помилка створення нового порталу. Можливо такий портал вже існує. Спробуйте змінити псевдонім порталу.</value>
+	</data>
+	<data name="NO_MODULE">
+		<value>Без Модулей</value>
+	</data>
+	<data name="ON">
+		<value>на</value>
+	</data>
+	<data name="OR">
+		<value>або</value>
+	</data>
+	<data name="OWNER">
+		<value>Створений</value>
+	</data>
+	<data name="PASSWORD">
+		<value>Пароль</value>
+	</data>
+	<data name="PASSWORD_NOT_MATCH">
+		<value>Поля паролей не співпадають</value>
+	</data>
+	<data name="HOME">
+		<value>Головна Порталу</value>
+	</data>
+	<data name="PORTALS">
+		<value>Портали</value>
+	</data>
+	<data name="POSTED_BY">
+		<value>від</value>
+	</data>
+	<data name="POSTED_DATE">
+		<value>Надіслано</value>
+	</data>
+	<data name="PROPERTIES">
+		<value>Редагувати Властивості Колекції</value>
+	</data>
+	<data name="READ_FULL_ANNOUNCE">
+		<value>Прочитати повністю</value>
+	</data>
+	<data name="REGISTERED_USERS">
+		<value>Зареєстровані користувачі</value>
+	</data>
+	<data name="RETURNHOME">
+		<value>Повернутись до головної сторінки</value>
+	</data>
+	<data name="RIGHT">
+		<value>Праворуч</value>
+	</data>
+	<data name="ROLESADD">
+		<value>Ролі, що можуть додавати вміст</value>
+	</data>
+	<data name="ROLESCOLLECTION">
+		<value>Ролі, що можуть редагувати вміст Колекцій</value>
+	</data>
+	<data name="ROLESDELETE">
+		<value>Ролі, що можуть видаляти вміст</value>
+	</data>
+	<data name="ROLESEDIT">
+		<value>Ролі, що можуть редагувати вміст</value>
+	</data>
+	<data name="ROLESVIEW">
+		<value>Ролі, що можуть переглядати вміст</value>
+	</data>
+	<data name="ROOT_LEVEL">
+		<value>Верхній Рівень</value>
+	</data>
+	<data name="SAVEUSER">
+		<value>Зберігти Зміни</value>
+	</data>
+	<data name="SELECT_ALL">
+		<value>Виділити геть усе</value>
+	</data>
+	<data name="SELECT_NONE">
+		<value>Зняти виділення</value>
+	</data>
+	<data name="SENDNEWSLETTER">
+		<value>Відіслати листа з новинами</value>
+	</data>
+	<data name="SHOWMOBILE">
+		<value>Показувати мобільним користувачам?</value>
+	</data>
+	<data name="SUBJECT">
+		<value>Тема</value>
+	</data>
+	<data name="SUBMIT">
+		<value>Прийняти</value>
+	</data>
+	<data name="SUBTITLE">
+		<value>Підзаголовок</value>
+	</data>
+	<data name="TAB_DELETE_FAILED">
+		<value>Невдача видалення.</value>
+	</data>
+	<data name="TAB_NAME">
+		<value>Нова Закладка (вставте назву)</value>
+	</data>
+	<data name="TAB_PARENT">
+		<value>Вищестоящий</value>
+	</data>
+	<data name="TABLAYOUT">
+		<value>Стандартне Розміщення</value>
+	</data>
+	<data name="TERMSOFSERVICE">
+		<value>Термін використання</value>
+	</data>
+	<data name="THEME">
+		<value>Оформлення</value>
+	</data>
+	<data name="THEMEALT">
+		<value>Альтернативне Оформлення</value>
+	</data>
+	<data name="TITLE">
+		<value>Заголовок</value>
+	</data>
+	<data name="TOP">
+		<value>Верх</value>
+	</data>
+	<data name="TRANSLATOR">
+		<value>dr-Wicked / УкрЗалізниця ІСЦ ПЗЗ</value>
+	</data>
+	<data name="TRANSLATOR_EMAIL">
+		<value>serg_michkovsky@hotmail.com</value>
+	</data>
+	<data name="UPDATE">
+		<value>Оновити</value>
+	</data>
+	<data name="UPLOAD_FILE">
+		<value>Завантажити файл</value>
+	</data>
+	<data name="UPLOAD_TO_WEB">
+		<value>Завантажити на сервер</value>
+	</data>
+	<data name="URL_TO_BROWSE">
+		<value>Посилання для перегляду</value>
+	</data>
+	<data name="USER_MESSAGE_DOMAIN1">
+		<value>Користувачі домену не потребують реєстрації для доступу до вмісту, що доступний групі  'All Users'['Все']</value>
+	</data>
+	<data name="USER_MESSAGE_DOMAIN2">
+		<value>Адміністратори можуть додавати користувачей домену вказуючи роль з використанням функцій Ролей безпеки, що вказані нижче.</value>
+	</data>
+	<data name="USER_MESSAGE_DOMAIN3">
+		<value>Ця секція дозволяє Адміністраторам керувати користувачами та їх ролями безпеки безпосередньо.</value>
+	</data>
+	<data name="USER_MESSAGE1">
+		<value>Користувачі мають бути зареєстровані для перегляду захищеного вмісту.</value>
+	</data>
+	<data name="USER_MESSAGE2">
+		<value>Користувачі мають змогу додавати себе самі з використанням форми реєстрації, Адміністратори також мають змогу додавати користувачей з використанням функцій Ролей безпеки, що вказані нижче.</value>
+	</data>
+	<data name="USER_MESSAGE3">
+		<value>Ця секція дозволяє Адміністраторам керувати користувачами та їх ролями безпеки безпосередньо.</value>
+	</data>
+	<data name="VALID_ADDRESS">
+		<value>Ви маєте ввести допустиму адресу</value>
+	</data>
+	<data name="VALID_CITY">
+		<value>Ви маєте ввести допустиму назву міста</value>
+	</data>
+	<data name="VALID_CODE">
+		<value>Ви маєте ввести допустимий Код</value>
+	</data>
+	<data name="VALID_DATE">
+		<value>Ви маєте ввести допустиму Дату</value>
+	</data>
+	<data name="VALID_EMAIL">
+		<value>Використовуйте допустиму адресу Ел-Пошти</value>
+	</data>
+	<data name="VALID_FIELD">
+		<value>Будь ласка вставте допустиме значення</value>
+	</data>
+	<data name="VALID_FILE_NAME">
+		<value>Ви маєте ввести допустиму Назву файла</value>
+	</data>
+	<data name="VALID_NAME">
+		<value>Ви маєте ввести допустиме Ім'я</value>
+	</data>
+	<data name="VALID_NUMBER">
+		<value>Ви маєте ввести допустимий Номер</value>
+	</data>
+	<data name="VALID_PHONE">
+		<value>Ви маєте ввести допустимий Тел №</value>
+	</data>
+	<data name="VALID_TITLE">
+		<value>Ви маєте ввести допустимий Заголовок</value>
+	</data>
+	<data name="VALID_VIEWORDER">
+		<value>Ви маєте ввести допустимий Порядок перегляду</value>
+	</data>
+	<data name="VALID_ZIP">
+		<value>Ви маєте ввести допустимий Поштовий індекс</value>
+	</data>
+	<data name="WEB_FARM_SUPPORT">
+		<value>Зберігати у базі даних (для підтримки технології Веб Ферм)</value>
+	</data>
+	<data name="WELCOME">
+		<value>Ласкаво Просимо</value>
+	</data>
+	<data name="ACCOUNT_INFO">
+		<value>Інформація про бюджет</value>
+	</data>
+	<data name="ACCOUNT_LOGIN">
+		<value>Бюджет входу</value>
+	</data>
+	<data name="ADDRESS">
+		<value>Адреса</value>
+	</data>
+	<data name="ADVPAYM">
+		<value>Авансований платіж</value>
+	</data>
+	<data name="ALREADY_REGISTERED">
+		<value>якщо вже зареєстровані.</value>
+	</data>
+	<data name="BANK">
+		<value>Банк</value>
+	</data>
+	<data name="CAB">
+		<value>CAB</value>
+	</data>
+	<data name="CFISCALE">
+		<value>Податковий код</value>
+	</data>
+	<data name="CITY">
+		<value>Місто</value>
+	</data>
+	<data name="COMPANY">
+		<value>Підприємство</value>
+	</data>
+	<data name="CONDITIONS">
+		<value>Строк служби</value>
+	</data>
+	<data name="COUNTRY">
+		<value>Країна/Регіон</value>
+	</data>
+	<data name="CREATEDBY">
+		<value>Створено:</value>
+	</data>
+	<data name="DECLINE">
+		<value>Ні, дякую!</value>
+	</data>
+
+	<data name="DELETE_USER">
+		<value>Видалити користувача</value>
+	</data>
+	<data name="EDIT_USER">
+		<value>Редагувати користувача</value>
+	</data>
+	<data name="FAX">
+		<value>Факс</value>
+	</data>
+	<data name="LASTNAME">
+		<value>Прізвище</value>
+	</data>
+	<data name="LINKDETAILS">
+		<value>Опис посилання</value>
+	</data>
+
+	<data name="LOGIN_FAILED">
+		<value>Невдалий Вхід!</value>
+	</data>
+	<data name="MERCHANT">
+		<value>Ідентифікаційний код</value>
+	</data>
+	<data name="MOBILEURL">
+		<value>Мабільне посилання</value>
+	</data>
+	<data name="NO_ACCOUNT">
+		<value>Якщо ви не маєте бюджету</value>
+	</data>
+	<data name="NOTE">
+		<value>Примітка</value>
+	</data>
+	<data name="PHONE">
+		<value>Телефон</value>
+	</data>
+	<data name="PIVA">
+		<value>ЄДРПОУ</value>
+	</data>
+	<data name="PROFILE_INFO">
+		<value>Інформація профілю</value>
+	</data>
+	<data name="PROV_STATE">
+		<value>Регіон/Район</value>
+	</data>
+	<data name="REGISTER">
+		<value>Зареєструйтесь</value>
+	</data>
+	<data name="REGISTER_DIFFERENT">
+		<value>Будь ласка,  скористайтесь іншою адресою Ел-Пошти.</value>
+	</data>
+	<data name="REGISTER_NOW">
+		<value>Зареєструйтесь та Заходьте!</value>
+	</data>
+	<data name="REGISTER_REQUIRED">
+		<value>Для використання цього модуля потрібно зареєструватись</value>
+	</data>
+	<data name="REGISTRATION_FAILED">
+		<value>Невдала реєстрація!</value>
+	</data>
+	<data name="ABI">
+		<value>ABI</value>
+	</data>
+	<data name="ACCEPT">
+		<value>Я приймаю Стандартні Умови</value>
+	</data>
+	<data name="REMEMBER_LOGIN">
+		<value>Запам'ятати</value>
+	</data>
+	<data name="ROOM_NUMBER">
+		<value>Кількість місць</value>
+	</data>
+	<data name="SEND_NEWSLETTER">
+		<value>Надсилати новини</value>
+	</data>
+	<data name="SIGNIN">
+		<value>Вхід</value>
+	</data>
+	<data name="SIGNIN_ENTER_EMAIL_ADDR">
+		<value>Введіть адресу Ел-Пошти</value>
+	</data>
+	<data name="SIGNIN_PWD_MISSING_IN_DB">
+		<value>Ваш пароль не знайдено в базі даних</value>
+	</data>
+	<data name="SIGNIN_PWD_REQUESTED">
+		<value>Пароль, що Ви замовили:</value>
+	</data>
+	<data name="SIGNIN_PWD_TO">
+		<value>Пароль до:</value>
+	</data>
+	<data name="SIGNIN_PWD_WAS_SENT">
+		<value>Ваш пароль було відіслано на адресу, що запропановано.</value>
+	</data>
+	<data name="SIGNIN_SEND_PWD">
+		<value>Відіслати пароль</value>
+	</data>
+	<data name="SIGNIN_THANK_YOU">
+		<value>Дякуємо Вам та сподіваємось на візит до</value>
+	</data>
+	<data name="SIGNIN_YOU_CAN_LOGIN_FROM">
+		<value>Ви можете зробити вхід з</value>
+	</data>
+	<data name="SWI_PUBLISH">
+		<value>Публікація</value>
+	</data>
+	<data name="SWI_ROLESPUBLISHING">
+		<value>Авторизовані ролі публікацій</value>
+	</data>
+	<data name="SWI_SUPPORTWORKFLOW">
+		<value>Дозвіл підтримки процесу</value>
+	</data>
+	<data name="SWI_SWAPTOPRODUCTION">
+		<value>Перехід до робочої версії</value>
+	</data>
+	<data name="SWI_SWAPTOSTAGING">
+		<value>Перехід до демонстраційної версії</value>
+	</data>
+
+	<data name="UNCHECKED_USERS">
+		<value>Незареєстровані користувачі</value>
+	</data>
+	<data name="URL">
+		<value>Посилання</value>
+	</data>
+	<data name="VALIDORDER">
+		<value>Ви маєте ввести Допустимий порядок перегляду</value>
+	</data>
+	<data name="VALIDTITLE">
+		<value>Ви маєте ввести Допустимий Заголовок</value>
+	</data>
+	<data name="VALIDURL">
+		<value>Ви маєте ввести Допустимий Заголовок</value>
+	</data>
+	<data name="VIEWORDER">
+		<value>Поорядок перегляду</value>
+	</data>
+	<data name="WEBSITE">
+		<value>WWW адреса</value>
+	</data>
+	<data name="XMLsrc">
+		<value>XML файл даних</value>
+	</data>
+	<data name="XSLsrc">
+		<value>XSL трансформація</value>
+	</data>
+	<data name="ZIP">
+		<value>Поштовий індекс</value>
+	</data>
+	<data name="LAYOUT">
+		<value></value>
+	</data>
+	<data name="TOTAL">
+		<value></value>
+	</data>
+	<data name="TO">
+		<value></value>
+	</data>
+	<data name="SETTINGS">
+		<value></value>
+	</data>
+	<data name="SAVE">
+		<value></value>
+	</data>
+	<data name="PREVIOUS">
+		<value></value>
+	</data>
+	<data name="PREVIEW">
+		<value></value>
+	</data>
+	<data name="PAGE">
+		<value></value>
+	</data>
+	<data name="NEXT">
+		<value></value>
+	</data>
+	<data name="BACK">
+		<value></value>
+	</data>
+	<data name="CAPTION">
+		<value></value>
+	</data>
+	<data name="CONTACT">
+		<value></value>
+	</data>
+	<data name="CONTINUE">
+		<value></value>
+	</data>
+	<data name="CULTURE">
+		<value></value>
+	</data>
+	<data name="FROM">
+		<value></value>
+	</data>
+</root>

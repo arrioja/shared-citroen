@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3102.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3102.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="ABI">
+		<value>ABI</value>
+	</data>
+	<data name="ACCEPT">
+		<value>Eu aceito os termos e condições</value>
+	</data>
+	<data name="ACCESSDENIED">
+		<value>Acesso Negado</value>
+	</data>
+	<data name="ACCESS_DENIED_MESSAGE">
+		<value>Ou você não está atualmente logado no portal ou você não tem permissão de acesso a este painel. Por favor entre em contato com o adminsitrador do portal para obter acesso.</value>
+	</data>
+	<data name="ACCOUNT_INFO">
+		<value>Informaçãoes da Conta</value>
+	</data>
+	<data name="ACCOUNT_LOGIN">
+		<value>Conta de Login</value>
+	</data>
+	<data name="ADD">
+		<value>Adicionar</value>
+	</data>
+	<data name="ADD_DOCUMENT">
+		<value>Adicionar novo documento</value>
+	</data>
+	<data name="ADD_NEW">
+		<value>Adicionar Novo</value>
+	</data>
+	<data name="ADD_NEW_USER">
+		<value>Adicionar Novo Usuário</value>
+	</data>
+	<data name="ADD_PORTAL">
+		<value>Adicionar Portal</value>
+	</data>
+	<data name="ADDRESS">
+		<value>Endereço</value>
+	</data>
+	<data name="ADDTAB">
+		<value>Adicionar Novo Painel</value>
+	</data>
+	<data name="ADDUSER">
+		<value>Adicionar usuário a este grupo</value>
+	</data>
+	<data name="ADMIN_MODULE">
+		<value>Módulo Administrador ?</value>
+	</data>
+	<data name="ADVPAYM">
+		<value>Pagamento Adiantado</value>
+	</data>
+	<data name="ALREADY_REGISTERED">
+		<value>já está registrado</value>
+	</data>
+	<data name="ALREADY_REGISTERED1">
+		<value>Se você já possui uma conta.</value>
+	</data>
+	<data name="AM_ADDMODULE">
+		<value>Adicionar Módulo</value>
+	</data>
+	<data name="AM_ADDMODULEBELOW">
+		<value>Adicionar ao "Organizar Módulos" abaixo</value>
+	</data>
+	<data name="AM_ADDROLE">
+		<value>Adicionar Novo Grupo</value>
+	</data>
+	<data name="AM_BASESOLUTION">
+		<value>Solução Base</value>
+	</data>
+	<data name="AM_CENTERPANEL">
+		<value>Painel Central</value>
+	</data>
+	<data name="AM_LEFTPANEL">
+		<value>Mini Painel Esquerdo</value>
+	</data>
+	<data name="AM_MOBILETAB">
+		<value>Nome Painel (Mobile):</value>
+	</data>
+	<data name="AM_MODULENAME">
+		<value>Nome Módulo:</value>
+	</data>
+	<data name="AM_MODULETYPE">
+		<value>Tipo do Módulo</value>
+	</data>
+	<data name="AM_ORGANIZEMODULE">
+		<value>Organizar Módulos</value>
+	</data>
+	<data name="AM_PORTALALIAS">
+		<value>Apelido do Portal</value>
+	</data>
+	<data name="AM_RIGHTPANEL">
+		<value>Mini Painel Direito</value>
+	</data>
+	<data name="AM_ROLESAUTH">
+		<value>Grupos Autorizados</value>
+	</data>
+	<data name="AM_SHOWEDIT">
+		<value>Sempre mostra o botão Editar?</value>
+	</data>
+	<data name="AM_SHOWMOBILE">
+		<value>Mostrar para os usuários de Mobiles</value>
+	</data>
+	<data name="AM_SITEPATH">
+		<value>Caminho do site</value>
+	</data>
+	<data name="AM_SITETITLE">
+		<value>Título do Site</value>
+	</data>
+	<data name="AM_TABNAME">
+		<value>Nome do Painel e Layout</value>
+	</data>
+	<data name="AM_TABNAME1">
+		<value>Nome do Painel</value>
+	</data>
+	<data name="AM_TABS">
+		<value>Paineis</value>
+	</data>
+	<data name="AM_THEME">
+		<value>Tema</value>
+	</data>
+	<data name="ANNOUNCES_ADD">
+		<value>Adicionar novo Aviso</value>
+	</data>
+	<data name="ANNOUNCES_DESCRIPTION">
+		<value>Descrição</value>
+	</data>
+	<data name="ANNOUNCES_DETAILS">
+		<value>Detalhes do Aviso</value>
+	</data>
+	<data name="ANNOUNCES_EXPIRES">
+		<value>Expira em</value>
+	</data>
+	<data name="ANNOUNCES_READ_MORE_LINK">
+		<value>Link Leia Mais Sobre</value>
+	</data>
+	<data name="ANNOUNCES_READ_MORE_MOBILE">
+		<value>Leia Mais (Mobile)</value>
+	</data>
+	<data name="ANNOUNCES_TITLE">
+		<value>Título</value>
+	</data>
+	<data name="ANNOUNCES_VALID_DESCRIPTION">
+		<value>Você deve informar uma descrição Válida</value>
+	</data>
+	<data name="ANNOUNCES_VALID_EXPIRE">
+		<value>Você deve informar uma data de validade válida</value>
+	</data>
+	<data name="ANNOUNCES_VALID_TITLE">
+		<value>Você deve entrar com um título válido</value>
+	</data>
+	<data name="APPLY">
+		<value>Aplicar Mudanças</value>
+	</data>
+	<data name="APPLYNAME">
+		<value>Aplica as mudanças de Nome e Senha</value>
+	</data>
+	<data name="APPLYTHEME">
+		<value>Aplica Tema</value>
+	</data>
+	<data name="AREA">
+		<value>Área</value>
+	</data>
+	<data name="AUTHOR">
+		<value>Autor</value>
+	</data>
+	<data name="BANK">
+		<value>Banco</value>
+	</data>
+	<data name="BOTTOM">
+		<value>Rodapé</value>
+	</data>
+	<data name="BUYNOW">
+		<value>Compre Agora</value>
+	</data>
+	<data name="CAB">
+		<value>CAB</value>
+	</data>
+	<data name="CACHETIMEOUT">
+		<value>Tempo do Cache (em segundos)</value>
+	</data>
+	<data name="CANCEL">
+		<value>Cancelar</value>
+	</data>
+	<data name="CATEGORY">
+		<value>Categoria</value>
+	</data>
+	<data name="CFISCALE">
+		<value>Código Fiscal</value>
+	</data>
+	<data name="CITY">
+		<value>Cidade</value>
+	</data>
+	<data name="COLLECTION_PROPERTIES">
+		<value>Porporiedades da Coleção</value>
+	</data>
+	<data name="COMPANY">
+		<value>Empresa</value>
+	</data>
+	<data name="CONDITIONS">
+		<value>Termos do Serviço</value>
+	</data>
+	<data name="CONFIRM">
+		<value>Confirmar Senha</value>
+	</data>
+	<data name="CONFIRM_DELETE">
+		<value>Eliminar este ítem ?</value>
+	</data>
+	<data name="CONTACTS_ADD">
+		<value>Adicionar novo contato</value>
+	</data>
+	<data name="CONTACTS_CONTACT1">
+		<value>Contacto 1</value>
+	</data>
+	<data name="CONTACTS_CONTACT2">
+		<value>Contacto 2</value>
+	</data>
+	<data name="CONTACTS_DETAILS">
+		<value>Detalhes do Contato</value>
+	</data>
+	<data name="CONTACTS_EMAIL">
+		<value>Email</value>
+	</data>
+	<data name="CONTACTS_NAME">
+		<value>Nome</value>
+	</data>
+	<data name="CONTACTS_ROLE">
+		<value>Função/Cargo</value>
+	</data>
+	<data name="CONTACTS_VALID_NAME">
+		<value>Você deve entrar um nome válido</value>
+	</data>
+	<data name="COUNTRY">
+		<value>País/Região</value>
+	</data>
+	<data name="CREATED_BY">
+		<value>Criado por</value>
+	</data>
+	<data name="CREATEDBY">
+		<value>Criado por</value>
+	</data>
+	<data name="DATE">
+		<value>Data</value>
+	</data>
+	<data name="DECLINE">
+		<value>Não, obrigado!</value>
+	</data>
+	<data name="DelayExpire">
+		<value>Data Padrão de limite de atraso</value>
+	</data>
+	<data name="DELETE">
+		<value>Eliminar</value>
+	</data>
+	<data name="DELETE_THIS_ITEM">
+		<value>Eliminar este item</value>
+	</data>
+	<data name="DELETE_USER">
+		<value>Eliminar este usuário</value>
+	</data>
+	<data name="DELETEBTN">
+		<value>Eliminar item selecionado</value>
+	</data>
+	<data name="DELUSER">
+		<value>Remover o usuário deste grupo</value>
+	</data>
+	<data name="DESCRIPTION">
+		<value>Descrição</value>
+	</data>
+	<data name="DESKTOP_SOURCE">
+		<value>Desktop Início</value>
+	</data>
+	<data name="DOCUMENT_DETAILS">
+		<value>Detalhe do Documento</value>
+	</data>
+	<data name="DOCUMENTS_FOLDER">
+		<value>Pasta dos Documentos</value>
+	</data>
+	<data name="DOCUMENTS_SOURCE">
+		<value>Conteúdo do Documento</value>
+	</data>
+	<data name="DS_BODY">
+		<value>Corpo</value>
+	</data>
+	<data name="DS_MSGDETAILS">
+		<value>Detalhe da Menssagem</value>
+	</data>
+	<data name="DS_NEWTHREAD">
+		<value>Adicionar nova Discussão</value>
+	</data>
+	<data name="DS_ORIGINALMSG">
+		<value>Mensagem Original</value>
+	</data>
+	<data name="DS_REPLYTHISMSG">
+		<value>Responde a esta Mensagem</value>
+	</data>
+	<data name="EDIT">
+		<value>Editar</value>
+	</data>
+	<data name="EDIT_ACCESS_DENIED">
+		<value>Proibído Editar</value>
+	</data>
+	<data name="EDIT_ACCESS_DENIED_MESSAGE">
+		<value>Ou você não está atualmente logado no portal ou você não tem permissão de acesso a este painel. Por favor entre em contato com o adminsitrador do portal para obter acesso.</value>
+	</data>
+	<data name="EDIT_PORTAL">
+		<value>Editar Portal</value>
+	</data>
+	<data name="EDIT_USER">
+		<value>Editar este usuário</value>
+	</data>
+	<data name="EDITBTN">
+		<value>Editar as propriedades dos itens selecionados</value>
+	</data>
+	<data name="EMAIL">
+		<value>E-Mail</value>
+	</data>
+	<data name="EMAILORWINDOW">
+		<value>Email (ou nome no dimínio Windows)</value>
+	</data>
+	<data name="EVENTS_ADD">
+		<value>Adicionar Novo Evento</value>
+	</data>
+	<data name="EVENTS_DESCRIPTION">
+		<value>Descrição</value>
+	</data>
+	<data name="EVENTS_DETAILS">
+		<value>Detalhe do Evento</value>
+	</data>
+	<data name="EVENTS_EXPIRES">
+		<value>Data Limite</value>
+	</data>
+	<data name="EVENTS_TITLE">
+		<value>Título</value>
+	</data>
+	<data name="EVENTS_VALID_DESCRIPTION">
+		<value>Você deve inserir uma descrição válida.</value>
+	</data>
+	<data name="EVENTS_VALID_EXPIRE">
+		<value>Você deve inserir uma data limite válida.</value>
+	</data>
+	<data name="EVENTS_VALID_TITLE">
+		<value>Voc~e deve inserir um título válido</value>
+	</data>
+	<data name="EVENTS_VALID_WHEN-WHERE">
+		<value>Você deve inserir uma Hora/Localidade válida.</value>
+	</data>
+	<data name="EVENTS_WHEN-WHERE">
+		<value>Onde/Quando</value>
+	</data>
+	<data name="FAX">
+		<value>Fax</value>
+	</data>
+	<data name="FILE_NAME">
+		<value>Nome do Arquivo</value>
+	</data>
+	<data name="FILE_NOT_FOUND">
+		<value>Arquivo %1% não encontrado</value>
+	</data>
+	<data name="FILE_UPLOAD_ERROR">
+		<value>O arquivo que você realizou o upload não é válido.</value>
+	</data>
+	<data name="FRIENDLY_NAME">
+		<value>Nome amigável</value>
+	</data>
+	<data name="GUID">
+		<value>Guid</value>
+	</data>
+	<data name="HERE">
+		<value>Aqui</value>
+	</data>
+	<data name="IMAGE">
+		<value>Imagem</value>
+	</data>
+	<data name="IMAGE_UPLOAD_ERROR">
+		<value>A imagem que você fez o upload não é válida. Por favor verifique o tipo de arquivo e a sua extensão (ex: .jpg)</value>
+	</data>
+	<data name="IN">
+		<value>em</value>
+	</data>
+	<data name="INSERT_CONFIRM">
+		<value>'Confirmar' não pode ser deixado em branco.</value>
+	</data>
+	<data name="INSERT_EMAIL">
+		<value>'Email' não pode ser deixado em branco.</value>
+	</data>
+	<data name="INSERT_NAME">
+		<value>'Nome' não deve ser deixado em branco.</value>
+	</data>
+	<data name="INSERT_PASSWORD">
+		<value>'Senha' não deve ser deixado em branco.</value>
+	</data>
+	<data name="LAST_UPDATED">
+		<value>Última Alteração</value>
+	</data>
+	<data name="LASTNAME">
+		<value>Sobrenome</value>
+	</data>
+	<data name="LEFT">
+		<value>Esquerda</value>
+	</data>
+	<data name="LINKDETAILS">
+		<value>Detalhes do Link</value>
+	</data>
+	<data name="LinkedModule">
+		<value>Módulo Associado</value>
+	</data>
+	<data name="LOAD_THEME_ERROR">
+		<value>Não foi possível carregar o tema %1%. Padrão não disponível.</value>
+	</data>
+	<data name="LOGIN_FAILED">
+		<value>Falha no Login!</value>
+	</data>
+	<data name="LOGOFF">
+		<value>Logoff</value>
+	</data>
+	<data name="MERCHANT">
+		<value>Merchant ID</value>
+	</data>
+	<data name="MIDDLE">
+		<value>Meio</value>
+	</data>
+	<data name="MOBILE_SOURCE">
+		<value>Mobile Inicio</value>
+	</data>
+	<data name="MOBILEURL">
+		<value>URL Mobile</value>
+	</data>
+	<data name="MODIFIED_BY">
+		<value>Modificado por</value>
+	</data>
+	<data name="MODULE_TITLE">
+		<value>Nome do Novo Módulo</value>
+	</data>
+	<data name="MODULE_TYPE_DEFINITION">
+		<value>Definição do Tipo do Módulo</value>
+	</data>
+	<data name="MODULENAME">
+		<value>Nome do Módulo</value>
+	</data>
+	<data name="MODULESETTINGS">
+		<value>Parâmetros do Módulo</value>
+	</data>
+	<data name="MOVEDOWN">
+		<value>Mover item selecionado para baixo na lista</value>
+	</data>
+	<data name="MOVELEFT">
+		<value>Mover item selecionado para esquerda</value>
+	</data>
+	<data name="MOVERIGHT">
+		<value>Mover item selecionado para direita</value>
+	</data>
+	<data name="MOVEUP">
+		<value>Mover item selecionado para cima na lista</value>
+	</data>
+	<data name="NAME">
+		<value>Nome</value>
+	</data>
+	<data name="NEW_PORTAL_ERROR">
+		<value>Ocorreu um erro ao criar o novo portal. Pode ser que o portal já exista. Tente mudar o apelido para este portal.</value>
+	</data>
+	<data name="NO_ACCOUNT">
+		<value>Se você não possui uma conta</value>
+	</data>
+	<data name="NO_MODULE">
+		<value>Sem Módulo</value>
+	</data>
+	<data name="NOTE">
+		<value>Notas</value>
+	</data>
+	<data name="ON">
+		<value>ativo</value>
+	</data>
+	<data name="OR">
+		<value>ou</value>
+	</data>
+	<data name="OWNER">
+		<value>Criado por</value>
+	</data>
+	<data name="PASSWORD">
+		<value>Senha</value>
+	</data>
+	<data name="PASSWORD_NOT_MATCH">
+		<value>Os campos de Senha não coincidem.</value>
+	</data>
+	<data name="PHONE">
+		<value>Telefone</value>
+	</data>
+	<data name="PIVA">
+		<value>Company number</value>
+	</data>
+	<data name="HOME">
+		<value>Página inicial do Portal</value>
+	</data>
+	<data name="PORTALS">
+		<value>Portais</value>
+	</data>
+	<data name="POSTED_BY">
+		<value>de</value>
+	</data>
+	<data name="POSTED_DATE">
+		<value>Enviado em</value>
+	</data>
+	<data name="PROFILE_INFO">
+		<value>Perfil</value>
+	</data>
+	<data name="PROPERTIES">
+		<value>Editar as propriedades da coleção</value>
+	</data>
+	<data name="PROV_STATE">
+		<value>Estado</value>
+	</data>
+	<data name="READ_FULL_ANNOUNCE">
+		<value>Leia o conteúdo completo</value>
+	</data>
+	<data name="REGISTER">
+		<value>Registrar</value>
+	</data>
+	<data name="REGISTER_DIFFERENT">
+		<value>Por favor, registre utilizando um endereço de email diferente.</value>
+	</data>
+	<data name="REGISTER_NOW">
+		<value>Registre e Connecte-se Agora</value>
+	</data>
+	<data name="REGISTER_REQUIRED">
+		<value>Para utilizar este módulo você precisa se registrar.</value>
+	</data>
+	<data name="REGISTERED_USERS">
+		<value>Usuários Registrados</value>
+	</data>
+	<data name="REGISTRATION_FAILED">
+		<value>Falha ao Registrar!</value>
+	</data>
+	<data name="REMEMBER_LOGIN">
+		<value>Lembrar Login</value>
+	</data>
+	<data name="RETURNHOME">
+		<value>Retornar à Página Inicla do Portal.</value>
+	</data>
+	<data name="RIGHT">
+		<value>Direita</value>
+	</data>
+	<data name="ROLESADD">
+		<value>Grupos que podem adicionar conteúdo</value>
+	</data>
+	<data name="ROLESCOLLECTION">
+		<value>Grupos que podem editar a coleção de conteúdos</value>
+	</data>
+	<data name="ROLESDELETE">
+		<value>Grupos que podem eliminar conteúdo</value>
+	</data>
+	<data name="ROLESEDIT">
+		<value>Grupos que podem editar conteúdo</value>
+	</data>
+	<data name="ROLESVIEW">
+		<value>Grupos  que podem ver conteúdo</value>
+	</data>
+	<data name="ROOM_NUMBER">
+		<value>Número de quartos</value>
+	</data>
+	<data name="ROOT_LEVEL">
+		<value>Nível Raiz</value>
+	</data>
+	<data name="SAVEUSER">
+		<value>Salvar as Mudanças do Usuário</value>
+	</data>
+	<data name="SELECT_ALL">
+		<value>Selecionar Tudo</value>
+	</data>
+	<data name="SELECT_NONE">
+		<value>Cancelar Seleção</value>
+	</data>
+	<data name="SEND_NEWSLETTER">
+		<value>Enviar Notícias ?</value>
+	</data>
+	<data name="SENDNEWSLETTER">
+		<value>Enviar Informativo</value>
+	</data>
+	<data name="SHOWMOBILE">
+		<value>Mostrar para os usuáris de Mobiles ?</value>
+	</data>
+	<data name="SIGNIN">
+		<value>Logar</value>
+	</data>
+	<data name="SUBJECT">
+		<value>Assunto</value>
+	</data>
+	<data name="SUBMIT">
+		<value>Enviar</value>
+	</data>
+	<data name="SUBTITLE">
+		<value>Sub-Título</value>
+	</data>
+	<data name="TAB_DELETE_FAILED">
+		<value>Eliminação inválida. Por Favor elimine todos os módulos na página e todos os paineis-filhos associados a este.</value>
+	</data>
+	<data name="TAB_NAME">
+		<value>Novo Painel (inserir nome)</value>
+	</data>
+	<data name="TAB_PARENT">
+		<value>Painel Superior</value>
+	</data>
+	<data name="TABLAYOUT">
+		<value>Layout Padrão</value>
+	</data>
+	<data name="TermsOfService">
+		<value>Termos do Serviço</value>
+	</data>
+	<data name="Theme">
+		<value>Tema</value>
+	</data>
+	<data name="ThemeAlt">
+		<value>Tema Alternativo</value>
+	</data>
+	<data name="TITLE">
+		<value>Título</value>
+	</data>
+	<data name="TOP">
+		<value>Topo</value>
+	</data>
+	<data name="TRANSLATOR">
+		<value>Sérgio Schaaf</value>
+	</data>
+	<data name="TRANSLATOR_EMAIL">
+		<value>computer@schaaf.digiweb.com.br</value>
+	</data>
+	<data name="UNCHECKED_USERS">
+		<value>Desmarcar usuários</value>
+	</data>
+	<data name="UPDATE">
+		<value>Alterar</value>
+	</data>
+	<data name="UPLOAD_FILE">
+		<value>Upload de arquivo</value>
+	</data>
+	<data name="UPLOAD_TO_WEB">
+		<value>Enviar para o Servidor Web</value>
+	</data>
+	<data name="URL">
+		<value>URL</value>
+	</data>
+	<data name="URL_TO_BROWSE">
+		<value>URL para abrir</value>
+	</data>
+	<data name="USER_MESSAGE_DOMAIN1">
+		<value>Usuários do Domínio não necessitam estar registrados para acessar o conteúdo do portal disponível para 'Todos os Usuários'</value>
+	</data>
+	<data name="USER_MESSAGE_DOMAIN2">
+		<value>Administradores podem adicionar usuários de domínio em grupos específicos usando a funcionalidade Grupos de Segurança acima.</value>
+	</data>
+	<data name="USER_MESSAGE_DOMAIN3">
+		<value>Esta seção permite aos Administradores manipular os usuários e as seus grupos diretamente.</value>
+	</data>
+	<data name="USER_MESSAGE1">
+		<value>Usuários devem estar registrados para ver conteúdo seguro.</value>
+	</data>
+	<data name="USER_MESSAGE2">
+		<value>Usuários podem adicionar a si mesmos usando o Formulário de Registro e os Administradores podem adicionar os usuários a grupos específicos usando a funcionalidade Grupos de Segurança acima.</value>
+	</data>
+	<data name="USER_MESSAGE3">
+		<value>Esta seção permite aos Administradores manipular usuários e seus grupos diretamente.</value>
+	</data>
+	<data name="VALID_ADDRESS">
+		<value>Você deve informar um endereço válido.</value>
+	</data>
+	<data name="VALID_CITY">
+		<value>Você deve informar uma cidade válida.</value>
+	</data>
+	<data name="VALID_CODE">
+		<value>Você deve informar um código válido.</value>
+	</data>
+	<data name="VALID_DATE">
+		<value>Você deve informar uma data válida.</value>
+	</data>
+	<data name="VALID_EMAIL">
+		<value>Você deve informar um endereço de email válido.</value>
+	</data>
+	<data name="VALID_FIELD">
+		<value>Por favor insira um valor válido</value>
+	</data>
+	<data name="VALID_FILE_NAME">
+		<value>Você precisa inserir um nome de arquivo válido.</value>
+	</data>
+	<data name="VALID_NAME">
+		<value>Você precisa informar um nome válido.</value>
+	</data>
+	<data name="VALID_NUMBER">
+		<value>Você precisa informar um número válido.</value>
+	</data>
+	<data name="VALID_PHONE">
+		<value>Você deve informar um telefone válido.</value>
+	</data>
+	<data name="VALID_TITLE">
+		<value>Você deve informar um título válido.</value>
+	</data>
+	<data name="VALID_VIEWORDER">
+		<value>Você deve informar uma ordenação de vistas válida.</value>
+	</data>
+	<data name="VALID_ZIP">
+		<value>Você deve informar um CEP válido.</value>
+	</data>
+	<data name="VALIDORDER">
+		<value>Você deve inserir uma ordenação válida.</value>
+	</data>
+	<data name="VALIDTITLE">
+		<value>Você deve inserir um título válido.</value>
+	</data>
+	<data name="VALIDURL">
+		<value>Você deve inserir uma URL válida.</value>
+	</data>
+	<data name="VIEWORDER">
+		<value>Ordenação</value>
+	</data>
+	<data name="WEB_FARM_SUPPORT">
+		<value>Armazenar no Banco de Dados (suporte para Web Farms)</value>
+	</data>
+	<data name="WEBSITE">
+		<value>Web Site</value>
+	</data>
+	<data name="WELCOME">
+		<value>Bem Vindo</value>
+	</data>
+	<data name="XMLsrc">
+		<value>Arquivo XML</value>
+	</data>
+	<data name="XSLsrc">
+		<value>Arquivo XSLT</value>
+	</data>
+	<data name="ZIP">
+		<value>Código Postal</value>
+	</data>
+	<data name="LOGON">
+		<value></value>
+	</data>
+	<data name="LAYOUT">
+		<value></value>
+	</data>
+	<data name="TOTAL">
+		<value></value>
+	</data>
+	<data name="TO">
+		<value></value>
+	</data>
+	<data name="SETTINGS">
+		<value></value>
+	</data>
+	<data name="SAVE">
+		<value></value>
+	</data>
+	<data name="PREVIOUS">
+		<value></value>
+	</data>
+	<data name="PREVIEW">
+		<value></value>
+	</data>
+	<data name="PAGE">
+		<value></value>
+	</data>
+	<data name="NEXT">
+		<value></value>
+	</data>
+	<data name="BACK">
+		<value></value>
+	</data>
+	<data name="CAPTION">
+		<value></value>
+	</data>
+	<data name="CONTACT">
+		<value></value>
+	</data>
+	<data name="CONTINUE">
+		<value></value>
+	</data>
+	<data name="CULTURE">
+		<value></value>
+	</data>
+	<data name="FROM">
+		<value></value>
+	</data>
+</root>

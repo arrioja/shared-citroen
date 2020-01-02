@@ -1,0 +1,858 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3102.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3102.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="ABI">
+		<value>ABI</value>
+	</data>
+	<data name="ACCEPT">
+		<value>Akceptuję warunki</value>
+	</data>
+	<data name="ACCESSDENIED">
+		<value>Brak dostępu</value>
+	</data>
+	<data name="ACCESS_DENIED_MESSAGE">
+		<value>Nie jesteś zalogowany lub nie masz dostępu do wybranej strony. Skontaktuj się z administratorem portalu by uzyskać dostęp.</value>
+	</data>
+	<data name="ACCOUNT_INFO">
+		<value>Informacje o koncie</value>
+	</data>
+	<data name="ACCOUNT_LOGIN">
+		<value>Login konta</value>
+	</data>
+	<data name="ADD">
+		<value>Dodaj</value>
+	</data>
+	<data name="ADD_DOCUMENT">
+		<value>Dodaj nowy dokument</value>
+	</data>
+	<data name="ADD_NEW">
+		<value>Dodaj nowy</value>
+	</data>
+	<data name="ADD_NEW_USER">
+		<value>Dodaj nowego użytkownika</value>
+	</data>
+	<data name="ADD_PORTAL">
+		<value>Dodaj portal</value>
+	</data>
+	<data name="ADDRESS">
+		<value>Adres</value>
+	</data>
+	<data name="ADDTAB">
+		<value>Dodaj Nową Zakładkę</value>
+	</data>
+	<data name="ADDUSER">
+		<value>Dodaj użytkownika do tej roli</value>
+	</data>
+	<data name="ADMIN_MODULE">
+		<value>Moduł administratora?</value>
+	</data>
+	<data name="ADVPAYM">
+		<value>Płatność z góry</value>
+	</data>
+	<data name="ALREADY_REGISTERED">
+		<value>jest już zarejestrowany.</value>
+	</data>
+	<data name="ALREADY_REGISTERED1">
+		<value>Jeśli masz już konto</value>
+	</data>
+	<data name="AM_ADDMODULE">
+		<value>Dodaj Moduł</value>
+	</data>
+	<data name="AM_ADDMODULEBELOW">
+		<value>Dodaj do "Organizuj Moduły" poniżej</value>
+	</data>
+	<data name="AM_ADDROLE">
+		<value>Dodaj nową rolę</value>
+	</data>
+	<data name="AM_BASESOLUTION">
+		<value>Podstawowe rozwiązanie</value>
+	</data>
+	<data name="AM_CENTERPANEL">
+		<value>Panel centralny</value>
+	</data>
+	<data name="AM_LEFTPANEL">
+		<value>Lewy mini panel</value>
+	</data>
+	<data name="AM_MOBILETAB">
+		<value>Nazwa zakładki (urz. mobilne):</value>
+	</data>
+	<data name="AM_MODULENAME">
+		<value>Nazwa Modułu:</value>
+	</data>
+	<data name="AM_MODULETYPE">
+		<value>Typ Modułu</value>
+	</data>
+	<data name="AM_ORGANIZEMODULE">
+		<value>Organizuj Moduły</value>
+	</data>
+	<data name="AM_PORTALALIAS">
+		<value>Alias Portalu</value>
+	</data>
+	<data name="AM_RIGHTPANEL">
+		<value>Prawy mini panel</value>
+	</data>
+	<data name="AM_ROLESAUTH">
+		<value>Uprawnione Role</value>
+	</data>
+	<data name="AM_SHOWEDIT">
+		<value>Zawsze pokazuj przycisk edycji?</value>
+	</data>
+	<data name="AM_SHOWMOBILE">
+		<value>Pokazuj mobilnym użytkownikom</value>
+	</data>
+	<data name="AM_SITEPATH">
+		<value>Ścieżka witryny</value>
+	</data>
+	<data name="AM_SITETITLE">
+		<value>Tytuł Witryny</value>
+	</data>
+	<data name="AM_TABNAME">
+		<value>Nazwa Zakładki i Wygląd</value>
+	</data>
+	<data name="AM_TABNAME1">
+		<value>Nazwa Zakładki</value>
+	</data>
+	<data name="AM_TABS">
+		<value>Zakładki</value>
+	</data>
+	<data name="AM_THEME">
+		<value>Temat</value>
+	</data>
+	<data name="ANNOUNCES_ADD">
+		<value>Dodaj nowe ogłoszenie</value>
+	</data>
+	<data name="ANNOUNCES_DESCRIPTION">
+		<value>Opis</value>
+	</data>
+	<data name="ANNOUNCES_DETAILS">
+		<value>Szczegóły ogłoszenia</value>
+	</data>
+	<data name="ANNOUNCES_EXPIRES">
+		<value>Ważność upływa</value>
+	</data>
+	<data name="ANNOUNCES_READ_MORE_LINK">
+		<value>Łącze do szczegółów</value>
+	</data>
+	<data name="ANNOUNCES_READ_MORE_MOBILE">
+		<value>Łącze do szczegółów (urz. mobilne)</value>
+	</data>
+	<data name="ANNOUNCES_TITLE">
+		<value>Tytuł</value>
+	</data>
+	<data name="ANNOUNCES_VALID_DESCRIPTION">
+		<value>Podaj poprawny opis</value>
+	</data>
+	<data name="ANNOUNCES_VALID_EXPIRE">
+		<value>Podaj datę ważności</value>
+	</data>
+	<data name="ANNOUNCES_VALID_TITLE">
+		<value>Podaj tytuł</value>
+	</data>
+	<data name="APPLY">
+		<value>Zastosuj Zmiany</value>
+	</data>
+	<data name="APPLYNAME">
+		<value>Zastosuj zmianę nazwy i hasła</value>
+	</data>
+	<data name="APPLYTHEME">
+		<value>Zastosuj temat</value>
+	</data>
+	<data name="AREA">
+		<value>Obszar</value>
+	</data>
+	<data name="AUTHOR">
+		<value>Autor</value>
+	</data>
+	<data name="BANK">
+		<value>Bank</value>
+	</data>
+	<data name="BOTTOM">
+		<value>Dół</value>
+	</data>
+	<data name="BUYNOW">
+		<value>Kup teraz</value>
+	</data>
+	<data name="CAB">
+		<value>CAB</value>
+	</data>
+	<data name="CACHETIMEOUT">
+		<value>Czas zapamiętania (w sekundach)</value>
+	</data>
+	<data name="CANCEL">
+		<value>Anuluj</value>
+	</data>
+	<data name="CATEGORY">
+		<value>Kategoria</value>
+	</data>
+	<data name="CFISCALE">
+		<value>Kod Fiskalny</value>
+	</data>
+	<data name="CITY">
+		<value>Miasto</value>
+	</data>
+	<data name="COLLECTION_PROPERTIES">
+		<value>Właściwości kolekcji</value>
+	</data>
+	<data name="COMPANY">
+		<value>Firma</value>
+	</data>
+	<data name="CONDITIONS">
+		<value>Warunki usług</value>
+	</data>
+	<data name="CONFIRM">
+		<value>Potwierdź hasło</value>
+	</data>
+	<data name="CONFIRM_DELETE">
+		<value>Usunąć ten element?</value>
+	</data>
+	<data name="CONTACTS_ADD">
+		<value>Dodaj nowy kontakt</value>
+	</data>
+	<data name="CONTACTS_CONTACT1">
+		<value>Kontakt 1</value>
+	</data>
+	<data name="CONTACTS_CONTACT2">
+		<value>Kontakt 2</value>
+	</data>
+	<data name="CONTACTS_DETAILS">
+		<value>Szczegóły</value>
+	</data>
+	<data name="CONTACTS_EMAIL">
+		<value>E-mail</value>
+	</data>
+	<data name="CONTACTS_NAME">
+		<value>Nazwa</value>
+	</data>
+	<data name="CONTACTS_ROLE">
+		<value>Rola</value>
+	</data>
+	<data name="CONTACTS_VALID_NAME">
+		<value>Podaj poprawną nazwę</value>
+	</data>
+	<data name="COUNTRY">
+		<value>Kraj/Region</value>
+	</data>
+	<data name="CREATED_BY">
+		<value>Utworzył(a)</value>
+	</data>
+	<data name="CREATEDBY">
+		<value>Utworzył(a)</value>
+	</data>
+	<data name="DATE">
+		<value>Data</value>
+	</data>
+	<data name="DECLINE">
+		<value>Nie, dziękuję!</value>
+	</data>
+	<data name="DelayExpire">
+		<value>Domyślna data ważności</value>
+	</data>
+	<data name="DELETE">
+		<value>Usuń</value>
+	</data>
+	<data name="DELETE_THIS_ITEM">
+		<value>Usuń ten element</value>
+	</data>
+	<data name="DELETE_USER">
+		<value>Usuń tego użytkownika</value>
+	</data>
+	<data name="DELETEBTN">
+		<value>Usuń wybrany element</value>
+	</data>
+	<data name="DELUSER">
+		<value>Usuń użytkownika z tej roli</value>
+	</data>
+	<data name="DESCRIPTION">
+		<value>Opis</value>
+	</data>
+	<data name="DESKTOP_SOURCE">
+		<value>Desktop</value>
+	</data>
+	<data name="DOCUMENT_DETAILS">
+		<value>Szczegóły dokumentu</value>
+	</data>
+	<data name="DOCUMENTS_FOLDER">
+		<value>Folder documentów</value>
+	</data>
+	<data name="DOCUMENTS_SOURCE">
+		<value>Źródło dokumentów</value>
+	</data>
+	<data name="DS_BODY">
+		<value>Treść</value>
+	</data>
+	<data name="DS_MSGDETAILS">
+		<value>Szczegóły</value>
+	</data>
+	<data name="DS_NEWTHREAD">
+		<value>Dodaj nowy wątek</value>
+	</data>
+	<data name="DS_ORIGINALMSG">
+		<value>Oryginalna wiadomość</value>
+	</data>
+	<data name="DS_REPLYTHISMSG">
+		<value>Odpowiedz na tą wiadomość</value>
+	</data>
+	<data name="EDIT">
+		<value>Edytuj</value>
+	</data>
+	<data name="EDIT_ACCESS_DENIED">
+		<value>Edycja zabroniona</value>
+	</data>
+	<data name="EDIT_ACCESS_DENIED_MESSAGE">
+		<value>Nie jesteś zalogowany lub nie masz uprawnień do modyfikacji zawartości bieżącego modułu. Skontaktuj się z administratorem portalu by uzyskać uprawnienia do edycji tego modułu.</value>
+	</data>
+	<data name="EDIT_PORTAL">
+		<value>Edytuj portal</value>
+	</data>
+	<data name="EDIT_USER">
+		<value>Edytuj użytkownika</value>
+	</data>
+	<data name="EDITBTN">
+		<value>Edytuj właściwości wybranego elementu</value>
+	</data>
+	<data name="EDITOR">
+		<value>Edytor</value>
+	</data>
+	<data name="EMAIL">
+		<value>E-mail</value>
+	</data>
+	<data name="EMAILORWINDOW">
+		<value>E-mail (lub konto domenowe Windows)</value>
+	</data>
+	<data name="EVENTS_ADD">
+		<value>Dodaj nowe wydarzenie</value>
+	</data>
+	<data name="EVENTS_DESCRIPTION">
+		<value>Opis</value>
+	</data>
+	<data name="EVENTS_DETAILS">
+		<value>Szczegóły wydarzenia</value>
+	</data>
+	<data name="EVENTS_EXPIRES">
+		<value>Upływa</value>
+	</data>
+	<data name="EVENTS_TITLE">
+		<value>Tytuł</value>
+	</data>
+	<data name="EVENTS_VALID_DESCRIPTION">
+		<value>Podaj poprawny opis</value>
+	</data>
+	<data name="EVENTS_VALID_EXPIRE">
+		<value>Podaj datę upływy ważności</value>
+	</data>
+	<data name="EVENTS_VALID_TITLE">
+		<value>Podaj tytuł</value>
+	</data>
+	<data name="EVENTS_VALID_WHEN-WHERE">
+		<value>Podaj czas/lokalizację</value>
+	</data>
+	<data name="EVENTS_WHEN-WHERE">
+		<value>Gdzie/Kiedy</value>
+	</data>
+	<data name="FAX">
+		<value>Faks</value>
+	</data>
+	<data name="FILE_NAME">
+		<value>Nazwa pliku</value>
+	</data>
+	<data name="FILE_NOT_FOUND">
+		<value>Brak pliku %1%</value>
+	</data>
+	<data name="FILE_UPLOAD_ERROR">
+		<value>Wybrany plik nie jest poprawny.</value>
+	</data>
+	<data name="FRIENDLY_NAME">
+		<value>Przyjazna nazwa</value>
+	</data>
+	<data name="GUID">
+		<value>Guid</value>
+	</data>
+	<data name="HERE">
+		<value>Tutaj</value>
+	</data>
+	<data name="IMAGE">
+		<value>Plik graficzny</value>
+	</data>
+	<data name="IMAGE_UPLOAD_ERROR">
+		<value>Wybrany plik graficzny nie jest poprawny. Proszę sprawdzić typ pliku i rozszerzenie (np: .jpg)</value>
+	</data>
+	<data name="IN">
+		<value>w</value>
+	</data>
+	<data name="INSERT_CONFIRM">
+		<value>'Potwierdź' musi być wypełnione.</value>
+	</data>
+	<data name="INSERT_EMAIL">
+		<value>'E-mail' musi być wypełnione.</value>
+	</data>
+	<data name="INSERT_NAME">
+		<value>'Nazwa' musi być wypełniona</value>
+	</data>
+	<data name="INSERT_PASSWORD">
+		<value>'Hasło' musi być wypełnione.</value>
+	</data>
+	<data name="LAST_UPDATED">
+		<value>Ostatnia aktualizacja</value>
+	</data>
+	<data name="LASTNAME">
+		<value>Nazwisko</value>
+	</data>
+	<data name="LEFT">
+		<value>Lewy</value>
+	</data>
+	<data name="LINKDETAILS">
+		<value>Szczegóły</value>
+	</data>
+	<data name="LinkedModule">
+		<value>Połączony moduł</value>
+	</data>
+	<data name="LOAD_THEME_ERROR">
+		<value>Nie można wczytać tematu %1%. Brak wartości domyślnej.</value>
+	</data>
+	<data name="LOGIN_FAILED">
+		<value>Błąd logowania!</value>
+	</data>
+	<data name="LOGOFF">
+		<value>Wyloguj</value>
+	</data>
+	<data name="LOGON">
+		<value>Zaloguj się</value>
+	</data>
+	<data name="MERCHANT">
+		<value>Identyfikator handlowca</value>
+	</data>
+	<data name="MIDDLE">
+		<value>Środek</value>
+	</data>
+	<data name="MOBILE_SOURCE">
+		<value>Źródło (urz. mobilne)</value>
+	</data>
+	<data name="MOBILEURL">
+		<value>Adres mobilny</value>
+	</data>
+	<data name="MODIFIED_BY">
+		<value>Zmieniony przez</value>
+	</data>
+	<data name="MODULE_TITLE">
+		<value>Nazwa Nowego Modułu</value>
+	</data>
+	<data name="MODULE_TYPE_DEFINITION">
+		<value>Definicja Typu Modułu</value>
+	</data>
+	<data name="MODULENAME">
+		<value>Nazwa Modułu</value>
+	</data>
+	<data name="MODULESETTINGS">
+		<value>Ustawienia Modułu</value>
+	</data>
+	<data name="MOVEDOWN">
+		<value>Przesuń wybrany element w dół</value>
+	</data>
+	<data name="MOVELEFT">
+		<value>Przesuń wybrany element na lewo</value>
+	</data>
+	<data name="MOVERIGHT">
+		<value>Przesuń wybrany element na prawo</value>
+	</data>
+	<data name="MOVEUP">
+		<value>Przesuń wybrany element w górę</value>
+	</data>
+	<data name="NAME">
+		<value>Nazwa</value>
+	</data>
+	<data name="NEW_PORTAL_ERROR">
+		<value>Wystąpił błąd podczas tworzenia nowego portalu. Być może portal już istnieje. Spróbuj zmienić jego alias.</value>
+	</data>
+	<data name="NO_ACCOUNT">
+		<value>Jeśli nie masz konta</value>
+	</data>
+	<data name="NO_MODULE">
+		<value>Brak modułu</value>
+	</data>
+	<data name="NOTE">
+		<value>Uwagi</value>
+	</data>
+	<data name="ON">
+		<value>na</value>
+	</data>
+	<data name="OR">
+		<value>lub</value>
+	</data>
+	<data name="OWNER">
+		<value>Utworzył(a)</value>
+	</data>
+	<data name="PASSWORD">
+		<value>Hasło</value>
+	</data>
+	<data name="PASSWORD_NOT_MATCH">
+		<value>Hasła nie zgadzają się.</value>
+	</data>
+	<data name="PHONE">
+		<value>Telefon</value>
+	</data>
+	<data name="PIVA">
+		<value>Numer firmy</value>
+	</data>
+	<data name="HOME">
+		<value>Strona Główna Portalu</value>
+	</data>
+	<data name="PORTALS">
+		<value>Portale</value>
+	</data>
+	<data name="POSTED_BY">
+		<value>od</value>
+	</data>
+	<data name="POSTED_DATE">
+		<value>Wysłano</value>
+	</data>
+	<data name="PROFILE_INFO">
+		<value>Informacje o profilu</value>
+	</data>
+	<data name="PROPERTIES">
+		<value>Edytuj właściwości kolekcji</value>
+	</data>
+	<data name="PROV_STATE">
+		<value>Stan/Prowincja</value>
+	</data>
+	<data name="READ_FULL_ANNOUNCE">
+		<value>Czytaj całość</value>
+	</data>
+	<data name="REGISTER">
+		<value>Zarejestruj się</value>
+	</data>
+	<data name="REGISTER_DIFFERENT">
+		<value>Zarejestruj się używając innego adresu e-mail.</value>
+	</data>
+	<data name="REGISTER_NOW">
+		<value>Zarejestruj i Zaloguj się Teraz</value>
+	</data>
+	<data name="REGISTER_REQUIRED">
+		<value>By użyć ten moduł musisz się zarejestrować.</value>
+	</data>
+	<data name="REGISTERED_USERS">
+		<value>Zarejestrowani użytkownicy</value>
+	</data>
+	<data name="REGISTRATION_FAILED">
+		<value>Rejestracja się nie powiodła!</value>
+	</data>
+	<data name="REMEMBER_LOGIN">
+		<value>Pamiętaj mój login</value>
+	</data>
+	<data name="RETURNHOME">
+		<value>Wróć do strony głownej</value>
+	</data>
+	<data name="RIGHT">
+		<value>prawy</value>
+	</data>
+	<data name="ROLESADD">
+		<value>Role, które pozwalają dodawać zawartość</value>
+	</data>
+	<data name="ROLESCOLLECTION">
+		<value>Role, które pozwalają edytować zawartość kolekcji</value>
+	</data>
+	<data name="ROLESDELETE">
+		<value>Role, które pozwalają usuwać zawartość</value>
+	</data>
+	<data name="ROLESEDIT">
+		<value>Role, które pozwalają edytować zawartość</value>
+	</data>
+	<data name="ROLESVIEW">
+		<value>Role, które pozwalają oglądać zawartość</value>
+	</data>
+	<data name="ROOM_NUMBER">
+		<value>Liczba pokoi</value>
+	</data>
+	<data name="ROOT_LEVEL">
+		<value>Poziom główny</value>
+	</data>
+	<data name="SAVEUSER">
+		<value>Zapisz zmiany użytkownika</value>
+	</data>
+	<data name="SELECT_ALL">
+		<value>Wybierz wszystko</value>
+	</data>
+	<data name="SELECT_NONE">
+		<value>Nie wybieraj niczego</value>
+	</data>
+	<data name="SEND_NEWSLETTER">
+		<value>Wyślij Newsletter</value>
+	</data>
+	<data name="SENDNEWSLETTER">
+		<value>Wyślij Newsletter</value>
+	</data>
+	<data name="SHOWMOBILE">
+		<value>Pokazuj użytkownikom mobilnym?</value>
+	</data>
+	<data name="SIGNIN">
+		<value>Zaloguj się</value>
+	</data>
+	<data name="SIGNIN_ENTER_EMAIL_ADDR">
+		<value>Podaj adres E-mail</value>
+	</data>
+	<data name="SIGNIN_PWD_MISSING_IN_DB">
+		<value>Twoje hasło nie zostało odnalezione w bazie.</value>
+	</data>
+	<data name="SIGNIN_PWD_REQUESTED">
+		<value>Żądane hasło to:</value>
+	</data>
+	<data name="SIGNIN_PWD_TO">
+		<value>Hasło do:</value>
+	</data>
+	<data name="SIGNIN_PWD_WAS_SENT">
+		<value>Twoje hasło zostało wysłane na podany adres.</value>
+	</data>
+	<data name="SIGNIN_SEND_PWD">
+		<value>Wyślij Hasło</value>
+	</data>
+	<data name="SIGNIN_THANK_YOU">
+		<value>Dziękujemy i mamy nadzieję, że wizyta była miła</value>
+	</data>
+	<data name="SIGNIN_YOU_CAN_LOGIN_FROM">
+		<value>Zaloguj się z</value>
+	</data>
+	<data name="SUBJECT">
+		<value>Temat</value>
+	</data>
+	<data name="SUBMIT">
+		<value>Wyślij</value>
+	</data>
+	<data name="SUBTITLE">
+		<value>Podtytuł</value>
+	</data>
+	<data name="SWI_PUBLISH">
+		<value>Opublikuj</value>
+	</data>
+	<data name="SWI_ROLESPUBLISHING">
+		<value>Role uprawnione do publikacji</value>
+	</data>
+	<data name="SWI_SUPPORTWORKFLOW">
+		<value>Włącz wsparcie dla workflow</value>
+	</data>
+	<data name="SWI_SWAPTOPRODUCTION">
+		<value>Przełącz do wersji produkcyjnej</value>
+	</data>
+	<data name="SWI_SWAPTOSTAGING">
+		<value>Przełącz do wersji próbnej</value>
+	</data>
+	<data name="TAB_DELETE_FAILED">
+		<value>Bład przy usuwaniu. Na zakładce, którą chcesz usunąć są wciąż moduły lub istnieją inne powiązane zakładki. Usuń wszystkie moduły i powiązane zakładki przed ponowną próbą usunięcia.</value>
+	</data>
+	<data name="TAB_NAME">
+		<value>Nowa Zakładka (wstaw nazwę)</value>
+	</data>
+	<data name="TAB_PARENT">
+		<value>Zakładka nadrzędna</value>
+	</data>
+	<data name="TABLAYOUT">
+		<value>Domyślny wygląd</value>
+	</data>
+	<data name="TermsOfService">
+		<value>Zasady usług</value>
+	</data>
+	<data name="Theme">
+		<value>Temat</value>
+	</data>
+	<data name="ThemeAlt">
+		<value>Alternatywny Temat</value>
+	</data>
+	<data name="TITLE">
+		<value>Tytuł</value>
+	</data>
+	<data name="TOP">
+		<value>Góra</value>
+	</data>
+	<data name="TRANSLATOR">
+		<value>Marek Kepinski</value>
+	</data>
+	<data name="TRANSLATOR_EMAIL">
+		<value>mkepinski@impaq.com.pl</value>
+	</data>
+	<data name="UNCHECKED_USERS">
+		<value>Niesprawdzeni użytkownicy</value>
+	</data>
+	<data name="UPDATE">
+		<value>Aktualizuj</value>
+	</data>
+	<data name="UPLOAD_FILE">
+		<value>Przenoszony plik</value>
+	</data>
+	<data name="UPLOAD_TO_WEB">
+		<value>Przenieś na serwer</value>
+	</data>
+	<data name="URL">
+		<value>URL</value>
+	</data>
+	<data name="URL_TO_BROWSE">
+		<value>URL do przeglądania</value>
+	</data>
+	<data name="USER_MESSAGE_DOMAIN1">
+		<value>Użytkownicy z domeny nie muszą być zarejestrowani by uzyskać dostęp do zawartości portalu dostępnej dla grupy 'Wszyscy Użytkownicy'</value>
+	</data>
+	<data name="USER_MESSAGE_DOMAIN2">
+		<value>Administratorzy mogą dodać użytkowników domeny do określonych ról używając funkcji Role Bezpieczeństwa (powyżej).</value>
+	</data>
+	<data name="USER_MESSAGE_DOMAIN3">
+		<value>Ta sekcja pozwala administratorom na bezpośrednie zarządzanie użytkownikami i ich rolami.</value>
+	</data>
+	<data name="USER_MESSAGE1">
+		<value>Użytkownicy muszą być zarejestrowani by mieć dostęp do chronionej zawartości.</value>
+	</data>
+	<data name="USER_MESSAGE2">
+		<value>Użytkownicy mogą się rejestrować samodzielnie używając formularza rejestracyjnego, a administratorzy mogą dodawać użytkowników do określonych ról używając funkcji Role Bezpieczeństwa (powyżej).</value>
+	</data>
+	<data name="USER_MESSAGE3">
+		<value>Ta sekcja umożliwia Administratorom bezpośrednie zarządzanie użytkownikami i ich rolami.</value>
+	</data>
+	<data name="VALID_ADDRESS">
+		<value>Podaj adres</value>
+	</data>
+	<data name="VALID_CITY">
+		<value>Podaj miasto</value>
+	</data>
+	<data name="VALID_CODE">
+		<value>Podaj kod</value>
+	</data>
+	<data name="VALID_DATE">
+		<value>Podaj datę</value>
+	</data>
+	<data name="VALID_EMAIL">
+		<value>Podaj adres pocztowy</value>
+	</data>
+	<data name="VALID_FIELD">
+		<value>Podaj poprawną wartość</value>
+	</data>
+	<data name="VALID_FILE_NAME">
+		<value>Podaj prawidłową nazwę pliku</value>
+	</data>
+	<data name="VALID_NAME">
+		<value>Podaj nazwę</value>
+	</data>
+	<data name="VALID_NUMBER">
+		<value>Podaj poprawną liczbę</value>
+	</data>
+	<data name="VALID_PHONE">
+		<value>Podaj numer telefonu</value>
+	</data>
+	<data name="VALID_TITLE">
+		<value>Podaj tytuł</value>
+	</data>
+	<data name="VALID_VIEWORDER">
+		<value>Podaj kolejność wyświetlania</value>
+	</data>
+	<data name="VALID_ZIP">
+		<value>Podaj kod pocztowy</value>
+	</data>
+	<data name="VALIDORDER">
+		<value>Podaj kolejność wyświetlania</value>
+	</data>
+	<data name="VALIDTITLE">
+		<value>Podaj tytuł</value>
+	</data>
+	<data name="VALIDURL">
+		<value>Podaj adres sieciowy</value>
+	</data>
+	<data name="VIEWORDER">
+		<value>Kolejność wyświetlania</value>
+	</data>
+	<data name="WEB_FARM_SUPPORT">
+		<value>Zapisz w bazie (wsparcie dla farmy serwerów)</value>
+	</data>
+	<data name="WEBSITE">
+		<value>Witryna</value>
+	</data>
+	<data name="WELCOME">
+		<value>Witaj</value>
+	</data>
+	<data name="XMLsrc">
+		<value>Plik źródłowy XML</value>
+	</data>
+	<data name="XSLsrc">
+		<value>Transformacja XSL</value>
+	</data>
+	<data name="ZIP">
+		<value>Kod pocztowy</value>
+	</data>
+	<data name="LAYOUT">
+		<value>Wygląd</value>
+	</data>
+	<data name="TOTAL">
+		<value>Łącznie</value>
+	</data>
+	<data name="TO">
+		<value>do</value>
+	</data>
+	<data name="SETTINGS">
+		<value>Ustawienia</value>
+	</data>
+	<data name="SAVE">
+		<value>Zapisz</value>
+	</data>
+	<data name="PREVIOUS">
+		<value>Poprzedni</value>
+	</data>
+	<data name="PREVIEW">
+		<value>Podgląd</value>
+	</data>
+	<data name="PAGE">
+		<value>Strona</value>
+	</data>
+	<data name="NEXT">
+		<value>Następny</value>
+	</data>
+	<data name="BACK">
+		<value>Cofnij</value>
+	</data>
+	<data name="CAPTION">
+		<value>Nagłówek</value>
+	</data>
+	<data name="CONTACT">
+		<value>Kontakt</value>
+	</data>
+	<data name="CONTINUE">
+		<value>Kontynuuj</value>
+	</data>
+	<data name="CULTURE">
+		<value>Kultura</value>
+	</data>
+	<data name="FROM">
+		<value>od</value>
+	</data>
+</root>

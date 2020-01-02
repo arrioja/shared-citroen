@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.Modules.IFrame", "Rainbow.Modules.IFrame.csproj", "{5C1434A1-CF14-48F5-AC2D-46DAFEC15C18}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{5C1434A1-CF14-48F5-AC2D-46DAFEC15C18}.Debug.ActiveCfg = Debug|.NET
+		{5C1434A1-CF14-48F5-AC2D-46DAFEC15C18}.Debug.Build.0 = Debug|.NET
+		{5C1434A1-CF14-48F5-AC2D-46DAFEC15C18}.Release.ActiveCfg = Release|.NET
+		{5C1434A1-CF14-48F5-AC2D-46DAFEC15C18}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

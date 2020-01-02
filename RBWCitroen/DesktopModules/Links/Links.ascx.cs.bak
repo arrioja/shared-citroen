@@ -1,0 +1,167 @@
+using System;
+using System.Collections;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Web.UI.HtmlControls;
+using Rainbow.UI;
+using Rainbow.UI.WebControls;
+using Rainbow.Configuration;
+
+namespace Rainbow.DesktopModules 
+{
+	public class Links : PortalModuleControl 
+	{
+		protected System.Web.UI.WebControls.DataList myDataList;
+
+		protected string linkImage = string.Empty;
+		protected string linkTextKey = string.Empty;
+		protected string linkAlternateText = string.Empty;
+
+		/// <summary>
+		/// Searchable module
+		/// </summary>
+		public override bool Searchable
+		{
+			get
+			{
+				return true;
+			}
+		}
+
+		/// <summary>
+		/// The Page_Load event handler on this User Control is used to
+		/// obtain a DataReader of link information from the Links
+		/// table, and then databind the results to a templated DataList
+		/// server control.  It uses the Rainbow.LinkDB()
+		/// data component to encapsulate all data functionality.
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
+		private void Page_Load(object sender, System.EventArgs e) 
+		{
+			// Set the link image type
+			if (IsEditable) 
+			{
+				System.Web.UI.WebControls.Image myImage = portalSettings.GetCurrentTheme().GetImage("Buttons_Edit", "edit.gif");
+				linkImage = myImage.ImageUrl;
+				linkTextKey="EDIT_THIS_ITEM";
+				linkAlternateText="Edit this item";
+			}
+			else 
+			{
+				System.Web.UI.WebControls.Image myImage = portalSettings.GetCurrentTheme().GetImage("NavLink", "navlink.gif");
+				linkImage = myImage.ImageUrl;
+				linkTextKey=string.Empty;
+				linkAlternateText=string.Empty;
+			}
+
+			// Obtain links information from the Links table
+			// and bind to the datalist control
+			LinkDB links = new LinkDB();
+
+			myDataList.DataSource = links.GetLinks(ModuleID, Version);
+			myDataList.DataBind();
+		}
+   
+		// Change by Geert.Audenaert@Syntegra.Com
+		// Date: 10/2/2003
+		protected string GetLinkUrl(object itemID, object url)
+		{
+			if (IsEditable)
+			{
+				return HttpUrlBuilder.BuildUrl("~/DesktopModules/Links/LinksEdit.aspx","ItemID=" + itemID.ToString() + "&mID=" + ModuleID.ToString());
+			}
+			else
+			{
+				return url.ToString();
+			}
+		}
+		// End Change Geert.Audenaert@Syntegra.Com
+   
+		public Links()
+		{
+			// Change by Geert.Audenaert@Syntegra.Com
+			// Date: 27/2/2003
+			SupportsWorkflow = true;
+			// End Change Geert.Audenaert@Syntegra.Com
+		}
+   
+		public override Guid GuidID 
+		{
+			get
+			{
+				return new Guid("{476CF1CC-8364-479D-9764-4B3ABD7FFABD}");
+			}
+		}
+				
+		/// <summary>
+		/// Searchable module implementation
+		/// </summary>
+		/// <param name="portalID">The portal ID</param>
+		/// <param name="userID">ID of the user is searching</param>
+		/// <param name="searchString">The text to search</param>
+		/// <param name="searchField">The fields where perfoming the search</param>
+		/// <returns>The SELECT sql to perform a search on the current module</returns>
+		public override string SearchSqlSelect(int portalID, int userID, string searchString, string searchField)
+		{
+			Rainbow.Helpers.SearchDefinition s = new Rainbow.Helpers.SearchDefinition("rb_Links", "Title", "Description", "CreatedByUser", "CreatedDate", searchField);
+			
+			//Add extra search fields here, this way
+			s.ArrSearchFields.Add("itm.Url");
+			
+			return s.SearchSqlSelect(portalID, userID, searchString);
+		}
+
+		#region Web Form Designer generated code
+		/// <summary>
+		/// Raises Init event
+		/// </summary>
+		/// <param name="e"></param>
+		override protected void OnInit(EventArgs e)
+        {
+            InitializeComponent();
+			this.AddUrl = "~/DesktopModules/Links/LinksEdit.aspx";
+			base.OnInit(e);
+        }
+
+        /// <summary>
+		///	Required method for Designer support - do not modify
+		///	the contents of this method with the code editor.
+		/// </summary>
+		private void InitializeComponent() 
+		{
+			this.Load += new System.EventHandler(this.Page_Load);
+		}
+		#endregion
+
+		# region Install / Uninstall Implementation
+		public override void Install(System.Collections.IDictionary stateSaver)
+		{
+			string currentScriptName = System.IO.Path.Combine(Server.MapPath(TemplateSourceDirectory), "install.sql");
+			ArrayList errors = Rainbow.Helpers.DBHelper.ExecuteScript(currentScriptName, true);
+			if (errors.Count > 0)
+			{
+				// Call rollback
+				throw new Exception("Error occurred:" + errors[0].ToString());
+			}
+		}
+
+		public override void Uninstall(System.Collections.IDictionary stateSaver)
+		{
+			string currentScriptName = System.IO.Path.Combine(Server.MapPath(TemplateSourceDirectory), "uninstall.sql");
+			ArrayList errors = Rainbow.Helpers.DBHelper.ExecuteScript(currentScriptName, true);
+			if (errors.Count > 0)
+			{
+				// Call rollback
+				throw new Exception("Error occurred:" + errors[0].ToString());
+			}
+		}
+		#endregion
+
+
+	}
+}

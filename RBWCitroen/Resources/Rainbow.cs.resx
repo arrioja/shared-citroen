@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3102.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3102.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="ABI">
+		<value>ABI</value>
+	</data>
+	<data name="ACCEPT">
+		<value>Potvrzuji Termíny a podmínky</value>
+	</data>
+	<data name="ACCESSDENIED">
+		<value>Přístup je odmítnut</value>
+	</data>
+	<data name="ACCESS_DENIED_MESSAGE">
+		<value>Buď nejste přihlášen, nebo nemáte oprávnění prohlížet stránky těchto záložek. Prosím kontaktujte administrátora.</value>
+	</data>
+	<data name="ACCOUNT_INFO">
+		<value>Informace o přihlašovacím účtu</value>
+	</data>
+	<data name="ACCOUNT_LOGIN">
+		<value>Účet pro přihlášení</value>
+	</data>
+	<data name="ADD">
+		<value>Přidat</value>
+	</data>
+	<data name="ADD_DOCUMENT">
+		<value>Přidat nový dokument</value>
+	</data>
+	<data name="ADD_NEW">
+		<value>Přidat nový</value>
+	</data>
+	<data name="ADD_NEW_USER">
+		<value>Přidat nového uživatele</value>
+	</data>
+	<data name="ADD_PORTAL">
+		<value>Přidat portál</value>
+	</data>
+	<data name="ADDRESS">
+		<value>Adresa</value>
+	</data>
+	<data name="ADDTAB">
+		<value>Přidat novou záložku</value>
+	</data>
+	<data name="ADDUSER">
+		<value>Přidat uživatele do této role</value>
+	</data>
+	<data name="ADMIN_MODULE">
+		<value>Administrativní modul?</value>
+	</data>
+	<data name="ADVPAYM">
+		<value>Pokročilá platba</value>
+	</data>
+	<data name="ALREADY_REGISTERED">
+		<value>už je registrován.</value>
+	</data>
+	<data name="ALREADY_REGISTERED1">
+		<value>Pokud již máte přihlašovací účet</value>
+	</data>
+	<data name="AM_ADDMODULE">
+		<value>Přidat modul</value>
+	</data>
+	<data name="AM_ADDMODULEBELOW">
+		<value>Přidat dolů do "Organizace modulů"</value>
+	</data>
+	<data name="AM_ADDROLE">
+		<value>Přidat novou bezpečnostní roli</value>
+	</data>
+	<data name="AM_BASESOLUTION">
+		<value>Základní řešení</value>
+	</data>
+	<data name="AM_CENTERPANEL">
+		<value>Střední panel</value>
+	</data>
+	<data name="AM_LEFTPANEL">
+		<value>Levý minipanel</value>
+	</data>
+	<data name="AM_MOBILETAB">
+		<value>Název záložky pro mobil:</value>
+	</data>
+	<data name="AM_MODULENAME">
+		<value>Název modulu:</value>
+	</data>
+	<data name="AM_MODULETYPE">
+		<value>Typ modulu:</value>
+	</data>
+	<data name="AM_ORGANIZEMODULE">
+		<value>Organizace modulů</value>
+	</data>
+	<data name="AM_PORTALALIAS">
+		<value>Alias název portálu</value>
+	</data>
+	<data name="AM_RIGHTPANEL">
+		<value>Pravý minipanel</value>
+	</data>
+	<data name="AM_ROLESAUTH">
+		<value>Autorizované role</value>
+	</data>
+	<data name="AM_SHOWEDIT">
+		<value>Vždy zobrazit tlačítko úprav?</value>
+	</data>
+	<data name="AM_SHOWMOBILE">
+		<value>Zobrazit pro uživatele mobilu</value>
+	</data>
+	<data name="AM_SITEPATH">
+		<value>Cesta k webu</value>
+	</data>
+	<data name="AM_SITETITLE">
+		<value>Název webu</value>
+	</data>
+	<data name="AM_TABNAME">
+		<value>Název záložky a vzhled(Layout)</value>
+	</data>
+	<data name="AM_TABNAME1">
+		<value>Název záložky</value>
+	</data>
+	<data name="AM_TABS">
+		<value>Záložky</value>
+	</data>
+	<data name="AM_THEME">
+		<value>Šablona vzhledu (téma)</value>
+	</data>
+	<data name="ANNOUNCES_ADD">
+		<value>Přidat novou Informaci</value>
+	</data>
+	<data name="ANNOUNCES_DESCRIPTION">
+		<value>Popis</value>
+	</data>
+	<data name="ANNOUNCES_DETAILS">
+		<value>Podrobnosti informace</value>
+	</data>
+	<data name="ANNOUNCES_EXPIRES">
+		<value>Platná do</value>
+	</data>
+	<data name="ANNOUNCES_READ_MORE_LINK">
+		<value>Odkaz pro další obsah</value>
+	</data>
+	<data name="ANNOUNCES_READ_MORE_MOBILE">
+		<value>Odkaz pro další obsah(mobily)</value>
+	</data>
+	<data name="ANNOUNCES_TITLE">
+		<value>Nadpis</value>
+	</data>
+	<data name="ANNOUNCES_VALID_DESCRIPTION">
+		<value>Musíte zadat platný popis</value>
+	</data>
+	<data name="ANNOUNCES_VALID_EXPIRE">
+		<value>Musíte zadat platné datum platnosti</value>
+	</data>
+	<data name="ANNOUNCES_VALID_TITLE">
+		<value>Musíte zadat platný nadpis</value>
+	</data>
+	<data name="APPLY">
+		<value>Uplatnit změny</value>
+	</data>
+	<data name="APPLYNAME">
+		<value>Uplatnit změny pro Jméno a Heslo</value>
+	</data>
+	<data name="APPLYTHEME">
+		<value>Použít šablonu vzhledu</value>
+	</data>
+	<data name="AREA">
+		<value>Oblast</value>
+	</data>
+	<data name="AUTHOR">
+		<value>Autor</value>
+	</data>
+	<data name="BANK">
+		<value>Banka</value>
+	</data>
+	<data name="BOTTOM">
+		<value>Spodní část</value>
+	</data>
+	<data name="BUYNOW">
+		<value>Kupte nyní</value>
+	</data>
+	<data name="CAB">
+		<value>CAB</value>
+	</data>
+	<data name="CACHETIMEOUT">
+		<value>Prodleva vyrovnávací paměti (v sekundách)</value>
+	</data>
+	<data name="CANCEL">
+		<value>Zpět</value>
+	</data>
+	<data name="CATEGORY">
+		<value>Kategorie</value>
+	</data>
+	<data name="CITY">
+		<value>Obec</value>
+	</data>
+	<data name="COLLECTION_PROPERTIES">
+		<value>Vlastnosti seznamu</value>
+	</data>
+	<data name="COMPANY">
+		<value>Společnost</value>
+	</data>
+	<data name="CONDITIONS">
+		<value>Služby</value>
+	</data>
+	<data name="CONFIRM">
+		<value>Potvrdit heslo</value>
+	</data>
+	<data name="CONFIRM_DELETE">
+		<value>Mazat tuto položku?</value>
+	</data>
+	<data name="CONTACTS_ADD">
+		<value>Přidat nový kontakt</value>
+	</data>
+	<data name="CONTACTS_CONTACT1">
+		<value>Kontakt 1</value>
+	</data>
+	<data name="CONTACTS_CONTACT2">
+		<value>Kontakt 2</value>
+	</data>
+	<data name="CONTACTS_DETAILS">
+		<value>Podrobnosti o kontaktu</value>
+	</data>
+	<data name="CONTACTS_EMAIL">
+		<value>Email</value>
+	</data>
+	<data name="CONTACTS_NAME">
+		<value>Jméno</value>
+	</data>
+	<data name="CONTACTS_ROLE">
+		<value>Role</value>
+	</data>
+	<data name="CONTACTS_VALID_NAME">
+		<value>Musíte zadat platné Jméno</value>
+	</data>
+	<data name="COUNTRY">
+		<value>Země/oblast</value>
+	</data>
+	<data name="CREATED_BY">
+		<value>Vytvořil</value>
+	</data>
+	<data name="CREATEDBY">
+		<value>Vytvořil</value>
+	</data>
+	<data name="DATE">
+		<value>Datum</value>
+	</data>
+	<data name="DECLINE">
+		<value>Ne, díky!</value>
+	</data>
+	<data name="DelayExpire">
+		<value>Datum vypršení platnosti</value>
+	</data>
+	<data name="DELETE">
+		<value>Mazat</value>
+	</data>
+	<data name="DELETE_THIS_ITEM">
+		<value>Mazat tuto položku</value>
+	</data>
+	<data name="DELETE_USER">
+		<value>Mazat tohoto uživatele</value>
+	</data>
+	<data name="DELETEBTN">
+		<value>Mazat vybranou položku</value>
+	</data>
+	<data name="DELUSER">
+		<value>Zrušit u uživatele tuto roli</value>
+	</data>
+	<data name="DESCRIPTION">
+		<value>Popis</value>
+	</data>
+	<data name="DESKTOP_SOURCE">
+		<value>Zdroj pro stolní počítače</value>
+	</data>
+	<data name="DOCUMENT_DETAILS">
+		<value>Podrobnosti dokumentu</value>
+	</data>
+	<data name="DOCUMENTS_FOLDER">
+		<value>Složka dokumentů</value>
+	</data>
+	<data name="DOCUMENTS_SOURCE">
+		<value>Zdroj dokumentu</value>
+	</data>
+	<data name="DS_BODY">
+		<value>Tělo zprávy</value>
+	</data>
+	<data name="DS_MSGDETAILS">
+		<value>Podrobnosti zprávy</value>
+	</data>
+	<data name="DS_NEWTHREAD">
+		<value>Přidt téma</value>
+	</data>
+	<data name="DS_ORIGINALMSG">
+		<value>Původní zpráva</value>
+	</data>
+	<data name="DS_REPLYTHISMSG">
+		<value>Odpovědět na tuto zprávu</value>
+	</data>
+	<data name="EDIT">
+		<value>Upravit</value>
+	</data>
+	<data name="EDIT_ACCESS_DENIED">
+		<value>Úpravy jsou znemožněny</value>
+	</data>
+	<data name="EDIT_ACCESS_DENIED_MESSAGE">
+		<value>Buď nejste přihlášen, nebo nemáte oprávnění upravit obsah stránky.</value>
+	</data>
+	<data name="EDIT_PORTAL">
+		<value>Upravit portál</value>
+	</data>
+	<data name="EDIT_USER">
+		<value>Upravit uživatele</value>
+	</data>
+	<data name="EDITBTN">
+		<value>Upravit vybrané vlastnosti položky</value>
+	</data>
+	<data name="EMAIL">
+		<value>E-mail</value>
+	</data>
+	<data name="EMAILORWINDOW">
+		<value>Email (nebo název Windows domény)</value>
+	</data>
+	<data name="EVENTS_ADD">
+		<value>Přidat novou událost</value>
+	</data>
+	<data name="EVENTS_DESCRIPTION">
+		<value>Popis</value>
+	</data>
+	<data name="EVENTS_DETAILS">
+		<value>Podrobnosti události</value>
+	</data>
+	<data name="EVENTS_EXPIRES">
+		<value>Platí do</value>
+	</data>
+	<data name="EVENTS_TITLE">
+		<value>Název</value>
+	</data>
+	<data name="EVENTS_VALID_DESCRIPTION">
+		<value>Musíte zadat platný popis</value>
+	</data>
+	<data name="EVENTS_VALID_EXPIRE">
+		<value>Musíte zadat platné datum</value>
+	</data>
+	<data name="EVENTS_VALID_TITLE">
+		<value>Musíte zadat platný název</value>
+	</data>
+	<data name="EVENTS_VALID_WHEN-WHERE">
+		<value>Musíte zadat platný Čas/Místo</value>
+	</data>
+	<data name="EVENTS_WHEN-WHERE">
+		<value>Kde/Kdy</value>
+	</data>
+	<data name="FAX">
+		<value>Fax</value>
+	</data>
+	<data name="FILE_NAME">
+		<value>Název souboru</value>
+	</data>
+	<data name="FILE_NOT_FOUND">
+		<value>Soubor %1% nebyl nalezen</value>
+	</data>
+	<data name="FILE_UPLOAD_ERROR">
+		<value>Soubor, který jste umístnil na web, není platný.</value>
+	</data>
+	<data name="FRIENDLY_NAME">
+		<value>Zapamatovatelné jméno</value>
+	</data>
+	<data name="GUID">
+		<value>Jedinečná identifikace (Guid)</value>
+	</data>
+	<data name="HERE">
+		<value>Zde</value>
+	</data>
+	<data name="IMAGE">
+		<value>Obrázek</value>
+	</data>
+	<data name="IMAGE_UPLOAD_ERROR">
+		<value>Obrázek, který chcete natáhnout, není platný. Ověřte koncovku souboru (např .jpg).</value>
+	</data>
+	<data name="IN">
+		<value>v</value>
+	</data>
+	<data name="INSERT_CONFIRM">
+		<value>'Potvrdit' nemůže zůstat nevyplněno.</value>
+	</data>
+	<data name="INSERT_EMAIL">
+		<value>'Email' nesmí zůstat nevyplněn.</value>
+	</data>
+	<data name="INSERT_NAME">
+		<value>'Název' nesmí zůstat nevyplněn.</value>
+	</data>
+	<data name="INSERT_PASSWORD">
+		<value>'Heslo' nesmí zůstat nevyplněno.</value>
+	</data>
+	<data name="LAST_UPDATED">
+		<value>Naposledy aktualizován</value>
+	</data>
+	<data name="LASTNAME">
+		<value>Příjmení</value>
+	</data>
+	<data name="LEFT">
+		<value>vlevo</value>
+	</data>
+	<data name="LINKDETAILS">
+		<value>Podrobnosti odkazu</value>
+	</data>
+	<data name="LinkedModule">
+		<value>Nalinkovaný modul</value>
+	</data>
+	<data name="LOAD_THEME_ERROR">
+		<value>Nelze zavést šablonu vzhledu %1%. Výchozí (Default) není k dispozici.</value>
+	</data>
+	<data name="LOGIN_FAILED">
+		<value>Přihlášení se nezdařilo!</value>
+	</data>
+	<data name="LOGOFF">
+		<value>Odhlásit se</value>
+	</data>
+	<data name="MERCHANT">
+		<value>Merchant ID</value>
+	</data>
+	<data name="MIDDLE">
+		<value>Střední</value>
+	</data>
+	<data name="MOBILE_SOURCE">
+		<value>Zdroj pro mobily</value>
+	</data>
+	<data name="MOBILEURL">
+		<value>URL pro mobil</value>
+	</data>
+	<data name="MODIFIED_BY">
+		<value>Upravil</value>
+	</data>
+	<data name="MODULE_TITLE">
+		<value>Nový název modulu</value>
+	</data>
+	<data name="MODULE_TYPE_DEFINITION">
+		<value>Definice typu modulu</value>
+	</data>
+	<data name="MODULENAME">
+		<value>Název modulu</value>
+	</data>
+	<data name="MODULESETTINGS">
+		<value>Nstavení modulu</value>
+	</data>
+	<data name="MOVEDOWN">
+		<value>Posunout vybranou položku dolů</value>
+	</data>
+	<data name="MOVELEFT">
+		<value>Posunout vybranou položku doleva</value>
+	</data>
+	<data name="MOVERIGHT">
+		<value>Posunout vybranou položku doprava</value>
+	</data>
+	<data name="MOVEUP">
+		<value>Posunout vybranou položku nahoru</value>
+	</data>
+	<data name="NAME">
+		<value>Název</value>
+	</data>
+	<data name="NEW_PORTAL_ERROR">
+		<value>Vznikla nějaká chyba při vytvoření nového portálu. Možná portál již existuje. Zkuste změnit virtuální adresář(alias).</value>
+	</data>
+	<data name="NO_ACCOUNT">
+		<value>Pokud nemáte účet.</value>
+	</data>
+	<data name="NO_MODULE">
+		<value>Žádný modul</value>
+	</data>
+	<data name="NOTE">
+		<value>Poznámky</value>
+	</data>
+	<data name="ON">
+		<value>na</value>
+	</data>
+	<data name="OR">
+		<value>nebo</value>
+	</data>
+	<data name="OWNER">
+		<value>Vytvořil</value>
+	</data>
+	<data name="PASSWORD">
+		<value>Heslo</value>
+	</data>
+	<data name="PASSWORD_NOT_MATCH">
+		<value>Hesla v obou políčkách se neshodují.</value>
+	</data>
+	<data name="PHONE">
+		<value>Telefon</value>
+	</data>
+	<data name="PIVA">
+		<value>Telefon do společnosti</value>
+	</data>
+	<data name="HOME">
+		<value>Výchozí stránka</value>
+	</data>
+	<data name="PORTALS">
+		<value>Portály</value>
+	</data>
+	<data name="POSTED_BY">
+		<value>od</value>
+	</data>
+	<data name="POSTED_DATE">
+		<value>zasláno</value>
+	</data>
+	<data name="PROFILE_INFO">
+		<value>Informace o profilu</value>
+	</data>
+	<data name="PROPERTIES">
+		<value>Úprava vlastností seznamu</value>
+	</data>
+	<data name="PROV_STATE">
+		<value>Stát/Provincie</value>
+	</data>
+	<data name="READ_FULL_ANNOUNCE">
+		<value>Číst celý text</value>
+	</data>
+	<data name="REGISTER">
+		<value>Registrace</value>
+	</data>
+	<data name="REGISTER_DIFFERENT">
+		<value>Prosím zaregistrujte se na jinou email adresu.</value>
+	</data>
+	<data name="REGISTER_NOW">
+		<value>Registrace a přihlášení teď hned</value>
+	</data>
+	<data name="REGISTER_REQUIRED">
+		<value>Použijte tento modul na registraci.</value>
+	</data>
+	<data name="REGISTERED_USERS">
+		<value>Registrovaní uživatelé</value>
+	</data>
+	<data name="REGISTRATION_FAILED">
+		<value>Registrace se nezdařila</value>
+	</data>
+	<data name="REMEMBER_LOGIN">
+		<value>Zapamatovat si přihlášení</value>
+	</data>
+	<data name="RETURNHOME">
+		<value>Návrat na Výchozí stránku portálu</value>
+	</data>
+	<data name="RIGHT">
+		<value>Vpravo</value>
+	</data>
+	<data name="ROLESADD">
+		<value>Role, které smí přidat obsah</value>
+	</data>
+	<data name="ROLESCOLLECTION">
+		<value>Role, které smí upravit obsah seznamu(kolekce)</value>
+	</data>
+	<data name="ROLESDELETE">
+		<value>Role, které smí mazat obsah</value>
+	</data>
+	<data name="ROLESEDIT">
+		<value>Role, které upravit obsah</value>
+	</data>
+	<data name="ROLESVIEW">
+		<value>Role, které smí prohlížet obsah</value>
+	</data>
+	<data name="ROOM_NUMBER">
+		<value>Počet místností</value>
+	</data>
+	<data name="ROOT_LEVEL">
+		<value>Základní úroveň (Root)</value>
+	</data>
+	<data name="SAVEUSER">
+		<value>Ulož změny o Uživateli</value>
+	</data>
+	<data name="SELECT_ALL">
+		<value>Vybrat všechno</value>
+	</data>
+	<data name="SELECT_NONE">
+		<value>Nevybrat žádný</value>
+	</data>
+	<data name="SEND_NEWSLETTER">
+		<value>Zašli zprávu</value>
+	</data>
+	<data name="SENDNEWSLETTER">
+		<value>Zašli zprávu</value>
+	</data>
+	<data name="SHOWMOBILE">
+		<value>Zobrazit uživatelům mobilu</value>
+	</data>
+	<data name="SIGNIN">
+		<value>Přihlášení</value>
+	</data>
+	<data name="SUBJECT">
+		<value>Předmět zprávy</value>
+	</data>
+	<data name="SUBMIT">
+		<value>Potvrdit</value>
+	</data>
+	<data name="SUBTITLE">
+		<value>Doplňující název</value>
+	</data>
+	<data name="TAB_DELETE_FAILED">
+		<value>Odstranění se nezdařilo.Prosím zmažte nejdřív všechny moduly umístněné v záložce (Tabu) a nalinkované moduly, než se pokusíte znovu záložku smazat.</value>
+	</data>
+	<data name="TAB_NAME">
+		<value>Nová záložka(vložte název)</value>
+	</data>
+	<data name="TAB_PARENT">
+		<value>Rodičovská záložka</value>
+	</data>
+	<data name="TABLAYOUT">
+		<value>Výchozí vzhled (layout)</value>
+	</data>
+	<data name="TermsOfService">
+		<value>Termíny služeb</value>
+	</data>
+	<data name="Theme">
+		<value>Šablona vzhledu (téma)</value>
+	</data>
+	<data name="ThemeAlt">
+		<value>Alternativní šablona vzhledu (téma)</value>
+	</data>
+	<data name="TITLE">
+		<value>Nadpis</value>
+	</data>
+	<data name="TOP">
+		<value>Vrchol</value>
+	</data>
+	<data name="TRANSLATOR">
+		<value>VLK/ IBS</value>
+	</data>
+	<data name="TRANSLATOR_EMAIL">
+		<value>vlk@intranet.cz</value>
+	</data>
+	<data name="UNCHECKED_USERS">
+		<value>Nezkontrolovaní uživatelé.</value>
+	</data>
+	<data name="UPDATE">
+		<value>Upravit</value>
+	</data>
+	<data name="UPLOAD_FILE">
+		<value>Natáhnout soubor na web</value>
+	</data>
+	<data name="UPLOAD_TO_WEB">
+		<value>Natáhnout na Web Server</value>
+	</data>
+	<data name="URL">
+		<value>URL</value>
+	</data>
+	<data name="URL_TO_BROWSE">
+		<value>URL pro odkaz</value>
+	</data>
+	<data name="USER_MESSAGE_DOMAIN1">
+		<value>Uživatelé domény nemusí být registrováni pro prohlížení obsahu při 'Všichni uživatelé'.</value>
+	</data>
+	<data name="USER_MESSAGE_DOMAIN2">
+		<value>Administrátoři mohou přidat uživatele domény pomocí bezpečnostních rolí výše.</value>
+	</data>
+	<data name="USER_MESSAGE_DOMAIN3">
+		<value>Tato část umožňuje Administrátorům spravovat uživatele a jejich bezpečnostní role přímo.</value>
+	</data>
+	<data name="USER_MESSAGE1">
+		<value>Uživatel musí být registrován, aby mohl prohlížet zabezpečený obsah</value>
+	</data>
+	<data name="USER_MESSAGE2">
+		<value>Uživatelé se mohou sami přidat použitím Registračního formuláře a Administrátořei jim mohou přidat role pomocí funkcí bezpečnostních rolí.</value>
+	</data>
+	<data name="USER_MESSAGE3">
+		<value>tato část umožňuje Administrátorovi spravovat uživatele a jejich bezpečnostní role přímo.</value>
+	</data>
+	<data name="VALID_ADDRESS">
+		<value>Musíte zadat platnou adresu</value>
+	</data>
+	<data name="VALID_CITY">
+		<value>Musíte zadat platný název města</value>
+	</data>
+	<data name="VALID_CODE">
+		<value>Musíte zadat platné PSČ</value>
+	</data>
+	<data name="VALID_DATE">
+		<value>Musíte zadat platné datum</value>
+	</data>
+	<data name="VALID_EMAIL">
+		<value>Musíte použít email adresu</value>
+	</data>
+	<data name="VALID_FIELD">
+		<value>Vložte platnou hodnotu</value>
+	</data>
+	<data name="VALID_FILE_NAME">
+		<value>Musíte zadat platný název souboru</value>
+	</data>
+	<data name="VALID_NAME">
+		<value>Musíte zadat platné Jméno</value>
+	</data>
+	<data name="VALID_NUMBER">
+		<value>Musíte zadat platné číslo</value>
+	</data>
+	<data name="VALID_PHONE">
+		<value>Musíte zadatplatné číslo #</value>
+	</data>
+	<data name="VALID_TITLE">
+		<value>Musíte zadat platný Nadpis</value>
+	</data>
+	<data name="VALID_VIEWORDER">
+		<value>Musíte zadát platné pořadí zobrazení</value>
+	</data>
+	<data name="VALID_ZIP">
+		<value>Musíte zadt platné PSČ</value>
+	</data>
+	<data name="VALIDORDER">
+		<value>Musíte zadat platné pořadí zobrazení</value>
+	</data>
+	<data name="VALIDTITLE">
+		<value>Musíte zadat platný nadpis</value>
+	</data>
+	<data name="VALIDURL">
+		<value>Musíte zadat platnou URL</value>
+	</data>
+	<data name="VIEWORDER">
+		<value>Pořadí zobrazení</value>
+	</data>
+	<data name="WEB_FARM_SUPPORT">
+		<value>Uložit do databáze (podpora web farmy)</value>
+	</data>
+	<data name="WEBSITE">
+		<value>WEB</value>
+	</data>
+	<data name="WELCOME">
+		<value>Vítejte</value>
+	</data>
+	<data name="XMLsrc">
+		<value>Zdrojový soubor XML</value>
+	</data>
+	<data name="XSLsrc">
+		<value>Transformační soubor XSL</value>
+	</data>
+	<data name="ZIP">
+		<value>PSČ</value>
+	</data>
+	<data name="LAYOUT">
+		<value></value>
+	</data>
+	<data name="TOTAL">
+		<value></value>
+	</data>
+	<data name="TO">
+		<value></value>
+	</data>
+	<data name="SETTINGS">
+		<value></value>
+	</data>
+	<data name="SAVE">
+		<value></value>
+	</data>
+	<data name="PREVIOUS">
+		<value></value>
+	</data>
+	<data name="PREVIEW">
+		<value></value>
+	</data>
+	<data name="PAGE">
+		<value></value>
+	</data>
+	<data name="NEXT">
+		<value></value>
+	</data>
+	<data name="BACK">
+		<value></value>
+	</data>
+	<data name="CAPTION">
+		<value></value>
+	</data>
+	<data name="CONTACT">
+		<value></value>
+	</data>
+	<data name="CONTINUE">
+		<value></value>
+	</data>
+	<data name="CULTURE">
+		<value></value>
+	</data>
+	<data name="FROM">
+		<value></value>
+	</data>
+
+</root>

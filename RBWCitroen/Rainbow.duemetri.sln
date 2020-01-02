@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rainbow.duemetri.net", "http://localhost/rainbow/Rainbow.duemetri.net.csproj", "{4EC7CF62-59E3-483A-8E0D-8688BB139367}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Debug-1.0 = Debug-1.0
+		Release = Release
+		Release-1.0 = Release-1.0
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{4EC7CF62-59E3-483A-8E0D-8688BB139367}.Debug.ActiveCfg = Debug|.NET
+		{4EC7CF62-59E3-483A-8E0D-8688BB139367}.Debug.Build.0 = Debug|.NET
+		{4EC7CF62-59E3-483A-8E0D-8688BB139367}.Debug-1.0.ActiveCfg = Debug-1.0|.NET
+		{4EC7CF62-59E3-483A-8E0D-8688BB139367}.Debug-1.0.Build.0 = Debug-1.0|.NET
+		{4EC7CF62-59E3-483A-8E0D-8688BB139367}.Release.ActiveCfg = Release|.NET
+		{4EC7CF62-59E3-483A-8E0D-8688BB139367}.Release.Build.0 = Release|.NET
+		{4EC7CF62-59E3-483A-8E0D-8688BB139367}.Release-1.0.ActiveCfg = Release-1.0|.NET
+		{4EC7CF62-59E3-483A-8E0D-8688BB139367}.Release-1.0.Build.0 = Release-1.0|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

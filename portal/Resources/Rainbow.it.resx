@@ -1,0 +1,1634 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="ResMimeType">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="Version">
+		<value>1.0.0.0</value>
+	</resheader>
+	<resheader name="Reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.3102.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="Writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.3102.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="ABI">
+		<value>ABI</value>
+	</data>
+	<data name="ACCESSDENIED">
+		<value>Accesso Negato</value>
+	</data>
+	<data name="ACCESS_DENIED_MESSAGE">
+		<value>Non è stato possibile accedere alla pagina: o il sistema non vi ha riconosciuto, o non avete accesso. Contattate l'amministratore del portale per ottenere l'accesso.</value>
+	</data>
+	<data name="ACCOUNT_INFO">
+		<value>Informazioni sull'account</value>
+	</data>
+	<data name="ACCOUNT_LOGIN">
+		<value>Accesso utenti</value>
+	</data>
+	<data name="ADD">
+		<value>Aggiungi</value>
+	</data>
+	<data name="ADD_DOCUMENT">
+		<value>Aggiungi documento</value>
+	</data>
+	<data name="ADD_NEW">
+		<value>Aggiungi nuovo</value>
+	</data>
+	<data name="ADD_NEW_USER">
+		<value>Aggiungi nuovo utente</value>
+	</data>
+	<data name="ADD_PORTAL">
+		<value>Aggiungi Portale</value>
+	</data>
+	<data name="ADDRESS">
+		<value>Indirizzo</value>
+	</data>
+	<data name="ADDTAB">
+		<value>Inserisci una nuova voce</value>
+	</data>
+	<data name="ADDUSER">
+		<value>Attiva l'utente nel Gruppo di Lavoro (Ruolo) selezionato</value>
+	</data>
+	<data name="ADMIN_MODULE">
+		<value>Modulo amministrativo?</value>
+	</data>
+	<data name="ADVPAYM">
+		<value>Anticipo</value>
+	</data>
+	<data name="ALREADY_REGISTERED">
+		<value>è già registrato</value>
+	</data>
+	<data name="ALREADY_REGISTERED1">
+		<value>Se hai già un account</value>
+	</data>
+	<data name="AM_ADDMODULE">
+		<value>Aggiungi un modulo</value>
+	</data>
+	<data name="AM_ADDMODULEBELOW">
+		<value>Aggiungi il modulo alla pagina</value>
+	</data>
+	<data name="AM_ADDROLE">
+		<value>Inserisci un nuovo gruppo utenti (Ruolo)</value>
+	</data>
+	<data name="AM_BASESOLUTION">
+		<value>Soluzione di base</value>
+	</data>
+	<data name="AM_CENTERPANEL">
+		<value>Parte centrale</value>
+	</data>
+	<data name="AM_LEFTPANEL">
+		<value>Parte sinistra</value>
+	</data>
+	<data name="AM_MOBILETAB">
+		<value>Nome della voce per WAP</value>
+	</data>
+	<data name="AM_MODULENAME">
+		<value>Nome del box</value>
+	</data>
+	<data name="AM_MODULETYPE">
+		<value>Tipo di box</value>
+	</data>
+	<data name="AM_ORGANIZEMODULE">
+		<value>Organizza i box</value>
+	</data>
+	<data name="AM_PORTALALIAS">
+		<value>Alias Portale</value>
+	</data>
+	<data name="AM_RIGHTPANEL">
+		<value>Parte destra</value>
+	</data>
+	<data name="AM_ROLESAUTH">
+		<value>Gruppi di utenti &lt;br&gt;che possono vedere la &lt;br&gt;voce di menù</value>
+	</data>
+	<data name="AM_SHOWEDIT">
+		<value>Mostra comunque il pulsante di modifica?</value>
+	</data>
+	<data name="AM_SHOWMOBILE">
+		<value>Visibile agli utenti mobili</value>
+	</data>
+	<data name="AM_SITEPATH">
+		<value>Percorso del portale</value>
+	</data>
+	<data name="AM_SITETITLE">
+		<value>Intestazione del Portale</value>
+	</data>
+	<data name="AM_TABNAME">
+		<value>Voce menù e layout</value>
+	</data>
+	<data name="AM_TABNAME1">
+		<value>Voce Menù</value>
+	</data>
+	<data name="AM_TABS">
+		<value>Voci di Menù</value>
+	</data>
+	<data name="AM_THEME">
+		<value>Tema grafico</value>
+	</data>
+	<data name="ANNOUNCES_ADD">
+		<value>Aggiungi annuncio</value>
+	</data>
+	<data name="ANNOUNCES_DESCRIPTION">
+		<value>Descrizione</value>
+	</data>
+	<data name="ANNOUNCES_DETAILS">
+		<value>Dettaglio Annuncio</value>
+	</data>
+	<data name="ANNOUNCES_EXPIRES">
+		<value>Scadenza</value>
+	</data>
+	<data name="ANNOUNCES_READ_MORE_LINK">
+		<value>LINK all'annuncio completo</value>
+	</data>
+	<data name="ANNOUNCES_READ_MORE_MOBILE">
+		<value>Link all'annuncio (mobile)</value>
+	</data>
+	<data name="ANNOUNCES_TITLE">
+		<value>Titolo</value>
+	</data>
+	<data name="ANNOUNCES_VALID_DESCRIPTION">
+		<value>Devi inserire una descrizione valida</value>
+	</data>
+	<data name="ANNOUNCES_VALID_EXPIRE">
+		<value>Devi inserire una data di scadenza valida</value>
+	</data>
+	<data name="ANNOUNCES_VALID_TITLE">
+		<value>Devi inserire un titolo valido</value>
+	</data>
+	<data name="APPLY">
+		<value>Salva</value>
+	</data>
+	<data name="APPLYNAME">
+		<value>Salva i dati dell'utente e la password</value>
+	</data>
+	<data name="APPLYTHEME">
+		<value>Applica tema</value>
+	</data>
+	<data name="AREA">
+		<value>Categoria</value>
+	</data>
+	<data name="AUTHOR">
+		<value>Autore</value>
+	</data>
+	<data name="BANK">
+		<value>Banca</value>
+	</data>
+	<data name="BOTTOM">
+		<value>In basso</value>
+	</data>
+	<data name="BUYNOW">
+		<value>Acquista</value>
+	</data>
+	<data name="CAB">
+		<value>CAB</value>
+	</data>
+	<data name="CACHETIMEOUT">
+		<value>Timeout della cache (in secondi)</value>
+	</data>
+	<data name="CANCEL">
+		<value>Annulla</value>
+	</data>
+	<data name="CATEGORY">
+		<value>Categoria</value>
+	</data>
+	<data name="CFISCALE">
+		<value>Codice Fiscale</value>
+	</data>
+	<data name="CITY">
+		<value>Città</value>
+	</data>
+	<data name="COLLECTION_PROPERTIES">
+		<value>Proprietà gruppo</value>
+	</data>
+	<data name="COMPANY">
+		<value>Società</value>
+	</data>
+	<data name="CONDITIONS">
+		<value>Condizioni del servizio</value>
+	</data>
+	<data name="CONFIRM">
+		<value>Conferma password</value>
+	</data>
+	<data name="CONFIRM_DELETE">
+		<value>Eliminare l'elemento selezionato?</value>
+	</data>
+	<data name="CONTACTS_ADD">
+		<value>Nuovo contatto</value>
+	</data>
+	<data name="CONTACTS_CONTACT1">
+		<value>Contatto 1</value>
+	</data>
+	<data name="CONTACTS_CONTACT2">
+		<value>Contatto 2</value>
+	</data>
+	<data name="CONTACTS_DETAILS">
+		<value>Dettaglio contatto</value>
+	</data>
+	<data name="CONTACTS_EMAIL">
+		<value>EMail</value>
+	</data>
+	<data name="CONTACTS_NAME">
+		<value>Nome</value>
+	</data>
+	<data name="CONTACTS_ROLE">
+		<value>Ruolo</value>
+	</data>
+	<data name="CONTACTS_VALID_NAME">
+		<value>Devi inserire un Nome valido</value>
+	</data>
+	<data name="COUNTRY">
+		<value>Nazione</value>
+	</data>
+	<data name="CREATED_BY">
+		<value>Creato da</value>
+	</data>
+	<data name="CREATEDBY">
+		<value>Creato da</value>
+	</data>
+	<data name="DATE">
+		<value>Data</value>
+	</data>
+	<data name="DECLINE">
+		<value>No, grazie</value>
+	</data>
+	<data name="DELAYEXPIRE">
+		<value>Scadenza predefinita</value>
+	</data>
+	<data name="DELETE">
+		<value>Elimina</value>
+	</data>
+	<data name="DELETE_THIS_ITEM">
+		<value>Cancella elemento</value>
+	</data>
+	<data name="DELETE_USER">
+		<value>Elimina utente</value>
+	</data>
+	<data name="DELETEBTN">
+		<value>Elimina</value>
+	</data>
+	<data name="DELUSER">
+		<value>Cancella l'Utente dal Gruppo di Lavoro (Ruolo)</value>
+	</data>
+	<data name="DESCRIPTION">
+		<value>Descrizione</value>
+	</data>
+	<data name="DESKTOP_SOURCE">
+		<value>Sorgente modulo</value>
+	</data>
+	<data name="DOCUMENT_DETAILS">
+		<value>Dettaglio documento</value>
+	</data>
+	<data name="DOCUMENTS_FOLDER">
+		<value>Cartella documenti</value>
+	</data>
+	<data name="DOCUMENTS_SOURCE">
+		<value>Sorgente documento</value>
+	</data>
+	<data name="DS_BODY">
+		<value>Messaggio</value>
+	</data>
+	<data name="DS_MSGDETAILS">
+		<value>Dettagli</value>
+	</data>
+	<data name="DS_NEWTHREAD">
+		<value>Aggiungi nuovo argomento</value>
+	</data>
+	<data name="DS_ORIGINALMSG">
+		<value>Messaggio originale</value>
+	</data>
+	<data name="DS_REPLYTHISMSG">
+		<value>Rispondi a questo messaggio</value>
+	</data>
+	<data name="EDIT">
+		<value>Modifica</value>
+	</data>
+	<data name="EDIT_ACCESS_DENIED">
+		<value>Modifica non consentita</value>
+	</data>
+	<data name="EDIT_ACCESS_DENIED_MESSAGE">
+		<value>Non è possibile modificare la pagina richiesta: o il sistema non vi ha riconosciuto, o non avete accesso. Mettetevi in contatto con l'amministratore del portale per ottenere l'accesso.</value>
+	</data>
+	<data name="EDIT_PORTAL">
+		<value>Modifica portale</value>
+	</data>
+	<data name="EDIT_USER">
+		<value>Modifica utente</value>
+	</data>
+	<data name="EDITBTN">
+		<value>Modifica le proprietà</value>
+	</data>
+	<data name="EMAIL">
+		<value>Indirizzo Email</value>
+	</data>
+	<data name="EMAILORWINDOW">
+		<value>Email (o nome del Dominio Windows)</value>
+	</data>
+	<data name="EVENTS_ADD">
+		<value>Aggiungi evento</value>
+	</data>
+	<data name="EVENTS_DESCRIPTION">
+		<value>Descrizione</value>
+	</data>
+	<data name="EVENTS_DETAILS">
+		<value>Dettaglio evento</value>
+	</data>
+	<data name="EVENTS_EXPIRES">
+		<value>Scadenza</value>
+	</data>
+	<data name="EVENTS_TITLE">
+		<value>Titolo</value>
+	</data>
+	<data name="EVENTS_VALID_DESCRIPTION">
+		<value>Inserire una descrizione valida</value>
+	</data>
+	<data name="EVENTS_VALID_EXPIRE">
+		<value>Devi inserire una data di scadenza valida</value>
+	</data>
+	<data name="EVENTS_VALID_TITLE">
+		<value>Inserire un Titolo valido</value>
+	</data>
+	<data name="EVENTS_VALID_WHEN-WHERE">
+		<value>Inserire un Orario e un Luogo valido</value>
+	</data>
+	<data name="EVENTS_WHEN-WHERE">
+		<value>Quando e dove</value>
+	</data>
+	<data name="FAX">
+		<value>Fax</value>
+	</data>
+	<data name="FILE_NAME">
+		<value>Nome file</value>
+	</data>
+	<data name="FILE_NOT_FOUND">
+		<value>File %1% non trovato</value>
+	</data>
+	<data name="FILE_UPLOAD_ERROR">
+		<value>Il file inviato non è valido.</value>
+	</data>
+	<data name="FRIENDLY_NAME">
+		<value>Nome comune</value>
+	</data>
+	<data name="GUID">
+		<value>Guid</value>
+	</data>
+	<data name="HERE">
+		<value>Qui</value>
+	</data>
+	<data name="IMAGE">
+		<value>Immagine</value>
+	</data>
+	<data name="IMAGE_UPLOAD_ERROR">
+		<value>L'immagine non è valida, verificare che abbia l'estensione corretta (es: .jpg) e sia leggibile.</value>
+	</data>
+	<data name="IN">
+		<value>in</value>
+	</data>
+	<data name="INSERT_CONFIRM">
+		<value>Il campo 'Conferma Password' non può essere lasciato vuoto.</value>
+	</data>
+	<data name="INSERT_EMAIL">
+		<value>Il campo 'EMail' non può essere lasciato vuoto.</value>
+	</data>
+	<data name="INSERT_NAME">
+		<value>Il campo 'Nome' non può essere lasciato vuoto.</value>
+	</data>
+	<data name="INSERT_PASSWORD">
+		<value>Il campo 'Password' non può essere lasciato vuoto.</value>
+	</data>
+	<data name="LAST_UPDATED">
+		<value>Ultimo aggiornamento</value>
+	</data>
+	<data name="LASTNAME">
+		<value>Cognome</value>
+	</data>
+	<data name="LEFT">
+		<value>Sinistra</value>
+	</data>
+	<data name="LINKDETAILS">
+		<value>Dettaglio del Link</value>
+	</data>
+	<data name="LINKEDMODULE">
+		<value>Modulo collegato</value>
+	</data>
+	<data name="LOAD_THEME_ERROR">
+		<value>Impossibile caricare il tema %1%. Il tema predefinito non è disponibile.</value>
+	</data>
+	<data name="LOGIN_FAILED">
+		<value>Accesso non riuscito!</value>
+	</data>
+	<data name="HEADER_LOGOFF">
+		<value>Cambia identità</value>
+	</data>
+	<data name="LOGON">
+		<value>Accedi</value>
+	</data>
+	<data name="MERCHANT">
+		<value>Merchant ID</value>
+	</data>
+	<data name="MIDDLE">
+		<value>Al centro</value>
+	</data>
+	<data name="MOBILE_SOURCE">
+		<value>Sorgente modulo mobile</value>
+	</data>
+	<data name="MOBILEURL">
+		<value>URL per dispositivi mobili</value>
+	</data>
+	<data name="MODIFIED_BY">
+		<value>Modificato da</value>
+	</data>
+	<data name="MODULE_TITLE">
+		<value>Nome del nuovo Box</value>
+	</data>
+	<data name="MODULE_TYPE_DEFINITION">
+		<value>Definizione singoli moduli</value>
+	</data>
+	<data name="MODULENAME">
+		<value>Titolo del Modulo</value>
+	</data>
+	<data name="MODULESETTINGS">
+		<value>Proprietà del Modulo</value>
+	</data>
+	<data name="MOVEDOWN">
+		<value>Porta la voce in giù</value>
+	</data>
+	<data name="MOVELEFT">
+		<value>Porta la voce a sinistra</value>
+	</data>
+	<data name="MOVERIGHT">
+		<value>Porta la voce a destra</value>
+	</data>
+	<data name="MOVEUP">
+		<value>Porta la voce in su</value>
+	</data>
+	<data name="NAME">
+		<value>Nome</value>
+	</data>
+	<data name="NEW_PORTAL_ERROR">
+		<value>Si è verificato un errore nella creazione del nuovo portale. Probabilmente il portale già esiste. Provate a cambiare l'alias.</value>
+	</data>
+	<data name="NO_ACCOUNT">
+		<value>Se non sei ancora registrato</value>
+	</data>
+	<data name="NO_MODULE">
+		<value>Nessun modulo</value>
+	</data>
+	<data name="NOTE">
+		<value>Note</value>
+	</data>
+	<data name="ON">
+		<value>il</value>
+	</data>
+	<data name="OR">
+		<value>oppure</value>
+	</data>
+	<data name="OWNER">
+		<value>Creato da</value>
+	</data>
+	<data name="PASSWORD">
+		<value>Password</value>
+	</data>
+	<data name="PASSWORD_NOT_MATCH">
+		<value>Le password non corrispondono.</value>
+	</data>
+	<data name="PHONE">
+		<value>Telefono</value>
+	</data>
+	<data name="PIVA">
+		<value>Partita IVA</value>
+	</data>
+	<data name="HOME">
+		<value>Torna all'inizio</value>
+	</data>
+	<data name="PORTALS">
+		<value>Portali</value>
+	</data>
+	<data name="POSTED_BY">
+		<value>Inserito da</value>
+	</data>
+	<data name="POSTED_DATE">
+		<value>il</value>
+	</data>
+	<data name="PROFILE_INFO">
+		<value>Informazioni sul profilo</value>
+	</data>
+	<data name="PROPERTIES">
+		<value>Proprietà modulo</value>
+	</data>
+	<data name="PROV_STATE">
+		<value>Provincia/Stato</value>
+	</data>
+	<data name="READ_FULL_ANNOUNCE">
+		<value>Leggi intero annuncio</value>
+	</data>
+	<data name="REGISTER">
+		<value>Registrazione</value>
+	</data>
+	<data name="REGISTER_DIFFERENT">
+		<value>Per favore usa una EMail differente</value>
+	</data>
+	<data name="REGISTER_NOW">
+		<value>Conferma registrazione e accedi ora</value>
+	</data>
+	<data name="REGISTER_REQUIRED">
+		<value>Per usare questo modulo è necessario essere registrati.</value>
+	</data>
+	<data name="REGISTERED_USERS">
+		<value>Utenti registrati</value>
+	</data>
+	<data name="REGISTRATION_FAILED">
+		<value>Registrazione fallita!</value>
+	</data>
+	<data name="REMEMBER_LOGIN">
+		<value>Memorizza accesso</value>
+	</data>
+	<data name="RETURNHOME">
+		<value>Ritorna all'Home page</value>
+	</data>
+	<data name="RIGHT">
+		<value>A destra</value>
+	</data>
+	<data name="ROLESADD">
+		<value>Gruppi che possono aggiungere contenuti</value>
+	</data>
+	<data name="ROLESCOLLECTION">
+		<value>Gruppi di lavoro che possono modificare le proprietà del modulo</value>
+	</data>
+	<data name="ROLESDELETE">
+		<value>Gruppi di lavoro che possono cancellare i contenuti</value>
+	</data>
+	<data name="ROLESEDIT">
+		<value>Gruppi di lavoro che possono modificare i contenuti</value>
+	</data>
+	<data name="ROLESVIEW">
+		<value>Gruppi di lavoro che possono vedere il modulo</value>
+	</data>
+	<data name="ROOM_NUMBER">
+		<value>Numero di stanze</value>
+	</data>
+	<data name="ROOT_LEVEL">
+		<value>Livello principale</value>
+	</data>
+	<data name="SAVEUSER">
+		<value>Salva le modifiche</value>
+	</data>
+	<data name="SELECT_ALL">
+		<value>Seleziona tutto</value>
+	</data>
+	<data name="SELECT_NONE">
+		<value>Nessuno</value>
+	</data>
+	<data name="SEND_NEWSLETTER">
+		<value>Invia periodico</value>
+	</data>
+	<data name="SENDNEWSLETTER">
+		<value>Invia il bollettino a questo utente</value>
+	</data>
+	<data name="SHOWMOBILE">
+		<value>Mostra agli utenti mobili?</value>
+	</data>
+	<data name="SIGNIN">
+		<value>Accedi</value>
+	</data>
+	<data name="SIGNIN_ENTER_EMAIL_ADDR">
+		<value>Inserisci il tuo indirizzo EMail</value>
+	</data>
+	<data name="SIGNIN_PWD_MISSING_IN_DB">
+		<value>La password non è stata trovata</value>
+	</data>
+	<data name="SIGNIN_PWD_REQUESTED">
+		<value>La password richiesta è:</value>
+	</data>
+	<data name="SIGNIN_PWD_TO">
+		<value>Password a:</value>
+	</data>
+	<data name="SIGNIN_PWD_WAS_SENT">
+		<value>La password è stata spedita all'indirizzo richiesto.</value>
+	</data>
+	<data name="SIGNIN_SEND_PWD">
+		<value>Invia Password</value>
+	</data>
+	<data name="SIGNIN_THANK_YOU">
+		<value>Grazie e ci auguriamo gradisca il nostro sito</value>
+	</data>
+	<data name="SIGNIN_YOU_CAN_LOGIN_FROM">
+		<value>Può accedere usando</value>
+	</data>
+	<data name="SUBJECT">
+		<value>Argomento</value>
+	</data>
+	<data name="SUBMIT">
+		<value>Conferma</value>
+	</data>
+	<data name="SUBTITLE">
+		<value>Sottotitolo</value>
+	</data>
+	<data name="SWI_PUBLISH">
+		<value>Pubblica</value>
+	</data>
+	<data name="SWI_ROLESPUBLISHING">
+		<value>Ruoli autorizzati a pubblicare</value>
+	</data>
+	<data name="SWI_SUPPORTWORKFLOW">
+		<value>Abilita il supporto Workflow</value>
+	</data>
+	<data name="SWI_SWAPTOPRODUCTION">
+		<value>Passa alla versione definitiva</value>
+	</data>
+	<data name="SWI_SWAPTOSTAGING">
+		<value>Passa alla versione di prova</value>
+	</data>
+	<data name="TAB_DELETE_FAILED">
+		<value>Eliminazione non consentita. Eliminare prima tutti i moduli sulla pagina ed eventuali pagine collegate.</value>
+	</data>
+	<data name="TAB_NAME">
+		<value>Inserire il nome della nuova voce di Menu</value>
+	</data>
+	<data name="TAB_PARENT">
+		<value>Pagina superiore</value>
+	</data>
+	<data name="TABLAYOUT">
+		<value>Layout predefinito</value>
+	</data>
+	<data name="TERMSOFSERVICE">
+		<value>Condizioni di fornitura</value>
+	</data>
+	<data name="THEME">
+		<value>Tema</value>
+	</data>
+	<data name="THEMEALT">
+		<value>Tema alternativo</value>
+	</data>
+	<data name="TITLE">
+		<value>Titolo</value>
+	</data>
+	<data name="TOP">
+		<value>In alto</value>
+	</data>
+	<data name="TRANSLATOR">
+		<value>Manu</value>
+	</data>
+	<data name="TRANSLATOR_EMAIL">
+		<value>manu-dea@hotmail dot it</value>
+	</data>
+	<data name="UNCHECKED_USERS">
+		<value>Utenti non controllati</value>
+	</data>
+	<data name="UPDATE">
+		<value>Memorizza</value>
+	</data>
+	<data name="UPLOAD_FILE">
+		<value>Invia file</value>
+	</data>
+	<data name="UPLOAD_TO_WEB">
+		<value>Invia documento al Server Web</value>
+	</data>
+	<data name="URL">
+		<value>URL</value>
+	</data>
+	<data name="URL_TO_BROWSE">
+		<value>URL</value>
+	</data>
+	<data name="USER_MESSAGE_DOMAIN1">
+		<value>Gli utenti di dominio non hanno necessità di registrarsi per vedere i contenuto disponibile per 'Tutti gli utenti'</value>
+	</data>
+	<data name="USER_MESSAGE_DOMAIN2">
+		<value>Gli amministratori possono aggiungere particolari utenti di dominio ai ruoli usando l'apposito modulo.</value>
+	</data>
+	<data name="USER_MESSAGE_DOMAIN3">
+		<value>Questa sezione permette agli amministratori di modificare direttamente gli utenti ed i loro ruoli.</value>
+	</data>
+	<data name="USER_MESSAGE1">
+		<value>Gli utenti devono essere registrati per vedere il contenuto del sito riservato.</value>
+	</data>
+	<data name="USER_MESSAGE2">
+		<value>Gli utenti possono aggiungersi usando il modulo di registrazione, e gli amministratori possono aggiungere gli utenti a ruoli specifici usando l'apposito modulo ruoli.</value>
+	</data>
+	<data name="USER_MESSAGE3">
+		<value>Questa sezione permette agli amministratori di modificare direttamente gli utenti ed i loro ruoli.</value>
+	</data>
+	<data name="VALID_ADDRESS">
+		<value>Devi inserire un indirizzo valido</value>
+	</data>
+	<data name="VALID_CITY">
+		<value>Devi inserire una città</value>
+	</data>
+	<data name="VALID_CODE">
+		<value>Devi inserire un Codice valido</value>
+	</data>
+	<data name="VALID_DATE">
+		<value>Devi inserire una Data valida</value>
+	</data>
+	<data name="VALID_EMAIL">
+		<value>Il campo 'EMail' deve contenere una EMail valida.</value>
+	</data>
+	<data name="VALID_FIELD">
+		<value>Il campo è richiesto</value>
+	</data>
+	<data name="VALID_FILE_NAME">
+		<value>Devi inserire un Nome File valido</value>
+	</data>
+	<data name="VALID_NAME">
+		<value>Devi inserire un Nome valido</value>
+	</data>
+	<data name="VALID_NUMBER">
+		<value>Devi inserire un Numero valido</value>
+	</data>
+	<data name="VALID_PHONE">
+		<value>Devi inserire un numero di telefono corretto</value>
+	</data>
+	<data name="VALID_TITLE">
+		<value>Devi inserire un Titolo valido</value>
+	</data>
+	<data name="VALID_VIEWORDER">
+		<value>Devi inserire un Numero valido</value>
+	</data>
+	<data name="VALID_ZIP">
+		<value>Devi inserire un CAP corretto</value>
+	</data>
+	<data name="VALIDORDER">
+		<value>Occorre inserire un ordine di visualizzazione corretto (numero)</value>
+	</data>
+	<data name="VALIDTITLE">
+		<value>Occorre inserire un titolo valido</value>
+	</data>
+	<data name="VALIDURL">
+		<value>Occorre inserire un indirizzo Internet (URL)  valido</value>
+	</data>
+	<data name="VIEWORDER">
+		<value>Ordine di visualizzazione</value>
+	</data>
+	<data name="WEB_FARM_SUPPORT">
+		<value>Memorizza nel database (supporto web farm)</value>
+	</data>
+	<data name="WEBSITE">
+		<value>Sito Web</value>
+	</data>
+	<data name="HEADER_WELCOME">
+		<value>Benvenuto</value>
+	</data>
+	<data name="XMLSRC">
+		<value>File XML</value>
+	</data>
+	<data name="XSLSRC">
+		<value>File XSL</value>
+	</data>
+	<data name="ZIP">
+		<value>Codice postale</value>
+	</data>
+	<data name="ABSTRACT">
+		<value>Astratto</value>
+	</data>
+	<data name="IT_DESCRIPTION">
+		<value>Imposta titolo per Italiano.</value>
+	</data>
+	<data name="PICTURES_LONG_DESCRIPTION">
+		<value>Descrizione estesa</value>
+	</data>
+	<data name="SETTING_REQUIRED">
+		<value>%1% è richiesto!</value>
+	</data>
+	<data name="PICTURES_FILE">
+		<value>File</value>
+	</data>
+	<data name="PICTURES_FLIP">
+		<value>Riflessione</value>
+	</data>
+	<data name="ERROR_VALID_WHERE_WHEN">
+		<value>Inserisci un dato valido nel campo quando</value>
+	</data>
+	<data name="HTMLTEMPLATEURL">
+		<value>Mascherina HTML</value>
+	</data>
+	<data name="ORDER_RECEIPT_NUMBER">
+		<value>ordine numero</value>
+	</data>
+	<data name="SHOWTITLE_DESCRIPTION">
+		<value>Mostra o nasconde il Titolo</value>
+	</data>
+	<data name="EVENTS_ENABLED">
+		<value>Abilitato</value>
+	</data>
+	<data name="EVENTS_PRICES">
+		<value>Prezzo</value>
+	</data>
+	<data name="LANGSWITCHTYPE_DISABLED">
+		<value>Disabilitato</value>
+	</data>
+	<data name="PREVIEW">
+		<value>Anteprima</value>
+	</data>
+	<data name="CHECKOUT_COPY_TO_SHIPPING_INFO">
+		<value>Qui, se desideri, puoi sostituire le informazioni cliente con quelle di destinazione.  </value>
+	</data>
+	<data name="EDITOR">
+		<value>Editor</value>
+	</data>
+	<data name="SHOWMODIFIEDBY_DESCRIPTION">
+		<value>Visualizza la frase 'Modificato da' sui moduli</value>
+	</data>
+	<data name="PICTURES_MAINTAIN_ASPECT_FIXED_WIDTH">
+		<value>Mantieni Larghezza</value>
+	</data>
+	<data name="PICTURES_SHORT_DESCRIPTION">
+		<value>Descrizione</value>
+	</data>
+	<data name="VIEW_ORDER">
+		<value>Visualizza ordine</value>
+	</data>
+	<data name="DOCUMENT_LAST_UPDATED">
+		<value>Ultimo aggiornamento</value>
+	</data>
+	<data name="APPLY_CHANGES">
+		<value>Applica cambiamenti</value>
+	</data>
+	<data name="LET_USER_CHOOSE">
+		<value>Lascia la scelta all'utente</value>
+	</data>
+	<data name="LOGINHOMEPAGE">
+		<value>URL del sito</value>
+	</data>
+	<data name="PICTURES_MAINTAIN_ASPECT_FIXED_HEIGHT">
+		<value>Mantieni altezza</value>
+	</data>
+	<data name="APPLY_MODULE_CHANGES">
+		<value>Applica cambiamenti al modulo</value>
+	</data>
+	<data name="SAVE">
+		<value>Salva</value>
+	</data>
+	<data name="USERBLOCK_DESCRIPTION">
+		<value>Seleziona il numero massimo degli utenti. Per inviare EMail a tutti devi ripetere il processo. usa valori piccoli per evitare timeout del server.</value>
+	</data>
+	<data name="ERROR_VALID_DATE">
+		<value>Inserisci una data valida</value>
+	</data>
+	<data name="DEFAULTEMAIL">
+		<value>EMail del mittente</value>
+	</data>
+	<data name="EVENTS_CATEGORY">
+		<value>Categoria</value>
+	</data>
+	<data name="CHANGE_DATE">
+		<value>Cambia data</value>
+	</data>
+	<data name="MISC_SETTINGS">
+		<value>Regolazioni varie</value>
+	</data>
+	<data name="USEREMAIL">
+		<value>EMail dell'utente</value>
+	</data>
+	<data name="USERBLOCK">
+		<value>Gruppo Utenti</value>
+	</data>
+	<data name="CHANGE_LANGUAGE">
+		<value>Cambia</value>
+	</data>
+	<data name="NEWSLETTER_SENDER_EMAIL_ADDRESS">
+		<value>Indirizzo EMail del mittente</value>
+	</data>
+	<data name="SETTINGS">
+		<value>Settaggi</value>
+	</data>
+	<data name="TOURISTIC_AUTO">
+		<value>Auto</value>
+	</data>
+	<data name="EVENTS_PAYMENT">
+		<value>Pagamento</value>
+	</data>
+	<data name="PICTURES_DISPLAY_ORDER">
+		<value>Ordine di visualizzazione</value>
+	</data>
+	<data name="BTN_PRINT">
+		<value>Stampa</value>
+	</data>
+	<data name="PREVIOUS">
+		<value>Precedente</value>
+	</data>
+	<data name="EXPIRE_DATE">
+		<value>Data di scadenza</value>
+	</data>
+	<data name="LANGSWITCHTYPE_LINKS">
+		<value>LINKS</value>
+	</data>
+	<data name="EVENTS_EMAIL">
+		<value>EMail per Informazioni</value>
+	</data>
+	<data name="EVENTS_GROUP">
+		<value>Gruppo</value>
+	</data>
+	<data name="EVENTS_PLACE">
+		<value>Luogo</value>
+	</data>
+	<data name="START_DATE">
+		<value>Data di inizio</value>
+	</data>
+	<data name="DEFAULTNAME">
+		<value>Nome mittente</value>
+	</data>
+	<data name="TABTITLE">
+		<value>Titolo della tab</value>
+	</data>
+	<data name="UPDATE_YOUR_PROFILE">
+		<value>Aggiorna i tuoi dati</value>
+	</data>
+	<data name="CHECKOUT_VERIFY_INFORMATION">
+		<value>Verifica le informazioni per essere sicuro siano corrette</value>
+	</data>
+	<data name="EN">
+		<value>Titolo (Inglese)</value>
+	</data>
+	<data name="IT">
+		<value>Titolo (it)</value>
+	</data>
+	<data name="OF">
+		<value>Di</value>
+	</data>
+	<data name="TO">
+		<value>Per</value>
+	</data>
+	<data name="CULTUREIMGPORTAL">
+		<value>Usa bandiere personalizzate?</value>
+	</data>
+	<data name="PICTURES_ROTATE">
+		<value>Rotazione</value>
+	</data>
+	<data name="HTMLTEMPLATE_DESCRIPTION">
+		<value>Seleziona un modulo HTML che verrà utilizzato per l'invio di newsletter in questo modulo</value>
+	</data>
+	<data name="ERROR_VALID_MESSAGE_TEXT">
+		<value>Inserire un messaggio di testo</value>
+	</data>
+	<data name="CHECKOUT_STEP1">
+		<value>Fase 1di 4: Informazioni personali</value>
+	</data>
+	<data name="CHECKOUT_STEP2">
+		<value>Fase 2 di 4: Informazioni per il trasporto</value>
+	</data>
+	<data name="CHECKOUT_STEP3">
+		<value>Fase 3 di 4: Calcola il prezzo finale</value>
+	</data>
+	<data name="CHECKOUT_STEP4">
+		<value>Fase 4 di 4: Procedimento di pagamento</value>
+	</data>
+	<data name="CHECKOUT_MAKE_SURE_ADDRESS_IS_CORRECT">
+		<value>Assicurarsi che il suddetto indirizzo Email sia corretto poiché
+sarà usato per trasmettervi una copia d'ordine.</value>
+	</data>
+	<data name="DE-DE">
+		<value>Titolo (de-DE)</value>
+	</data>
+	<data name="DE-CH">
+		<value>Titolo (de-CH)</value>
+	</data>
+	<data name="EDIT_THIS_ITEM">
+		<value>Modifica voce</value>
+	</data>
+	<data name="IT-IT">
+		<value>Titolo (it-IT)</value>
+	</data>
+	<data name="UP_TO">
+		<value>fino a</value>
+	</data>
+	<data name="TOTAL">
+		<value>Totale</value>
+	</data>
+	<data name="TESTMODE">
+		<value>Modalità Test</value>
+	</data>
+	<data name="LANGUAGESWITCHTYPE_DESCRIPTION">
+		<value>Seleziona in che modo visualizzare il controllo 'Modifica Lingua'</value>
+	</data>
+	<data name="CHECKOUT_SELECT_PAYMENT">
+		<value>Selezione il metodo di pagamento</value>
+	</data>
+	<data name="SHOWTITLE">
+		<value>Mostra titolo</value>
+	</data>
+	<data name="SAVE_AND_CLOSE">
+		<value>Salva e chiudi</value>
+	</data>
+	<data name="IT-IT_DESCRIPTION">
+		<value>Setta titolo per italiano (Italia).</value>
+	</data>
+	<data name="ERROR_VALID_DESCRIPTION">
+		<value>inserisci una descrizione valida</value>
+	</data>
+	<data name="LANGSWITCHTYPE_LINKSHORIZONTAL">
+		<value>Links Orizzontale</value>
+	</data>
+	<data name="EN_DESCRIPTION">
+		<value>Setta titolo per Inglese.</value>
+	</data>
+	<data name="CHECKOUT_CC_EXPIRY">
+		<value>Data di scadenza:</value>
+	</data>
+	<data name="ADD_ARTICLE">
+		<value>Aggiungi articolo</value>
+	</data>
+	<data name="DOCUMENT_AREA">
+		<value>Area</value>
+	</data>
+	<data name="DE-CH_DESCRIPTION">
+		<value>Setta titolo tedesco (Svizzera).</value>
+	</data>
+	<data name="CAPTION">
+		<value>Titolo</value>
+	</data>
+	<data name="GOTO_PAGE">
+		<value>Vai a pagina</value>
+	</data>
+	<data name="EVENTS_START_DATE">
+		<value>Data di inizio</value>
+	</data>
+	<data name="NEWSLETTER_MESSAGE_BODY">
+		<value>Corpo del messaggio</value>
+	</data>
+	<data name="AM_PORTALID">
+		<value>Id portale</value>
+	</data>
+	<data name="PICTURES_CAPTION">
+		<value>Titolo</value>
+	</data>
+	<data name="NEWSLETTER_SUBJECT">
+		<value>Oggetto</value>
+	</data>
+	<data name="USERNAME">
+		<value>Nome utente</value>
+	</data>
+	<data name="CONTACT">
+		<value>Contatto</value>
+	</data>
+	<data name="DOCUMENT_OWNER">
+		<value>Proprietario</value>
+	</data>
+	<data name="CONTINUE">
+		<value>Continua</value>
+	</data>
+	<data name="MODULE_SPECIAL_SETTINGS">
+		<value>Regolazioni specifiche del modulo</value>
+	</data>
+	<data name="CHECKOUT_TOTAL_PRODUCT">
+		<value>Totale prodotti</value>
+	</data>
+	<data name="SHOWPRINTBUTTON">
+		<value>Mostra il tasto stampa</value>
+	</data>
+	<data name="SWI_ROLESAPPROVING">
+		<value>Approva regole</value>
+	</data>
+	<data name="PICTURES_KEYWORDS">
+		<value>Parola chiave</value>
+	</data>
+	<data name="CULTURE">
+		<value>Cultura</value>
+	</data>
+	<data name="CHECKOUT_TOTAL_SHIPPING">
+		<value>Totale trasporto</value>
+	</data>
+	<data name="EVENTS_SITEURL">
+		<value>URL del sito</value>
+	</data>
+	<data name="CHECKOUT_CC_NAME">
+		<value>Nome sulla Carta:</value>
+	</data>
+	<data name="SITE_TITLE">
+		<value>Titolo del sito</value>
+	</data>
+	<data name="HTMLTEMPLATE">
+		<value>Mascherina HTML</value>
+	</data>
+	<data name="MOVE_TO_TAB">
+		<value>Sposta alla Tab</value>
+	</data>
+	<data name="TOURISTIC_NOFILTER">
+		<value>Senza filtro</value>
+	</data>
+	<data name="ERROR_VALID_TITLE">
+		<value>Inserisci un titolo valido</value>
+	</data>
+	<data name="UPLOAD_IMAGE">
+		<value>Carica Immagine</value>
+	</data>
+	<data name="LANGUAGESWITCHTYPE">
+		<value>Tipo di controllo 'Modifica Lingua'</value>
+	</data>
+	<data name="SITE_PATH">
+		<value>Percorso del sito</value>
+	</data>
+	<data name="HEADER_EDIT_PROFILE">
+		<value>Modifica Profilo</value>
+	</data>
+	<data name="DE-DE_DESCRIPTION">
+		<value>Setta titolo tedesco (Germania) .</value>
+	</data>
+	<data name="SHOWMODIFIEDBY">
+		<value>Mostra da chi è stato modificato</value>
+	</data>
+	<data name="ORDER_WAIT_CONFIRM">
+		<value>arriverà conferma via Email</value>
+	</data>
+	<data name="SHOWEVERYWHERE">
+		<value>Mostra su ogni pagina?</value>
+	</data>
+	<data name="META_SETTINGS">
+		<value>Dettagli 'META'</value>
+	</data>
+	<data name="PICTURES_VERTICAL">
+		<value>Verticale</value>
+	</data>
+	<data name="PICTURES_FIXED_WIDTH_AND_HEIGHT">
+		<value>Altezza e larghezza fissa</value>
+	</data>
+	<data name="CULTURE_SETTINGS">
+		<value>Imposta la cultura</value>
+	</data>
+	<data name="PICTURES_HORIZONTAL">
+		<value>Orizzontale</value>
+	</data>
+	<data name="PASSWORD_DO_NOT_MATCH">
+		<value>Password non corretta.</value>
+	</data>
+	<data name="BACK">
+		<value>Indietro</value>
+	</data>
+	<data name="NONE">
+		<value>Nessuno</value>
+	</data>
+	<data name="NEXT">
+		<value>Avanti</value>
+	</data>
+	<data name="PAGE">
+		<value>Pagina</value>
+	</data>
+	<data name="EVENTS_END_DATE">
+		<value>Data fine</value>
+	</data>
+	<data name="SHOWPRINTBUTTON_DESCRIPTION">
+		<value>Mostra il tasto di stampa in modalità visualizzazione?</value>
+	</data>
+	<data name="PICTURES_INCLUDE_EXIF">
+		<value>Incluso EXIF</value>
+	</data>
+	<data name="LANGSWITCHTYPE_FLAGS">
+		<value>Solo Bandiere</value>
+	</data>
+	<data name="LANGSWITCHTYPE_FORM">
+		<value>Menu a discesa</value>
+	</data>
+	<data name="SHOWCOLLAPSABLE">
+		<value>Chiudo la finestra?</value>
+	</data>
+	<data name="PICTURES_DONT_RESIZE">
+		<value>Non ridimensionare</value>
+	</data>
+	<data name="TOURISTIC_THISMONTH">
+		<value>Soltanto questo mese</value>
+	</data>
+	<data name="TOURISTIC_THISYEAR">
+		<value>Soltanto quest'anno</value>
+	</data>
+	<data name="EVENTS_WHEREWHEN">
+		<value>Dove quando</value>
+	</data>
+	<data name="FROM">
+		<value>da </value>
+	</data>
+	<data name="EVENTS_TIMETABLE">
+		<value>Cronologia</value>
+	</data>
+	<data name="EVENTS_BOOKING_REQUIRED">
+		<value>Prenotazione richiesta</value>
+	</data>
+	<data name="ERROR_VALID_EMAIL">
+		<value>Devi inserire un indirizzo Email valido</value>
+	</data>
+	<data name="IMAGE_DETAIL">
+		<value>Dettaglio immagine</value>
+	</data>
+	<data name="CHECKOUT">
+		<value>Procedi</value>
+	</data>
+	<data name="SECURITY_USER_SETTINGS">
+		<value>Impostazioni di sicurezza e degli utenti</value>
+	</data>
+	<data name="PRODUCT_SHOP_HOME">
+		<value>Negozio virtuale</value>
+	</data>
+	<data name="PRODUCT_DISPLAY_FEATURED_ITEMS">
+		<value>Visualizzazione degli articoli descritti</value>
+	</data>
+	<data name="PRODUCT_ORDER_REFERENCE">
+		<value>Riferimento Ordine</value>
+	</data>
+	<data name="PRODUCT_ORDER_DATE_CREATED">
+		<value>Data di creazione</value>
+	</data>
+	<data name="PRODUCT_ORDER_DATE_MODIFIED">
+		<value>Ultima modifica</value>
+	</data>
+	<data name="PRODUCT_ORDER_TOTAL">
+		<value>Totale</value>
+	</data>
+	<data name="PRODUCTS_NO_ORDERS_TO_DISPLAY">
+		<value>Non hai ordini inseriti</value>
+	</data>
+	<data name="PRODUCT_CONTINUE_SHOPPING">
+		<value>Continua a comperare</value>
+	</data>
+	<data name="PRODUCT_ID">
+		<value>prodotto ID</value>
+	</data>
+	<data name="PRODUCT_NAME">
+		<value>Nome</value>
+	</data>
+	<data name="PRODUCT_REFERENCE">
+		<value>Riferimento</value>
+	</data>
+	<data name="PRODUCT_PRICE">
+		<value>Prezzo</value>
+	</data>
+	<data name="PRODUCT_SUBTOTAL">
+		<value>SubTotale</value>
+	</data>
+	<data name="PRODUCT_REMOVE">
+		<value>Elimina</value>
+	</data>
+	<data name="PRODUCT_TOTAL">
+		<value>Totale</value>
+	</data>
+	<data name="PRODUCT_MUST_LOG_IN_FOR_CHECKOUT">
+		<value>Devi identificarti prima di procedere</value>
+	</data>
+	<data name="PRODUCT_INCLUDING_TAXES">
+		<value>(Iva inclusa)</value>
+	</data>
+	<data name="PRODUCT_ADD_TO_CART">
+		<value>Inserisci nel carrello</value>
+	</data>
+	<data name="PRODUCT_EMPTY_CART">
+		<value>Non ci sono articoli nel tuo carrello</value>
+	</data>
+	<data name="CHANGE_PASSWORD">
+		<value>Cambia password solo se la vuoi modificare</value>
+	</data>
+	<data name="PRODUCT_PRICE_NOT_AVAILABLE">
+		<value>Contattaci per acquistare questo articolo</value>
+	</data>
+	<data name="BUTTON_DISPLAY_SETTINGS">
+		<value>Regolazioni della visualizzazione e dei tasti</value>
+	</data>
+	<data name="PRODUCT_CATEGORY_NOT_FOUND">
+		<value>Categoria non trovata</value>
+	</data>
+	<data name="PRODUCT_INPUT_PROBLEM">
+		<value>C'è un problema con uno o più dati</value>
+	</data>
+	<data name="THEME_LAYOUT_SETTINGS">
+		<value>Impostazione Tema e disposizione</value>
+	</data>
+	<data name="CHECKOUT_MAKE_SURE_ADDRESS_IS_CORRECT_2">
+		<value>Altrimenti:</value>
+	</data>
+	<data name="PRODUCT_CHECKOUT">
+		<value>Procedi</value>
+	</data>
+	<data name="PRODUCT_UPDATE">
+		<value>Aggiorna</value>
+	</data>
+	<data name="CHECKOUT_CC_TYPE">
+		<value>Tipo di carta:</value>
+	</data>
+	<data name="CHECKOUT_CC_NUMBER">
+		<value>Numero di carta:</value>
+	</data>
+	<data name="CHECKOUT_AUTHORIZE">
+		<value>Devi confermare il tuo ordine</value>
+	</data>
+	<data name="CHECKOUT_CART_IS_EMPTY">
+		<value>Attualmente non ci sono Articoli nel tuo carrello!</value>
+	</data>
+	<data name="CHECKOUT_VERIFY_INFORMATION_CLICK_BACK">
+		<value>Fai clic su indietro per passare al punto precedente, fai clic sul tasto continua per procedere.</value>
+	</data>
+	<data name="GATEWAY_WIRE_TRANSFER">
+		<value>Bonifico</value>
+	</data>
+	<data name="ORDER_OK">
+		<value>Il tuo ordine è stato inoltrato con successo</value>
+	</data>
+	<data name="ARTICLE_DETAIL">
+		<value>Dettagli articolo</value>
+	</data>
+	<data name="NEWSLETTER_SENDER_OPTIONAL_NAME">
+		<value>Nome (facoltativo)</value>
+	</data>
+	<data name="DONOTRESENDWITHIN">
+		<value>non rispondere (giorni)</value>
+	</data>
+	<data name="DIRECTURL">
+		<value>Un URL diretto che può essere usato per entrare automaticamente</value>
+	</data>
+	<data name="APPLYTHEME_DESCRIPTION">
+		<value>controlla questo box per applicare il tema a questo modulo</value>
+	</data>
+	<data name="THEME_DESCRIPTION">
+		<value>Scegli il tema per questo modulo</value>
+	</data>
+	<data name="DONOTRESENDWITHIN_DESCRIPTION">
+		<value>Per evitare Spamming e invii multipli, alla stessa EMail non può essere effettuato più di un invio nel numero di giorni specificato.</value>
+	</data>
+	<data name="LOGINHOMEPAGE_DESCRIPTION">
+		<value>URL del Sito usato per l'URL istantaneo. Lascia lo spazio in bianco se usi il sito corrente.</value>
+	</data>
+	<data name="CULTURE_DESCRIPTION">
+		<value>Selezione cultura. Culture invariabili mostra il modulo sempre.</value>
+	</data>
+	<data name="TESTMODE_DESCRIPTION">
+		<value>Usa il modo test per testare i tuoi settaggi. Verra inviata soltanto un EMail all'indirizzo specificato come mittente. Utile per verifica.</value>
+	</data>
+	<data name="IMAGELOGO_DESCRIPTION">
+		<value>URL logo immagine</value>
+	</data>
+	<data name="IMAGELOGO">
+		<value>logo immagine</value>
+	</data>
+	<data name="CULTUREIMGPORTAL_DESCRIPTION">
+		<value>Verifica qui se vuoi personalizzare le bandiere</value>
+	</data>
+	<data name="COUNTRIESFILTER_DESCRIPTION">
+		<value>Lista dei paesi disponibili, lascia lo spazio in bianco per selezionarli tutti.</value>
+	</data>
+	<data name="COUNTRIESFILTER">
+		<value>Paesi disponibili</value>
+	</data>
+	<data name="LANGSWITCHTYPE_FLAGSHORIZONTAL">
+		<value>Solo Bandiere orizzontali</value>
+	</data>
+	<data name="CATS">
+		<value>Gatti</value>
+	</data>
+	<data name="PRODUCT_VIEW_ACCOUNT">
+		<value>Mostra account</value>
+	</data>
+	<data name="PRODUCT_VIEW_CART">
+		<value>Mostra carrello</value>
+	</data>
+	<data name="PRODUCTS_ORDER_HISTORY_DISPLAY">
+		<value>Mostra la cronologia dei tuoi ordini. Fai clic sul numero d'ordine per mostrare i dettagli  </value>
+	</data>
+	<data name="PRODUCTS_DISPLAYING_ORDER">
+		<value>Visualizzazione dell'ordine:</value>
+	</data>
+	<data name="RAINBOW_RUNNING_VERSION">
+		<value>L'attuale versione del portale è</value>
+	</data>
+	<data name="SITESETTINGS_ALLOW_NEW_REGISTRATION">
+		<value>Abilita per permettere agli utenti di registrarsi, lascia in bianco per permettere le registrazioni solo all'amministratore</value>
+	</data>
+	<data name="SITESETTINGS_ALLOW_NEW_REGISTRATION">
+		<value>Consentire nuove registrazioni?</value>
+	</data>
+	<data name="REGISTER_DESCRIPTION">
+		<value>Imposta qui come visualizzare la pagina di registrazione</value>
+	</data>
+	<data name="TERMSOFSERVICE_DESCRIPTION">
+		<value>Scrivi qui il nome del file usato per mostrare termini e condizioni in ogni pagina. Versione localizzate in diverse lingue verranno cercate aggiungendo _&lt;nomelingua&gt; al nome del file. Es: Terms.txt cercherà Trems_en.txt opppure Terms_it.txt a seconda della lingua visualizzata.</value>
+	</data>
+	<data name="TABTITLE_DESCRIPTION">
+		<value>Permette la modifica del titolo della linguetta
+(mostrata sulla parte superiore del vostro browser).</value>
+	</data>
+	<data name="TABURLKEYWORD_DESCRIPTION">
+		<value>Operazione non ancora effettuata completamente. Ottimizza la ricerca specificando una parola chiave.</value>
+	</data>
+	<data name="TABURLKEYWORD">
+		<value>Parola chiave di default per identificare tutte le pagine</value>
+	</data>
+	<data name="TABMETAKEYWORDS_DESCRIPTION">
+		<value>Questo settaggio permette di ottimizzare il motore di ricerca. Inserire 1-15 chiavi che descrivano brevemente il tuo sito</value>
+	</data>
+	<data name="TABMETAKEYWORDS">
+		<value>Tab predefinita / Parole chiave della pagina</value>
+	</data>
+	<data name="TABMETADESCRIPTION_DESCRIPTION">
+		<value>Questo settaggio permette di ottimizzare il motore di ricerca. Inserire una breve descrizione del sito. (Non più di una o due frasi).</value>
+	</data>
+	<data name="TABMETADESCRIPTION">
+		<value>Default Tab / Descrizione della pagina</value>
+	</data>
+	<data name="TABMETAENCODING_DESCRIPTION">
+		<value>Ogni volta che il vostro browser restituisce una pagina osserva che disposizione sta richiamando. Ciò permette di impostare ad esempio il "CONTENT TYPE"</value>
+	</data>
+	<data name="TABMETAENCODING">
+		<value>Tab predefinita / Codifica della pagina</value>
+	</data>
+	<data name="TABMETAOTHER_DESCRIPTION">
+		<value>Questo settaggio permette di inserire nuove tags nelle tab / testa di pagina tag. Ad esenpio noi abbiamo aggiunto un portal tag al cambiamento di versione, ma potremmo avere un aggiornamento di meta tag o qualcos'altro riferito ad esempio ai ccs.</value>
+	</data>
+	<data name="TABMETAOTHER">
+		<value>Altre righe META TAG.</value>
+	</data>
+	<data name="TABKEYPHRASE_DESCRIPTION">
+		<value>Questa regolazione può essere usata da un modulo o tramite un controllo. Permette di definire un messaggio comune per l'intero portale. Es: Benvenuto al portal x! Questa può essere usata per l'ottimizzazione della ricerca. Permette che definire una frase ricca di keywords da proporre ai motori di ricerca.</value>
+	</data>
+	<data name="TABKEYPHRASE">
+		<value>Tab predefinita / Frase chiave della Pagina</value>
+	</data>
+	<data name="SENDTHTS_BODY">
+		<value>Corpo del messaggio</value>
+	</data>
+	<data name="SENDTHTS_BODY_ERR">
+		<value>Inserire messaggio di testo</value>
+	</data>
+	<data name="SENDTHTS_CLEAR">
+		<value>Cancella</value>
+	</data>
+	<data name="SENDTHTS_DES_TXT">
+		<value>Scrivi una descrizione qui....</value>
+	</data>
+	<data name="SENDTHTS_EMAILBLANK">
+		<value>Il campo Email non può essere lasciato vuoto.</value>
+	</data>
+	<data name="SENDTHTS_EMAILVALID">
+		<value>Inserire un indirizzo Email valido</value>
+	</data>
+	<data name="SENDTHTS_NAME">
+		<value>Nome</value>
+	</data>
+	<data name="SENDTHTS_RECIPIENT">
+		<value>Indirizzo Email del destinatario non settato.</value>
+	</data>
+	<data name="SENDTHTS_REMAIL">
+		<value>Indirizzo Email reale</value>
+	</data>
+	<data name="SENDTHTS_SEND">
+		<value>Invia</value>
+	</data>
+	<data name="SENDTHTS_SENT">
+		<value>Il messaggio è stato inviato. Grazie!</value>
+	</data>
+	<data name="SENDTHTS_SUBJECT">
+		<value>Oggetto (opzionale)</value>
+	</data>
+	<data name="SENDTHTS_YREMAIL">
+		<value>Il tuo indirizzo Email</value>
+	</data>
+	<data name="SENDTHTS_YRNAME">
+		<value>Tuo Nome: (Opzionale)</value>
+	</data>
+	<data name="TASK_ASSIGNEDTO">
+		<value>Assegnato a</value>
+	</data>
+	<data name="TASK_COMPLETION">
+		<value>% completata</value>
+	</data>
+	<data name="TASK_COMPLETION_ERROR">
+		<value>Descrizione</value>
+	</data>
+	<data name="TASK_DESCRIPTION">
+		<value>Deve essere un intero da 0 a 100</value>
+	</data>
+	<data name="TASK_DETAIL">
+		<value>Dettaglio Task</value>
+	</data>
+	<data name="TASK_DUEDATE">
+		<value>Data di completamento</value>
+	</data>
+	<data name="TASK_DUEDATE_ERROR">
+		<value>Devi inserire una data certa valida</value>
+	</data>
+	<data name="TASK_PRIORITY">
+		<value>Priorità</value>
+	</data>
+	<data name="TASK_PRIORITY_0">
+		<value>Alta</value>
+	</data>
+	<data name="TASK_PRIORITY_1">
+		<value>Normale</value>
+	</data>
+	<data name="TASK_PRIORITY_2">
+		<value>Bassa</value>
+	</data>
+	<data name="TASK_STARTDATE">
+		<value>Data di inizio</value>
+	</data>
+	<data name="TASK_STARTDATE_ERROR">
+		<value>Devi inserire una data di inizio valida</value>
+	</data>
+	<data name="TASK_STATE_0">
+		<value>Non iniziato</value>
+	</data>
+	<data name="TASK_STATE_1">
+		<value>In lavorazione</value>
+	</data>
+	<data name="TASK_STATE_2">
+		<value>Completato</value>
+	</data>
+	<data name="TASK_STATUS">
+		<value>Stato</value>
+	</data>
+	<data name="TASK_TITLE">
+		<value>Titolo</value>
+	</data>
+	<data name="TASK_TITLE_ERROR">
+		<value>Devi inserire un Titolo valido</value>
+	</data>
+	<data name="LAYOUT">
+		<value>Disposizione</value>
+	</data>
+	<data name="PRODUCT_QUANTITY">
+		<value>Quantità</value>
+	</data>
+	<data name="PRODUCT_UNIT">
+		<value>Unità</value>
+	</data>
+	<data name="PRODUCT_TOTAL_PRICE_(INC._TAXES)">
+		<value>Prezzo Totale (Iva Inclusa)</value>
+	</data>
+	<data name="PRODUCT_SHIPPING">
+		<value>Trasporto</value>
+	</data>
+	<data name="PRODUCT_PAYMENT_METHOD">
+		<value>Metodo di pagamento</value>
+	</data>
+	<data name="PRODUCT_SHIPPING_METHOD">
+		<value>Metodo di Trasporto</value>
+	</data>
+	<data name="PRODUCT_TOTAL_WEIGHT">
+		<value>Peso totale</value>
+	</data>
+	<data name="PRODUCT_PRICE_WITH_TAX">
+		<value>Prezzo Iva Inclusa</value>
+	</data>
+	<data name="PRODUCT_TOTAL_TAXES">
+		<value>Iva</value>
+	</data>
+	<data name="PRODUCT_TOTAL_WITH_TAXES">
+		<value>Totale (Iva Inclusa)</value>
+	</data>
+	<data name="GATEWAY_CREDIT_TRANSFER_MESSAGE">
+		<value>Vi preghiamo di effettuare il bonifico utilizzando le informazioni indicate in questa pagina &lt;br&gt;e di spedire via fax copia della ricevuta bancaria. &lt;br&gt;Al ricevimento della documentazione di avvenuto pagamento, saremo lieti di finalizzare l'ordine.</value>
+	</data>
+	<data name="PRODUCT_ACCOUNT_INFORMATION">
+		<value>Informazioni Cliente</value>
+	</data>
+	<data name="PRODUCT_SHIPPING_INFORMATION">
+		<value>Dati per la spedizione</value>
+	</data>
+	<data name="PRODUCT_TOTAL_EXPENSES">
+		<value>Spese generali</value>
+	</data>
+	<data name="ACCEPT_TERMS">
+		<value>Accetto le condizioni</value>
+	</data>
+	<data name="XMLFORM_SUBMITTED">
+		<value>Il modulo è stato inviato!</value>
+	</data>
+	<data name="XMLFORM_NO_EMAIL">
+		<value>Non è stata specificata nessuna email</value>
+	</data>
+	<data name="XMLFORM_SEND">
+		<value>Invia</value>
+	</data>
+	<data name="XMLFORM_CLEAR">
+		<value>Cancella</value>
+	</data>
+	<data name="XMLFORM_NEW">
+		<value>Invia un altro modulo</value>
+	</data>
+	<data name="HORIZONTAL">
+		<value>Orizzontale</value>
+	</data>
+	<data name="VERTICAL">
+		<value>Verticale</value>
+	</data>
+</root>

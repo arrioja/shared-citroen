@@ -1,0 +1,5 @@
+ActiveUp HTML TextBox V2.x for Rainbow License
+ 
+The HTML TextBox assembly is being distributed with the Rainbow Portal under the royalty free ActiveUp Source Code License.  The assembly has been branded for Rainbow with a footer on the control.
+ 
+A Rainbow developer (Cory Isakson - cisakson@yahoo.com) holds the source code License and has compiled the current version to Rainbow Portal Specifications.  The Rainbow edition of this assembly may only be used within the Rainbow Portal in a non-commercial environment.  You are prohibited from the use of this assembly outside of the Rainbow Portal and/or in a commercial environment.  To receive the original source, use Html TextBox in a commercial environment or the Rainbow source for this assembly you must hold a version 2.x Source Code License from ActiveUp (www.activeup.com).

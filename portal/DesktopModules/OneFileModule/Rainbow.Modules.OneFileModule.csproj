@@ -1,0 +1,240 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Local"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{4BD7632C-99DC-4e5f-8B9E-C4A9148361F3}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "Rainbow.Modules.OneFileModule"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Flow"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                PreBuildEvent = ""
+                PostBuildEvent = ""
+                RootNamespace = "Rainbow.DesktopModules.OneFileModule"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "..\..\bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "..\..\bin\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "..\..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "..\..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "..\..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.XML.dll"
+                />
+                <Reference
+                    Name = "System.Web"
+                    AssemblyName = "System.Web"
+                    HintPath = "..\..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Web.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "..\..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "Esperantus"
+                    AssemblyName = "Esperantus"
+                    HintPath = "..\..\bin\Esperantus.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "Rainbow"
+                    AssemblyName = "Rainbow"
+                    HintPath = "..\..\bin\Rainbow.dll"
+                    Private = "False"
+                />
+                <Reference
+                    Name = "Rainbow.Settings"
+                    AssemblyName = "Rainbow.Settings"
+                    HintPath = "..\..\bin\Rainbow.Settings.dll"
+                    Private = "False"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "OneFileModule.cs"
+                    SubType = "ASPXCodeBehind"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "OneFileModule_readme.txt"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CSharp Examples\ExcelReader\DBPatch.sql"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CSharp Examples\ExcelReader\ExcelReader.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CSharp Examples\ExcelReader\readme.txt"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CSharp Examples\ExcelReader\SetupDBPatch.bat"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "CSharp Examples\Lyris 1\DBPatch.sql"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CSharp Examples\Lyris 1\LyrisExample1.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CSharp Examples\Lyris 1\readme.txt"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CSharp Examples\Lyris 1\SettingsLyris.xml"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CSharp Examples\Lyris 1\SetupDBPatch.bat"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "CSharp Examples\Lyris 2\DBPatch.sql"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CSharp Examples\Lyris 2\LyrisExample2.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CSharp Examples\Lyris 2\readme.txt"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CSharp Examples\Lyris 2\SetupDBPatch.bat"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "CSharp Examples\No Settings\DBPatch.sql"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CSharp Examples\No Settings\NoSettings.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CSharp Examples\No Settings\readme.txt"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CSharp Examples\No Settings\SetupDBPatch.bat"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "CSharp Examples\Simple\DBPatch.sql"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CSharp Examples\Simple\readme.txt"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CSharp Examples\Simple\SettingsSimple.xml"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "CSharp Examples\Simple\SetupDBPatch.bat"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "CSharp Examples\Simple\Simple.ascx"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "VB.NET Examples\Simple\DBPatch.sql"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "VB.NET Examples\Simple\readme.txt"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "VB.NET Examples\Simple\SettingsSimpleVB.xml"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "VB.NET Examples\Simple\SetupDBPatch.bat"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "VB.NET Examples\Simple\SimpleVB.ascx"
+                    BuildAction = "Content"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+
